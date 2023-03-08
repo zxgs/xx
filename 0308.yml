@@ -5,1389 +5,788 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_163, server: 172.67.45.144, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: CN_1, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CN_2, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: $$siga03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CN_3, server: hn.xiaohouzi.club, port: 48462, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $vuus02.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CA_4, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: eusrv-eu1.misakano.ml}}, udp: true}
-  - {name: CN_5, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nba, headers: {Host: sg1.oraclec.pp.ua}}, udp: true}
-  - {name: CA_6, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-usovz3.misakano.ml}}, udp: true}
-  - {name: US_7, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: CA_8, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu1.misakano.ml}}, udp: true}
-  - {name: CA_9, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu3.misakano.ml}}, udp: true}
-  - {name: US_10, server: hucloud.tk, port: 443, type: vmess, uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huhu, headers: {Host: hucloud.tk}}, udp: true}
-  - {name: US_11, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
-  - {name: CN_12, server: hnm.xiaohouzi.club, port: 47551, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_13, server: 172.67.145.166, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_14, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentrepro.com}}, udp: true}
-  - {name: US_15, server: auto.ccccdn.tk, port: 80, type: vmess, uuid: f563f69a-20d6-4038-8976-f04a44b02e17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wo.img, headers: {Host: mggg.cccnodes.tk}}, udp: true}
-  - {name: TW_16, server: twweb.dashedu.net, port: 50516, type: vmess, uuid: dd28265e-cda9-4638-8072-93170203f71a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CA_17, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu8.misakano.ml}}, udp: true}
-  - {name: CA_18, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu1.misakano.ml}}, udp: true}
-  - {name: CA_19, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu6.misakano.ml}}, udp: true}
-  - {name: US_20, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: CA_21, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu4.misakano.ml}}, udp: true}
-  - {name: BZ_22, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: CN_23, server: hnm.xiaohouzi.club, port: 49361, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CN_24, server: hnm.xiaohouzi.club, port: 36872, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: freeus.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_25, server: america2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SRhXKZqggNrPMELA525Kw, headers: {Host: america2.yj2022.ga}}, udp: true}
-  - {name: US_26, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: US_27, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4bb4ced4.8200860.xyz}}, udp: true}
-  - {name: CN_28, server: hn.xiaohouzi.club, port: 18443, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $vutnkr03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CN_29, server: hnm.xiaohouzi.club, port: 18634, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: avas04.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_30, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: US_31, server: avalpardakht.com, port: 80, type: vmess, uuid: 900c7473-d9a8-441f-9925-9d2ec66ddc23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@v2rayNG_VPNN, headers: {Host: 3.arsalanv2.sbs}}, udp: true}
-  - {name: US_32, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us2?ed=2048", headers: {Host: us2.yfjc.sbs}}, udp: true}
-  - {name: US_33, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: waw.cloudflare.quest}}, udp: true}
-  - {name: BZ_34, server: 203.30.191.6, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: BZ_35, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US_36, server: news.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: CN_37, server: cs1.bbcloud.life, port: 17127, type: vmess, uuid: b25693cd-1173-42f3-e609-51062d1c65c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@abcdefghijk147, headers: {Host: cs1.bbcloud.life}}, udp: true}
-  - {name: CA_38, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu5.misakano.ml}}, udp: true}
-  - {name: CN_39, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CA_40, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu3.misakano.ml}}, udp: true}
-  - {name: CN_41, server: hn.xiaohouzi.club, port: 18735, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CA_42, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_43, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: a4921a75-0991-4d81-9721-8e45d2e31905, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nguevws, headers: {Host: dd3.1808.cf}}, udp: true}
-  - {name: US_44, server: 172.67.201.14, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_45, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
-  - {name: US_46, server: america2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SRhXKZqggNrPMELA525Kw, headers: {Host: america2.yj2022.ga}}, udp: true}
-  - {name: CA_47, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-ca1.misakano.ml}}, udp: true}
-  - {name: CN_48, server: hn01.xiaohouzi.club, port: 16081, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $timotw.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_49, server: cf-lt.sharecentre.online, port: 8880, type: vmess, uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}, udp: true}
-  - {name: CA_50, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: xj-es1.misakano.ml}}, udp: true}
-  - {name: CA_51, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu7.misakano.ml}}, udp: true}
-  - {name: US_52, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
-  - {name: US_53, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: CN_54, server: hn.xiaohouzi.club, port: 16013, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $$tcjp01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CA_55, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: eusrv-eu2.misakano.ml}}, udp: true}
-  - {name: US_56, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: c7d5ea85.8200860.xyz}}, udp: true}
-  - {name: BZ_57, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_58, server: ping.pe, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
-  - {name: US_59, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: a4921a75-0991-4d81-9721-8e45d2e31905, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nguevws, headers: {Host: dd3.1808.cf}}, udp: true}
-  - {name: CN_60, server: hnm.xiaohouzi.club, port: 36305, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_61, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 84a514ba.8200860.xyz}}, udp: true}
-  - {name: CA_62, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu2.misakano.ml}}, udp: true}
-  - {name: US_63, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl1.scproxy.top}}, udp: true}
-  - {name: CA_64, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu2.misakano.ml}}, udp: true}
-  - {name: US_65, server: rend.ava3d.eu.org, port: 443, type: vmess, uuid: 87ceb800-6a97-4dbb-b4fc-3f71a5d03931, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: rend.ava3d.eu.org}}, udp: true}
-  - {name: US_66, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentrepro.com}}, udp: true}
-  - {name: US_67, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: US_68, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us3?ed=2048", headers: {Host: us3.yfjc.sbs}}, udp: true}
-  - {name: US_69, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
-  - {name: US_70, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ru.cloudflare.quest}}, udp: true}
-  - {name: US_71, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: US_72, server: america1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vAambj4DgXrs5sfCFptMk, headers: {Host: america1.yj2022.ga}}, udp: true}
-  - {name: US_73, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: US_74, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: US_75, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: CA_76, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-usovz.misakano.ml}}, udp: true}
-  - {name: US_77, server: 103.21.244.173, port: 80, type: vmess, uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzsg.nmsl.pics}}, udp: true}
-  - {name: CN_78, server: hn.xiaohouzi.club, port: 18581, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_79, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: BZ_80, server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: CA_81, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu2.misakano.ml}}, udp: true}
-  - {name: CN_82, server: cs1.bbcloud.life, port: 41406, type: vmess, uuid: d0731cf1-db62-478d-aa20-3b73b98a9c6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs1.bbcloud.life}}, udp: true}
-  - {name: US_83, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
-  - {name: US_84, server: 172.67.164.125, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_85, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 3464a64e.8200860.xyz}}, udp: true}
-  - {name: US_86, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us1?ed=2048", headers: {Host: us1.yfjc.sbs}}, udp: true}
-  - {name: US_87, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}, udp: true}
-  - {name: US_88, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: US_89, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: awsjps.cloudflare.quest}}, udp: true}
-  - {name: US_90, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: c7d5ea85.8200860.xyz}}, udp: true}
-  - {name: US_91, server: 172.67.203.162, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_92, server: no.aries.ovh, port: 8880, type: vmess, uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}, udp: true}
-  - {name: US_93, server: doinb.ml, port: 443, type: vmess, uuid: c2f89bc3-e151-411c-a2ea-7f3ef63a5408, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ikidvws, headers: {Host: jp.lzgsm.tk}}, udp: true}
-  - {name: US_94, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/nl?ed=2048", headers: {Host: nl.yfjc.sbs}}, udp: true}
-  - {name: US_95, server: 172.67.201.204, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: CN_96, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: $$$siga03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_97, server: 172.67.135.57, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_98, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: US_99, server: avalpardakht.com, port: 80, type: vmess, uuid: 1fc0c185-6050-4b89-eb50-876e1915e1ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@v2rayNG_VPNN, headers: {Host: 2.arsalanv2.sbs}}, udp: true}
-  - {name: US_100, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}, udp: true}
-  - {name: CN_101, server: hn.xiaohouzi.club, port: 61003, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CN_102, server: hn.xiaohouzi.club, port: 51054, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $aru03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_103, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: CN_104, server: hnm.xiaohouzi.club, port: 49353, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $a89.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CA_105, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu5.misakano.ml}}, udp: true}
-  - {name: CA_106, server: 23.227.38.22, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_107, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
-  - {name: FR_108, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
-  - {name: US_109, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
-  - {name: US_110, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: CA_111, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu4.misakano.ml}}, udp: true}
-  - {name: US_112, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}, udp: true}
-  - {name: US_113, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_114, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: france.cloudflare.quest}}, udp: true}
-  - {name: US_115, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: c7d5ea85.8200860.xyz}}, udp: true}
-  - {name: CN_116, server: cs1.bbcloud.life, port: 35459, type: vmess, uuid: 026056ab-a315-4eb9-babf-f95d473e621c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs1.bbcloud.life}}, udp: true}
-  - {name: CA_117, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu3.misakano.ml}}, udp: true}
-  - {name: US_118, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: US_119, server: carro.co, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
-  - {name: US_120, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
-  - {name: CA_121, server: 23.227.38.26, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_122, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw.cloudflare.quest}}, udp: true}
-  - {name: US_123, server: 172.67.199.31, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: US_124, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: US_125, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 1f8fdfd4-2df2-4d16-88c4-02666ae72416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 84a514ba.8200860.xyz}}, udp: true}
-  - {name: US_126, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo.cloudflare.quest}}, udp: true}
-  - {name: US_127, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl1.scproxy.top}}, udp: true}
-  - {name: US_128, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}, udp: true}
-  - {name: CA_129, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eubest.misakano.ml}}, udp: true}
-  - {name: US_130, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentrepro.com}}, udp: true}
-  - {name: US_131, server: america2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SRhXKZqggNrPMELA525Kw, headers: {Host: america2.yj2022.ga}}, udp: true}
-  - {name: US_132, server: 172.67.201.204, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: US_133, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: US_134, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bf599b4b-0330-4626-9f69-41e62681a052, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4e7cc378.8200860.xyz}}, udp: true}
-  - {name: US_135, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: CN_136, server: iplc.xiaohouzi.club, port: 20037, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CA_137, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-us1.misakano.ml}}, udp: true}
-  - {name: CN_138, server: hnm.xiaohouzi.club, port: 49363, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CY_139, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_140, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/nl2?ed=2048", headers: {Host: nl2.yfjc.sbs}}, udp: true}
-  - {name: US_141, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: US_142, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
-  - {name: CA_143, server: 23.227.38.38, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_144, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4e7cc378.8200860.xyz}}, udp: true}
-  - {name: CA_145, server: 23.227.38.20, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_146, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: uk.cloudflare.quest}}, udp: true}
-  - {name: US_147, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
-  - {name: CN_148, server: iplc.xiaohouzi.club, port: 20039, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $azhk02.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: AM_149, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: CA_151, server: shopify.com, port: 443, type: vmess, uuid: c2f0e79f-7e81-4f87-a2da-25f8d6263ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu1.misakano.ml}}, udp: true}
-  - {name: BZ_152, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US_153, server: 172.67.164.123, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_154, server: no.aries.ovh, port: 8080, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: awsusa.cloudflare.quest}}, udp: true}
-  - {name: US_155, server: 172.67.137.72, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /videnset, headers: {Host: khvwycch.cymlr.xyz}}, udp: true}
-  - {name: CN_156, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_157, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: US_158, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl1.scproxy.top}}, udp: true}
-  - {name: US_159, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: US_160, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: netherlands.cloudflare.quest}}, udp: true}
-  - {name: US_161, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: US_162, server: 172.67.135.55, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_164, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4e7cc378.8200860.xyz}}, udp: true}
-  - {name: US_165, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 84a514ba.8200860.xyz}}, udp: true}
-  - {name: US_166, server: hucloud.tk, port: 443, type: vmess, uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huhu, headers: {Host: hucloud.tk}}, udp: true}
-  - {name: US_167, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/nl3?ed=2048", headers: {Host: nl3.yfjc.sbs}}, udp: true}
-  - {name: US_168, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: SE_169, server: render-efeh.onrender.com, port: 443, type: vmess, uuid: 87ceb800-6a97-4dbb-b4fc-3f71a5d03931, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: render-efeh.onrender.com}}, udp: true}
+  - {name: 中国368, server: hnm.xiaohouzi.club, port: 36305, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国349, server: hn.xiaohouzi.club, port: 28456, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国137, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 伯利兹72, server: 203.30.191.6, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国308, server: hn.xiaohouzi.club, port: 18735, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: ajpn05.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国312, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 伯利兹68, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 中国279, server: hnm.xiaohouzi.club, port: 16082, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: nh-hinet06.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国269, server: uns.xiaohouzi.club, port: 13328, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: siga01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国325, server: iplc.xiaohouzi.club, port: 20037, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $$$$iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国399, server: hnm.xiaohouzi.club, port: 49363, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 伯利兹70, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 中国276, server: hn.xiaohouzi.club, port: 16013, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $$tcjp01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国28, server: 141.193.213.21, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 美国136, server: lv1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: 加拿大453, server: 23.227.38.27, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国43, server: 172.67.199.31, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 美国224, server: cf-lt.sharecentre.online, port: 8880, type: vmess, uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}, udp: true}
+  - {name: 中国396, server: hn.xiaohouzi.club, port: 48464, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国27, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 中国306, server: hnm.xiaohouzi.club, port: 18634, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: avas04.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 塞浦路斯65, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国346, server: hnm.xiaohouzi.club, port: 27482, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $$$hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国6, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: 中国394, server: hn.xiaohouzi.club, port: 48434, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国274, server: gz01.xiaohouzi.club, port: 14705, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $vusig01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国293, server: cs.guanguan.club, port: 17127, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.guanguan.club}}, udp: true}
+  - {name: 美国87, server: 4559186168.xhtk.cc, port: 443, type: vmess, uuid: e1da11a9-6ab7-e0c3-3ca0-92ad364db204, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lklcvws, headers: {Host: 4559186168.xhtk.cc}}, udp: true}
+  - {name: 中国278, server: hn01.xiaohouzi.club, port: 16081, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $timotw.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 加拿大73, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}, udp: true}
+  - {name: 美国120, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}, udp: true}
+  - {name: 中国395, server: hn.xiaohouzi.club, port: 48462, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国116, server: fr1.pqjc.buzz, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
+  - {name: 中国291, server: hnm.xiaohouzi.club, port: 17107, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国273, server: hn.xiaohouzi.club, port: 14185, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hktnew01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国369, server: hnm.xiaohouzi.club, port: 36872, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: freeus.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国157, server: usdo.tzccifq.ga, port: 443, type: vmess, uuid: 58eb724d-5a95-4b9c-851e-2cb3b408e85f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usdo.tzccifq.ga}}, udp: true}
+  - {name: 加拿大75, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国309, server: hnm.xiaohouzi.club, port: 18831, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: avas01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国174, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
+  - {name: 中国398, server: hnm.xiaohouzi.club, port: 49361, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国434, server: gz01.xiaohouzi.club, port: 51058, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: gz01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 加拿大76, server: 23.227.38.23, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国277, server: hn.xiaohouzi.club, port: 16015, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国44, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: 中国397, server: hnm.xiaohouzi.club, port: 49353, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $a89.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国450, server: 172.67.201.14, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 加拿大455, server: 23.227.38.22, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国92, server: america2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SRhXKZqggNrPMELA525Kw, headers: {Host: america2.yj2022.ga}}, udp: true}
+  - {name: 美国447, server: 172.67.135.57, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 伯利兹71, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国125, server: hucloud.tk, port: 443, type: vmess, uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huhu, headers: {Host: hucloud.tk}}, udp: true}
+  - {name: 美国49, server: 172.67.45.144, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国458, server: 172.67.135.55, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国454, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 伯利兹69, server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 加拿大449, server: 23.227.38.26, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 加拿大79, server: 23.227.38.38, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国263, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nba, headers: {Host: hy.guanguan.club}}, udp: true}
+  - {name: 美国45, server: 172.67.203.162, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 加拿大74, server: 23.227.38.20, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国91, server: america1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vAambj4DgXrs5sfCFptMk, headers: {Host: america1.yj2022.ga}}, udp: true}
+  - {name: 中国344, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 加拿大77, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 荷兰205, server: 172.99.188.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国144, server: oplg1.cfcdn2.xyz, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 伯利兹66, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 加拿大78, server: 23.227.38.25, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国138, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}, udp: true}
+  - {name: 亚美尼亚451, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国377, server: cs.guanguan.club, port: 41406, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.guanguan.club}}, udp: true}
+  - {name: 美国131, server: khvwycch.cymlr.xyz, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /videnset, headers: {Host: khvwycch.cymlr.xyz}}, udp: true}
+  - {name: 中国313, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国322, server: iplc.xiaohouzi.club, port: 20015, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 香港461, server: 47.243.111.25, port: 31705, type: vmess, uuid: d0fc2199-6bb4-4559-a7ec-48f3d728500d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国433, server: hn.xiaohouzi.club, port: 51056, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $vutnkr02.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国36, server: 172.67.137.72, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /videnset, headers: {Host: khvwycch.cymlr.xyz}}, udp: true}
+  - {name: 中国288, server: hnm.xiaohouzi.club, port: 17104, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $canada02.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 德国163, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
+  - {name: 中国299, server: hn.xiaohouzi.club, port: 18439, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国389, server: hnm.xiaohouzi.club, port: 47552, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $douk01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国456, server: 172.67.164.123, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国445, server: hn.xiaohouzi.club, port: 61003, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国305, server: hn.xiaohouzi.club, port: 18581, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国297, server: hn.xiaohouzi.club, port: 18433, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国133, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: 美国121, server: germany2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /8kH8qnepjkprbsidLrLkmX, headers: {Host: germany2.yj2022.ga}}, udp: true}
+  - {name: 中国391, server: hnm.xiaohouzi.club, port: 47555, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国20, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /graphql, headers: {Host: s245.rpscloud3.cloud}}, udp: true}
+  - {name: 中国367, server: szf02.xiaohouzi.club, port: 36304, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $canada01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国302, server: hn.xiaohouzi.club, port: 18457, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国296, server: hn.xiaohouzi.club, port: 18432, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国448, server: 172.67.164.125, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国432, server: hn.xiaohouzi.club, port: 51054, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国298, server: hn.xiaohouzi.club, port: 18435, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国307, server: hn.xiaohouzi.club, port: 18733, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: ajpn03.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国118, server: france1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /E86414F638E11, headers: {Host: france1.yj2022.ga}}, udp: true}
+  - {name: 中国304, server: hn.xiaohouzi.club, port: 18463, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国444, server: 500.sayitfree.website, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 3307ba30-a638-490a-9910-672c4049a722, udp: true}
+  - {name: 中国287, server: hnm.xiaohouzi.club, port: 17103, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 香港457, server: 8.218.150.152, port: 45106, type: vmess, uuid: aa7f7fd3-8f88-45c7-9e27-a03380d6cc89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国113, server: finland1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WKtzeN11GLqwVNBTp9mX, headers: {Host: finland1.yj2022.ga}}, udp: true}
+  - {name: 中国327, server: gz01.xiaohouzi.club, port: 20091, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: gz01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国323, server: iplc.xiaohouzi.club, port: 20018, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国123, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 中国431, server: hnm.xiaohouzi.club, port: 51052, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国112, server: england1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Eynyyo4kJfl2fkJfl2f, headers: {Host: england1.yj2022.ga}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_163
-      - CN_1
-      - CN_2
-      - CN_3
-      - CA_4
-      - CN_5
-      - CA_6
-      - US_7
-      - CA_8
-      - CA_9
-      - US_10
-      - US_11
-      - CN_12
-      - US_13
-      - US_14
-      - US_15
-      - TW_16
-      - CA_17
-      - CA_18
-      - CA_19
-      - US_20
-      - CA_21
-      - BZ_22
-      - CN_23
-      - CN_24
-      - US_25
-      - US_26
-      - US_27
-      - CN_28
-      - CN_29
-      - US_30
-      - US_31
-      - US_32
-      - US_33
-      - BZ_34
-      - BZ_35
-      - US_36
-      - CN_37
-      - CA_38
-      - CN_39
-      - CA_40
-      - CN_41
-      - CA_42
-      - US_43
-      - US_44
-      - US_45
-      - US_46
-      - CA_47
-      - CN_48
-      - US_49
-      - CA_50
-      - CA_51
-      - US_52
-      - US_53
-      - CN_54
-      - CA_55
-      - US_56
-      - BZ_57
-      - US_58
-      - US_59
-      - CN_60
-      - US_61
-      - CA_62
-      - US_63
-      - CA_64
-      - US_65
-      - US_66
-      - US_67
-      - US_68
-      - US_69
-      - US_70
-      - US_71
-      - US_72
-      - US_73
-      - US_74
-      - US_75
-      - CA_76
-      - US_77
-      - CN_78
-      - US_79
-      - BZ_80
-      - CA_81
-      - CN_82
-      - US_83
-      - US_84
-      - US_85
-      - US_86
-      - US_87
-      - US_88
-      - US_89
-      - US_90
-      - US_91
-      - US_92
-      - US_93
-      - US_94
-      - US_95
-      - CN_96
-      - US_97
-      - US_98
-      - US_99
-      - US_100
-      - CN_101
-      - CN_102
-      - US_103
-      - CN_104
-      - CA_105
-      - CA_106
-      - US_107
-      - FR_108
-      - US_109
-      - US_110
-      - CA_111
-      - US_112
-      - US_113
-      - US_114
-      - US_115
-      - CN_116
-      - CA_117
-      - US_118
-      - US_119
-      - US_120
-      - CA_121
-      - US_122
-      - US_123
-      - US_124
-      - US_125
-      - US_126
-      - US_127
-      - US_128
-      - CA_129
-      - US_130
-      - US_131
-      - US_132
-      - US_133
-      - US_134
-      - US_135
-      - CN_136
-      - CA_137
-      - CN_138
-      - CY_139
-      - US_140
-      - US_141
-      - US_142
-      - CA_143
-      - US_144
-      - CA_145
-      - US_146
-      - US_147
-      - CN_148
-      - AM_149
-      - CA_151
-      - BZ_152
-      - US_153
-      - US_154
-      - US_155
-      - CN_156
-      - US_157
-      - US_158
-      - US_159
-      - US_160
-      - US_161
-      - US_162
-      - US_164
-      - US_165
-      - US_166
-      - US_167
-      - US_168
-      - SE_169
+      - 中国368
+      - 中国349
+      - 美国137
+      - 伯利兹72
+      - 中国308
+      - 中国312
+      - 伯利兹68
+      - 中国279
+      - 中国269
+      - 中国325
+      - 中国399
+      - 伯利兹70
+      - 中国276
+      - 美国28
+      - 美国136
+      - 加拿大453
+      - 美国43
+      - 美国224
+      - 中国396
+      - 美国27
+      - 中国306
+      - 塞浦路斯65
+      - 中国346
+      - 美国6
+      - 中国394
+      - 中国274
+      - 中国293
+      - 美国87
+      - 中国278
+      - 加拿大73
+      - 美国120
+      - 中国395
+      - 美国116
+      - 中国291
+      - 中国273
+      - 中国369
+      - 美国157
+      - 加拿大75
+      - 中国309
+      - 美国174
+      - 中国398
+      - 中国434
+      - 加拿大76
+      - 中国277
+      - 美国44
+      - 中国397
+      - 美国450
+      - 加拿大455
+      - 美国92
+      - 美国447
+      - 伯利兹71
+      - 美国125
+      - 美国49
+      - 美国458
+      - 美国454
+      - 伯利兹69
+      - 加拿大449
+      - 加拿大79
+      - 中国263
+      - 美国45
+      - 加拿大74
+      - 美国91
+      - 中国344
+      - 加拿大77
+      - 荷兰205
+      - 美国144
+      - 伯利兹66
+      - 加拿大78
+      - 美国138
+      - 亚美尼亚451
+      - 中国377
+      - 美国131
+      - 中国313
+      - 中国322
+      - 香港461
+      - 中国433
+      - 美国36
+      - 中国288
+      - 德国163
+      - 中国299
+      - 中国389
+      - 美国456
+      - 中国445
+      - 中国305
+      - 中国297
+      - 美国133
+      - 美国121
+      - 中国391
+      - 美国20
+      - 中国367
+      - 中国302
+      - 中国296
+      - 美国448
+      - 中国432
+      - 中国298
+      - 中国307
+      - 美国118
+      - 中国304
+      - 中国444
+      - 中国287
+      - 香港457
+      - 美国113
+      - 中国327
+      - 中国323
+      - 美国123
+      - 中国431
+      - 美国112
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_163
-      - CN_1
-      - CN_2
-      - CN_3
-      - CA_4
-      - CN_5
-      - CA_6
-      - US_7
-      - CA_8
-      - CA_9
-      - US_10
-      - US_11
-      - CN_12
-      - US_13
-      - US_14
-      - US_15
-      - TW_16
-      - CA_17
-      - CA_18
-      - CA_19
-      - US_20
-      - CA_21
-      - BZ_22
-      - CN_23
-      - CN_24
-      - US_25
-      - US_26
-      - US_27
-      - CN_28
-      - CN_29
-      - US_30
-      - US_31
-      - US_32
-      - US_33
-      - BZ_34
-      - BZ_35
-      - US_36
-      - CN_37
-      - CA_38
-      - CN_39
-      - CA_40
-      - CN_41
-      - CA_42
-      - US_43
-      - US_44
-      - US_45
-      - US_46
-      - CA_47
-      - CN_48
-      - US_49
-      - CA_50
-      - CA_51
-      - US_52
-      - US_53
-      - CN_54
-      - CA_55
-      - US_56
-      - BZ_57
-      - US_58
-      - US_59
-      - CN_60
-      - US_61
-      - CA_62
-      - US_63
-      - CA_64
-      - US_65
-      - US_66
-      - US_67
-      - US_68
-      - US_69
-      - US_70
-      - US_71
-      - US_72
-      - US_73
-      - US_74
-      - US_75
-      - CA_76
-      - US_77
-      - CN_78
-      - US_79
-      - BZ_80
-      - CA_81
-      - CN_82
-      - US_83
-      - US_84
-      - US_85
-      - US_86
-      - US_87
-      - US_88
-      - US_89
-      - US_90
-      - US_91
-      - US_92
-      - US_93
-      - US_94
-      - US_95
-      - CN_96
-      - US_97
-      - US_98
-      - US_99
-      - US_100
-      - CN_101
-      - CN_102
-      - US_103
-      - CN_104
-      - CA_105
-      - CA_106
-      - US_107
-      - FR_108
-      - US_109
-      - US_110
-      - CA_111
-      - US_112
-      - US_113
-      - US_114
-      - US_115
-      - CN_116
-      - CA_117
-      - US_118
-      - US_119
-      - US_120
-      - CA_121
-      - US_122
-      - US_123
-      - US_124
-      - US_125
-      - US_126
-      - US_127
-      - US_128
-      - CA_129
-      - US_130
-      - US_131
-      - US_132
-      - US_133
-      - US_134
-      - US_135
-      - CN_136
-      - CA_137
-      - CN_138
-      - CY_139
-      - US_140
-      - US_141
-      - US_142
-      - CA_143
-      - US_144
-      - CA_145
-      - US_146
-      - US_147
-      - CN_148
-      - AM_149
-      - CA_151
-      - BZ_152
-      - US_153
-      - US_154
-      - US_155
-      - CN_156
-      - US_157
-      - US_158
-      - US_159
-      - US_160
-      - US_161
-      - US_162
-      - US_164
-      - US_165
-      - US_166
-      - US_167
-      - US_168
-      - SE_169
+      - 中国368
+      - 中国349
+      - 美国137
+      - 伯利兹72
+      - 中国308
+      - 中国312
+      - 伯利兹68
+      - 中国279
+      - 中国269
+      - 中国325
+      - 中国399
+      - 伯利兹70
+      - 中国276
+      - 美国28
+      - 美国136
+      - 加拿大453
+      - 美国43
+      - 美国224
+      - 中国396
+      - 美国27
+      - 中国306
+      - 塞浦路斯65
+      - 中国346
+      - 美国6
+      - 中国394
+      - 中国274
+      - 中国293
+      - 美国87
+      - 中国278
+      - 加拿大73
+      - 美国120
+      - 中国395
+      - 美国116
+      - 中国291
+      - 中国273
+      - 中国369
+      - 美国157
+      - 加拿大75
+      - 中国309
+      - 美国174
+      - 中国398
+      - 中国434
+      - 加拿大76
+      - 中国277
+      - 美国44
+      - 中国397
+      - 美国450
+      - 加拿大455
+      - 美国92
+      - 美国447
+      - 伯利兹71
+      - 美国125
+      - 美国49
+      - 美国458
+      - 美国454
+      - 伯利兹69
+      - 加拿大449
+      - 加拿大79
+      - 中国263
+      - 美国45
+      - 加拿大74
+      - 美国91
+      - 中国344
+      - 加拿大77
+      - 荷兰205
+      - 美国144
+      - 伯利兹66
+      - 加拿大78
+      - 美国138
+      - 亚美尼亚451
+      - 中国377
+      - 美国131
+      - 中国313
+      - 中国322
+      - 香港461
+      - 中国433
+      - 美国36
+      - 中国288
+      - 德国163
+      - 中国299
+      - 中国389
+      - 美国456
+      - 中国445
+      - 中国305
+      - 中国297
+      - 美国133
+      - 美国121
+      - 中国391
+      - 美国20
+      - 中国367
+      - 中国302
+      - 中国296
+      - 美国448
+      - 中国432
+      - 中国298
+      - 中国307
+      - 美国118
+      - 中国304
+      - 中国444
+      - 中国287
+      - 香港457
+      - 美国113
+      - 中国327
+      - 中国323
+      - 美国123
+      - 中国431
+      - 美国112
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_163
-      - CN_1
-      - CN_2
-      - CN_3
-      - CA_4
-      - CN_5
-      - CA_6
-      - US_7
-      - CA_8
-      - CA_9
-      - US_10
-      - US_11
-      - CN_12
-      - US_13
-      - US_14
-      - US_15
-      - TW_16
-      - CA_17
-      - CA_18
-      - CA_19
-      - US_20
-      - CA_21
-      - BZ_22
-      - CN_23
-      - CN_24
-      - US_25
-      - US_26
-      - US_27
-      - CN_28
-      - CN_29
-      - US_30
-      - US_31
-      - US_32
-      - US_33
-      - BZ_34
-      - BZ_35
-      - US_36
-      - CN_37
-      - CA_38
-      - CN_39
-      - CA_40
-      - CN_41
-      - CA_42
-      - US_43
-      - US_44
-      - US_45
-      - US_46
-      - CA_47
-      - CN_48
-      - US_49
-      - CA_50
-      - CA_51
-      - US_52
-      - US_53
-      - CN_54
-      - CA_55
-      - US_56
-      - BZ_57
-      - US_58
-      - US_59
-      - CN_60
-      - US_61
-      - CA_62
-      - US_63
-      - CA_64
-      - US_65
-      - US_66
-      - US_67
-      - US_68
-      - US_69
-      - US_70
-      - US_71
-      - US_72
-      - US_73
-      - US_74
-      - US_75
-      - CA_76
-      - US_77
-      - CN_78
-      - US_79
-      - BZ_80
-      - CA_81
-      - CN_82
-      - US_83
-      - US_84
-      - US_85
-      - US_86
-      - US_87
-      - US_88
-      - US_89
-      - US_90
-      - US_91
-      - US_92
-      - US_93
-      - US_94
-      - US_95
-      - CN_96
-      - US_97
-      - US_98
-      - US_99
-      - US_100
-      - CN_101
-      - CN_102
-      - US_103
-      - CN_104
-      - CA_105
-      - CA_106
-      - US_107
-      - FR_108
-      - US_109
-      - US_110
-      - CA_111
-      - US_112
-      - US_113
-      - US_114
-      - US_115
-      - CN_116
-      - CA_117
-      - US_118
-      - US_119
-      - US_120
-      - CA_121
-      - US_122
-      - US_123
-      - US_124
-      - US_125
-      - US_126
-      - US_127
-      - US_128
-      - CA_129
-      - US_130
-      - US_131
-      - US_132
-      - US_133
-      - US_134
-      - US_135
-      - CN_136
-      - CA_137
-      - CN_138
-      - CY_139
-      - US_140
-      - US_141
-      - US_142
-      - CA_143
-      - US_144
-      - CA_145
-      - US_146
-      - US_147
-      - CN_148
-      - AM_149
-      - CA_151
-      - BZ_152
-      - US_153
-      - US_154
-      - US_155
-      - CN_156
-      - US_157
-      - US_158
-      - US_159
-      - US_160
-      - US_161
-      - US_162
-      - US_164
-      - US_165
-      - US_166
-      - US_167
-      - US_168
-      - SE_169
+      - 中国368
+      - 中国349
+      - 美国137
+      - 伯利兹72
+      - 中国308
+      - 中国312
+      - 伯利兹68
+      - 中国279
+      - 中国269
+      - 中国325
+      - 中国399
+      - 伯利兹70
+      - 中国276
+      - 美国28
+      - 美国136
+      - 加拿大453
+      - 美国43
+      - 美国224
+      - 中国396
+      - 美国27
+      - 中国306
+      - 塞浦路斯65
+      - 中国346
+      - 美国6
+      - 中国394
+      - 中国274
+      - 中国293
+      - 美国87
+      - 中国278
+      - 加拿大73
+      - 美国120
+      - 中国395
+      - 美国116
+      - 中国291
+      - 中国273
+      - 中国369
+      - 美国157
+      - 加拿大75
+      - 中国309
+      - 美国174
+      - 中国398
+      - 中国434
+      - 加拿大76
+      - 中国277
+      - 美国44
+      - 中国397
+      - 美国450
+      - 加拿大455
+      - 美国92
+      - 美国447
+      - 伯利兹71
+      - 美国125
+      - 美国49
+      - 美国458
+      - 美国454
+      - 伯利兹69
+      - 加拿大449
+      - 加拿大79
+      - 中国263
+      - 美国45
+      - 加拿大74
+      - 美国91
+      - 中国344
+      - 加拿大77
+      - 荷兰205
+      - 美国144
+      - 伯利兹66
+      - 加拿大78
+      - 美国138
+      - 亚美尼亚451
+      - 中国377
+      - 美国131
+      - 中国313
+      - 中国322
+      - 香港461
+      - 中国433
+      - 美国36
+      - 中国288
+      - 德国163
+      - 中国299
+      - 中国389
+      - 美国456
+      - 中国445
+      - 中国305
+      - 中国297
+      - 美国133
+      - 美国121
+      - 中国391
+      - 美国20
+      - 中国367
+      - 中国302
+      - 中国296
+      - 美国448
+      - 中国432
+      - 中国298
+      - 中国307
+      - 美国118
+      - 中国304
+      - 中国444
+      - 中国287
+      - 香港457
+      - 美国113
+      - 中国327
+      - 中国323
+      - 美国123
+      - 中国431
+      - 美国112
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_163
-      - CN_1
-      - CN_2
-      - CN_3
-      - CA_4
-      - CN_5
-      - CA_6
-      - US_7
-      - CA_8
-      - CA_9
-      - US_10
-      - US_11
-      - CN_12
-      - US_13
-      - US_14
-      - US_15
-      - TW_16
-      - CA_17
-      - CA_18
-      - CA_19
-      - US_20
-      - CA_21
-      - BZ_22
-      - CN_23
-      - CN_24
-      - US_25
-      - US_26
-      - US_27
-      - CN_28
-      - CN_29
-      - US_30
-      - US_31
-      - US_32
-      - US_33
-      - BZ_34
-      - BZ_35
-      - US_36
-      - CN_37
-      - CA_38
-      - CN_39
-      - CA_40
-      - CN_41
-      - CA_42
-      - US_43
-      - US_44
-      - US_45
-      - US_46
-      - CA_47
-      - CN_48
-      - US_49
-      - CA_50
-      - CA_51
-      - US_52
-      - US_53
-      - CN_54
-      - CA_55
-      - US_56
-      - BZ_57
-      - US_58
-      - US_59
-      - CN_60
-      - US_61
-      - CA_62
-      - US_63
-      - CA_64
-      - US_65
-      - US_66
-      - US_67
-      - US_68
-      - US_69
-      - US_70
-      - US_71
-      - US_72
-      - US_73
-      - US_74
-      - US_75
-      - CA_76
-      - US_77
-      - CN_78
-      - US_79
-      - BZ_80
-      - CA_81
-      - CN_82
-      - US_83
-      - US_84
-      - US_85
-      - US_86
-      - US_87
-      - US_88
-      - US_89
-      - US_90
-      - US_91
-      - US_92
-      - US_93
-      - US_94
-      - US_95
-      - CN_96
-      - US_97
-      - US_98
-      - US_99
-      - US_100
-      - CN_101
-      - CN_102
-      - US_103
-      - CN_104
-      - CA_105
-      - CA_106
-      - US_107
-      - FR_108
-      - US_109
-      - US_110
-      - CA_111
-      - US_112
-      - US_113
-      - US_114
-      - US_115
-      - CN_116
-      - CA_117
-      - US_118
-      - US_119
-      - US_120
-      - CA_121
-      - US_122
-      - US_123
-      - US_124
-      - US_125
-      - US_126
-      - US_127
-      - US_128
-      - CA_129
-      - US_130
-      - US_131
-      - US_132
-      - US_133
-      - US_134
-      - US_135
-      - CN_136
-      - CA_137
-      - CN_138
-      - CY_139
-      - US_140
-      - US_141
-      - US_142
-      - CA_143
-      - US_144
-      - CA_145
-      - US_146
-      - US_147
-      - CN_148
-      - AM_149
-      - CA_151
-      - BZ_152
-      - US_153
-      - US_154
-      - US_155
-      - CN_156
-      - US_157
-      - US_158
-      - US_159
-      - US_160
-      - US_161
-      - US_162
-      - US_164
-      - US_165
-      - US_166
-      - US_167
-      - US_168
-      - SE_169
+      - 中国368
+      - 中国349
+      - 美国137
+      - 伯利兹72
+      - 中国308
+      - 中国312
+      - 伯利兹68
+      - 中国279
+      - 中国269
+      - 中国325
+      - 中国399
+      - 伯利兹70
+      - 中国276
+      - 美国28
+      - 美国136
+      - 加拿大453
+      - 美国43
+      - 美国224
+      - 中国396
+      - 美国27
+      - 中国306
+      - 塞浦路斯65
+      - 中国346
+      - 美国6
+      - 中国394
+      - 中国274
+      - 中国293
+      - 美国87
+      - 中国278
+      - 加拿大73
+      - 美国120
+      - 中国395
+      - 美国116
+      - 中国291
+      - 中国273
+      - 中国369
+      - 美国157
+      - 加拿大75
+      - 中国309
+      - 美国174
+      - 中国398
+      - 中国434
+      - 加拿大76
+      - 中国277
+      - 美国44
+      - 中国397
+      - 美国450
+      - 加拿大455
+      - 美国92
+      - 美国447
+      - 伯利兹71
+      - 美国125
+      - 美国49
+      - 美国458
+      - 美国454
+      - 伯利兹69
+      - 加拿大449
+      - 加拿大79
+      - 中国263
+      - 美国45
+      - 加拿大74
+      - 美国91
+      - 中国344
+      - 加拿大77
+      - 荷兰205
+      - 美国144
+      - 伯利兹66
+      - 加拿大78
+      - 美国138
+      - 亚美尼亚451
+      - 中国377
+      - 美国131
+      - 中国313
+      - 中国322
+      - 香港461
+      - 中国433
+      - 美国36
+      - 中国288
+      - 德国163
+      - 中国299
+      - 中国389
+      - 美国456
+      - 中国445
+      - 中国305
+      - 中国297
+      - 美国133
+      - 美国121
+      - 中国391
+      - 美国20
+      - 中国367
+      - 中国302
+      - 中国296
+      - 美国448
+      - 中国432
+      - 中国298
+      - 中国307
+      - 美国118
+      - 中国304
+      - 中国444
+      - 中国287
+      - 香港457
+      - 美国113
+      - 中国327
+      - 中国323
+      - 美国123
+      - 中国431
+      - 美国112
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_163
-      - CN_1
-      - CN_2
-      - CN_3
-      - CA_4
-      - CN_5
-      - CA_6
-      - US_7
-      - CA_8
-      - CA_9
-      - US_10
-      - US_11
-      - CN_12
-      - US_13
-      - US_14
-      - US_15
-      - TW_16
-      - CA_17
-      - CA_18
-      - CA_19
-      - US_20
-      - CA_21
-      - BZ_22
-      - CN_23
-      - CN_24
-      - US_25
-      - US_26
-      - US_27
-      - CN_28
-      - CN_29
-      - US_30
-      - US_31
-      - US_32
-      - US_33
-      - BZ_34
-      - BZ_35
-      - US_36
-      - CN_37
-      - CA_38
-      - CN_39
-      - CA_40
-      - CN_41
-      - CA_42
-      - US_43
-      - US_44
-      - US_45
-      - US_46
-      - CA_47
-      - CN_48
-      - US_49
-      - CA_50
-      - CA_51
-      - US_52
-      - US_53
-      - CN_54
-      - CA_55
-      - US_56
-      - BZ_57
-      - US_58
-      - US_59
-      - CN_60
-      - US_61
-      - CA_62
-      - US_63
-      - CA_64
-      - US_65
-      - US_66
-      - US_67
-      - US_68
-      - US_69
-      - US_70
-      - US_71
-      - US_72
-      - US_73
-      - US_74
-      - US_75
-      - CA_76
-      - US_77
-      - CN_78
-      - US_79
-      - BZ_80
-      - CA_81
-      - CN_82
-      - US_83
-      - US_84
-      - US_85
-      - US_86
-      - US_87
-      - US_88
-      - US_89
-      - US_90
-      - US_91
-      - US_92
-      - US_93
-      - US_94
-      - US_95
-      - CN_96
-      - US_97
-      - US_98
-      - US_99
-      - US_100
-      - CN_101
-      - CN_102
-      - US_103
-      - CN_104
-      - CA_105
-      - CA_106
-      - US_107
-      - FR_108
-      - US_109
-      - US_110
-      - CA_111
-      - US_112
-      - US_113
-      - US_114
-      - US_115
-      - CN_116
-      - CA_117
-      - US_118
-      - US_119
-      - US_120
-      - CA_121
-      - US_122
-      - US_123
-      - US_124
-      - US_125
-      - US_126
-      - US_127
-      - US_128
-      - CA_129
-      - US_130
-      - US_131
-      - US_132
-      - US_133
-      - US_134
-      - US_135
-      - CN_136
-      - CA_137
-      - CN_138
-      - CY_139
-      - US_140
-      - US_141
-      - US_142
-      - CA_143
-      - US_144
-      - CA_145
-      - US_146
-      - US_147
-      - CN_148
-      - AM_149
-      - CA_151
-      - BZ_152
-      - US_153
-      - US_154
-      - US_155
-      - CN_156
-      - US_157
-      - US_158
-      - US_159
-      - US_160
-      - US_161
-      - US_162
-      - US_164
-      - US_165
-      - US_166
-      - US_167
-      - US_168
-      - SE_169
+      - 中国368
+      - 中国349
+      - 美国137
+      - 伯利兹72
+      - 中国308
+      - 中国312
+      - 伯利兹68
+      - 中国279
+      - 中国269
+      - 中国325
+      - 中国399
+      - 伯利兹70
+      - 中国276
+      - 美国28
+      - 美国136
+      - 加拿大453
+      - 美国43
+      - 美国224
+      - 中国396
+      - 美国27
+      - 中国306
+      - 塞浦路斯65
+      - 中国346
+      - 美国6
+      - 中国394
+      - 中国274
+      - 中国293
+      - 美国87
+      - 中国278
+      - 加拿大73
+      - 美国120
+      - 中国395
+      - 美国116
+      - 中国291
+      - 中国273
+      - 中国369
+      - 美国157
+      - 加拿大75
+      - 中国309
+      - 美国174
+      - 中国398
+      - 中国434
+      - 加拿大76
+      - 中国277
+      - 美国44
+      - 中国397
+      - 美国450
+      - 加拿大455
+      - 美国92
+      - 美国447
+      - 伯利兹71
+      - 美国125
+      - 美国49
+      - 美国458
+      - 美国454
+      - 伯利兹69
+      - 加拿大449
+      - 加拿大79
+      - 中国263
+      - 美国45
+      - 加拿大74
+      - 美国91
+      - 中国344
+      - 加拿大77
+      - 荷兰205
+      - 美国144
+      - 伯利兹66
+      - 加拿大78
+      - 美国138
+      - 亚美尼亚451
+      - 中国377
+      - 美国131
+      - 中国313
+      - 中国322
+      - 香港461
+      - 中国433
+      - 美国36
+      - 中国288
+      - 德国163
+      - 中国299
+      - 中国389
+      - 美国456
+      - 中国445
+      - 中国305
+      - 中国297
+      - 美国133
+      - 美国121
+      - 中国391
+      - 美国20
+      - 中国367
+      - 中国302
+      - 中国296
+      - 美国448
+      - 中国432
+      - 中国298
+      - 中国307
+      - 美国118
+      - 中国304
+      - 中国444
+      - 中国287
+      - 香港457
+      - 美国113
+      - 中国327
+      - 中国323
+      - 美国123
+      - 中国431
+      - 美国112
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_163
-      - CN_1
-      - CN_2
-      - CN_3
-      - CA_4
-      - CN_5
-      - CA_6
-      - US_7
-      - CA_8
-      - CA_9
-      - US_10
-      - US_11
-      - CN_12
-      - US_13
-      - US_14
-      - US_15
-      - TW_16
-      - CA_17
-      - CA_18
-      - CA_19
-      - US_20
-      - CA_21
-      - BZ_22
-      - CN_23
-      - CN_24
-      - US_25
-      - US_26
-      - US_27
-      - CN_28
-      - CN_29
-      - US_30
-      - US_31
-      - US_32
-      - US_33
-      - BZ_34
-      - BZ_35
-      - US_36
-      - CN_37
-      - CA_38
-      - CN_39
-      - CA_40
-      - CN_41
-      - CA_42
-      - US_43
-      - US_44
-      - US_45
-      - US_46
-      - CA_47
-      - CN_48
-      - US_49
-      - CA_50
-      - CA_51
-      - US_52
-      - US_53
-      - CN_54
-      - CA_55
-      - US_56
-      - BZ_57
-      - US_58
-      - US_59
-      - CN_60
-      - US_61
-      - CA_62
-      - US_63
-      - CA_64
-      - US_65
-      - US_66
-      - US_67
-      - US_68
-      - US_69
-      - US_70
-      - US_71
-      - US_72
-      - US_73
-      - US_74
-      - US_75
-      - CA_76
-      - US_77
-      - CN_78
-      - US_79
-      - BZ_80
-      - CA_81
-      - CN_82
-      - US_83
-      - US_84
-      - US_85
-      - US_86
-      - US_87
-      - US_88
-      - US_89
-      - US_90
-      - US_91
-      - US_92
-      - US_93
-      - US_94
-      - US_95
-      - CN_96
-      - US_97
-      - US_98
-      - US_99
-      - US_100
-      - CN_101
-      - CN_102
-      - US_103
-      - CN_104
-      - CA_105
-      - CA_106
-      - US_107
-      - FR_108
-      - US_109
-      - US_110
-      - CA_111
-      - US_112
-      - US_113
-      - US_114
-      - US_115
-      - CN_116
-      - CA_117
-      - US_118
-      - US_119
-      - US_120
-      - CA_121
-      - US_122
-      - US_123
-      - US_124
-      - US_125
-      - US_126
-      - US_127
-      - US_128
-      - CA_129
-      - US_130
-      - US_131
-      - US_132
-      - US_133
-      - US_134
-      - US_135
-      - CN_136
-      - CA_137
-      - CN_138
-      - CY_139
-      - US_140
-      - US_141
-      - US_142
-      - CA_143
-      - US_144
-      - CA_145
-      - US_146
-      - US_147
-      - CN_148
-      - AM_149
-      - CA_151
-      - BZ_152
-      - US_153
-      - US_154
-      - US_155
-      - CN_156
-      - US_157
-      - US_158
-      - US_159
-      - US_160
-      - US_161
-      - US_162
-      - US_164
-      - US_165
-      - US_166
-      - US_167
-      - US_168
-      - SE_169
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - US_163
-      - CN_1
-      - CN_2
-      - CN_3
-      - CA_4
-      - CN_5
-      - CA_6
-      - US_7
-      - CA_8
-      - CA_9
-      - US_10
-      - US_11
-      - CN_12
-      - US_13
-      - US_14
-      - US_15
-      - TW_16
-      - CA_17
-      - CA_18
-      - CA_19
-      - US_20
-      - CA_21
-      - BZ_22
-      - CN_23
-      - CN_24
-      - US_25
-      - US_26
-      - US_27
-      - CN_28
-      - CN_29
-      - US_30
-      - US_31
-      - US_32
-      - US_33
-      - BZ_34
-      - BZ_35
-      - US_36
-      - CN_37
-      - CA_38
-      - CN_39
-      - CA_40
-      - CN_41
-      - CA_42
-      - US_43
-      - US_44
-      - US_45
-      - US_46
-      - CA_47
-      - CN_48
-      - US_49
-      - CA_50
-      - CA_51
-      - US_52
-      - US_53
-      - CN_54
-      - CA_55
-      - US_56
-      - BZ_57
-      - US_58
-      - US_59
-      - CN_60
-      - US_61
-      - CA_62
-      - US_63
-      - CA_64
-      - US_65
-      - US_66
-      - US_67
-      - US_68
-      - US_69
-      - US_70
-      - US_71
-      - US_72
-      - US_73
-      - US_74
-      - US_75
-      - CA_76
-      - US_77
-      - CN_78
-      - US_79
-      - BZ_80
-      - CA_81
-      - CN_82
-      - US_83
-      - US_84
-      - US_85
-      - US_86
-      - US_87
-      - US_88
-      - US_89
-      - US_90
-      - US_91
-      - US_92
-      - US_93
-      - US_94
-      - US_95
-      - CN_96
-      - US_97
-      - US_98
-      - US_99
-      - US_100
-      - CN_101
-      - CN_102
-      - US_103
-      - CN_104
-      - CA_105
-      - CA_106
-      - US_107
-      - FR_108
-      - US_109
-      - US_110
-      - CA_111
-      - US_112
-      - US_113
-      - US_114
-      - US_115
-      - CN_116
-      - CA_117
-      - US_118
-      - US_119
-      - US_120
-      - CA_121
-      - US_122
-      - US_123
-      - US_124
-      - US_125
-      - US_126
-      - US_127
-      - US_128
-      - CA_129
-      - US_130
-      - US_131
-      - US_132
-      - US_133
-      - US_134
-      - US_135
-      - CN_136
-      - CA_137
-      - CN_138
-      - CY_139
-      - US_140
-      - US_141
-      - US_142
-      - CA_143
-      - US_144
-      - CA_145
-      - US_146
-      - US_147
-      - CN_148
-      - AM_149
-      - CA_151
-      - BZ_152
-      - US_153
-      - US_154
-      - US_155
-      - CN_156
-      - US_157
-      - US_158
-      - US_159
-      - US_160
-      - US_161
-      - US_162
-      - US_164
-      - US_165
-      - US_166
-      - US_167
-      - US_168
-      - SE_169
+      - 中国368
+      - 中国349
+      - 美国137
+      - 伯利兹72
+      - 中国308
+      - 中国312
+      - 伯利兹68
+      - 中国279
+      - 中国269
+      - 中国325
+      - 中国399
+      - 伯利兹70
+      - 中国276
+      - 美国28
+      - 美国136
+      - 加拿大453
+      - 美国43
+      - 美国224
+      - 中国396
+      - 美国27
+      - 中国306
+      - 塞浦路斯65
+      - 中国346
+      - 美国6
+      - 中国394
+      - 中国274
+      - 中国293
+      - 美国87
+      - 中国278
+      - 加拿大73
+      - 美国120
+      - 中国395
+      - 美国116
+      - 中国291
+      - 中国273
+      - 中国369
+      - 美国157
+      - 加拿大75
+      - 中国309
+      - 美国174
+      - 中国398
+      - 中国434
+      - 加拿大76
+      - 中国277
+      - 美国44
+      - 中国397
+      - 美国450
+      - 加拿大455
+      - 美国92
+      - 美国447
+      - 伯利兹71
+      - 美国125
+      - 美国49
+      - 美国458
+      - 美国454
+      - 伯利兹69
+      - 加拿大449
+      - 加拿大79
+      - 中国263
+      - 美国45
+      - 加拿大74
+      - 美国91
+      - 中国344
+      - 加拿大77
+      - 荷兰205
+      - 美国144
+      - 伯利兹66
+      - 加拿大78
+      - 美国138
+      - 亚美尼亚451
+      - 中国377
+      - 美国131
+      - 中国313
+      - 中国322
+      - 香港461
+      - 中国433
+      - 美国36
+      - 中国288
+      - 德国163
+      - 中国299
+      - 中国389
+      - 美国456
+      - 中国445
+      - 中国305
+      - 中国297
+      - 美国133
+      - 美国121
+      - 中国391
+      - 美国20
+      - 中国367
+      - 中国302
+      - 中国296
+      - 美国448
+      - 中国432
+      - 中国298
+      - 中国307
+      - 美国118
+      - 中国304
+      - 中国444
+      - 中国287
+      - 香港457
+      - 美国113
+      - 中国327
+      - 中国323
+      - 美国123
+      - 中国431
+      - 美国112
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1410,179 +809,117 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_163
-      - CN_1
-      - CN_2
-      - CN_3
-      - CA_4
-      - CN_5
-      - CA_6
-      - US_7
-      - CA_8
-      - CA_9
-      - US_10
-      - US_11
-      - CN_12
-      - US_13
-      - US_14
-      - US_15
-      - TW_16
-      - CA_17
-      - CA_18
-      - CA_19
-      - US_20
-      - CA_21
-      - BZ_22
-      - CN_23
-      - CN_24
-      - US_25
-      - US_26
-      - US_27
-      - CN_28
-      - CN_29
-      - US_30
-      - US_31
-      - US_32
-      - US_33
-      - BZ_34
-      - BZ_35
-      - US_36
-      - CN_37
-      - CA_38
-      - CN_39
-      - CA_40
-      - CN_41
-      - CA_42
-      - US_43
-      - US_44
-      - US_45
-      - US_46
-      - CA_47
-      - CN_48
-      - US_49
-      - CA_50
-      - CA_51
-      - US_52
-      - US_53
-      - CN_54
-      - CA_55
-      - US_56
-      - BZ_57
-      - US_58
-      - US_59
-      - CN_60
-      - US_61
-      - CA_62
-      - US_63
-      - CA_64
-      - US_65
-      - US_66
-      - US_67
-      - US_68
-      - US_69
-      - US_70
-      - US_71
-      - US_72
-      - US_73
-      - US_74
-      - US_75
-      - CA_76
-      - US_77
-      - CN_78
-      - US_79
-      - BZ_80
-      - CA_81
-      - CN_82
-      - US_83
-      - US_84
-      - US_85
-      - US_86
-      - US_87
-      - US_88
-      - US_89
-      - US_90
-      - US_91
-      - US_92
-      - US_93
-      - US_94
-      - US_95
-      - CN_96
-      - US_97
-      - US_98
-      - US_99
-      - US_100
-      - CN_101
-      - CN_102
-      - US_103
-      - CN_104
-      - CA_105
-      - CA_106
-      - US_107
-      - FR_108
-      - US_109
-      - US_110
-      - CA_111
-      - US_112
-      - US_113
-      - US_114
-      - US_115
-      - CN_116
-      - CA_117
-      - US_118
-      - US_119
-      - US_120
-      - CA_121
-      - US_122
-      - US_123
-      - US_124
-      - US_125
-      - US_126
-      - US_127
-      - US_128
-      - CA_129
-      - US_130
-      - US_131
-      - US_132
-      - US_133
-      - US_134
-      - US_135
-      - CN_136
-      - CA_137
-      - CN_138
-      - CY_139
-      - US_140
-      - US_141
-      - US_142
-      - CA_143
-      - US_144
-      - CA_145
-      - US_146
-      - US_147
-      - CN_148
-      - AM_149
-      - CA_151
-      - BZ_152
-      - US_153
-      - US_154
-      - US_155
-      - CN_156
-      - US_157
-      - US_158
-      - US_159
-      - US_160
-      - US_161
-      - US_162
-      - US_164
-      - US_165
-      - US_166
-      - US_167
-      - US_168
-      - SE_169
+      - 中国368
+      - 中国349
+      - 美国137
+      - 伯利兹72
+      - 中国308
+      - 中国312
+      - 伯利兹68
+      - 中国279
+      - 中国269
+      - 中国325
+      - 中国399
+      - 伯利兹70
+      - 中国276
+      - 美国28
+      - 美国136
+      - 加拿大453
+      - 美国43
+      - 美国224
+      - 中国396
+      - 美国27
+      - 中国306
+      - 塞浦路斯65
+      - 中国346
+      - 美国6
+      - 中国394
+      - 中国274
+      - 中国293
+      - 美国87
+      - 中国278
+      - 加拿大73
+      - 美国120
+      - 中国395
+      - 美国116
+      - 中国291
+      - 中国273
+      - 中国369
+      - 美国157
+      - 加拿大75
+      - 中国309
+      - 美国174
+      - 中国398
+      - 中国434
+      - 加拿大76
+      - 中国277
+      - 美国44
+      - 中国397
+      - 美国450
+      - 加拿大455
+      - 美国92
+      - 美国447
+      - 伯利兹71
+      - 美国125
+      - 美国49
+      - 美国458
+      - 美国454
+      - 伯利兹69
+      - 加拿大449
+      - 加拿大79
+      - 中国263
+      - 美国45
+      - 加拿大74
+      - 美国91
+      - 中国344
+      - 加拿大77
+      - 荷兰205
+      - 美国144
+      - 伯利兹66
+      - 加拿大78
+      - 美国138
+      - 亚美尼亚451
+      - 中国377
+      - 美国131
+      - 中国313
+      - 中国322
+      - 香港461
+      - 中国433
+      - 美国36
+      - 中国288
+      - 德国163
+      - 中国299
+      - 中国389
+      - 美国456
+      - 中国445
+      - 中国305
+      - 中国297
+      - 美国133
+      - 美国121
+      - 中国391
+      - 美国20
+      - 中国367
+      - 中国302
+      - 中国296
+      - 美国448
+      - 中国432
+      - 中国298
+      - 中国307
+      - 美国118
+      - 中国304
+      - 中国444
+      - 中国287
+      - 香港457
+      - 美国113
+      - 中国327
+      - 中国323
+      - 美国123
+      - 中国431
+      - 美国112
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
- - DOMAIN-SUFFIX,lan,🎯 全球直连
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - DOMAIN-SUFFIX,localhost,🎯 全球直连
  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
@@ -1591,13 +928,10 @@ rules:
  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
  - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
- - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
- - DOMAIN,instant.arubanetworks.com,🎯 全球直连
- - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
  - DOMAIN,router.asus.com,🎯 全球直连
  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
@@ -1606,31 +940,9 @@ rules:
  - DOMAIN-SUFFIX,p.to,🎯 全球直连
  - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
  - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
- - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
- - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
- - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,xivanalysis.com,🎯 全球直连
- - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
- - DOMAIN,picanalysis-auth.vivo.com.cn,🎯 全球直连
- - DOMAIN,fairplay.l.qq.com,🎯 全球直连
- - DOMAIN,livew.l.qq.com,🎯 全球直连
- - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
- - DOMAIN,errlog.umeng.com,🎯 全球直连
- - DOMAIN,msg.umeng.com,🎯 全球直连
- - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN,tracking.miui.com,🎯 全球直连
- - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
- - DOMAIN,rewards.hypixel.net,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -1658,6 +970,25 @@ rules:
  - DOMAIN-KEYWORD,usage,🛑 全球拦截
  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
+ - DOMAIN-SUFFIX,admob.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ads.gmodules.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ads.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adservice.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,afd.l.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,badad.googleplex.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,csi.gstatic.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,doubleclick.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,doubleclick.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,google-analytics.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,googleadservices.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,googleadsserving.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,googlecommerce.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,googlesyndication.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mobileads.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pagead-tpc.l.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pagead.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pagead.l.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,service.urchin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,100peng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,114la.com,🛑 全球拦截
@@ -1817,6 +1148,7 @@ rules:
  - DOMAIN-SUFFIX,edigitalsurvey.com,🛑 全球拦截
  - DOMAIN-SUFFIX,eduancm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,emarbox.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,epsilon.com,🛑 全球拦截
  - DOMAIN-SUFFIX,exosrv.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fancyapi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,feitian001.com,🛑 全球拦截
@@ -1892,6 +1224,7 @@ rules:
  - DOMAIN-SUFFIX,mediaplex.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mediav.com,🛑 全球拦截
  - DOMAIN-SUFFIX,megajoy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,meiqia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mgogo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,miaozhen.com,🛑 全球拦截
  - DOMAIN-SUFFIX,microad-cn.com,🛑 全球拦截
@@ -1907,7 +1240,6 @@ rules:
  - DOMAIN-SUFFIX,mobgi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mobisage.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mobvista.com,🛑 全球拦截
- - DOMAIN-SUFFIX,moogos.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
  - DOMAIN-SUFFIX,moquanad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mpush.cn,🛑 全球拦截
@@ -2002,7 +1334,6 @@ rules:
  - DOMAIN-SUFFIX,uuzu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uyunad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vamaker.com,🛑 全球拦截
- - DOMAIN-SUFFIX,vlion.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,voiceads.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,voiceads.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vpon.com,🛑 全球拦截
@@ -2104,6 +1435,7 @@ rules:
  - DOMAIN-SUFFIX,criteo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,criteo.net,🛑 全球拦截
  - DOMAIN-SUFFIX,csbew.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,demdex.net,🛑 全球拦截
  - DOMAIN-SUFFIX,directrev.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dumedia.ru,🛑 全球拦截
  - DOMAIN-SUFFIX,effectivemeasure.com,🛑 全球拦截
@@ -2334,10 +1666,12 @@ rules:
  - DOMAIN-SUFFIX,activate-sea.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,activate-sjc0.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,activate.adobe.com,🍃 应用净化
+ - DOMAIN-SUFFIX,activate.wip3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns-2.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns-3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,ereg.adobe.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ereg.wip3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,geo2.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,hl2rcv.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,hlrcv.stage.adobe.com,🍃 应用净化
@@ -2392,6 +1726,7 @@ rules:
  - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,bdimg.share.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,btlaunch.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,c.baidu.cn,🍃 应用净化
@@ -2409,6 +1744,7 @@ rules:
  - DOMAIN-SUFFIX,click.hm.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.qianqian.com,🍃 应用净化
  - DOMAIN-SUFFIX,cm.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,cm.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidustatic.com,🍃 应用净化
@@ -2511,10 +1847,13 @@ rules:
  - DOMAIN-SUFFIX,rp.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,rplog.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,s.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,s.cpro.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,sa.tuisong.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sclick.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sestat.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,shadu.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,share.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,snippet.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sobar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sobartop.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,spcode.baidu.cn,🍃 应用净化
@@ -2531,6 +1870,7 @@ rules:
  - DOMAIN-SUFFIX,tuijian.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,tuisong.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,tuisong.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com,🍃 应用净化
  - DOMAIN-SUFFIX,ubmcmm.baidustatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,ucstat.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ucstat.baidu.com,🍃 应用净化
@@ -2555,6 +1895,7 @@ rules:
  - DOMAIN-SUFFIX,wisepush.video.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,wm.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,wm.baidu.com,🍃 应用净化
+ - DOMAIN-SUFFIX,wn.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,znsv.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,znsv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,zz.bdstatic.com,🍃 应用净化
@@ -2605,11 +1946,7 @@ rules:
  - DOMAIN-SUFFIX,ic.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,log.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,nativeapp.toutiao.com,🍃 应用净化
- - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,🍃 应用净化
- - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,🍃 应用净化
- - DOMAIN-SUFFIX,pangolin.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,partner.toutiao.com,🍃 应用净化
- - DOMAIN-SUFFIX,pglstatp-toutiao.com,🍃 应用净化
  - DOMAIN-SUFFIX,sm.toutiao.com,🍃 应用净化
  - DOMAIN-SUFFIX,a.dangdang.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.dangdang.com,🍃 应用净化
@@ -2739,6 +2076,7 @@ rules:
  - DOMAIN-SUFFIX,jellyfish.pandora.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,migc.g.mi.com,🍃 应用净化
  - DOMAIN-SUFFIX,migcreport.g.mi.com,🍃 应用净化
+ - DOMAIN-SUFFIX,mis.g.mi.com,🍃 应用净化
  - DOMAIN-SUFFIX,notice.game.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,ppurifier.game.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,r.browser.miui.com,🍃 应用净化
@@ -2942,6 +2280,7 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
  - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
+ - DOMAIN-SUFFIX,sugar.zhihu.com,🍃 应用净化
  - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
  - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
  - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
@@ -3130,6 +2469,7 @@ rules:
  - DOMAIN-SUFFIX,couchcoaster.jp,🍃 应用净化
  - DOMAIN-SUFFIX,delivery.dmkt-sp.jp,🍃 应用净化
  - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🍃 应用净化
+ - DOMAIN-SUFFIX,m-78.jp,🍃 应用净化
  - DOMAIN-SUFFIX,nichibenren.or.jp,🍃 应用净化
  - DOMAIN-SUFFIX,nicorette.co.kr,🍃 应用净化
  - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🍃 应用净化
@@ -3140,6 +2480,8 @@ rules:
  - DOMAIN-SUFFIX,ads.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,afp.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,c.algovid.com,🍃 应用净化
+ - DOMAIN-SUFFIX,cc.xtgreat.com,🍃 应用净化
+ - DOMAIN-SUFFIX,d.dsp.imageter.com,🍃 应用净化
  - DOMAIN-SUFFIX,gg.jtertp.com,🍃 应用净化
  - DOMAIN-SUFFIX,gridsum-vd.cntv.cn,🍃 应用净化
  - DOMAIN-SUFFIX,kwflvcdn.000dn.com,🍃 应用净化
@@ -3251,41 +2593,6 @@ rules:
  - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
- - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,mtalk.google.com,📢 谷歌FCM
- - IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
  - DOMAIN-SUFFIX,265.com,🎯 全球直连
  - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -3317,27 +2624,13 @@ rules:
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
- - DOMAIN,csgo.wmsj.cn,🎯 全球直连
- - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
- - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
- - DOMAIN,dota2.wmsj.cn,🎯 全球直连
- - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
- - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
- - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
- - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
- - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
- - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
- - DOMAIN,wmsjsteam.com,🎯 全球直连
- - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -3418,7 +2711,6 @@ rules:
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
@@ -3442,28 +2734,13 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
- - DOMAIN-SUFFIX,t.me,📲 电报信息
- - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
- - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
- - DOMAIN-SUFFIX,telegram.me,📲 电报信息
- - DOMAIN-SUFFIX,telegram.org,📲 电报信息
- - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
- - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
- - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
- - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
- - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
- - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -3477,11 +2754,8 @@ rules:
  - DOMAIN,d3196yreox78o9.cloudfront.net,🌍 国外媒体
  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
  - DOMAIN,ktpx.amazon.com,🌍 国外媒体
- - DOMAIN-SUFFIX,aboutamazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
- - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
- - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
@@ -3503,7 +2777,6 @@ rules:
  - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
  - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
  - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
- - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
  - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
  - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
@@ -3521,9 +2794,6 @@ rules:
  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
- - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
- - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
- - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
  - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -3611,7 +2881,6 @@ rules:
  - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
  - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
- - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
  - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
@@ -3629,9 +2898,8 @@ rules:
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
- - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
- - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
+ - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
  - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
  - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
@@ -3653,9 +2921,12 @@ rules:
  - DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
  - IP-CIDR,8.41.4.0/24,🌍 国外媒体,no-resolve
  - IP-CIDR,23.246.0.0/18,🌍 国外媒体,no-resolve
+ - IP-CIDR,34.210.42.111/32,🌍 国外媒体,no-resolve
  - IP-CIDR,37.77.184.0/21,🌍 国外媒体,no-resolve
  - IP-CIDR,38.72.126.0/24,🌍 国外媒体,no-resolve
  - IP-CIDR,45.57.0.0/17,🌍 国外媒体,no-resolve
+ - IP-CIDR,52.89.124.203/32,🌍 国外媒体,no-resolve
+ - IP-CIDR,54.148.37.5/32,🌍 国外媒体,no-resolve
  - IP-CIDR,64.120.128.0/17,🌍 国外媒体,no-resolve
  - IP-CIDR,66.197.128.0/17,🌍 国外媒体,no-resolve
  - IP-CIDR,69.53.224.0/19,🌍 国外媒体,no-resolve
@@ -3694,7 +2965,7 @@ rules:
  - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
  - DOMAIN,hamifans.emome.net,🌍 国外媒体
  - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
- - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
  - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -3705,24 +2976,22 @@ rules:
  - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
  - DOMAIN-KEYWORD,ttvnw,🌍 国外媒体
- - DOMAIN-SUFFIX,ext-twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
- - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
- - PROCESS-NAME,com.viu.pad,🌍 国外媒体
- - PROCESS-NAME,com.viu.phone,🌍 国外媒体
- - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
  - DOMAIN,api.viu.now.com,🌍 国外媒体
  - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,bootstrapcdn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🌍 国外媒体
- - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
- - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,firebaseio.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,jwpcdn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,jwplayer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,nowe.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
@@ -3731,21 +3000,27 @@ rules:
  - DOMAIN,yt3.ggpht.com,🌍 国外媒体
  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,gvt2.com,🌍 国外媒体
- - DOMAIN-SUFFIX,withyoutube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
- - DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
- - DOMAIN-SUFFIX,youtubeeducation.com,🌍 国外媒体
- - DOMAIN-SUFFIX,youtubegaming.com,🌍 国外媒体
- - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
- - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
  - DOMAIN,music.youtube.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,t.me,📲 电报信息
+ - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+ - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.me,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.org,📲 电报信息
+ - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
+ - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
+ - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
+ - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
  - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
- - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,cccat.io,🚀 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -3756,7 +3031,6 @@ rules:
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
  - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
  - DOMAIN-SUFFIX,notion.so,🚀 节点选择
- - DOMAIN-SUFFIX,openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
@@ -3824,6 +3098,7 @@ rules:
  - DOMAIN-SUFFIX,cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,comodoca.com,🚀 节点选择
  - DOMAIN-SUFFIX,daum.net,🚀 节点选择
+ - DOMAIN-SUFFIX,demdex.net,🚀 节点选择
  - DOMAIN-SUFFIX,deskconnect.com,🚀 节点选择
  - DOMAIN-SUFFIX,disqus.com,🚀 节点选择
  - DOMAIN-SUFFIX,disquscdn.com,🚀 节点选择
@@ -4081,23 +3356,7 @@ rules:
  - DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
  - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
  - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
- - DOMAIN-SUFFIX,underlords.com,🚀 节点选择
- - DOMAIN-SUFFIX,valvesoftware.com,🚀 节点选择
- - DOMAIN-SUFFIX,playartifact.com,🚀 节点选择
- - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
- - DOMAIN-SUFFIX,steamgames.com,🚀 节点选择
- - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
- - DOMAIN-SUFFIX,steamserver.net,🚀 节点选择
- - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
- - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
- - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
- - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steamuserimages-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steampipe.akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,tap.io,🚀 节点选择
  - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
  - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
@@ -4153,8 +3412,6 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
- - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
- - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -4168,12 +3425,10 @@ rules:
  - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
- - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
- - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
- - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
- - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
- - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
+ - DOMAIN-SUFFIX,中国,🎯 全球直连
+ - DOMAIN-SUFFIX,公司,🎯 全球直连
+ - DOMAIN-SUFFIX,网络,🎯 全球直连
  - DOMAIN-KEYWORD,-cn,🎯 全球直连
  - DOMAIN-KEYWORD,360buy,🎯 全球直连
  - DOMAIN-KEYWORD,alicdn,🎯 全球直连
@@ -4185,6 +3440,7 @@ rules:
  - DOMAIN-KEYWORD,ccgslb,🎯 全球直连
  - DOMAIN-KEYWORD,chinacache,🎯 全球直连
  - DOMAIN-KEYWORD,duobao,🎯 全球直连
+ - DOMAIN-KEYWORD,duolingo,🎯 全球直连
  - DOMAIN-KEYWORD,jdpay,🎯 全球直连
  - DOMAIN-KEYWORD,moke,🎯 全球直连
  - DOMAIN-KEYWORD,qhimg,🎯 全球直连
@@ -4270,29 +3526,13 @@ rules:
  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
- - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
- - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,byted-static.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytedance.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytedance.net,🎯 全球直连
  - DOMAIN-SUFFIX,bytedns.net,🎯 全球直连
- - DOMAIN-SUFFIX,bytednsdoc.com,🎯 全球直连
- - DOMAIN-SUFFIX,bytegoofy.com,🎯 全球直连
  - DOMAIN-SUFFIX,byteimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,bytescm.com,🎯 全球直连
- - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
- - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
- - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
- - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
- - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
- - DOMAIN-SUFFIX,feelgood.cn,🎯 全球直连
  - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
  - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
  - DOMAIN-SUFFIX,huoshan.com,🎯 全球直连
- - DOMAIN-SUFFIX,huoshanzhibo.com,🎯 全球直连
- - DOMAIN-SUFFIX,ibytedapm.com,🎯 全球直连
  - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
  - DOMAIN-SUFFIX,ixigua.com,🎯 全球直连
  - DOMAIN-SUFFIX,kspkg.com,🎯 全球直连
@@ -4300,7 +3540,6 @@ rules:
  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
- - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
@@ -4309,7 +3548,6 @@ rules:
  - DOMAIN-SUFFIX,toutiaoimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaopage.com,🎯 全球直连
  - DOMAIN-SUFFIX,wukong.com,🎯 全球直连
- - DOMAIN-SUFFIX,zijieapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zijieimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,zjbyte.com,🎯 全球直连
  - DOMAIN-SUFFIX,zjcdn.com,🎯 全球直连
@@ -4325,7 +3563,6 @@ rules:
  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
  - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
@@ -4399,16 +3636,10 @@ rules:
  - DOMAIN-SUFFIX,leju.com,🎯 全球直连
  - DOMAIN-SUFFIX,miaopai.com,🎯 全球直连
  - DOMAIN-SUFFIX,sina.com,🎯 全球直连
- - DOMAIN-SUFFIX,sina.com.cn,🎯 全球直连
- - DOMAIN-SUFFIX,sina.cn,🎯 全球直连
  - DOMAIN-SUFFIX,sinaapp.com,🎯 全球直连
- - DOMAIN-SUFFIX,sinaapp.cn,🎯 全球直连
  - DOMAIN-SUFFIX,sinaimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,sinaimg.cn,🎯 全球直连
  - DOMAIN-SUFFIX,weibo.com,🎯 全球直连
- - DOMAIN-SUFFIX,weibo.cn,🎯 全球直连
  - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,weibocdn.cn,🎯 全球直连
  - DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
  - DOMAIN-SUFFIX,go2map.com,🎯 全球直连
  - DOMAIN-SUFFIX,sogo.com,🎯 全球直连
@@ -4425,21 +3656,20 @@ rules:
  - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
  - DOMAIN-SUFFIX,sony.com,🎯 全球直连
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
- - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+ - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎯 全球直连
+ - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 全球直连
+ - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
+ - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
- - DOMAIN,csgo.wmsj.cn,🎯 全球直连
- - DOMAIN,dota2.wmsj.cn,🎯 全球直连
- - DOMAIN,wmsjsteam.com,🎯 全球直连
- - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
- - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
- - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
- - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
- - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
- - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
- - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
- - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
  - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
@@ -4584,6 +3814,8 @@ rules:
  - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
  - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cnbeta.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cnbetacdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
  - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
  - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
@@ -4661,6 +3893,7 @@ rules:
  - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
  - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,loli.net,🎯 全球直连
  - DOMAIN-SUFFIX,luoo.net,🎯 全球直连
  - DOMAIN-SUFFIX,lvmama.com,🎯 全球直连
  - DOMAIN-SUFFIX,lxdns.com,🎯 全球直连
@@ -4687,6 +3920,7 @@ rules:
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
  - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
  - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
  - DOMAIN-SUFFIX,qcloud.com,🎯 全球直连
@@ -4705,7 +3939,9 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
  - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
  - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
+ - DOMAIN-SUFFIX,rarbg.to,🎯 全球直连
  - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
+ - DOMAIN-SUFFIX,rrmj.tv,🎯 全球直连
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
@@ -4713,6 +3949,7 @@ rules:
  - DOMAIN-SUFFIX,sf-express.com,🎯 全球直连
  - DOMAIN-SUFFIX,shumilou.net,🎯 全球直连
  - DOMAIN-SUFFIX,simplecd.me,🎯 全球直连
+ - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
  - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
  - DOMAIN-SUFFIX,soufunimg.com,🎯 全球直连
