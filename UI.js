@@ -20,7 +20,7 @@ ui.layout(
             </appbar>
             <viewpager id="viewpager">
                 <frame>
-               <img src={"https://pic.dmjnb.com/pic/d3ed0c9a034c7b1e6ebc00d85c3943bc.jpg"} scaleType="centerCrop" alpha="0.8" />
+               <img src={"http://ys-c.ys168.com/618215153/615303867/mkeVUSn561G6W4JIN6If1/八王子.jpg"} scaleType="centerCrop" alpha="0.8" />
                     <vertical>
                         <vertical gravity="TOP" layout_weight="1" h="300">
                             <card w="*" h="60" margin="10 10 10 5" cardCornerRadius="10dp" cardElevation="15dp" foreground="?selectableItemBackground">
@@ -69,7 +69,7 @@ ui.layout(
                 </frame>
                 <ScrollView>
                     <frame>
-                     <img src={"https://pic.dmjnb.com/pic/d3ed0c9a034c7b1e6ebc00d85c3943bc.jpg"} scaleType="centerCrop" alpha="0.8" />
+                     <img src={"http://ys-c.ys168.com/618215153/615303867/mkeVUSn561G6W4JIN6If1/八王子.jpg"} scaleType="centerCrop" alpha="0.8" />
                         <vertical id="ttxs_pro" gravity="center">
                             <horizontal  gravity="center_vertical" padding="5 5" >
                                 <View bg="#00BFFF" h="*" w="10"  ></View>
