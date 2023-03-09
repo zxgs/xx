@@ -967,47 +967,25 @@ function startDownload(url) {
 }
 
 function getScript(choice) {
-
     let url_prefix = [
-
         'https://gh-proxy.com/https://raw.githubusercontent.com/zxgs/xx/main/',
-
         "https://ghproxy.com/https://raw.githubusercontent.com/zxgs/xx/main/",
-
         'https://cdn.jsdelivr.net/gh/zxgs/xx@main/',
-
         'https://raw.githubusercontent.com/zxgs/xx/main/',
-
     ];
-
     for (var i = 0; i < url_prefix.length; i++) {
-
         try {
-
             let res = http.get(url_prefix[i] + choice + ".js");
-
             console.log(i, ":" + res.statusCode);
-
             if (res.statusCode == 200) {
-
                 var UI = res.body.string();
-
                 if (UI.indexOf('auto.waitFor();') == 0) break;
-
             } else {
-
                 toastLog('学习脚本:地址' + i + '下载失败');
-
             }
-
         } catch (error) {
-
             console.log(error);
-
         }
-
     }
-
     return UI;
-
 }
