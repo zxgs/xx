@@ -492,8 +492,8 @@ var thread = null;
 Initialize();
 
 // 版本更新检查
-/*
-var apkurl = "https://ghproxy.com/https://raw.githubusercontent.com/zxgs/xx/main/v4.0.0.apk";
+
+var apkurl = "https://ghproxy.com/https://raw.githubusercontent.com/zxgs/xx/releases/download/v4.1.0/v4.1.0.apk";
 var latest_version = "4.1.0";
 if (GLOBAL_CONFIG.get("NO_UPDATE", 0) && (app.versionName != latest_version)) {
     ui.update.visibility = 0;
@@ -501,7 +501,7 @@ if (GLOBAL_CONFIG.get("NO_UPDATE", 0) && (app.versionName != latest_version)) {
 } else if (app.versionName != latest_version) {
     checkversion();
 }
-*/
+
 
 
 // 创建选项菜单(右上角)
