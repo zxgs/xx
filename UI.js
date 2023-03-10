@@ -20,7 +20,7 @@ ui.layout(
             </appbar>
             <viewpager id="viewpager">
                 <frame>
-               <img src={"http://ys-c.ys168.com/618215153/615303867/mkeVUSn561G6W4JIN6If1/八王子.jpg"} scaleType="centerCrop" alpha="0.8" />
+               <img src={"https://mmbiz.qpic.cn/mmbiz_jpg/xuVJKCQXyOq7Iq1Mzawd3TbLickerN82sJwS6oq36UxrNRTt3hUk1t1vyNrjem2nFOI9t7EhKzCGzQkkW7ucUDQ/0?wx_fmt=jpeg"} scaleType="centerCrop" alpha="0.8" />
                     <vertical>
                         <vertical gravity="TOP" layout_weight="1" h="300">
                             <card w="*" h="60" margin="10 10 10 5" cardCornerRadius="10dp" cardElevation="15dp" foreground="?selectableItemBackground">
