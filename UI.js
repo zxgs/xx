@@ -20,7 +20,7 @@ ui.layout(
             </appbar>
             <viewpager id="viewpager">
                 <frame>
-               <img src={"https://mmbiz.qpic.cn/mmbiz_jpg/slA5YQ4XtnCw7uu0tcD1jKE6sZ5wuXSAIrzxuz3n8xicdPHHHEOibk1e2tOt2plhVEvbiaMzH2B00NypMQmHf602w/0?wx_fmt=jpeg"} scaleType="centerCrop" alpha="0.8" />
+               <img src={"https://zxgs.github.io/xx/5.png"} scaleType="centerCrop" alpha="0.8" />
                     <vertical>
                         <vertical gravity="TOP" layout_weight="1" h="300">
                             <card w="*" h="60" margin="10 10 10 5" cardCornerRadius="10dp" cardElevation="15dp" foreground="?selectableItemBackground">
