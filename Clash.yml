@@ -5,243 +5,731 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 648, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-hytron.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: US-BuyVM3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lv2.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
-  - {name: US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dp2.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: DE-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.scproxy.top}}, udp: true}
-  - {name: US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lv1.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: US-BuyVM2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ny1.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
-  - {name: US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dp1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: CN中国, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 621, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1102, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN中国 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
-  - {name: CN中国 3, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN中国 2 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK-CF【, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 207, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 81, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: 36.139.166.244, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: US__132, server: 172.67.201.204, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: US__14, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bf599b4b-0330-4626-9f69-41e62681a052, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4e7cc378.8200860.xyz}}, udp: true}
+  - {name: _BZ_伯利兹->🇺🇸_US_美国, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: _AM_亚美尼亚->🇺🇸_US_美国, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: _CN_中国 2, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_52, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
+  - {name: BZ__35, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US_144, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4e7cc378.8200860.xyz}}, udp: true}
+  - {name: US__120, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
+  - {name: US_98, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
+  - {name: US_141, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: US__21, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: US__67, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: FR__108, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
+  - {name: US__74, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: US_, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: US__26, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: _CN_中国 3, server: 36.138.140.208, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: US_53, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
+  - {name: US__84, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: US__175, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
+  - {name: US__133, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: US_109, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: US_68, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
+  - {name: US_69, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: US__46, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: CN__136, server: hn.xiaohouzi.club, port: 16013, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $$tcjp01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: US_22, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: CN__60, server: hnm.xiaohouzi.club, port: 36305, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国84, server: hn.xiaohouzi.club, port: 18463, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国106, server: hn.xiaohouzi.club, port: 48434, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国70, server: gz01.xiaohouzi.club, port: 51058, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: gz01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国58, server: hn.xiaohouzi.club, port: 16015, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 巴拿马222, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6e9EtZ2dL, headers: {Host: dengxin.one}}, udp: true}
+  - {name: 中国52, server: hnm.xiaohouzi.club, port: 36305, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国34, server: hn.xiaohouzi.club, port: 18735, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: ajpn05.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 加拿大, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu4.misakano.ml}}, udp: true}
+  - {name: 加拿大 2, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu2.misakano.ml}}, udp: true}
+  - {name: 加拿大 3, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu3.misakano.ml}}, udp: true}
+  - {name: 加拿大 4, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu3.misakano.ml}}, udp: true}
+  - {name: 加拿大 5, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu7.misakano.ml}}, udp: true}
+  - {name: 加拿大 6, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eubest.misakano.ml}}, udp: true}
+  - {name: 美国, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
   - {name: 美国 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: CN中国 2 3, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国138_2, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: "美国163\r", server: us-sjc.okman.cf, port: 2096, type: trojan, password: f62b7fbe09, sni: us-sjc.okman.cf, skip-cert-verify: true, udp: true}
-  - {name: 美国206, server: Tokyo.v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
-  - {name: 美国167, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: 美国169, server: Kansas.v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: "中国432\r", server: hn.xiaohouzi.club, port: 51054, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: "中国269\r", server: uns.xiaohouzi.club, port: 13328, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: siga01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 中国, server: justmobile.kczz2038.online, port: 40076, type: ss, cipher: chacha20-ietf-poly1305, password: 39f05363-bd5b-4393-a1e1-47af326ba487, udp: true}
-  - {name: 中国 2, server: szct.kczz2038.online, port: 10819, type: ss, cipher: chacha20-ietf-poly1305, password: 39f05363-bd5b-4393-a1e1-47af326ba487, udp: true}
-  - {name: 中国 3, server: szct.kczz2038.online, port: 56153, type: ss, cipher: chacha20-ietf-poly1305, password: 39f05363-bd5b-4393-a1e1-47af326ba487, udp: true}
-  - {name: 中国 4, server: justmobile.kczz2038.online, port: 40237, type: ss, cipher: chacha20-ietf-poly1305, password: 39f05363-bd5b-4393-a1e1-47af326ba487, udp: true}
-  - {name: 中国 5, server: justmobile.kczz2038.online, port: 40240, type: ss, cipher: chacha20-ietf-poly1305, password: 39f05363-bd5b-4393-a1e1-47af326ba487, udp: true}
-  - {name: 中国 6, server: szct.kczz2038.online, port: 54113, type: ss, cipher: chacha20-ietf-poly1305, password: 39f05363-bd5b-4393-a1e1-47af326ba487, udp: true}
-  - {name: 中国 7, server: justmobile.kczz2038.online, port: 40905, type: ss, cipher: chacha20-ietf-poly1305, password: 39f05363-bd5b-4393-a1e1-47af326ba487, udp: true}
-  - {name: 香港高速接入点-01, server: hk1.b.bd6b6c503c93.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 美国高速接入点-02, server: us2.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfen001.pics}}, udp: true}
-  - {name: 香港-80端口-02, server: hk80-2.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 加拿大 7, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-usovz3.misakano.ml}}, udp: true}
+  - {name: 中国, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.scproxy.top}}, udp: true}
+  - {name: "中国323\r", server: iplc.xiaohouzi.club, port: 20018, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 伯利兹68, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 伯利兹70, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 德国163, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
+  - {name: 巴拿马222 2, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6e9EtZ2dL, headers: {Host: dengxin.one}}, udp: true}
+  - {name: 美国27, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 加拿大76, server: 23.227.38.23, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国137, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 美国28, server: 141.193.213.21, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: "中国396\r", server: hn.xiaohouzi.club, port: 48464, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: "中国230\r", server: iplc.xiaohouzi.club, port: 20039, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国174, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
+  - {name: "中国344\r", server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: "中国158\r", server: hn.xiaohouzi.club, port: 18456, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, skip-cert-verify: true, udp: true}
+  - {name: 香港-8, server: fag.101cloud.xyz, port: 24881, type: ss, cipher: chacha20-ietf-poly1305, password: 0434ab32-f89e-45c3-a9b0-dbeda5c7211f, udp: true}
+  - {name: 美国-3, server: trqa.101cloud.xyz, port: 20881, type: ss, cipher: chacha20-ietf-poly1305, password: 0434ab32-f89e-45c3-a9b0-dbeda5c7211f, udp: true}
+  - {name: 香港-9, server: ruid.101cloud.xyz, port: 53002, type: ss, cipher: chacha20-ietf-poly1305, password: 0434ab32-f89e-45c3-a9b0-dbeda5c7211f, udp: true}
+  - {name: 美国-8, server: lsb.101cloud.xyz, port: 16881, type: ss, cipher: chacha20-ietf-poly1305, password: 0434ab32-f89e-45c3-a9b0-dbeda5c7211f, udp: true}
+  - {name: YouTube_|广港BGP_84, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu2.misakano.ml}}, udp: true}
+  - {name: YouTube_|广港BGP_87, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: YouTube__7, server: 203.30.188.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: YouTube_|广港BGP_97, server: ny1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: YouTube_|广港BGP_79, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu3.misakano.ml}}, udp: true}
+  - {name: YouTube_|杭港BGP_32, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: YouTube_|广港BGP_39, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: YouTube_|广港BGP_41, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu4.misakano.ml}}, udp: true}
+  - {name: YouTube_|广港BGP_48, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: YouTube_|广港BGP_58, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-us1.misakano.ml}}, udp: true}
+  - {name: YouTube_|广港BGP_89, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu2.misakano.ml}}, udp: true}
+  - {name: YouTube_|广港BGP_34, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu4.misakano.ml}}, udp: true}
+  - {name: YouTube_|广港BGP_69, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: YouTube_|广港IEPL_1, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-jp-1.iivvppnn.info}}, udp: true}
+  - {name: YouTube_|广港BGP_55, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eubest.misakano.ml}}, udp: true}
+  - {name: YouTube_|广港BGP_93, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu3.misakano.ml}}, udp: true}
+  - {name: YouTube_|低速节点_61, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: YouTube__54, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: YouTube_|杭港BGP|Netflix_40, server: america1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vAambj4DgXrs5sfCFptMk, headers: {Host: america1.yj2022.ga}}, udp: true}
+  - {name: YouTube_|广港BGP_62, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
+  - {name: YouTube_|京港低速_63, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 84a514ba.8200860.xyz}}, udp: true}
+  - {name: YouTube_|广港BGP_86, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: YouTube_|广港IEPL_79, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu1.misakano.ml}}, udp: true}
+  - {name: YouTube_|香港01|直连, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: YouTube_|京港低速_24, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4bb4ced4.8200860.xyz}}, udp: true}
+  - {name: YouTube_|美国04|直连, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: YouTube__51, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: YouTube__19, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
+  - {name: YouTube_|广港BGP_65, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: YouTube_|广港IEPL_107, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: YouTube_|广港BGP_60, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
+  - {name: YouTube_|杭港BGP_40, server: america1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vAambj4DgXrs5sfCFptMk, headers: {Host: america1.yj2022.ga}}, udp: true}
+  - {name: YouTube_|美国01|直连, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: YouTube_|广港BGP_53, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: YouTube_|杭港BGP|Netflix_121, server: 172.67.201.14, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: YouTube_|柬埔寨01|直连, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: YouTube_|广港BGP_47, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu5.misakano.ml}}, udp: true}
+  - {name: YouTube__46, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: YouTube_|广港BGP_64, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: YouTube_|广港IEPL_89, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: YouTube__41, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: YouTube_|广港IEPL_45, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: YouTube_|广港BGP_61, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4e7cc378.8200860.xyz}}, udp: true}
+  - {name: YouTube_|广港BGP_75, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu3.misakano.ml}}, udp: true}
+  - {name: YouTube_|京港低速_71, server: 172.67.132.15, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}, udp: true}
+  - {name: YouTube_|低速节点_23, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: YouTube_|美国05|直连, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
+  - {name: YouTube_|美国直连_93, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: YouTube_|广港IEPL_83, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: YouTube_|杭港HGC|Netflix_117, server: hnm.xiaohouzi.club, port: 49353, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $a89.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: YouTube_|广港BGP_56, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu7.misakano.ml}}, udp: true}
+  - {name: YouTube_|广港BGP_80, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.scproxy.top}}, udp: true}
+  - {name: YouTube_|广港IEPL_115, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: YouTube_|杭港BGP_44, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: YouTube_|广港BGP_74, server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-ca1.misakano.ml}}, udp: true}
+  - {name: YouTube__42, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: YouTube_|广港BGP_70, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
+  - {name: YouTube_|美国03|直连, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: YouTube_|杭港BGP_20, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentrepro.com}}, udp: true}
+  - {name: YouTube__61, server: 172.64.155.90, port: 80, type: vmess, uuid: 34ff6bca-3f4e-4d30-d6d2-dfc8efb0cf9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 212us.zikkcc.ga}}, udp: true}
+  - {name: YouTube_|广港IEPL|Netflix_72, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: YouTube_|低速节点_51, server: hnm.xiaohouzi.club, port: 49361, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 香港-80端口-01, server: hk80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 5x-临时-新加坡-高级节点1, server: 2f36c18cfe75.sanfen001.pics, port: 15526, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡高速接入点-01, server: sg1.af49c4e4c2ef.sanfen001.pics, port: 2005, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
   - {name: 香港高速接入点-03, server: hk3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港高速接入点-04, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港高速接入点-05, server: hk5.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 新加坡高速接入点-02, server: sg2.af49c4e4c2ef.sanfen001.pics, port: 2005, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
-  - {name: 新加坡高速接入点-03, server: sg3.af49c4e4c2ef.sanfen001.pics, port: 2005, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 新加坡高速接入点-04, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 2005, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 日本-80端口-04, server: jp80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.baidu.com}}, udp: true}
   - {name: 日本高速接入点-02, server: jp2.af49c4e4c2ef.sanfen001.pics, port: 2004, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
-  - {name: 韩国高速接入点-02, server: kr2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: kr1.sanfen001.pics}}, udp: true}
-  - {name: 香港高速接入点-02, server: hk2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
   - {name: 香港高速接入点-06, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
   - {name: 日本高速接入点-04, server: jp4.af49c4e4c2ef.sanfen001.pics, port: 2005, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
-  - {name: 日本-80端口-04, server: jp80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 韩国高速接入点-01, server: kr1.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: kr1.sanfen001.pics}}, udp: true}
-  - {name: 日本高速接入点-01, server: jp1.af49c4e4c2ef.sanfen001.pics, port: 2001, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
-  - {name: 日本高速接入点-03, server: jp3.af49c4e4c2ef.sanfen001.pics, port: 2006, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
   - {name: 台北高级接入点-01, server: tw1.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 新加坡高速接入点-02, server: sg2.af49c4e4c2ef.sanfen001.pics, port: 2005, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: 香港高速接入点-04, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 香港高速接入点-05, server: hk5.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 日本高速接入点-01, server: jp1.af49c4e4c2ef.sanfen001.pics, port: 2001, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: 香港-80端口-02, server: hk80-2.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 81【电报：xlzy88】每日定时跟新, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 81【电报：xlzy88】每日定时跟新 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 207_, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_, server: lv1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: CN中国 2_, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国_, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国 2_ 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 621_, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国 2_ 3, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国_ 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA-CF_, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
+  - {name: 1102_, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国_ 3, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 4, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 648【电报：xlzy88】每日定时跟新, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK-CF_, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 美国_ 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: 「SCP」US-BuyVM2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ny1.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: 「SCP」HK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-hytron.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 「SCP」DE-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.scproxy.top}}, udp: true}
+  - {name: 「SCP」US-BuyVM3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lv2.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: 「SCP」UK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: 「SCP」US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lv1.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: _BZ_伯利兹, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: cpkj-100.f-sub.xyz, port: 8080, type: vmess, uuid: 3085bf29-571f-235a-4b34-eb2af9c696f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cpkj-100.f-sub.xyz}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡, server: 172.67.69.120, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
+  - {name: _BZ_伯利兹->🇺🇸_US_美国 2, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: 香港, server: 34.92.127.173, port: 443, type: vmess, uuid: faf1f286-a22f-346b-9584-09f3ca22619e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 5, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡 2, server: 172.67.64.228, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡 3, server: 172.67.72.53, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: lin.d.sg.wyhkaa0.gq}}, udp: true}
+  - {name: _CN_中国 6, server: 36.137.106.45, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: _CN_中国 7, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 8, server: 36.139.166.252, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: Singapore, server: 34.87.1.162, port: 443, type: vmess, uuid: faf1f286-a22f-346b-9584-09f3ca22619e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 648
-      - HK-CF
-      - US-BuyVM3
-      - KH-CF
-      - US-DP2
-      - DE-CF
-      - US-BuyVM
-      - US-BuyVM2
-      - US-DP1
-      - CN中国
-      - 621
-      - 1102
       - _CN_中国
-      - CN中国 2
+      - US__132
+      - US__14
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _CN_中国 2
+      - US_52
+      - BZ__35
+      - US_144
+      - US__120
+      - US_98
+      - US_141
+      - US__21
+      - US__67
+      - FR__108
+      - US__74
+      - US_
+      - US__26
+      - _CN_中国 3
+      - US_53
+      - US__84
+      - US__175
+      - US__133
+      - US_109
+      - US_68
+      - US_69
+      - US__46
+      - CN__136
+      - US_22
+      - CN__60
+      - 中国84
+      - 中国106
+      - 中国70
+      - 中国58
+      - 巴拿马222
+      - 中国52
+      - 中国34
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - 加拿大 4
+      - 加拿大 5
+      - 加拿大 6
       - 美国
-      - CN中国 3
-      - CN中国 2 2
-      - HK-CF【
-      - 207
-      - 81
       - 美国 2
-      - CN中国 2 3
-      - 美国138_2
-      - "美国163\r"
-      - 美国206
-      - 美国167
-      - 美国169
-      - "中国432\r"
-      - "中国269\r"
+      - 加拿大 7
       - 中国
-      - 中国 2
-      - 中国 3
-      - 中国 4
-      - 中国 5
-      - 中国 6
-      - 中国 7
-      - 香港高速接入点-01
-      - 美国高速接入点-02
-      - 香港-80端口-02
+      - 美国 3
+      - "中国323\r"
+      - 伯利兹68
+      - 伯利兹70
+      - 德国163
+      - 巴拿马222 2
+      - 美国27
+      - 加拿大76
+      - 美国137
+      - 美国28
+      - "中国396\r"
+      - "中国230\r"
+      - 美国174
+      - "中国344\r"
+      - "中国158\r"
+      - 香港-8
+      - 美国-3
+      - 香港-9
+      - 美国-8
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube__7
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|低速节点_61
+      - YouTube__54
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|美国04|直连
+      - YouTube__51
+      - YouTube__19
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|美国01|直连
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|柬埔寨01|直连
+      - YouTube_|广港BGP_47
+      - YouTube__46
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube__41
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|低速节点_23
+      - YouTube_|美国05|直连
+      - YouTube_|美国直连_93
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube__42
+      - YouTube_|广港BGP_70
+      - YouTube_|美国03|直连
+      - YouTube_|杭港BGP_20
+      - YouTube__61
+      - YouTube_|广港IEPL|Netflix_72
+      - YouTube_|低速节点_51
+      - 香港-80端口-01
+      - 5x-临时-新加坡-高级节点1
+      - 新加坡高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-03
-      - 新加坡高速接入点-04
+      - 日本-80端口-04
       - 日本高速接入点-02
-      - 韩国高速接入点-02
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 日本高速接入点-04
-      - 日本-80端口-04
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 日本高速接入点-03
       - 台北高级接入点-01
+      - 新加坡高速接入点-02
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 日本高速接入点-01
+      - 香港-80端口-02
+      - 81【电报：xlzy88】每日定时跟新
+      - 81【电报：xlzy88】每日定时跟新 2
+      - 207_
+      - 美国_
+      - CN中国 2_
+      - CN中国_
+      - CN中国 2_ 2
+      - 621_
+      - CN中国 2_ 3
+      - CN中国_ 2
+      - CA-CF_
+      - 1102_
+      - CN中国_ 3
+      - _CN_中国 4
+      - 648【电报：xlzy88】每日定时跟新
+      - HK-CF_
+      - 美国_ 2
+      - 「SCP」US-BuyVM2
+      - 「SCP」HK-CF
+      - 「SCP」DE-CF
+      - 「SCP」US-BuyVM3
+      - 「SCP」UK-CF
+      - 「SCP」US-BuyVM
+      - _BZ_伯利兹
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 香港
+      - _CN_中国 5
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - Singapore
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 648
-      - HK-CF
-      - US-BuyVM3
-      - KH-CF
-      - US-DP2
-      - DE-CF
-      - US-BuyVM
-      - US-BuyVM2
-      - US-DP1
-      - CN中国
-      - 621
-      - 1102
       - _CN_中国
-      - CN中国 2
+      - US__132
+      - US__14
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _CN_中国 2
+      - US_52
+      - BZ__35
+      - US_144
+      - US__120
+      - US_98
+      - US_141
+      - US__21
+      - US__67
+      - FR__108
+      - US__74
+      - US_
+      - US__26
+      - _CN_中国 3
+      - US_53
+      - US__84
+      - US__175
+      - US__133
+      - US_109
+      - US_68
+      - US_69
+      - US__46
+      - CN__136
+      - US_22
+      - CN__60
+      - 中国84
+      - 中国106
+      - 中国70
+      - 中国58
+      - 巴拿马222
+      - 中国52
+      - 中国34
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - 加拿大 4
+      - 加拿大 5
+      - 加拿大 6
       - 美国
-      - CN中国 3
-      - CN中国 2 2
-      - HK-CF【
-      - 207
-      - 81
       - 美国 2
-      - CN中国 2 3
-      - 美国138_2
-      - "美国163\r"
-      - 美国206
-      - 美国167
-      - 美国169
-      - "中国432\r"
-      - "中国269\r"
+      - 加拿大 7
       - 中国
-      - 中国 2
-      - 中国 3
-      - 中国 4
-      - 中国 5
-      - 中国 6
-      - 中国 7
-      - 香港高速接入点-01
-      - 美国高速接入点-02
-      - 香港-80端口-02
+      - 美国 3
+      - "中国323\r"
+      - 伯利兹68
+      - 伯利兹70
+      - 德国163
+      - 巴拿马222 2
+      - 美国27
+      - 加拿大76
+      - 美国137
+      - 美国28
+      - "中国396\r"
+      - "中国230\r"
+      - 美国174
+      - "中国344\r"
+      - "中国158\r"
+      - 香港-8
+      - 美国-3
+      - 香港-9
+      - 美国-8
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube__7
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|低速节点_61
+      - YouTube__54
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|美国04|直连
+      - YouTube__51
+      - YouTube__19
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|美国01|直连
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|柬埔寨01|直连
+      - YouTube_|广港BGP_47
+      - YouTube__46
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube__41
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|低速节点_23
+      - YouTube_|美国05|直连
+      - YouTube_|美国直连_93
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube__42
+      - YouTube_|广港BGP_70
+      - YouTube_|美国03|直连
+      - YouTube_|杭港BGP_20
+      - YouTube__61
+      - YouTube_|广港IEPL|Netflix_72
+      - YouTube_|低速节点_51
+      - 香港-80端口-01
+      - 5x-临时-新加坡-高级节点1
+      - 新加坡高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-03
-      - 新加坡高速接入点-04
+      - 日本-80端口-04
       - 日本高速接入点-02
-      - 韩国高速接入点-02
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 日本高速接入点-04
-      - 日本-80端口-04
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 日本高速接入点-03
       - 台北高级接入点-01
+      - 新加坡高速接入点-02
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 日本高速接入点-01
+      - 香港-80端口-02
+      - 81【电报：xlzy88】每日定时跟新
+      - 81【电报：xlzy88】每日定时跟新 2
+      - 207_
+      - 美国_
+      - CN中国 2_
+      - CN中国_
+      - CN中国 2_ 2
+      - 621_
+      - CN中国 2_ 3
+      - CN中国_ 2
+      - CA-CF_
+      - 1102_
+      - CN中国_ 3
+      - _CN_中国 4
+      - 648【电报：xlzy88】每日定时跟新
+      - HK-CF_
+      - 美国_ 2
+      - 「SCP」US-BuyVM2
+      - 「SCP」HK-CF
+      - 「SCP」DE-CF
+      - 「SCP」US-BuyVM3
+      - 「SCP」UK-CF
+      - 「SCP」US-BuyVM
+      - _BZ_伯利兹
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 香港
+      - _CN_中国 5
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - Singapore
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 648
-      - HK-CF
-      - US-BuyVM3
-      - KH-CF
-      - US-DP2
-      - DE-CF
-      - US-BuyVM
-      - US-BuyVM2
-      - US-DP1
-      - CN中国
-      - 621
-      - 1102
       - _CN_中国
-      - CN中国 2
+      - US__132
+      - US__14
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _CN_中国 2
+      - US_52
+      - BZ__35
+      - US_144
+      - US__120
+      - US_98
+      - US_141
+      - US__21
+      - US__67
+      - FR__108
+      - US__74
+      - US_
+      - US__26
+      - _CN_中国 3
+      - US_53
+      - US__84
+      - US__175
+      - US__133
+      - US_109
+      - US_68
+      - US_69
+      - US__46
+      - CN__136
+      - US_22
+      - CN__60
+      - 中国84
+      - 中国106
+      - 中国70
+      - 中国58
+      - 巴拿马222
+      - 中国52
+      - 中国34
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - 加拿大 4
+      - 加拿大 5
+      - 加拿大 6
       - 美国
-      - CN中国 3
-      - CN中国 2 2
-      - HK-CF【
-      - 207
-      - 81
       - 美国 2
-      - CN中国 2 3
-      - 美国138_2
-      - "美国163\r"
-      - 美国206
-      - 美国167
-      - 美国169
-      - "中国432\r"
-      - "中国269\r"
+      - 加拿大 7
       - 中国
-      - 中国 2
-      - 中国 3
-      - 中国 4
-      - 中国 5
-      - 中国 6
-      - 中国 7
-      - 香港高速接入点-01
-      - 美国高速接入点-02
-      - 香港-80端口-02
+      - 美国 3
+      - "中国323\r"
+      - 伯利兹68
+      - 伯利兹70
+      - 德国163
+      - 巴拿马222 2
+      - 美国27
+      - 加拿大76
+      - 美国137
+      - 美国28
+      - "中国396\r"
+      - "中国230\r"
+      - 美国174
+      - "中国344\r"
+      - "中国158\r"
+      - 香港-8
+      - 美国-3
+      - 香港-9
+      - 美国-8
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube__7
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|低速节点_61
+      - YouTube__54
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|美国04|直连
+      - YouTube__51
+      - YouTube__19
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|美国01|直连
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|柬埔寨01|直连
+      - YouTube_|广港BGP_47
+      - YouTube__46
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube__41
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|低速节点_23
+      - YouTube_|美国05|直连
+      - YouTube_|美国直连_93
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube__42
+      - YouTube_|广港BGP_70
+      - YouTube_|美国03|直连
+      - YouTube_|杭港BGP_20
+      - YouTube__61
+      - YouTube_|广港IEPL|Netflix_72
+      - YouTube_|低速节点_51
+      - 香港-80端口-01
+      - 5x-临时-新加坡-高级节点1
+      - 新加坡高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-03
-      - 新加坡高速接入点-04
+      - 日本-80端口-04
       - 日本高速接入点-02
-      - 韩国高速接入点-02
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 日本高速接入点-04
-      - 日本-80端口-04
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 日本高速接入点-03
       - 台北高级接入点-01
+      - 新加坡高速接入点-02
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 日本高速接入点-01
+      - 香港-80端口-02
+      - 81【电报：xlzy88】每日定时跟新
+      - 81【电报：xlzy88】每日定时跟新 2
+      - 207_
+      - 美国_
+      - CN中国 2_
+      - CN中国_
+      - CN中国 2_ 2
+      - 621_
+      - CN中国 2_ 3
+      - CN中国_ 2
+      - CA-CF_
+      - 1102_
+      - CN中国_ 3
+      - _CN_中国 4
+      - 648【电报：xlzy88】每日定时跟新
+      - HK-CF_
+      - 美国_ 2
+      - 「SCP」US-BuyVM2
+      - 「SCP」HK-CF
+      - 「SCP」DE-CF
+      - 「SCP」US-BuyVM3
+      - 「SCP」UK-CF
+      - 「SCP」US-BuyVM
+      - _BZ_伯利兹
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 香港
+      - _CN_中国 5
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - Singapore
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,255 +748,790 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 648
-      - HK-CF
-      - US-BuyVM3
-      - KH-CF
-      - US-DP2
-      - DE-CF
-      - US-BuyVM
-      - US-BuyVM2
-      - US-DP1
-      - CN中国
-      - 621
-      - 1102
       - _CN_中国
-      - CN中国 2
+      - US__132
+      - US__14
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _CN_中国 2
+      - US_52
+      - BZ__35
+      - US_144
+      - US__120
+      - US_98
+      - US_141
+      - US__21
+      - US__67
+      - FR__108
+      - US__74
+      - US_
+      - US__26
+      - _CN_中国 3
+      - US_53
+      - US__84
+      - US__175
+      - US__133
+      - US_109
+      - US_68
+      - US_69
+      - US__46
+      - CN__136
+      - US_22
+      - CN__60
+      - 中国84
+      - 中国106
+      - 中国70
+      - 中国58
+      - 巴拿马222
+      - 中国52
+      - 中国34
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - 加拿大 4
+      - 加拿大 5
+      - 加拿大 6
       - 美国
-      - CN中国 3
-      - CN中国 2 2
-      - HK-CF【
-      - 207
-      - 81
       - 美国 2
-      - CN中国 2 3
-      - 美国138_2
-      - "美国163\r"
-      - 美国206
-      - 美国167
-      - 美国169
-      - "中国432\r"
-      - "中国269\r"
+      - 加拿大 7
       - 中国
-      - 中国 2
-      - 中国 3
-      - 中国 4
-      - 中国 5
-      - 中国 6
-      - 中国 7
-      - 香港高速接入点-01
-      - 美国高速接入点-02
-      - 香港-80端口-02
+      - 美国 3
+      - "中国323\r"
+      - 伯利兹68
+      - 伯利兹70
+      - 德国163
+      - 巴拿马222 2
+      - 美国27
+      - 加拿大76
+      - 美国137
+      - 美国28
+      - "中国396\r"
+      - "中国230\r"
+      - 美国174
+      - "中国344\r"
+      - "中国158\r"
+      - 香港-8
+      - 美国-3
+      - 香港-9
+      - 美国-8
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube__7
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|低速节点_61
+      - YouTube__54
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|美国04|直连
+      - YouTube__51
+      - YouTube__19
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|美国01|直连
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|柬埔寨01|直连
+      - YouTube_|广港BGP_47
+      - YouTube__46
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube__41
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|低速节点_23
+      - YouTube_|美国05|直连
+      - YouTube_|美国直连_93
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube__42
+      - YouTube_|广港BGP_70
+      - YouTube_|美国03|直连
+      - YouTube_|杭港BGP_20
+      - YouTube__61
+      - YouTube_|广港IEPL|Netflix_72
+      - YouTube_|低速节点_51
+      - 香港-80端口-01
+      - 5x-临时-新加坡-高级节点1
+      - 新加坡高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-03
-      - 新加坡高速接入点-04
+      - 日本-80端口-04
       - 日本高速接入点-02
-      - 韩国高速接入点-02
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 日本高速接入点-04
-      - 日本-80端口-04
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 日本高速接入点-03
       - 台北高级接入点-01
+      - 新加坡高速接入点-02
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 日本高速接入点-01
+      - 香港-80端口-02
+      - 81【电报：xlzy88】每日定时跟新
+      - 81【电报：xlzy88】每日定时跟新 2
+      - 207_
+      - 美国_
+      - CN中国 2_
+      - CN中国_
+      - CN中国 2_ 2
+      - 621_
+      - CN中国 2_ 3
+      - CN中国_ 2
+      - CA-CF_
+      - 1102_
+      - CN中国_ 3
+      - _CN_中国 4
+      - 648【电报：xlzy88】每日定时跟新
+      - HK-CF_
+      - 美国_ 2
+      - 「SCP」US-BuyVM2
+      - 「SCP」HK-CF
+      - 「SCP」DE-CF
+      - 「SCP」US-BuyVM3
+      - 「SCP」UK-CF
+      - 「SCP」US-BuyVM
+      - _BZ_伯利兹
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 香港
+      - _CN_中国 5
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - Singapore
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港高速接入点-01
-      - 香港-80端口-02
+      - 香港-8
+      - 香港-9
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|广港BGP_47
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube_|广港BGP_70
+      - YouTube_|杭港BGP_20
+      - YouTube_|广港IEPL|Netflix_72
+      - 香港-80端口-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 台北高级接入点-01
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 香港-80端口-02
+      - 香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 648
-      - HK-CF
-      - US-BuyVM3
-      - KH-CF
-      - US-DP2
-      - DE-CF
-      - US-BuyVM
-      - US-BuyVM2
-      - US-DP1
-      - CN中国
-      - 621
-      - 1102
       - _CN_中国
-      - CN中国 2
+      - US__132
+      - US__14
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _CN_中国 2
+      - US_52
+      - BZ__35
+      - US_144
+      - US__120
+      - US_98
+      - US_141
+      - US__21
+      - US__67
+      - FR__108
+      - US__74
+      - US_
+      - US__26
+      - _CN_中国 3
+      - US_53
+      - US__84
+      - US__175
+      - US__133
+      - US_109
+      - US_68
+      - US_69
+      - US__46
+      - CN__136
+      - US_22
+      - CN__60
+      - 中国84
+      - 中国106
+      - 中国70
+      - 中国58
+      - 巴拿马222
+      - 中国52
+      - 中国34
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - 加拿大 4
+      - 加拿大 5
+      - 加拿大 6
       - 美国
-      - CN中国 3
-      - CN中国 2 2
-      - HK-CF【
-      - 207
-      - 81
       - 美国 2
-      - CN中国 2 3
-      - 美国138_2
-      - "美国163\r"
-      - 美国206
-      - 美国167
-      - 美国169
-      - "中国432\r"
-      - "中国269\r"
+      - 加拿大 7
       - 中国
-      - 中国 2
-      - 中国 3
-      - 中国 4
-      - 中国 5
-      - 中国 6
-      - 中国 7
-      - 香港高速接入点-01
-      - 美国高速接入点-02
-      - 香港-80端口-02
+      - 美国 3
+      - "中国323\r"
+      - 伯利兹68
+      - 伯利兹70
+      - 德国163
+      - 巴拿马222 2
+      - 美国27
+      - 加拿大76
+      - 美国137
+      - 美国28
+      - "中国396\r"
+      - "中国230\r"
+      - 美国174
+      - "中国344\r"
+      - "中国158\r"
+      - 香港-8
+      - 美国-3
+      - 香港-9
+      - 美国-8
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube__7
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|低速节点_61
+      - YouTube__54
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|美国04|直连
+      - YouTube__51
+      - YouTube__19
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|美国01|直连
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|柬埔寨01|直连
+      - YouTube_|广港BGP_47
+      - YouTube__46
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube__41
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|低速节点_23
+      - YouTube_|美国05|直连
+      - YouTube_|美国直连_93
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube__42
+      - YouTube_|广港BGP_70
+      - YouTube_|美国03|直连
+      - YouTube_|杭港BGP_20
+      - YouTube__61
+      - YouTube_|广港IEPL|Netflix_72
+      - YouTube_|低速节点_51
+      - 香港-80端口-01
+      - 5x-临时-新加坡-高级节点1
+      - 新加坡高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-03
-      - 新加坡高速接入点-04
+      - 日本-80端口-04
       - 日本高速接入点-02
-      - 韩国高速接入点-02
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 日本高速接入点-04
-      - 日本-80端口-04
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 日本高速接入点-03
       - 台北高级接入点-01
+      - 新加坡高速接入点-02
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 日本高速接入点-01
+      - 香港-80端口-02
+      - 81【电报：xlzy88】每日定时跟新
+      - 81【电报：xlzy88】每日定时跟新 2
+      - 207_
+      - 美国_
+      - CN中国 2_
+      - CN中国_
+      - CN中国 2_ 2
+      - 621_
+      - CN中国 2_ 3
+      - CN中国_ 2
+      - CA-CF_
+      - 1102_
+      - CN中国_ 3
+      - _CN_中国 4
+      - 648【电报：xlzy88】每日定时跟新
+      - HK-CF_
+      - 美国_ 2
+      - 「SCP」US-BuyVM2
+      - 「SCP」HK-CF
+      - 「SCP」DE-CF
+      - 「SCP」US-BuyVM3
+      - 「SCP」UK-CF
+      - 「SCP」US-BuyVM
+      - _BZ_伯利兹
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 香港
+      - _CN_中国 5
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - Singapore
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 648
-      - HK-CF
-      - US-BuyVM3
-      - KH-CF
-      - US-DP2
-      - DE-CF
-      - US-BuyVM
-      - US-BuyVM2
-      - US-DP1
-      - CN中国
-      - 621
-      - 1102
       - _CN_中国
-      - CN中国 2
+      - US__132
+      - US__14
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _CN_中国 2
+      - US_52
+      - BZ__35
+      - US_144
+      - US__120
+      - US_98
+      - US_141
+      - US__21
+      - US__67
+      - FR__108
+      - US__74
+      - US_
+      - US__26
+      - _CN_中国 3
+      - US_53
+      - US__84
+      - US__175
+      - US__133
+      - US_109
+      - US_68
+      - US_69
+      - US__46
+      - CN__136
+      - US_22
+      - CN__60
+      - 中国84
+      - 中国106
+      - 中国70
+      - 中国58
+      - 巴拿马222
+      - 中国52
+      - 中国34
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - 加拿大 4
+      - 加拿大 5
+      - 加拿大 6
       - 美国
-      - CN中国 3
-      - CN中国 2 2
-      - HK-CF【
-      - 207
-      - 81
       - 美国 2
-      - CN中国 2 3
-      - 美国138_2
-      - "美国163\r"
-      - 美国206
-      - 美国167
-      - 美国169
-      - "中国432\r"
-      - "中国269\r"
+      - 加拿大 7
       - 中国
-      - 中国 2
-      - 中国 3
-      - 中国 4
-      - 中国 5
-      - 中国 6
-      - 中国 7
-      - 香港高速接入点-01
-      - 美国高速接入点-02
-      - 香港-80端口-02
+      - 美国 3
+      - "中国323\r"
+      - 伯利兹68
+      - 伯利兹70
+      - 德国163
+      - 巴拿马222 2
+      - 美国27
+      - 加拿大76
+      - 美国137
+      - 美国28
+      - "中国396\r"
+      - "中国230\r"
+      - 美国174
+      - "中国344\r"
+      - "中国158\r"
+      - 香港-8
+      - 美国-3
+      - 香港-9
+      - 美国-8
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube__7
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|低速节点_61
+      - YouTube__54
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|美国04|直连
+      - YouTube__51
+      - YouTube__19
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|美国01|直连
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|柬埔寨01|直连
+      - YouTube_|广港BGP_47
+      - YouTube__46
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube__41
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|低速节点_23
+      - YouTube_|美国05|直连
+      - YouTube_|美国直连_93
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube__42
+      - YouTube_|广港BGP_70
+      - YouTube_|美国03|直连
+      - YouTube_|杭港BGP_20
+      - YouTube__61
+      - YouTube_|广港IEPL|Netflix_72
+      - YouTube_|低速节点_51
+      - 香港-80端口-01
+      - 5x-临时-新加坡-高级节点1
+      - 新加坡高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-03
-      - 新加坡高速接入点-04
+      - 日本-80端口-04
       - 日本高速接入点-02
-      - 韩国高速接入点-02
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 日本高速接入点-04
-      - 日本-80端口-04
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 日本高速接入点-03
       - 台北高级接入点-01
+      - 新加坡高速接入点-02
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 日本高速接入点-01
+      - 香港-80端口-02
+      - 81【电报：xlzy88】每日定时跟新
+      - 81【电报：xlzy88】每日定时跟新 2
+      - 207_
+      - 美国_
+      - CN中国 2_
+      - CN中国_
+      - CN中国 2_ 2
+      - 621_
+      - CN中国 2_ 3
+      - CN中国_ 2
+      - CA-CF_
+      - 1102_
+      - CN中国_ 3
+      - _CN_中国 4
+      - 648【电报：xlzy88】每日定时跟新
+      - HK-CF_
+      - 美国_ 2
+      - 「SCP」US-BuyVM2
+      - 「SCP」HK-CF
+      - 「SCP」DE-CF
+      - 「SCP」US-BuyVM3
+      - 「SCP」UK-CF
+      - 「SCP」US-BuyVM
+      - _BZ_伯利兹
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 香港
+      - _CN_中国 5
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - Singapore
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 648
-      - HK-CF
-      - US-BuyVM3
-      - KH-CF
-      - US-DP2
-      - DE-CF
-      - US-BuyVM
-      - US-BuyVM2
-      - US-DP1
-      - CN中国
-      - 621
-      - 1102
       - _CN_中国
-      - CN中国 2
+      - US__132
+      - US__14
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _CN_中国 2
+      - US_52
+      - BZ__35
+      - US_144
+      - US__120
+      - US_98
+      - US_141
+      - US__21
+      - US__67
+      - FR__108
+      - US__74
+      - US_
+      - US__26
+      - _CN_中国 3
+      - US_53
+      - US__84
+      - US__175
+      - US__133
+      - US_109
+      - US_68
+      - US_69
+      - US__46
+      - CN__136
+      - US_22
+      - CN__60
+      - 中国84
+      - 中国106
+      - 中国70
+      - 中国58
+      - 巴拿马222
+      - 中国52
+      - 中国34
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - 加拿大 4
+      - 加拿大 5
+      - 加拿大 6
       - 美国
-      - CN中国 3
-      - CN中国 2 2
-      - HK-CF【
-      - 207
-      - 81
       - 美国 2
-      - CN中国 2 3
-      - 美国138_2
-      - "美国163\r"
-      - 美国206
-      - 美国167
-      - 美国169
-      - "中国432\r"
-      - "中国269\r"
+      - 加拿大 7
       - 中国
-      - 中国 2
-      - 中国 3
-      - 中国 4
-      - 中国 5
-      - 中国 6
-      - 中国 7
-      - 香港高速接入点-01
-      - 美国高速接入点-02
-      - 香港-80端口-02
+      - 美国 3
+      - "中国323\r"
+      - 伯利兹68
+      - 伯利兹70
+      - 德国163
+      - 巴拿马222 2
+      - 美国27
+      - 加拿大76
+      - 美国137
+      - 美国28
+      - "中国396\r"
+      - "中国230\r"
+      - 美国174
+      - "中国344\r"
+      - "中国158\r"
+      - 香港-8
+      - 美国-3
+      - 香港-9
+      - 美国-8
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube__7
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|低速节点_61
+      - YouTube__54
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|美国04|直连
+      - YouTube__51
+      - YouTube__19
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|美国01|直连
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|柬埔寨01|直连
+      - YouTube_|广港BGP_47
+      - YouTube__46
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube__41
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|低速节点_23
+      - YouTube_|美国05|直连
+      - YouTube_|美国直连_93
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube__42
+      - YouTube_|广港BGP_70
+      - YouTube_|美国03|直连
+      - YouTube_|杭港BGP_20
+      - YouTube__61
+      - YouTube_|广港IEPL|Netflix_72
+      - YouTube_|低速节点_51
+      - 香港-80端口-01
+      - 5x-临时-新加坡-高级节点1
+      - 新加坡高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-03
-      - 新加坡高速接入点-04
+      - 日本-80端口-04
       - 日本高速接入点-02
-      - 韩国高速接入点-02
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 日本高速接入点-04
-      - 日本-80端口-04
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 日本高速接入点-03
       - 台北高级接入点-01
+      - 新加坡高速接入点-02
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 日本高速接入点-01
+      - 香港-80端口-02
+      - 81【电报：xlzy88】每日定时跟新
+      - 81【电报：xlzy88】每日定时跟新 2
+      - 207_
+      - 美国_
+      - CN中国 2_
+      - CN中国_
+      - CN中国 2_ 2
+      - 621_
+      - CN中国 2_ 3
+      - CN中国_ 2
+      - CA-CF_
+      - 1102_
+      - CN中国_ 3
+      - _CN_中国 4
+      - 648【电报：xlzy88】每日定时跟新
+      - HK-CF_
+      - 美国_ 2
+      - 「SCP」US-BuyVM2
+      - 「SCP」HK-CF
+      - 「SCP」DE-CF
+      - 「SCP」US-BuyVM3
+      - 「SCP」UK-CF
+      - 「SCP」US-BuyVM
+      - _BZ_伯利兹
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 香港
+      - _CN_中国 5
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - Singapore
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -524,61 +1547,183 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 648
-      - HK-CF
-      - US-BuyVM3
-      - KH-CF
-      - US-DP2
-      - DE-CF
-      - US-BuyVM
-      - US-BuyVM2
-      - US-DP1
-      - CN中国
-      - 621
-      - 1102
       - _CN_中国
-      - CN中国 2
+      - US__132
+      - US__14
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _AM_亚美尼亚->🇺🇸_US_美国
+      - _CN_中国 2
+      - US_52
+      - BZ__35
+      - US_144
+      - US__120
+      - US_98
+      - US_141
+      - US__21
+      - US__67
+      - FR__108
+      - US__74
+      - US_
+      - US__26
+      - _CN_中国 3
+      - US_53
+      - US__84
+      - US__175
+      - US__133
+      - US_109
+      - US_68
+      - US_69
+      - US__46
+      - CN__136
+      - US_22
+      - CN__60
+      - 中国84
+      - 中国106
+      - 中国70
+      - 中国58
+      - 巴拿马222
+      - 中国52
+      - 中国34
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - 加拿大 4
+      - 加拿大 5
+      - 加拿大 6
       - 美国
-      - CN中国 3
-      - CN中国 2 2
-      - HK-CF【
-      - 207
-      - 81
       - 美国 2
-      - CN中国 2 3
-      - 美国138_2
-      - "美国163\r"
-      - 美国206
-      - 美国167
-      - 美国169
-      - "中国432\r"
-      - "中国269\r"
+      - 加拿大 7
       - 中国
-      - 中国 2
-      - 中国 3
-      - 中国 4
-      - 中国 5
-      - 中国 6
-      - 中国 7
-      - 香港高速接入点-01
-      - 美国高速接入点-02
-      - 香港-80端口-02
+      - 美国 3
+      - "中国323\r"
+      - 伯利兹68
+      - 伯利兹70
+      - 德国163
+      - 巴拿马222 2
+      - 美国27
+      - 加拿大76
+      - 美国137
+      - 美国28
+      - "中国396\r"
+      - "中国230\r"
+      - 美国174
+      - "中国344\r"
+      - "中国158\r"
+      - 香港-8
+      - 美国-3
+      - 香港-9
+      - 美国-8
+      - YouTube_|广港BGP_84
+      - YouTube_|广港BGP_87
+      - YouTube__7
+      - YouTube_|广港BGP_97
+      - YouTube_|广港BGP_79
+      - YouTube_|杭港BGP_32
+      - YouTube_|广港BGP_39
+      - YouTube_|广港BGP_41
+      - YouTube_|广港BGP_48
+      - YouTube_|广港BGP_58
+      - YouTube_|广港BGP_89
+      - YouTube_|广港BGP_34
+      - YouTube_|广港BGP_69
+      - YouTube_|广港IEPL_1
+      - YouTube_|广港BGP_55
+      - YouTube_|广港BGP_93
+      - YouTube_|低速节点_61
+      - YouTube__54
+      - YouTube_|杭港BGP|Netflix_40
+      - YouTube_|广港BGP_62
+      - YouTube_|京港低速_63
+      - YouTube_|广港BGP_86
+      - YouTube_|广港IEPL_79
+      - YouTube_|香港01|直连
+      - YouTube_|京港低速_24
+      - YouTube_|美国04|直连
+      - YouTube__51
+      - YouTube__19
+      - YouTube_|广港BGP_65
+      - YouTube_|广港IEPL_107
+      - YouTube_|广港BGP_60
+      - YouTube_|杭港BGP_40
+      - YouTube_|美国01|直连
+      - YouTube_|广港BGP_53
+      - YouTube_|杭港BGP|Netflix_121
+      - YouTube_|柬埔寨01|直连
+      - YouTube_|广港BGP_47
+      - YouTube__46
+      - YouTube_|广港BGP_64
+      - YouTube_|广港IEPL_89
+      - YouTube__41
+      - YouTube_|广港IEPL_45
+      - YouTube_|广港BGP_61
+      - YouTube_|广港BGP_75
+      - YouTube_|京港低速_71
+      - YouTube_|低速节点_23
+      - YouTube_|美国05|直连
+      - YouTube_|美国直连_93
+      - YouTube_|广港IEPL_83
+      - YouTube_|杭港HGC|Netflix_117
+      - YouTube_|广港BGP_56
+      - YouTube_|广港BGP_80
+      - YouTube_|广港IEPL_115
+      - YouTube_|杭港BGP_44
+      - YouTube_|广港BGP_74
+      - YouTube__42
+      - YouTube_|广港BGP_70
+      - YouTube_|美国03|直连
+      - YouTube_|杭港BGP_20
+      - YouTube__61
+      - YouTube_|广港IEPL|Netflix_72
+      - YouTube_|低速节点_51
+      - 香港-80端口-01
+      - 5x-临时-新加坡-高级节点1
+      - 新加坡高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-03
-      - 新加坡高速接入点-04
+      - 日本-80端口-04
       - 日本高速接入点-02
-      - 韩国高速接入点-02
-      - 香港高速接入点-02
       - 香港高速接入点-06
       - 日本高速接入点-04
-      - 日本-80端口-04
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 日本高速接入点-03
       - 台北高级接入点-01
+      - 新加坡高速接入点-02
+      - 香港高速接入点-04
+      - 香港高速接入点-05
+      - 日本高速接入点-01
+      - 香港-80端口-02
+      - 81【电报：xlzy88】每日定时跟新
+      - 81【电报：xlzy88】每日定时跟新 2
+      - 207_
+      - 美国_
+      - CN中国 2_
+      - CN中国_
+      - CN中国 2_ 2
+      - 621_
+      - CN中国 2_ 3
+      - CN中国_ 2
+      - CA-CF_
+      - 1102_
+      - CN中国_ 3
+      - _CN_中国 4
+      - 648【电报：xlzy88】每日定时跟新
+      - HK-CF_
+      - 美国_ 2
+      - 「SCP」US-BuyVM2
+      - 「SCP」HK-CF
+      - 「SCP」DE-CF
+      - 「SCP」US-BuyVM3
+      - 「SCP」UK-CF
+      - 「SCP」US-BuyVM
+      - _BZ_伯利兹
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 香港
+      - _CN_中国 5
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - Singapore
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
