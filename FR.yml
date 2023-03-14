@@ -5,6 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇸🇬 无限流量_新加坡1, server: sg.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 无限流量_新加坡2, server: sg2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 无限流量_新加坡3, server: sg3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 无限流量_德国, server: de2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 无限流量_美国, server: us1.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 无限流量_美国2, server: sf3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 无限流量_英国1, server: uk.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 无限流量_英国2, server: uk2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 无限流量_英国3, server: vd2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 无限流量_法国1, server: fr.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 无限流量_法国2, server: fr2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 无限流量_法国3, server: fr3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 无限流量_荷兰1, server: ne.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 无限流量_荷兰2, server: ne2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 无限流量_荷兰3, server: ne3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 无限流量_印度1, server: ne.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 无限流量_印度2, server: ne2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 无限流量_印度3, server: ne3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 无限流量_加拿大1, server: ca.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 无限流量_加拿大2, server: ca2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 无限流量_加拿大3, server: ca3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
   - {name: 法国(无限流量), server: 172.64.111.163, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
   - {name: 法国(无限流量) 2, server: 172.67.238.164, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
   - {name: 法国(无限流量) 3, server: www.gov.se, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
@@ -54,6 +75,27 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇸🇬 无限流量_新加坡1
+      - 🇸🇬 无限流量_新加坡2
+      - 🇸🇬 无限流量_新加坡3
+      - 🇩🇪 无限流量_德国
+      - 🇺🇸 无限流量_美国
+      - 🇺🇸 无限流量_美国2
+      - 🇬🇧 无限流量_英国1
+      - 🇬🇧 无限流量_英国2
+      - 🇬🇧 无限流量_英国3
+      - 🇫🇷 无限流量_法国1
+      - 🇫🇷 无限流量_法国2
+      - 🇫🇷 无限流量_法国3
+      - 🇳🇱 无限流量_荷兰1
+      - 🇳🇱 无限流量_荷兰2
+      - 🇳🇱 无限流量_荷兰3
+      - 🇮🇳 无限流量_印度1
+      - 🇮🇳 无限流量_印度2
+      - 🇮🇳 无限流量_印度3
+      - 🇨🇦 无限流量_加拿大1
+      - 🇨🇦 无限流量_加拿大2
+      - 🇨🇦 无限流量_加拿大3
       - 法国(无限流量)
       - 法国(无限流量) 2
       - 法国(无限流量) 3
@@ -103,6 +145,27 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇸🇬 无限流量_新加坡1
+      - 🇸🇬 无限流量_新加坡2
+      - 🇸🇬 无限流量_新加坡3
+      - 🇩🇪 无限流量_德国
+      - 🇺🇸 无限流量_美国
+      - 🇺🇸 无限流量_美国2
+      - 🇬🇧 无限流量_英国1
+      - 🇬🇧 无限流量_英国2
+      - 🇬🇧 无限流量_英国3
+      - 🇫🇷 无限流量_法国1
+      - 🇫🇷 无限流量_法国2
+      - 🇫🇷 无限流量_法国3
+      - 🇳🇱 无限流量_荷兰1
+      - 🇳🇱 无限流量_荷兰2
+      - 🇳🇱 无限流量_荷兰3
+      - 🇮🇳 无限流量_印度1
+      - 🇮🇳 无限流量_印度2
+      - 🇮🇳 无限流量_印度3
+      - 🇨🇦 无限流量_加拿大1
+      - 🇨🇦 无限流量_加拿大2
+      - 🇨🇦 无限流量_加拿大3
       - 法国(无限流量)
       - 法国(无限流量) 2
       - 法国(无限流量) 3
@@ -152,6 +215,27 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 无限流量_新加坡1
+      - 🇸🇬 无限流量_新加坡2
+      - 🇸🇬 无限流量_新加坡3
+      - 🇩🇪 无限流量_德国
+      - 🇺🇸 无限流量_美国
+      - 🇺🇸 无限流量_美国2
+      - 🇬🇧 无限流量_英国1
+      - 🇬🇧 无限流量_英国2
+      - 🇬🇧 无限流量_英国3
+      - 🇫🇷 无限流量_法国1
+      - 🇫🇷 无限流量_法国2
+      - 🇫🇷 无限流量_法国3
+      - 🇳🇱 无限流量_荷兰1
+      - 🇳🇱 无限流量_荷兰2
+      - 🇳🇱 无限流量_荷兰3
+      - 🇮🇳 无限流量_印度1
+      - 🇮🇳 无限流量_印度2
+      - 🇮🇳 无限流量_印度3
+      - 🇨🇦 无限流量_加拿大1
+      - 🇨🇦 无限流量_加拿大2
+      - 🇨🇦 无限流量_加拿大3
       - 法国(无限流量)
       - 法国(无限流量) 2
       - 法国(无限流量) 3
@@ -200,6 +284,27 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇸🇬 无限流量_新加坡1
+      - 🇸🇬 无限流量_新加坡2
+      - 🇸🇬 无限流量_新加坡3
+      - 🇩🇪 无限流量_德国
+      - 🇺🇸 无限流量_美国
+      - 🇺🇸 无限流量_美国2
+      - 🇬🇧 无限流量_英国1
+      - 🇬🇧 无限流量_英国2
+      - 🇬🇧 无限流量_英国3
+      - 🇫🇷 无限流量_法国1
+      - 🇫🇷 无限流量_法国2
+      - 🇫🇷 无限流量_法国3
+      - 🇳🇱 无限流量_荷兰1
+      - 🇳🇱 无限流量_荷兰2
+      - 🇳🇱 无限流量_荷兰3
+      - 🇮🇳 无限流量_印度1
+      - 🇮🇳 无限流量_印度2
+      - 🇮🇳 无限流量_印度3
+      - 🇨🇦 无限流量_加拿大1
+      - 🇨🇦 无限流量_加拿大2
+      - 🇨🇦 无限流量_加拿大3
       - 法国(无限流量)
       - 法国(无限流量) 2
       - 法国(无限流量) 3
@@ -248,6 +353,27 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇸🇬 无限流量_新加坡1
+      - 🇸🇬 无限流量_新加坡2
+      - 🇸🇬 无限流量_新加坡3
+      - 🇩🇪 无限流量_德国
+      - 🇺🇸 无限流量_美国
+      - 🇺🇸 无限流量_美国2
+      - 🇬🇧 无限流量_英国1
+      - 🇬🇧 无限流量_英国2
+      - 🇬🇧 无限流量_英国3
+      - 🇫🇷 无限流量_法国1
+      - 🇫🇷 无限流量_法国2
+      - 🇫🇷 无限流量_法国3
+      - 🇳🇱 无限流量_荷兰1
+      - 🇳🇱 无限流量_荷兰2
+      - 🇳🇱 无限流量_荷兰3
+      - 🇮🇳 无限流量_印度1
+      - 🇮🇳 无限流量_印度2
+      - 🇮🇳 无限流量_印度3
+      - 🇨🇦 无限流量_加拿大1
+      - 🇨🇦 无限流量_加拿大2
+      - 🇨🇦 无限流量_加拿大3
       - 法国(无限流量)
       - 法国(无限流量) 2
       - 法国(无限流量) 3
@@ -296,6 +422,27 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇸🇬 无限流量_新加坡1
+      - 🇸🇬 无限流量_新加坡2
+      - 🇸🇬 无限流量_新加坡3
+      - 🇩🇪 无限流量_德国
+      - 🇺🇸 无限流量_美国
+      - 🇺🇸 无限流量_美国2
+      - 🇬🇧 无限流量_英国1
+      - 🇬🇧 无限流量_英国2
+      - 🇬🇧 无限流量_英国3
+      - 🇫🇷 无限流量_法国1
+      - 🇫🇷 无限流量_法国2
+      - 🇫🇷 无限流量_法国3
+      - 🇳🇱 无限流量_荷兰1
+      - 🇳🇱 无限流量_荷兰2
+      - 🇳🇱 无限流量_荷兰3
+      - 🇮🇳 无限流量_印度1
+      - 🇮🇳 无限流量_印度2
+      - 🇮🇳 无限流量_印度3
+      - 🇨🇦 无限流量_加拿大1
+      - 🇨🇦 无限流量_加拿大2
+      - 🇨🇦 无限流量_加拿大3
       - 法国(无限流量)
       - 法国(无限流量) 2
       - 法国(无限流量) 3
@@ -345,6 +492,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 无限流量_新加坡1
+      - 🇸🇬 无限流量_新加坡2
+      - 🇸🇬 无限流量_新加坡3
+      - 🇩🇪 无限流量_德国
+      - 🇺🇸 无限流量_美国
+      - 🇺🇸 无限流量_美国2
+      - 🇬🇧 无限流量_英国1
+      - 🇬🇧 无限流量_英国2
+      - 🇬🇧 无限流量_英国3
+      - 🇫🇷 无限流量_法国1
+      - 🇫🇷 无限流量_法国2
+      - 🇫🇷 无限流量_法国3
+      - 🇳🇱 无限流量_荷兰1
+      - 🇳🇱 无限流量_荷兰2
+      - 🇳🇱 无限流量_荷兰3
+      - 🇮🇳 无限流量_印度1
+      - 🇮🇳 无限流量_印度2
+      - 🇮🇳 无限流量_印度3
+      - 🇨🇦 无限流量_加拿大1
+      - 🇨🇦 无限流量_加拿大2
+      - 🇨🇦 无限流量_加拿大3
       - 法国(无限流量)
       - 法国(无限流量) 2
       - 法国(无限流量) 3
@@ -410,6 +578,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 无限流量_新加坡1
+      - 🇸🇬 无限流量_新加坡2
+      - 🇸🇬 无限流量_新加坡3
+      - 🇩🇪 无限流量_德国
+      - 🇺🇸 无限流量_美国
+      - 🇺🇸 无限流量_美国2
+      - 🇬🇧 无限流量_英国1
+      - 🇬🇧 无限流量_英国2
+      - 🇬🇧 无限流量_英国3
+      - 🇫🇷 无限流量_法国1
+      - 🇫🇷 无限流量_法国2
+      - 🇫🇷 无限流量_法国3
+      - 🇳🇱 无限流量_荷兰1
+      - 🇳🇱 无限流量_荷兰2
+      - 🇳🇱 无限流量_荷兰3
+      - 🇮🇳 无限流量_印度1
+      - 🇮🇳 无限流量_印度2
+      - 🇮🇳 无限流量_印度3
+      - 🇨🇦 无限流量_加拿大1
+      - 🇨🇦 无限流量_加拿大2
+      - 🇨🇦 无限流量_加拿大3
       - 法国(无限流量)
       - 法国(无限流量) 2
       - 法国(无限流量) 3
@@ -489,7 +678,7 @@ rules:
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.无限流量games.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
@@ -3206,8 +3395,8 @@ rules:
  - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
- - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
+ - DOMAIN-SUFFIX,无限流量games.com,🎯 全球直连
+ - DOMAIN-SUFFIX,无限流量games.dev,🎯 全球直连
  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
