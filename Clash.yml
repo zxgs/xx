@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Japan+06, server: ecloudgz.dnsb.top, port: 10251, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
   - {name: 荷兰Eygelshoven | BT下载-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 10221e61-adb4-4164-a0ae-635564efe66d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/nl3?ed=2048", headers: {Host: nl3.yfjc.sbs}}, udp: true}
   - {name: _VN_越南, server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 0ecaae2c-c757-40e2-975a-f5b56a86e140, sni: dl.kgvn.garenanow.com, skip-cert-verify: true, udp: true}
   - {name: _US_美国, server: 172.93.47.4, port: 10512, type: vmess, uuid: 58781eee-baba-6666-baba-2ca0ada6568b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -167,12 +168,26 @@ proxies:
   - {name: US_188, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
   - {name: US_103, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4e7cc378.8200860.xyz}}, udp: true}
   - {name: US_47, server: 77.v2ray1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: HongKong+01, server: cz.10086.help, port: 10241, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: HongKong+02, server: cz.10086.help, port: 10243, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: HongKong+03, server: cz.10086.help, port: 10245, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: HongKong+04, server: cz.10086.help, port: 10247, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: HongKong+05, server: cz.10086.help, port: 10249, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: HongKong+06, server: cz.10086.help, port: 10251, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: Japan+01, server: ecloudgz.dnsb.top, port: 10241, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: Japan+02, server: ecloudgz.dnsb.top, port: 10243, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: Japan+03, server: ecloudgz.dnsb.top, port: 10245, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: Japan+04, server: ecloudgz.dnsb.top, port: 10247, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: Japan+05, server: ecloudgz.dnsb.top, port: 10249, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: Japan+07, server: ecloudgz.dnsb.top, port: 10253, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
+  - {name: Japan+08, server: ecloudgz.dnsb.top, port: 10255, type: ss, cipher: chacha20-ietf-poly1305, password: eb2ec932-7be4-4781-800f-b9204ea87194, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Japan+06
       - 荷兰Eygelshoven | BT下载-0.1x
       - _VN_越南
       - _US_美国
@@ -335,11 +350,25 @@ proxy-groups:
       - US_188
       - US_103
       - US_47
+      - HongKong+01
+      - HongKong+02
+      - HongKong+03
+      - HongKong+04
+      - HongKong+05
+      - HongKong+06
+      - Japan+01
+      - Japan+02
+      - Japan+03
+      - Japan+04
+      - Japan+05
+      - Japan+07
+      - Japan+08
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Japan+06
       - 荷兰Eygelshoven | BT下载-0.1x
       - _VN_越南
       - _US_美国
@@ -502,12 +531,26 @@ proxy-groups:
       - US_188
       - US_103
       - US_47
+      - HongKong+01
+      - HongKong+02
+      - HongKong+03
+      - HongKong+04
+      - HongKong+05
+      - HongKong+06
+      - Japan+01
+      - Japan+02
+      - Japan+03
+      - Japan+04
+      - Japan+05
+      - Japan+07
+      - Japan+08
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Japan+06
       - 荷兰Eygelshoven | BT下载-0.1x
       - _VN_越南
       - _US_美国
@@ -670,6 +713,19 @@ proxy-groups:
       - US_188
       - US_103
       - US_47
+      - HongKong+01
+      - HongKong+02
+      - HongKong+03
+      - HongKong+04
+      - HongKong+05
+      - HongKong+06
+      - Japan+01
+      - Japan+02
+      - Japan+03
+      - Japan+04
+      - Japan+05
+      - Japan+07
+      - Japan+08
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -688,6 +744,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Japan+06
       - 荷兰Eygelshoven | BT下载-0.1x
       - _VN_越南
       - _US_美国
@@ -850,6 +907,19 @@ proxy-groups:
       - US_188
       - US_103
       - US_47
+      - HongKong+01
+      - HongKong+02
+      - HongKong+03
+      - HongKong+04
+      - HongKong+05
+      - HongKong+06
+      - Japan+01
+      - Japan+02
+      - Japan+03
+      - Japan+04
+      - Japan+05
+      - Japan+07
+      - Japan+08
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -891,6 +961,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Japan+06
       - 荷兰Eygelshoven | BT下载-0.1x
       - _VN_越南
       - _US_美国
@@ -1053,11 +1124,25 @@ proxy-groups:
       - US_188
       - US_103
       - US_47
+      - HongKong+01
+      - HongKong+02
+      - HongKong+03
+      - HongKong+04
+      - HongKong+05
+      - HongKong+06
+      - Japan+01
+      - Japan+02
+      - Japan+03
+      - Japan+04
+      - Japan+05
+      - Japan+07
+      - Japan+08
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Japan+06
       - 荷兰Eygelshoven | BT下载-0.1x
       - _VN_越南
       - _US_美国
@@ -1220,12 +1305,26 @@ proxy-groups:
       - US_188
       - US_103
       - US_47
+      - HongKong+01
+      - HongKong+02
+      - HongKong+03
+      - HongKong+04
+      - HongKong+05
+      - HongKong+06
+      - Japan+01
+      - Japan+02
+      - Japan+03
+      - Japan+04
+      - Japan+05
+      - Japan+07
+      - Japan+08
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Japan+06
       - 荷兰Eygelshoven | BT下载-0.1x
       - _VN_越南
       - _US_美国
@@ -1388,6 +1487,19 @@ proxy-groups:
       - US_188
       - US_103
       - US_47
+      - HongKong+01
+      - HongKong+02
+      - HongKong+03
+      - HongKong+04
+      - HongKong+05
+      - HongKong+06
+      - Japan+01
+      - Japan+02
+      - Japan+03
+      - Japan+04
+      - Japan+05
+      - Japan+07
+      - Japan+08
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1403,6 +1515,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Japan+06
       - 荷兰Eygelshoven | BT下载-0.1x
       - _VN_越南
       - _US_美国
@@ -1565,6 +1678,19 @@ proxy-groups:
       - US_188
       - US_103
       - US_47
+      - HongKong+01
+      - HongKong+02
+      - HongKong+03
+      - HongKong+04
+      - HongKong+05
+      - HongKong+06
+      - Japan+01
+      - Japan+02
+      - Japan+03
+      - Japan+04
+      - Japan+05
+      - Japan+07
+      - Japan+08
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
