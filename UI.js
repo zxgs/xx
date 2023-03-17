@@ -519,7 +519,7 @@ ui.emitter.on("options_item_selected", (e, item) => {
             app.startActivity("console");
             break;
         case "关于":
-            alert("关于", "\t\t懒人助手V4.0版的OCR脚本结合sec-an项目修改。\n \t\t题库更新为在线题库，四人或双人挑战时可能选错，只要不遇见机器人，问题不大，可以满分。");
+            alert("关于", "\t\t懒人助手V4.1版的OCR脚本结合sec-an项目修改。\n \t\t题库更新为在线题库，四人或双人挑战时可能选错，只要不遇见机器人，问题不大，可以满分。");
             break;
        // case "公众号":
            // alert("关注公众号自动学习", img11 );
