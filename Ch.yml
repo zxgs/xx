@@ -5,871 +5,839 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 德国-优化, server: yes.iamagoodman.net, port: 16644, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 美国, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 亚美尼亚, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: 伯利兹, server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: 意大利, server: yangleduo.cf, port: 443, type: trojan, password: 9e4fa728-3d7d-4371-8053-f175c019ef2c, sni: yangleduo.cf, skip-cert-verify: true, udp: true}
-  - {name: 美国 2, server: 6bf5.v9966.shop, port: 80, type: vmess, uuid: e6877db0-c1b8-11ed-b839-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6bf5.v9966.shop}}, udp: true}
-  - {name: 香港, server: hk80-2.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: hk80-2.af49c4e4c2ef.sanfen001.pics}}, udp: true}
-  - {name: 塞浦路斯, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: 美国 3, server: 172.67.5.14, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-ovh2.1server.co}}, udp: true}
-  - {name: 美国 4, server: df7e.v9966.shop, port: 443, type: vmess, uuid: a27983a0-c1b9-11ed-b333-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: df7e.v9966.shop}}, udp: true}
-  - {name: 美国 5, server: Kansas.v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: 香港 2, server: ne38wh92k.com, port: 443, type: vmess, uuid: 2f89fac5-8394-35af-3b3d-444590670123, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ddklllsweersdf/, headers: {Host: ne38wh92k.com}}, udp: true}
-  - {name: 加拿大, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}, udp: true}
-  - {name: 亚美尼亚 2, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: 德国, server: 35.157.193.176, port: 8080, type: vmess, uuid: 7a173658-c9f9-4194-84dd-4c50a83134ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sptest.hostiran.net.prod.hosts.ooklaserver.net}}, udp: true}
-  - {name: 美国66, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: 美国-39, server: 6bf5.v9966.shop, port: 80, type: vmess, uuid: e6877db0-c1b8-11ed-b839-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6bf5.v9966.shop}}, udp: true}
-  - {name: 中国-97, server: hn.xiaohouzi.club, port: 14185, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hktnew01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 中国-100, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 中国-91, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 美国-73, server: df7e.v9966.shop, port: 443, type: vmess, uuid: a27983a0-c1b9-11ed-b333-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: df7e.v9966.shop}}, udp: true}
-  - {name: 美国-132, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: 美国-67, server: cbb8.v9966.shop, port: 80, type: vmess, uuid: 28c985b0-c1b9-11ed-b530-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cbb8.v9966.shop}}, udp: true}
-  - {name: 中国-123, server: hnm.xiaohouzi.club, port: 36872, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: freeus.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 中国-134, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12344, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: iyvwbaniohxcsawa.vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: 中国-169, server: hnm.xiaohouzi.club, port: 18831, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: avas01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 中国-121, server: hnm.xiaohouzi.club, port: 18634, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 美国-9, server: 172.67.164.125, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: 美国-145, server: sc.scyu.app, port: 80, type: vmess, uuid: 43930e8c-8347-4929-8e2c-9197e7c71423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax.scyu.app}}, udp: true}
-  - {name: 美国-131, server: khvwycch.cymlr.xyz, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /videnset, headers: {Host: khvwycch.cymlr.xyz}}, udp: true}
-  - {name: 美国-160, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
-  - {name: 中国-115, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 中国-89, server: hn.xiaohouzi.club, port: 18733, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: ajpn03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 美国-82, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}, udp: true}
-  - {name: 中国-122, server: hnm.xiaohouzi.club, port: 47651, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: taiguo.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_5, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}, udp: true}
-  - {name: US_77, server: 74.120.169.229, port: 80, type: vmess, uuid: d4d97aee-ebda-4a44-b208-9b5414d92033, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 74.120.169.229}}, udp: true}
-  - {name: TW_171, server: polotw1.applebench.tech, port: 56568, type: vmess, uuid: 484df882-fe9c-456b-9375-a311f4a5d208, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: BZ_24, server: 203.30.188.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: BZ_119, server: 203.30.191.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: AU_42, server: 168.138.102.89, port: 80, type: vmess, uuid: 0792ca95-a0ba-4510-eab3-8ea03239c532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CN_92, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CA_56, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_102, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: CN_131, server: us-cn-hk-relay-2-3cc426.ferryhwp8ebm.com, port: 7302, type: trojan, password: f2fc982f-3462-11e9-96d3-020b85e0a428, sni: us-2-571.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: CN_167, server: hn.xiaohouzi.club, port: 18835, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: $feilvbin.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_140, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_100, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: US_175, server: fdf7.v9966.shop, port: 443, type: vmess, uuid: 2aeb26e0-c1c0-11ed-b331-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fdf7.v9966.shop}}, udp: true}
-  - {name: US_164, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
-  - {name: BZ_117, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: CN_37, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12347, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: ogjoihxcawfx.vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: US_127, server: 172.67.5.14, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-ovh2.1server.co}}, udp: true}
-  - {name: US_107, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: e1340e0b-3a70-4f10-9318-69b2107d748a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kbjc/us1, headers: {Host: us1.hnokkdf.top}}, udp: true}
-  - {name: US_124, server: cbb8.v9966.shop, port: 80, type: vmess, uuid: 28c985b0-c1b9-11ed-b530-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cbb8.v9966.shop}}, udp: true}
-  - {name: US_10, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: CN_115, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CN_177, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12324, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: huwkaihsdwal.vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: US_168, server: 172.66.41.99, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: ss.239000.xyz}}, udp: true}
-  - {name: CN_160, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12324, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: huwkaihsdwal.vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: US_38, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: US_61, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: BZ_46, server: 203.30.191.3, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: GB_70, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: US_118, server: 141.193.213.21, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: US_172, server: news.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: US_122, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: e1340e0b-3a70-4f10-9318-69b2107d748a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kbjc/us4, headers: {Host: us4.hnokkdf.top}}, udp: true}
-  - {name: UA_141, server: 45.80.111.53, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /suzhihan.eu.org/roewesu, headers: {Host: 200.aquabazi.site}}, udp: true}
-  - {name: CN_157, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CY_146, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: US_108, server: 74.120.169.229, port: 80, type: vmess, uuid: d4d97aee-ebda-4a44-b208-9b5414d92033, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: US_79, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
-  - {name: BZ_71, server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: CN_173, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: CY_63, server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: CA_85, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}, udp: true}
-  - {name: BZ_21, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US_36, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: US_49, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
-  - {name: US_174, server: khvwycch.cymlr.xyz, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /videnset, headers: {Host: khvwycch.cymlr.xyz}}, udp: true}
-  - {name: US_32, server: 103.21.244.13, port: 443, type: vmess, uuid: 847a92a6-f7f1-42ef-8277-02cf6e379797, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lsb.jiegebuyao.top}}, udp: true}
-  - {name: PA_60, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6e9EtZ2dL, headers: {Host: dengxin.one}}, udp: true}
-  - {name: DE_145, server: 35.157.193.176, port: 8080, type: vmess, uuid: 7a173658-c9f9-4194-84dd-4c50a83134ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sptest.hostiran.net.prod.hosts.ooklaserver.net}}, udp: true}
-  - {name: AM_105, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: US_103, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
-  - {name: CN_162, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12348, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: ugaoijxawdfx.vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_39, server: us-cn-hk-relay-2-3cc426.ferryhwp8ebm.com, port: 7302, type: trojan, password: f2fc982f-3462-11e9-96d3-020b85e0a428, sni: us-2-571.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: FR_33, server: 173.245.49.7, port: 443, type: vmess, uuid: 847a92a6-f7f1-42ef-8277-02cf6e379797, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lsb.jiegebuyao.top}}, udp: true}
-  - {name: CA_161, server: 23.227.38.38, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: CN_96, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v1.shwjfkw.cn}}, udp: true}
-  - {name: BZ_18, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: FR_126, server: 188.165.170.83, port: 80, type: vmess, uuid: 860a862a-2798-4037-8513-b060e310e7fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: US_47, server: quiz.vidio.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-ovh2.1server.co}}, udp: true}
-  - {name: AM_153, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: AM_11, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: US_98, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: US_66, server: fdf7.v9966.shop, port: 443, type: vmess, uuid: 2aeb26e0-c1c0-11ed-b331-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fdf7.v9966.shop}}, udp: true}
-  - {name: US_9, server: cbb8.v9966.shop, port: 80, type: vmess, uuid: 28c985b0-c1b9-11ed-b530-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cbb8.v9966.shop}}, udp: true}
-  - {name: CN_159, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12344, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: iyvwbaniohxcsawa.vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: US_123, server: uk1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: DE_17, server: 35.157.193.176, port: 8080, type: vmess, uuid: 7a173658-c9f9-4194-84dd-4c50a83134ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 35.157.193.176}}, udp: true}
-  - {name: US_54, server: fdf7.v9966.shop, port: 443, type: vmess, uuid: 2aeb26e0-c1c0-11ed-b331-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fdf7.v9966.shop}}, udp: true}
-  - {name: BZ_111, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: US_82, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: BZ_149, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: 香港高速接入点-03, server: hk3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港-80端口-02, server: hk80-2.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 新加坡高速接入点-04, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
-  - {name: 新加坡高速接入点-03, server: sg3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
-  - {name: 日本高速接入点-02, server: jp2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 日本高速接入点-04, server: jp4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港高速接入点-02, server: hk2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, udp: true}
-  - {name: 日本高速接入点-01, server: jp1.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港高速接入点-01, server: hk1.b.bd6b6c503c93.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 台北高级接入点-01, server: tw1.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 美国高速接入点-01, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn.net, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn.net}}, udp: true}
-  - {name: 日本高速接入点-03, server: jp3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港高速接入点-04, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 5x-临时-新加坡-高级节点1, server: 2f36c18cfe75.sanfen001.pics, port: 15526, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国高速接入点-02, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn.net, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
-  - {name: 新加坡高速接入点-02, server: sg2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 韩国高速接入点-01, server: kr1.b20dac2fc8d5.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, udp: true}
-  - {name: 香港高速接入点-06, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 台北高级接入点-02, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.sanfen001.pics, udp: true}
-  - {name: 韩国高速接入点-02, server: kr2.b20dac2fc8d5.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, udp: true}
-  - {name: 香港高速接入点-05, server: hk5.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 988348f6-1336-4c3f-b719-2d1aae4bf156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡, server: 172.67.5.14, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-ovh2.1server.co}}, udp: true}
-  - {name: _US_美国, server: df7e.v9966.shop, port: 443, type: vmess, uuid: a27983a0-c1b9-11ed-b333-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: df7e.v9966.shop}}, udp: true}
-  - {name: _US_美国 2, server: 65.49.195.93, port: 6337, type: ss, cipher: aes-256-gcm, password: 6cUPm6BMWPZAbySE, udp: true}
-  - {name: _RU_俄罗斯联邦, server: 45.130.146.52, port: 57920, type: vmess, uuid: 5c0156ab-576b-424b-9bb5-34a2b368540b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚Cranbourne Secondary College 35, server: 203.30.191.3, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: oplg1.cfcdn2.xyz, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: 俄罗斯新西伯利亚JustHost 4, server: 45.130.146.52, port: 57920, type: vmess, uuid: 5c0156ab-576b-424b-9bb5-34a2b368540b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国CloudFlare节点 28, server: cbb8.v9966.shop, port: 80, type: vmess, uuid: 28c985b0-c1b9-11ed-b530-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cbb8.v9966.shop}}, udp: true}
-  - {name: 美国CloudFlare公司CDN节点 21, server: 3564.p9966.shop, port: 443, type: vmess, uuid: f4af4443-ad9b-4335-b965-d94a07ffa115, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /racevpn, headers: {Host: 3564.p9966.shop}}, udp: true}
-  - {name: 台湾省台北市中华电信 5, server: polotw1.applebench.tech, port: 56568, type: vmess, uuid: 484df882-fe9c-456b-9375-a311f4a5d208, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国CloudFlare节点 19, server: 172.67.5.14, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-ovh2.1server.co}}, udp: true}
-  - {name: 美国CloudFlare节点 30, server: lsb-gy.heinu.cf, port: 2095, type: vmess, uuid: 1eda6b95-f248-4f3b-ae10-d7503415a788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: lsb-gy.heinu.cf}}, udp: true}
-  - {name: 澳大利亚悉尼 8, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: 澳大利亚Cranbourne Secondary College 7, server: 203.30.191.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: 德国黑森州法兰克福Amazon数据中心 11, server: 35.157.193.176, port: 8080, type: vmess, uuid: 7a173658-c9f9-4194-84dd-4c50a83134ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sptest.hostiran.net.prod.hosts.ooklaserver.net}}, udp: true}
-  - {name: 美国CloudFlare节点 32, server: fdf7.v9966.shop, port: 443, type: vmess, uuid: 2aeb26e0-c1c0-11ed-b331-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fdf7.v9966.shop}}, udp: true}
-  - {name: 美国CloudFlare公司CDN节点 15, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: 美国CloudFlare公司CDN节点(shopify) 22, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}, udp: true}
-  - {name: 美国CloudFlare节点 18, server: df7e.v9966.shop, port: 443, type: vmess, uuid: a27983a0-c1b9-11ed-b333-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: df7e.v9966.shop}}, udp: true}
-  - {name: 美国CloudFlare公司CDN节点 9, server: 6bf5.v9966.shop, port: 80, type: vmess, uuid: e6877db0-c1b8-11ed-b839-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 6bf5.v9966.shop, network: ws, ws-opts: {path: /, headers: {Host: 6bf5.v9966.shop}}, udp: true}
-  - {name: US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dp2.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: US-BuyVM3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lv2.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: US-BuyVM2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lv1.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: UK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: US-DO, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sharecentrepro.com, network: ws, ws-opts: {path: /shirker, headers: {Host: us1.sharecentrepro.com}}, udp: true}
-  - {name: HK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-hytron.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: US-BuyVM4, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lv3.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: DE-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de1.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}, udp: true}
-  - {name: JP-LN-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.scproxy.top}}, udp: true}
-  - {name: CA-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca-nnc.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: _AM_亚美尼亚->🇫🇷_FR_法国, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: _US_美国 3, server: sc.scyu.app, port: 80, type: vmess, uuid: 43930e8c-8347-4929-8e2c-9197e7c71423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax.scyu.app}}, udp: true}
-  - {name: _BZ_伯利兹->🇺🇸_US_美国, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: _BZ_伯利兹->🇺🇸_US_美国 2, server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: _US_美国 4, server: df7e.v9966.shop, port: 443, type: vmess, uuid: a27983a0-c1b9-11ed-b333-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: df7e.v9966.shop}}, udp: true}
-  - {name: _UA_乌克兰->🇯🇵_JP_日本, server: 45.80.111.53, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /suzhihan.eu.org/roewesu, headers: {Host: 200.aquabazi.site}}, udp: true}
+  - {name: 美国, server: us1.sharecentrepro.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us1.sharecentrepro.com}}, udp: true}
+  - {name: 美国 2, server: quranweb41.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb41.xyz}}, udp: true}
+  - {name: 乌克兰, server: doinb.ml, port: 443, type: vmess, uuid: 7f6fdc53-27d0-4ac8-8440-715992b7aab1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dsfsdf, headers: {Host: sg1.doinb.tk}}, udp: true}
+  - {name: 中国, server: hnm.xiaohouzi.club, port: 47651, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: quranweb11.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb11.xyz}}, udp: true}
+  - {name: 伯利兹, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 中国 2, server: ww9.12345.al, port: 43073, type: vmess, uuid: 5ba59429-99ba-493c-848c-b520f1b3edfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /areuok, headers: {Host: ww9.12345.al}}, udp: true}
+  - {name: 伯利兹 2, server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 伯利兹 3, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 中国 3, server: cn1.applebench.tech, port: 19198, type: ss, cipher: chacha20-ietf-poly1305, password: 5d651d8c-d5b3-418b-a3ea-55171af5b726, udp: true}
+  - {name: 美国 4, server: 172.67.219.5, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: 香港, server: hk80-2.8b750e3e20aa.sanfen001.pics, port: 80, type: vmess, uuid: 66a41246-5c49-4411-a091-232f69f2dcc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 美国 5, server: cf-topspeedvv3.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedvv3.uk}}, udp: true}
+  - {name: 美国 6, server: quranweb9.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb9.xyz}}, udp: true}
+  - {name: 美国 7, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: 荷兰, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 罗马尼亚, server: 45.12.30.192, port: 443, type: vmess, uuid: EB176736-29D0-484E-8464-28547013A162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: 荷兰 2, server: 172.99.188.99, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 8, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}, udp: true}
+  - {name: 美国 9, server: quranweb37.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb37.xyz}}, udp: true}
+  - {name: 美国 10, server: holyquran18.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran18.store}}, udp: true}
+  - {name: 香港 2, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: 罗马尼亚 2, server: 45.12.30.192, port: 443, type: vmess, uuid: EB176736-29D0-484E-8464-28547013A162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: 荷兰 3, server: 172.99.188.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 荷兰 4, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国 11, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgm1.targoocloud.live}}, udp: true}
+  - {name: 台湾, server: polotw1.applebench.tech, port: 56568, type: vmess, uuid: 7ffd6009-0085-4b4e-9598-e62c133fbd21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 12, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sgm1.targoocloud.live}}, udp: true}
+  - {name: 亚美尼亚, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 中国 4, server: ww9.12345.al, port: 43073, type: vmess, uuid: 2b601455-676c-4795-9ef5-e820836542bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /areuok, headers: {Host: ww9.12345.al}}, udp: true}
+  - {name: 美国 13, server: quranweb10.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb10.xyz}}, udp: true}
+  - {name: 美国 14, server: quranweb40.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb40.xyz}}, udp: true}
+  - {name: 荷兰 5, server: 172.99.188.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 塞浦路斯119, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国200, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}, udp: true}
+  - {name: 美国137, server: 208.76.54.103, port: 57853, type: vmess, uuid: ba37f657-437a-4ef6-b7f3-164272a13ba9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国15, server: hn.xiaohouzi.club, port: 18735, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: ajpn05.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 亚美尼亚113, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 中国18, server: hnm.xiaohouzi.club, port: 18634, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国201, server: germany2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /8kH8qnepjkprbsidLrLkmX, headers: {Host: germany2.yj2022.ga}}, udp: true}
+  - {name: 美国212, server: Kansas.v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: 伯利兹124, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 美国260, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/nl1?ed=2048", headers: {Host: nl1.pqjc.buzz}}, udp: true}
+  - {name: 罗马尼亚161, server: 45.12.30.192, port: 443, type: vmess, uuid: EB176736-29D0-484E-8464-28547013A162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: 中国21, server: hnm.xiaohouzi.club, port: 36872, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: freeus.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国221, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 美国68, server: 103.21.244.173, port: 80, type: vmess, uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzsg.nmsl.pics}}, udp: true}
+  - {name: 加拿大139, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}, udp: true}
+  - {name: 美国259, server: yjz.hk, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国28, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12346, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: oiugbalxawdfas.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: 亚美尼亚112, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国16, server: hn.xiaohouzi.club, port: 18733, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: ajpn03.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 伯利兹130, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 乌克兰187, server: doinb.ml, port: 443, type: vmess, uuid: 7f6fdc53-27d0-4ac8-8440-715992b7aab1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dsfsdf, headers: {Host: sg1.doinb.tk}}, udp: true}
+  - {name: 伯利兹133, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 伯利兹125, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: 美国35, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgm1.targoocloud.live}}, udp: true}
+  - {name: 塞浦路斯118, server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 意大利148, server: 25.v2-ray.cyou, port: 23625, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 25.v2-ray.cyou}}, udp: true}
+  - {name: 亚美尼亚111, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: 美国206, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 伯利兹135, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 中国13, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 伯利兹126, server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 美国242, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: 乌克兰163, server: 45.80.111.53, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /suzhihan.eu.org/roewesu, headers: {Host: 200.aquabazi.site}}, udp: true}
+  - {name: 伯利兹128, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 美国91, server: 172.66.41.99, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: ss.239000.xyz}}, udp: true}
+  - {name: 美国99, server: 172.67.164.123, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国101, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 塞浦路斯120, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
+  - {name: 伯利兹123, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
+  - {name: 美国108, server: 172.67.219.5, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: SG_32, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}, udp: true}
+  - {name: BZ_55, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: BZ_117, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: CN_27, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12343, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: uwayvbjlshiuxaw.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: TW_136, server: azgy001.xibai6.top, port: 20790, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW_169, server: azgy001.xibai6.top, port: 20785, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW_159, server: azgy001.xibai6.top, port: 20713, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_131, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu8.misakano.ml}}, udp: true}
+  - {name: BZ_175, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: CN_43, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12347, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: ogjoihxcawfx.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: BZ_150, server: 203.30.191.6, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: AM_19, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: US_76, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-eu2.misakano.ml}}, udp: true}
+  - {name: US_49, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 1076a8af.ikunxiao.top}}, udp: true}
+  - {name: CN_193, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12323, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: huwkaihsdwal.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: CA_31, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}, udp: true}
+  - {name: AM_160, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: US_134, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}, udp: true}
+  - {name: CA_152, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: US_3, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}, udp: true}
+  - {name: US_181, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-us1.misakano.ml}}, udp: true}
+  - {name: US_192, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
+  - {name: BZ_201, server: 203.30.191.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
+  - {name: CN_146, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v1.shwjfkw.cn}}, udp: true}
+  - {name: CN_38, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12346, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: oiugbalxawdfas.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: US_98, server: us1.sharecentrepro.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us1.sharecentrepro.com}}, udp: true}
+  - {name: US_102, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: US_6, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 1076a8af.ikunxiao.top}}, udp: true}
+  - {name: CN_206, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12324, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: huwkaihsdwal.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: DE_50, server: 3.70.235.230, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 7vr70VR9os4kA7jPfePDhg, udp: true}
+  - {name: NL_67, server: mtnx.ircf.space, port: 443, type: vmess, uuid: de3642e8-5e51-432f-ed10-63af07842141, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wss34055, headers: {Host: freeservice.blanku.me}}, udp: true}
+  - {name: US_39, server: 172.66.41.99, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: ss.239000.xyz}}, udp: true}
+  - {name: BZ_36, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US_186, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-us2.misakano.ml}}, udp: true}
+  - {name: US_09, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: US_123, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}, udp: true}
+  - {name: CN_17, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12348, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: ugaoijxawdfx.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: DE_172, server: 130.61.179.77, port: 20574, type: vmess, uuid: 87e3048a-5932-457a-84b9-deb51b5c91cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: BZ_34, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: US_183, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eubest.misakano.ml}}, udp: true}
+  - {name: HK_82, server: dl-hk5.steamdownload.top, port: 443, type: trojan, password: 2e4a56d3-3201-4f4e-b6db-6b21deea12c0, sni: data-hk.steamdownload.top, skip-cert-verify: true, udp: true}
+  - {name: AM_119, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: US_126, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vin1.0bad.com}}, udp: true}
+  - {name: US_129, server: us1.sharecentrepro.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us1.sharecentrepro.com}}, udp: true}
+  - {name: TW_2, server: polotw1.applebench.tech, port: 11189, type: trojan, password: 9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f, sni: polotw1.guojiang.site, skip-cert-verify: true, udp: true}
+  - {name: US_203, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
+  - {name: US_149, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: vc-ca1.misakano.ml}}, udp: true}
+  - {name: CA_147, server: 23.227.38.38, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: TW_48, server: azgy001.xibai6.top, port: 20784, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW_73, server: azgy001.xibai6.top, port: 20783, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_68, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: UA_29, server: 45.80.111.53, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /suzhihan.eu.org/roewesu, headers: {Host: 200.aquabazi.site}}, udp: true}
+  - {name: BZ_189, server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: BZ_184, server: 203.30.188.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: BZ_199, server: 203.30.191.3, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: CY_79, server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: BZ_207, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US_26, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
+  - {name: CY_137, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
+  - {name: CA_96, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: CN_23, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12344, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: iyvwbaniohxcsawa.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_65, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12341, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: wdaiuxxawdiuaxjp.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: TW_56, server: azgy001.xibai6.top, port: 20791, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_52, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: CN_145, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 416a9067-3d65-4f31-832d-51f44b63aebb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: BZ_44, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
+  - {name: US_110, server: 74.217.179.132, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.80817644.xyz}}, udp: true}
+  - {name: 台北高级接入点-02, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.sanfen001.pics, udp: true}
+  - {name: 日本高速接入点-02, server: jp2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, udp: true}
+  - {name: 台北高级接入点-01, server: tw1.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 香港高速接入点-04, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 香港高速接入点-05, server: hk5.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 香港高速接入点-01, server: hk1.b.bd6b6c503c93.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 5x-临时-新加坡-高级节点1, server: 2f36c18cfe75.sanfen001.pics, port: 15526, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港高速接入点-03, server: hk3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 美国高速接入点-02, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn.net, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
+  - {name: 新加坡高速接入点-03, server: sg3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 日本高速接入点-04, server: jp4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, udp: true}
+  - {name: 日本高速接入点-03, server: jp3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, udp: true}
+  - {name: 新加坡高速接入点-02, server: sg2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 韩国高速接入点-02, server: kr2.b20dac2fc8d5.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, udp: true}
+  - {name: 新加坡高速接入点-04, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 香港-80端口-02, server: hk80-2.8b750e3e20aa.sanfen001.pics, port: 80, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 香港高速接入点-06, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 韩国高速接入点-01, server: kr1.b20dac2fc8d5.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, udp: true}
+  - {name: 香港-80端口-01, server: hk80.8b750e3e20aa.sanfen001.pics, port: 80, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 日本高速接入点-01, server: jp1.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 新加坡高速接入点-01, server: sg1.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 香港高速接入点-02, server: hk2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, udp: true}
+  - {name: 美国高速接入点-01, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn.net, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn.net}}, udp: true}
+  - {name: 日本-80端口-04, server: jp80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: _RO_罗马尼亚->🇺🇸_US_美国, server: 45.12.30.192, port: 443, type: vmess, uuid: EB176736-29D0-484E-8464-28547013A162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: _NL_荷兰, server: 172.99.188.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _BZ_伯利兹->🇫🇷_FR_法国, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: _US_美国 5, server: no.aries.ovh, port: 8080, type: vmess, uuid: f18ae581-c597-4644-a1d9-b248a899b3bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}, udp: true}
-  - {name: _AM_亚美尼亚, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12346, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: oiugbalxawdfas.vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: 德国-优化2, server: m.lwvzmdu.cn, port: 16644, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 尼日利亚-优化, server: yes.iamagoodman.net, port: 16639, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 香港HKT-优化, server: yes.iamagoodman.net, port: 16620, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 哈萨克斯坦KZ-T, server: kz.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, skip-cert-verify: true, udp: true}
-  - {name: 日本-优化3, server: t.cccao.cyou, port: 16617, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 日本-优化2, server: m.lwvzmdu.cn, port: 16617, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 柬埔寨KH-T, server: kh.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, skip-cert-verify: true, udp: true}
-  - {name: 美国LA-优化, server: yes.iamagoodman.net, port: 16648, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 南非-优化, server: yes.iamagoodman.net, port: 16640, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 印度-优化, server: yes.iamagoodman.net, port: 16626, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 德国-优化3, server: t.cccao.cyou, port: 16644, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 香港HKT-优化3, server: t.cccao.cyou, port: 16620, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 美国LA-优化2, server: m.lwvzmdu.cn, port: 16648, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 香港HKT-优化2, server: m.lwvzmdu.cn, port: 16620, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 土耳其TR-T, server: tr.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: tr.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 美国LA-优化3, server: t.cccao.cyou, port: 16648, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 澳大利亚-优化2, server: m.lwvzmdu.cn, port: 16638, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mjp, headers: {Host: pull.free.video.10010.com}}, udp: true}
-  - {name: 香港FDC-优化2, server: m.lwvzmdu.cn, port: 16622, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 荷兰-优化, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 荷兰-优化3, server: t.cccao.cyou, port: 16642, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 英国UK-T, server: uk.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: uk.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 日本-优化, server: yes.iamagoodman.net, port: 16617, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 美国USLA-T, server: usla.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, skip-cert-verify: true, udp: true}
-  - {name: 卢森堡LUX-T, server: lux.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, skip-cert-verify: true, udp: true}
-  - {name: 德国DE-T, server: de.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: de.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 香港Az-优化, server: yes.iamagoodman.net, port: 16627, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 阿根廷AR-T, server: ar.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: ar.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 瑞士CH-T, server: ch.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: ch.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-优化3, server: t.cccao.cyou, port: 16618, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 俄罗斯RU-T, server: ru.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 韩国KR-T, server: kr.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, skip-cert-verify: true, udp: true}
-  - {name: 台湾HINET-T, server: hinet.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 香港Az-优化3, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 套餐到期：长期有效, server: jp.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: jp.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 香港Az-优化2, server: m.lwvzmdu.cn, port: 16627, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 葡萄牙PT-T, server: pt.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: pt.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰UA-T, server: ua.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: ua.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 日本JP-T, server: jp.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: jp.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 剩余流量：1388.33 GB, server: jp.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: jp.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-优化, server: yes.iamagoodman.net, port: 16618, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 以色列IL-T, server: il.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: il.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 香港HKT-T, server: hkt.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: hkt.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡SG-T, server: sg.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: sg.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-优化2, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 越南VN-T, server: vn.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, skip-cert-verify: true, udp: true}
-  - {name: 加拿大-优化, server: yes.iamagoodman.net, port: 16641, type: vmess, uuid: 8872d94f-b6de-4db2-9932-c743f70ba4c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 马来西亚MY-T, server: my.mjt001.com, port: 443, type: trojan, password: 8872d94f-b6de-4db2-9932-c743f70ba4c4, sni: my.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: hnm.xiaohouzi.club, port: 36872, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: freeus.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _CY_塞浦路斯->🇫🇷_FR_法国, server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: _NL_荷兰 2, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _NL_荷兰 3, server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _TW_台湾->🇺🇸_US_美国, server: azgy001.xibai6.top, port: 20791, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾->🇺🇸_US_美国 2, server: azgy001.xibai6.top, port: 20783, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 广东省移动 12, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v1.shwjfkw.cn}}, udp: true}
+  - {name: 美国CloudFlare节点 24, server: 172.66.44.197, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mR17oBKzZ7, headers: {Host: d.pgypgykmoljklj.xyz}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 10, server: quranweb40.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb40.xyz}}, udp: true}
+  - {name: 澳大利亚悉尼 19, server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 巴西圣保罗CloudFlare节点 14, server: 188.114.96.3, port: 2096, type: vmess, uuid: 321047f1-7292-46d8-9e3d-48b0a1da4fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xWP5bQtI/, headers: {Host: v2ray.webgfw.top}}, udp: true}
+  - {name: 欧盟  23, server: mtnx.ircf.space, port: 443, type: vmess, uuid: de3642e8-5e51-432f-ed10-63af07842141, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wss34055, headers: {Host: freeservice.blanku.me}}, udp: true}
+  - {name: 澳大利亚悉尼 6, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
+  - {name: 美国加利福尼亚州洛杉矶IT7网络 3, server: 172.93.47.4, port: 10512, type: vmess, uuid: 58781eee-baba-6666-baba-2ca0ada6568b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧盟  20, server: 45.12.30.192, port: 443, type: vmess, uuid: EB176736-29D0-484E-8464-28547013A162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: Dusseldorf.kotick.site, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: 美国  13, server: 172.99.188.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 澳大利亚Lyndhurst Secondary College 18, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
+  - {name: 澳门澳门电讯 2, server: macau.hapchung.com, port: 10443, type: trojan, password: 49687a13-99f0-4772-a1f8-af100f4687de, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚Langwarrin Secondary College 16, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: 美国CloudFlare节点 11, server: 172.64.150.150, port: 443, type: vmess, uuid: 128a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp03.cctvvip.ml}}, udp: true}
+  - {name: US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dp2.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
+  - {name: US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dp1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: US-BuyVM4, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lv3.sharecentrepro.org, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: US-DO, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sharecentrepro.com, network: ws, ws-opts: {path: /shirker, headers: {Host: us1.sharecentrepro.com}}, udp: true}
+  - {name: CA-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca-nnc.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
+  - {name: UK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: HK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-hytron.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: _TW_台湾->🇺🇸_US_美国 3, server: azgy001.xibai6.top, port: 20785, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: _BZ_伯利兹->🇫🇷_FR_法国 2, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: _RO_罗马尼亚->🇺🇸_US_美国 2, server: 45.12.30.192, port: 443, type: vmess, uuid: EB176736-29D0-484E-8464-28547013A162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: _BZ_伯利兹, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: _NL_荷兰 4, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _NL_荷兰 5, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _NL_荷兰 6, server: 172.99.188.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _NL_荷兰 7, server: 172.99.188.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国-优化
       - 美国
-      - 亚美尼亚
-      - 伯利兹
-      - 意大利
       - 美国 2
-      - 香港
-      - 塞浦路斯
+      - 乌克兰
+      - 中国
       - 美国 3
+      - 伯利兹
+      - 中国 2
+      - 伯利兹 2
+      - 伯利兹 3
+      - 中国 3
       - 美国 4
+      - 香港
       - 美国 5
+      - 美国 6
+      - 美国 7
+      - 荷兰
+      - 罗马尼亚
+      - 荷兰 2
+      - 美国 8
+      - 美国 9
+      - 美国 10
       - 香港 2
-      - 加拿大
-      - 亚美尼亚 2
-      - 德国
-      - 美国66
-      - 美国-39
-      - 中国-97
-      - 中国-100
-      - 中国-91
-      - 美国-73
-      - 美国-132
-      - 美国-67
-      - 中国-123
-      - 中国-134
-      - 中国-169
-      - 中国-121
-      - 美国-9
-      - 美国-145
-      - 美国-131
-      - 美国-160
-      - 中国-115
-      - 中国-89
-      - 美国-82
-      - 中国-122
-      - US_5
-      - US_77
-      - TW_171
-      - BZ_24
-      - BZ_119
-      - AU_42
-      - CN_92
-      - CA_56
-      - US_102
-      - CN_131
-      - CN_167
-      - US_140
-      - US_100
-      - US_175
-      - US_164
+      - 罗马尼亚 2
+      - 荷兰 3
+      - 英国
+      - 荷兰 4
+      - 美国 11
+      - 台湾
+      - 美国 12
+      - 亚美尼亚
+      - 中国 4
+      - 美国 13
+      - 美国 14
+      - 荷兰 5
+      - 塞浦路斯119
+      - 美国200
+      - 美国137
+      - 中国15
+      - 亚美尼亚113
+      - 中国18
+      - 美国201
+      - 美国212
+      - 伯利兹124
+      - 美国260
+      - 罗马尼亚161
+      - 中国21
+      - 美国221
+      - 美国68
+      - 加拿大139
+      - 美国259
+      - 中国28
+      - 亚美尼亚112
+      - 中国16
+      - 伯利兹130
+      - 乌克兰187
+      - 伯利兹133
+      - 伯利兹125
+      - 美国35
+      - 塞浦路斯118
+      - 意大利148
+      - 亚美尼亚111
+      - 美国206
+      - 伯利兹135
+      - 中国13
+      - 伯利兹126
+      - 美国242
+      - 乌克兰163
+      - 伯利兹128
+      - 美国91
+      - 美国99
+      - 美国101
+      - 塞浦路斯120
+      - 伯利兹123
+      - 美国108
+      - SG_32
+      - BZ_55
       - BZ_117
-      - CN_37
-      - US_127
-      - US_107
-      - US_124
-      - US_10
-      - CN_115
-      - CN_177
-      - US_168
-      - CN_160
-      - US_38
-      - US_61
-      - BZ_46
-      - GB_70
-      - US_118
-      - US_172
-      - US_122
-      - UA_141
-      - CN_157
-      - CY_146
-      - US_108
-      - US_79
-      - BZ_71
-      - CN_173
-      - CY_63
-      - CA_85
-      - BZ_21
-      - US_36
+      - CN_27
+      - TW_136
+      - TW_169
+      - TW_159
+      - US_131
+      - BZ_175
+      - CN_43
+      - BZ_150
+      - AM_19
+      - US_76
       - US_49
-      - US_174
-      - US_32
-      - PA_60
-      - DE_145
-      - AM_105
-      - US_103
-      - CN_162
-      - CN_39
-      - FR_33
-      - CA_161
-      - CN_96
-      - BZ_18
-      - FR_126
-      - US_47
-      - AM_153
-      - AM_11
+      - CN_193
+      - CA_31
+      - AM_160
+      - US_134
+      - CA_152
+      - US_3
+      - US_181
+      - US_192
+      - BZ_201
+      - CN_146
+      - CN_38
       - US_98
-      - US_66
-      - US_9
-      - CN_159
+      - US_102
+      - US_6
+      - CN_206
+      - DE_50
+      - NL_67
+      - US_39
+      - BZ_36
+      - US_186
+      - US_09
       - US_123
-      - DE_17
-      - US_54
-      - BZ_111
-      - US_82
-      - BZ_149
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 新加坡高速接入点-04
-      - 新加坡高速接入点-03
-      - 日本高速接入点-02
-      - 日本高速接入点-04
-      - 香港高速接入点-02
-      - 日本高速接入点-01
-      - 香港高速接入点-01
-      - 台北高级接入点-01
-      - 美国高速接入点-01
-      - 日本高速接入点-03
-      - 香港高速接入点-04
-      - 5x-临时-新加坡-高级节点1
-      - 美国高速接入点-02
-      - 新加坡高速接入点-02
-      - 韩国高速接入点-01
-      - 香港高速接入点-06
+      - CN_17
+      - DE_172
+      - BZ_34
+      - US_183
+      - HK_82
+      - AM_119
+      - US_126
+      - US_129
+      - TW_2
+      - US_203
+      - US_149
+      - CA_147
+      - TW_48
+      - TW_73
+      - US_68
+      - UA_29
+      - BZ_189
+      - BZ_184
+      - BZ_199
+      - CY_79
+      - BZ_207
+      - US_26
+      - CY_137
+      - CA_96
+      - CN_23
+      - CN_65
+      - TW_56
+      - US_52
+      - CN_145
+      - BZ_44
+      - US_110
       - 台北高级接入点-02
-      - 韩国高速接入点-02
+      - 日本高速接入点-02
+      - 台北高级接入点-01
+      - 香港高速接入点-04
       - 香港高速接入点-05
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国 2
-      - _RU_俄罗斯联邦
-      - 澳大利亚Cranbourne Secondary College 35
-      - 俄罗斯新西伯利亚JustHost 4
-      - 美国CloudFlare节点 28
-      - 美国CloudFlare公司CDN节点 21
-      - 台湾省台北市中华电信 5
-      - 美国CloudFlare节点 19
-      - 美国CloudFlare节点 30
-      - 澳大利亚悉尼 8
-      - 澳大利亚Cranbourne Secondary College 7
-      - 德国黑森州法兰克福Amazon数据中心 11
-      - 美国CloudFlare节点 32
-      - 美国CloudFlare公司CDN节点 15
-      - 美国CloudFlare公司CDN节点(shopify) 22
-      - 美国CloudFlare节点 18
-      - 美国CloudFlare公司CDN节点 9
-      - US-DP2
-      - US-BuyVM3
-      - US-BuyVM2
-      - UK-CF
-      - US-DO
-      - HK-CF
-      - US-BuyVM4
-      - DE-CF
-      - JP-LN-CF
-      - CA-CF
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _US_美国 3
-      - _BZ_伯利兹->🇺🇸_US_美国
-      - _BZ_伯利兹->🇺🇸_US_美国 2
-      - _US_美国 4
-      - _UA_乌克兰->🇯🇵_JP_日本
+      - 香港高速接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-03
+      - 美国高速接入点-02
+      - 新加坡高速接入点-03
+      - 日本高速接入点-04
+      - 日本高速接入点-03
+      - 新加坡高速接入点-02
+      - 韩国高速接入点-02
+      - 新加坡高速接入点-04
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 韩国高速接入点-01
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 新加坡高速接入点-01
+      - 香港高速接入点-02
+      - 美国高速接入点-01
+      - 日本-80端口-04
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _NL_荷兰
       - _BZ_伯利兹->🇫🇷_FR_法国
-      - _US_美国 5
-      - _AM_亚美尼亚
-      - _CN_中国->🇯🇵_JP_日本
-      - 德国-优化2
-      - 尼日利亚-优化
-      - 香港HKT-优化
-      - 哈萨克斯坦KZ-T
-      - 日本-优化3
-      - 日本-优化2
-      - 柬埔寨KH-T
-      - 美国LA-优化
-      - 南非-优化
-      - 印度-优化
-      - 德国-优化3
-      - 香港HKT-优化3
-      - 美国LA-优化2
-      - 香港HKT-优化2
-      - 土耳其TR-T
-      - 美国LA-优化3
-      - 澳大利亚-优化2
-      - 香港FDC-优化2
-      - 荷兰-优化
-      - 荷兰-优化3
-      - 英国UK-T
-      - 日本-优化
-      - 美国USLA-T
-      - 卢森堡LUX-T
-      - 德国DE-T
-      - 香港Az-优化
-      - 阿根廷AR-T
-      - 瑞士CH-T
-      - 新加坡-优化3
-      - 俄罗斯RU-T
-      - 韩国KR-T
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 套餐到期：长期有效
-      - 香港Az-优化2
-      - 葡萄牙PT-T
-      - 乌克兰UA-T
-      - 日本JP-T
-      - 剩余流量：1388.33 GB
-      - 新加坡-优化
-      - 以色列IL-T
-      - 香港HKT-T
-      - 新加坡SG-T
-      - 新加坡-优化2
-      - 越南VN-T
-      - 加拿大-优化
-      - 马来西亚MY-T
+      - _CN_中国->🇺🇸_US_美国
+      - _CY_塞浦路斯->🇫🇷_FR_法国
+      - _NL_荷兰 2
+      - _NL_荷兰 3
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - 广东省移动 12
+      - 美国CloudFlare节点 24
+      - 美国CloudFlare公司CDN节点 10
+      - 澳大利亚悉尼 19
+      - 巴西圣保罗CloudFlare节点 14
+      - 欧盟  23
+      - 澳大利亚悉尼 6
+      - 美国加利福尼亚州洛杉矶IT7网络 3
+      - 欧盟  20
+      - 美国  13
+      - 澳大利亚Lyndhurst Secondary College 18
+      - 澳门澳门电讯 2
+      - 澳大利亚Langwarrin Secondary College 16
+      - 美国CloudFlare节点 11
+      - US-DP2
+      - US-DP1
+      - US-BuyVM4
+      - US-DO
+      - CA-CF
+      - UK-CF
+      - KH-CF
+      - HK-CF
+      - _TW_台湾->🇺🇸_US_美国 3
+      - _BZ_伯利兹->🇫🇷_FR_法国 2
+      - _RO_罗马尼亚->🇺🇸_US_美国 2
+      - _BZ_伯利兹
+      - _NL_荷兰 4
+      - _NL_荷兰 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 德国-优化
       - 美国
-      - 亚美尼亚
-      - 伯利兹
-      - 意大利
       - 美国 2
-      - 香港
-      - 塞浦路斯
+      - 乌克兰
+      - 中国
       - 美国 3
+      - 伯利兹
+      - 中国 2
+      - 伯利兹 2
+      - 伯利兹 3
+      - 中国 3
       - 美国 4
+      - 香港
       - 美国 5
+      - 美国 6
+      - 美国 7
+      - 荷兰
+      - 罗马尼亚
+      - 荷兰 2
+      - 美国 8
+      - 美国 9
+      - 美国 10
       - 香港 2
-      - 加拿大
-      - 亚美尼亚 2
-      - 德国
-      - 美国66
-      - 美国-39
-      - 中国-97
-      - 中国-100
-      - 中国-91
-      - 美国-73
-      - 美国-132
-      - 美国-67
-      - 中国-123
-      - 中国-134
-      - 中国-169
-      - 中国-121
-      - 美国-9
-      - 美国-145
-      - 美国-131
-      - 美国-160
-      - 中国-115
-      - 中国-89
-      - 美国-82
-      - 中国-122
-      - US_5
-      - US_77
-      - TW_171
-      - BZ_24
-      - BZ_119
-      - AU_42
-      - CN_92
-      - CA_56
-      - US_102
-      - CN_131
-      - CN_167
-      - US_140
-      - US_100
-      - US_175
-      - US_164
+      - 罗马尼亚 2
+      - 荷兰 3
+      - 英国
+      - 荷兰 4
+      - 美国 11
+      - 台湾
+      - 美国 12
+      - 亚美尼亚
+      - 中国 4
+      - 美国 13
+      - 美国 14
+      - 荷兰 5
+      - 塞浦路斯119
+      - 美国200
+      - 美国137
+      - 中国15
+      - 亚美尼亚113
+      - 中国18
+      - 美国201
+      - 美国212
+      - 伯利兹124
+      - 美国260
+      - 罗马尼亚161
+      - 中国21
+      - 美国221
+      - 美国68
+      - 加拿大139
+      - 美国259
+      - 中国28
+      - 亚美尼亚112
+      - 中国16
+      - 伯利兹130
+      - 乌克兰187
+      - 伯利兹133
+      - 伯利兹125
+      - 美国35
+      - 塞浦路斯118
+      - 意大利148
+      - 亚美尼亚111
+      - 美国206
+      - 伯利兹135
+      - 中国13
+      - 伯利兹126
+      - 美国242
+      - 乌克兰163
+      - 伯利兹128
+      - 美国91
+      - 美国99
+      - 美国101
+      - 塞浦路斯120
+      - 伯利兹123
+      - 美国108
+      - SG_32
+      - BZ_55
       - BZ_117
-      - CN_37
-      - US_127
-      - US_107
-      - US_124
-      - US_10
-      - CN_115
-      - CN_177
-      - US_168
-      - CN_160
-      - US_38
-      - US_61
-      - BZ_46
-      - GB_70
-      - US_118
-      - US_172
-      - US_122
-      - UA_141
-      - CN_157
-      - CY_146
-      - US_108
-      - US_79
-      - BZ_71
-      - CN_173
-      - CY_63
-      - CA_85
-      - BZ_21
-      - US_36
+      - CN_27
+      - TW_136
+      - TW_169
+      - TW_159
+      - US_131
+      - BZ_175
+      - CN_43
+      - BZ_150
+      - AM_19
+      - US_76
       - US_49
-      - US_174
-      - US_32
-      - PA_60
-      - DE_145
-      - AM_105
-      - US_103
-      - CN_162
-      - CN_39
-      - FR_33
-      - CA_161
-      - CN_96
-      - BZ_18
-      - FR_126
-      - US_47
-      - AM_153
-      - AM_11
+      - CN_193
+      - CA_31
+      - AM_160
+      - US_134
+      - CA_152
+      - US_3
+      - US_181
+      - US_192
+      - BZ_201
+      - CN_146
+      - CN_38
       - US_98
-      - US_66
-      - US_9
-      - CN_159
+      - US_102
+      - US_6
+      - CN_206
+      - DE_50
+      - NL_67
+      - US_39
+      - BZ_36
+      - US_186
+      - US_09
       - US_123
-      - DE_17
-      - US_54
-      - BZ_111
-      - US_82
-      - BZ_149
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 新加坡高速接入点-04
-      - 新加坡高速接入点-03
-      - 日本高速接入点-02
-      - 日本高速接入点-04
-      - 香港高速接入点-02
-      - 日本高速接入点-01
-      - 香港高速接入点-01
-      - 台北高级接入点-01
-      - 美国高速接入点-01
-      - 日本高速接入点-03
-      - 香港高速接入点-04
-      - 5x-临时-新加坡-高级节点1
-      - 美国高速接入点-02
-      - 新加坡高速接入点-02
-      - 韩国高速接入点-01
-      - 香港高速接入点-06
+      - CN_17
+      - DE_172
+      - BZ_34
+      - US_183
+      - HK_82
+      - AM_119
+      - US_126
+      - US_129
+      - TW_2
+      - US_203
+      - US_149
+      - CA_147
+      - TW_48
+      - TW_73
+      - US_68
+      - UA_29
+      - BZ_189
+      - BZ_184
+      - BZ_199
+      - CY_79
+      - BZ_207
+      - US_26
+      - CY_137
+      - CA_96
+      - CN_23
+      - CN_65
+      - TW_56
+      - US_52
+      - CN_145
+      - BZ_44
+      - US_110
       - 台北高级接入点-02
-      - 韩国高速接入点-02
+      - 日本高速接入点-02
+      - 台北高级接入点-01
+      - 香港高速接入点-04
       - 香港高速接入点-05
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国 2
-      - _RU_俄罗斯联邦
-      - 澳大利亚Cranbourne Secondary College 35
-      - 俄罗斯新西伯利亚JustHost 4
-      - 美国CloudFlare节点 28
-      - 美国CloudFlare公司CDN节点 21
-      - 台湾省台北市中华电信 5
-      - 美国CloudFlare节点 19
-      - 美国CloudFlare节点 30
-      - 澳大利亚悉尼 8
-      - 澳大利亚Cranbourne Secondary College 7
-      - 德国黑森州法兰克福Amazon数据中心 11
-      - 美国CloudFlare节点 32
-      - 美国CloudFlare公司CDN节点 15
-      - 美国CloudFlare公司CDN节点(shopify) 22
-      - 美国CloudFlare节点 18
-      - 美国CloudFlare公司CDN节点 9
-      - US-DP2
-      - US-BuyVM3
-      - US-BuyVM2
-      - UK-CF
-      - US-DO
-      - HK-CF
-      - US-BuyVM4
-      - DE-CF
-      - JP-LN-CF
-      - CA-CF
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _US_美国 3
-      - _BZ_伯利兹->🇺🇸_US_美国
-      - _BZ_伯利兹->🇺🇸_US_美国 2
-      - _US_美国 4
-      - _UA_乌克兰->🇯🇵_JP_日本
+      - 香港高速接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-03
+      - 美国高速接入点-02
+      - 新加坡高速接入点-03
+      - 日本高速接入点-04
+      - 日本高速接入点-03
+      - 新加坡高速接入点-02
+      - 韩国高速接入点-02
+      - 新加坡高速接入点-04
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 韩国高速接入点-01
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 新加坡高速接入点-01
+      - 香港高速接入点-02
+      - 美国高速接入点-01
+      - 日本-80端口-04
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _NL_荷兰
       - _BZ_伯利兹->🇫🇷_FR_法国
-      - _US_美国 5
-      - _AM_亚美尼亚
-      - _CN_中国->🇯🇵_JP_日本
-      - 德国-优化2
-      - 尼日利亚-优化
-      - 香港HKT-优化
-      - 哈萨克斯坦KZ-T
-      - 日本-优化3
-      - 日本-优化2
-      - 柬埔寨KH-T
-      - 美国LA-优化
-      - 南非-优化
-      - 印度-优化
-      - 德国-优化3
-      - 香港HKT-优化3
-      - 美国LA-优化2
-      - 香港HKT-优化2
-      - 土耳其TR-T
-      - 美国LA-优化3
-      - 澳大利亚-优化2
-      - 香港FDC-优化2
-      - 荷兰-优化
-      - 荷兰-优化3
-      - 英国UK-T
-      - 日本-优化
-      - 美国USLA-T
-      - 卢森堡LUX-T
-      - 德国DE-T
-      - 香港Az-优化
-      - 阿根廷AR-T
-      - 瑞士CH-T
-      - 新加坡-优化3
-      - 俄罗斯RU-T
-      - 韩国KR-T
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 套餐到期：长期有效
-      - 香港Az-优化2
-      - 葡萄牙PT-T
-      - 乌克兰UA-T
-      - 日本JP-T
-      - 剩余流量：1388.33 GB
-      - 新加坡-优化
-      - 以色列IL-T
-      - 香港HKT-T
-      - 新加坡SG-T
-      - 新加坡-优化2
-      - 越南VN-T
-      - 加拿大-优化
-      - 马来西亚MY-T
+      - _CN_中国->🇺🇸_US_美国
+      - _CY_塞浦路斯->🇫🇷_FR_法国
+      - _NL_荷兰 2
+      - _NL_荷兰 3
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - 广东省移动 12
+      - 美国CloudFlare节点 24
+      - 美国CloudFlare公司CDN节点 10
+      - 澳大利亚悉尼 19
+      - 巴西圣保罗CloudFlare节点 14
+      - 欧盟  23
+      - 澳大利亚悉尼 6
+      - 美国加利福尼亚州洛杉矶IT7网络 3
+      - 欧盟  20
+      - 美国  13
+      - 澳大利亚Lyndhurst Secondary College 18
+      - 澳门澳门电讯 2
+      - 澳大利亚Langwarrin Secondary College 16
+      - 美国CloudFlare节点 11
+      - US-DP2
+      - US-DP1
+      - US-BuyVM4
+      - US-DO
+      - CA-CF
+      - UK-CF
+      - KH-CF
+      - HK-CF
+      - _TW_台湾->🇺🇸_US_美国 3
+      - _BZ_伯利兹->🇫🇷_FR_法国 2
+      - _RO_罗马尼亚->🇺🇸_US_美国 2
+      - _BZ_伯利兹
+      - _NL_荷兰 4
+      - _NL_荷兰 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国-优化
       - 美国
-      - 亚美尼亚
-      - 伯利兹
-      - 意大利
       - 美国 2
-      - 香港
-      - 塞浦路斯
+      - 乌克兰
+      - 中国
       - 美国 3
+      - 伯利兹
+      - 中国 2
+      - 伯利兹 2
+      - 伯利兹 3
+      - 中国 3
       - 美国 4
+      - 香港
       - 美国 5
+      - 美国 6
+      - 美国 7
+      - 荷兰
+      - 罗马尼亚
+      - 荷兰 2
+      - 美国 8
+      - 美国 9
+      - 美国 10
       - 香港 2
-      - 加拿大
-      - 亚美尼亚 2
-      - 德国
-      - 美国66
-      - 美国-39
-      - 中国-97
-      - 中国-100
-      - 中国-91
-      - 美国-73
-      - 美国-132
-      - 美国-67
-      - 中国-123
-      - 中国-134
-      - 中国-169
-      - 中国-121
-      - 美国-9
-      - 美国-145
-      - 美国-131
-      - 美国-160
-      - 中国-115
-      - 中国-89
-      - 美国-82
-      - 中国-122
-      - US_5
-      - US_77
-      - TW_171
-      - BZ_24
-      - BZ_119
-      - AU_42
-      - CN_92
-      - CA_56
-      - US_102
-      - CN_131
-      - CN_167
-      - US_140
-      - US_100
-      - US_175
-      - US_164
+      - 罗马尼亚 2
+      - 荷兰 3
+      - 英国
+      - 荷兰 4
+      - 美国 11
+      - 台湾
+      - 美国 12
+      - 亚美尼亚
+      - 中国 4
+      - 美国 13
+      - 美国 14
+      - 荷兰 5
+      - 塞浦路斯119
+      - 美国200
+      - 美国137
+      - 中国15
+      - 亚美尼亚113
+      - 中国18
+      - 美国201
+      - 美国212
+      - 伯利兹124
+      - 美国260
+      - 罗马尼亚161
+      - 中国21
+      - 美国221
+      - 美国68
+      - 加拿大139
+      - 美国259
+      - 中国28
+      - 亚美尼亚112
+      - 中国16
+      - 伯利兹130
+      - 乌克兰187
+      - 伯利兹133
+      - 伯利兹125
+      - 美国35
+      - 塞浦路斯118
+      - 意大利148
+      - 亚美尼亚111
+      - 美国206
+      - 伯利兹135
+      - 中国13
+      - 伯利兹126
+      - 美国242
+      - 乌克兰163
+      - 伯利兹128
+      - 美国91
+      - 美国99
+      - 美国101
+      - 塞浦路斯120
+      - 伯利兹123
+      - 美国108
+      - SG_32
+      - BZ_55
       - BZ_117
-      - CN_37
-      - US_127
-      - US_107
-      - US_124
-      - US_10
-      - CN_115
-      - CN_177
-      - US_168
-      - CN_160
-      - US_38
-      - US_61
-      - BZ_46
-      - GB_70
-      - US_118
-      - US_172
-      - US_122
-      - UA_141
-      - CN_157
-      - CY_146
-      - US_108
-      - US_79
-      - BZ_71
-      - CN_173
-      - CY_63
-      - CA_85
-      - BZ_21
-      - US_36
+      - CN_27
+      - TW_136
+      - TW_169
+      - TW_159
+      - US_131
+      - BZ_175
+      - CN_43
+      - BZ_150
+      - AM_19
+      - US_76
       - US_49
-      - US_174
-      - US_32
-      - PA_60
-      - DE_145
-      - AM_105
-      - US_103
-      - CN_162
-      - CN_39
-      - FR_33
-      - CA_161
-      - CN_96
-      - BZ_18
-      - FR_126
-      - US_47
-      - AM_153
-      - AM_11
+      - CN_193
+      - CA_31
+      - AM_160
+      - US_134
+      - CA_152
+      - US_3
+      - US_181
+      - US_192
+      - BZ_201
+      - CN_146
+      - CN_38
       - US_98
-      - US_66
-      - US_9
-      - CN_159
+      - US_102
+      - US_6
+      - CN_206
+      - DE_50
+      - NL_67
+      - US_39
+      - BZ_36
+      - US_186
+      - US_09
       - US_123
-      - DE_17
-      - US_54
-      - BZ_111
-      - US_82
-      - BZ_149
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 新加坡高速接入点-04
-      - 新加坡高速接入点-03
-      - 日本高速接入点-02
-      - 日本高速接入点-04
-      - 香港高速接入点-02
-      - 日本高速接入点-01
-      - 香港高速接入点-01
-      - 台北高级接入点-01
-      - 美国高速接入点-01
-      - 日本高速接入点-03
-      - 香港高速接入点-04
-      - 5x-临时-新加坡-高级节点1
-      - 美国高速接入点-02
-      - 新加坡高速接入点-02
-      - 韩国高速接入点-01
-      - 香港高速接入点-06
+      - CN_17
+      - DE_172
+      - BZ_34
+      - US_183
+      - HK_82
+      - AM_119
+      - US_126
+      - US_129
+      - TW_2
+      - US_203
+      - US_149
+      - CA_147
+      - TW_48
+      - TW_73
+      - US_68
+      - UA_29
+      - BZ_189
+      - BZ_184
+      - BZ_199
+      - CY_79
+      - BZ_207
+      - US_26
+      - CY_137
+      - CA_96
+      - CN_23
+      - CN_65
+      - TW_56
+      - US_52
+      - CN_145
+      - BZ_44
+      - US_110
       - 台北高级接入点-02
-      - 韩国高速接入点-02
+      - 日本高速接入点-02
+      - 台北高级接入点-01
+      - 香港高速接入点-04
       - 香港高速接入点-05
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国 2
-      - _RU_俄罗斯联邦
-      - 澳大利亚Cranbourne Secondary College 35
-      - 俄罗斯新西伯利亚JustHost 4
-      - 美国CloudFlare节点 28
-      - 美国CloudFlare公司CDN节点 21
-      - 台湾省台北市中华电信 5
-      - 美国CloudFlare节点 19
-      - 美国CloudFlare节点 30
-      - 澳大利亚悉尼 8
-      - 澳大利亚Cranbourne Secondary College 7
-      - 德国黑森州法兰克福Amazon数据中心 11
-      - 美国CloudFlare节点 32
-      - 美国CloudFlare公司CDN节点 15
-      - 美国CloudFlare公司CDN节点(shopify) 22
-      - 美国CloudFlare节点 18
-      - 美国CloudFlare公司CDN节点 9
-      - US-DP2
-      - US-BuyVM3
-      - US-BuyVM2
-      - UK-CF
-      - US-DO
-      - HK-CF
-      - US-BuyVM4
-      - DE-CF
-      - JP-LN-CF
-      - CA-CF
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _US_美国 3
-      - _BZ_伯利兹->🇺🇸_US_美国
-      - _BZ_伯利兹->🇺🇸_US_美国 2
-      - _US_美国 4
-      - _UA_乌克兰->🇯🇵_JP_日本
+      - 香港高速接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-03
+      - 美国高速接入点-02
+      - 新加坡高速接入点-03
+      - 日本高速接入点-04
+      - 日本高速接入点-03
+      - 新加坡高速接入点-02
+      - 韩国高速接入点-02
+      - 新加坡高速接入点-04
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 韩国高速接入点-01
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 新加坡高速接入点-01
+      - 香港高速接入点-02
+      - 美国高速接入点-01
+      - 日本-80端口-04
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _NL_荷兰
       - _BZ_伯利兹->🇫🇷_FR_法国
-      - _US_美国 5
-      - _AM_亚美尼亚
-      - _CN_中国->🇯🇵_JP_日本
-      - 德国-优化2
-      - 尼日利亚-优化
-      - 香港HKT-优化
-      - 哈萨克斯坦KZ-T
-      - 日本-优化3
-      - 日本-优化2
-      - 柬埔寨KH-T
-      - 美国LA-优化
-      - 南非-优化
-      - 印度-优化
-      - 德国-优化3
-      - 香港HKT-优化3
-      - 美国LA-优化2
-      - 香港HKT-优化2
-      - 土耳其TR-T
-      - 美国LA-优化3
-      - 澳大利亚-优化2
-      - 香港FDC-优化2
-      - 荷兰-优化
-      - 荷兰-优化3
-      - 英国UK-T
-      - 日本-优化
-      - 美国USLA-T
-      - 卢森堡LUX-T
-      - 德国DE-T
-      - 香港Az-优化
-      - 阿根廷AR-T
-      - 瑞士CH-T
-      - 新加坡-优化3
-      - 俄罗斯RU-T
-      - 韩国KR-T
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 套餐到期：长期有效
-      - 香港Az-优化2
-      - 葡萄牙PT-T
-      - 乌克兰UA-T
-      - 日本JP-T
-      - 剩余流量：1388.33 GB
-      - 新加坡-优化
-      - 以色列IL-T
-      - 香港HKT-T
-      - 新加坡SG-T
-      - 新加坡-优化2
-      - 越南VN-T
-      - 加拿大-优化
-      - 马来西亚MY-T
+      - _CN_中国->🇺🇸_US_美国
+      - _CY_塞浦路斯->🇫🇷_FR_法国
+      - _NL_荷兰 2
+      - _NL_荷兰 3
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - 广东省移动 12
+      - 美国CloudFlare节点 24
+      - 美国CloudFlare公司CDN节点 10
+      - 澳大利亚悉尼 19
+      - 巴西圣保罗CloudFlare节点 14
+      - 欧盟  23
+      - 澳大利亚悉尼 6
+      - 美国加利福尼亚州洛杉矶IT7网络 3
+      - 欧盟  20
+      - 美国  13
+      - 澳大利亚Lyndhurst Secondary College 18
+      - 澳门澳门电讯 2
+      - 澳大利亚Langwarrin Secondary College 16
+      - 美国CloudFlare节点 11
+      - US-DP2
+      - US-DP1
+      - US-BuyVM4
+      - US-DO
+      - CA-CF
+      - UK-CF
+      - KH-CF
+      - HK-CF
+      - _TW_台湾->🇺🇸_US_美国 3
+      - _BZ_伯利兹->🇫🇷_FR_法国 2
+      - _RO_罗马尼亚->🇺🇸_US_美国 2
+      - _BZ_伯利兹
+      - _NL_荷兰 4
+      - _NL_荷兰 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -888,896 +856,859 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国-优化
       - 美国
-      - 亚美尼亚
-      - 伯利兹
-      - 意大利
       - 美国 2
-      - 香港
-      - 塞浦路斯
+      - 乌克兰
+      - 中国
       - 美国 3
+      - 伯利兹
+      - 中国 2
+      - 伯利兹 2
+      - 伯利兹 3
+      - 中国 3
       - 美国 4
+      - 香港
       - 美国 5
+      - 美国 6
+      - 美国 7
+      - 荷兰
+      - 罗马尼亚
+      - 荷兰 2
+      - 美国 8
+      - 美国 9
+      - 美国 10
       - 香港 2
-      - 加拿大
-      - 亚美尼亚 2
-      - 德国
-      - 美国66
-      - 美国-39
-      - 中国-97
-      - 中国-100
-      - 中国-91
-      - 美国-73
-      - 美国-132
-      - 美国-67
-      - 中国-123
-      - 中国-134
-      - 中国-169
-      - 中国-121
-      - 美国-9
-      - 美国-145
-      - 美国-131
-      - 美国-160
-      - 中国-115
-      - 中国-89
-      - 美国-82
-      - 中国-122
-      - US_5
-      - US_77
-      - TW_171
-      - BZ_24
-      - BZ_119
-      - AU_42
-      - CN_92
-      - CA_56
-      - US_102
-      - CN_131
-      - CN_167
-      - US_140
-      - US_100
-      - US_175
-      - US_164
+      - 罗马尼亚 2
+      - 荷兰 3
+      - 英国
+      - 荷兰 4
+      - 美国 11
+      - 台湾
+      - 美国 12
+      - 亚美尼亚
+      - 中国 4
+      - 美国 13
+      - 美国 14
+      - 荷兰 5
+      - 塞浦路斯119
+      - 美国200
+      - 美国137
+      - 中国15
+      - 亚美尼亚113
+      - 中国18
+      - 美国201
+      - 美国212
+      - 伯利兹124
+      - 美国260
+      - 罗马尼亚161
+      - 中国21
+      - 美国221
+      - 美国68
+      - 加拿大139
+      - 美国259
+      - 中国28
+      - 亚美尼亚112
+      - 中国16
+      - 伯利兹130
+      - 乌克兰187
+      - 伯利兹133
+      - 伯利兹125
+      - 美国35
+      - 塞浦路斯118
+      - 意大利148
+      - 亚美尼亚111
+      - 美国206
+      - 伯利兹135
+      - 中国13
+      - 伯利兹126
+      - 美国242
+      - 乌克兰163
+      - 伯利兹128
+      - 美国91
+      - 美国99
+      - 美国101
+      - 塞浦路斯120
+      - 伯利兹123
+      - 美国108
+      - SG_32
+      - BZ_55
       - BZ_117
-      - CN_37
-      - US_127
-      - US_107
-      - US_124
-      - US_10
-      - CN_115
-      - CN_177
-      - US_168
-      - CN_160
-      - US_38
-      - US_61
-      - BZ_46
-      - GB_70
-      - US_118
-      - US_172
-      - US_122
-      - UA_141
-      - CN_157
-      - CY_146
-      - US_108
-      - US_79
-      - BZ_71
-      - CN_173
-      - CY_63
-      - CA_85
-      - BZ_21
-      - US_36
+      - CN_27
+      - TW_136
+      - TW_169
+      - TW_159
+      - US_131
+      - BZ_175
+      - CN_43
+      - BZ_150
+      - AM_19
+      - US_76
       - US_49
-      - US_174
-      - US_32
-      - PA_60
-      - DE_145
-      - AM_105
-      - US_103
-      - CN_162
-      - CN_39
-      - FR_33
-      - CA_161
-      - CN_96
-      - BZ_18
-      - FR_126
-      - US_47
-      - AM_153
-      - AM_11
+      - CN_193
+      - CA_31
+      - AM_160
+      - US_134
+      - CA_152
+      - US_3
+      - US_181
+      - US_192
+      - BZ_201
+      - CN_146
+      - CN_38
       - US_98
-      - US_66
-      - US_9
-      - CN_159
+      - US_102
+      - US_6
+      - CN_206
+      - DE_50
+      - NL_67
+      - US_39
+      - BZ_36
+      - US_186
+      - US_09
       - US_123
-      - DE_17
-      - US_54
-      - BZ_111
-      - US_82
-      - BZ_149
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 新加坡高速接入点-04
-      - 新加坡高速接入点-03
-      - 日本高速接入点-02
-      - 日本高速接入点-04
-      - 香港高速接入点-02
-      - 日本高速接入点-01
-      - 香港高速接入点-01
-      - 台北高级接入点-01
-      - 美国高速接入点-01
-      - 日本高速接入点-03
-      - 香港高速接入点-04
-      - 5x-临时-新加坡-高级节点1
-      - 美国高速接入点-02
-      - 新加坡高速接入点-02
-      - 韩国高速接入点-01
-      - 香港高速接入点-06
+      - CN_17
+      - DE_172
+      - BZ_34
+      - US_183
+      - HK_82
+      - AM_119
+      - US_126
+      - US_129
+      - TW_2
+      - US_203
+      - US_149
+      - CA_147
+      - TW_48
+      - TW_73
+      - US_68
+      - UA_29
+      - BZ_189
+      - BZ_184
+      - BZ_199
+      - CY_79
+      - BZ_207
+      - US_26
+      - CY_137
+      - CA_96
+      - CN_23
+      - CN_65
+      - TW_56
+      - US_52
+      - CN_145
+      - BZ_44
+      - US_110
       - 台北高级接入点-02
-      - 韩国高速接入点-02
+      - 日本高速接入点-02
+      - 台北高级接入点-01
+      - 香港高速接入点-04
       - 香港高速接入点-05
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国 2
-      - _RU_俄罗斯联邦
-      - 澳大利亚Cranbourne Secondary College 35
-      - 俄罗斯新西伯利亚JustHost 4
-      - 美国CloudFlare节点 28
-      - 美国CloudFlare公司CDN节点 21
-      - 台湾省台北市中华电信 5
-      - 美国CloudFlare节点 19
-      - 美国CloudFlare节点 30
-      - 澳大利亚悉尼 8
-      - 澳大利亚Cranbourne Secondary College 7
-      - 德国黑森州法兰克福Amazon数据中心 11
-      - 美国CloudFlare节点 32
-      - 美国CloudFlare公司CDN节点 15
-      - 美国CloudFlare公司CDN节点(shopify) 22
-      - 美国CloudFlare节点 18
-      - 美国CloudFlare公司CDN节点 9
-      - US-DP2
-      - US-BuyVM3
-      - US-BuyVM2
-      - UK-CF
-      - US-DO
-      - HK-CF
-      - US-BuyVM4
-      - DE-CF
-      - JP-LN-CF
-      - CA-CF
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _US_美国 3
-      - _BZ_伯利兹->🇺🇸_US_美国
-      - _BZ_伯利兹->🇺🇸_US_美国 2
-      - _US_美国 4
-      - _UA_乌克兰->🇯🇵_JP_日本
+      - 香港高速接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-03
+      - 美国高速接入点-02
+      - 新加坡高速接入点-03
+      - 日本高速接入点-04
+      - 日本高速接入点-03
+      - 新加坡高速接入点-02
+      - 韩国高速接入点-02
+      - 新加坡高速接入点-04
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 韩国高速接入点-01
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 新加坡高速接入点-01
+      - 香港高速接入点-02
+      - 美国高速接入点-01
+      - 日本-80端口-04
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _NL_荷兰
       - _BZ_伯利兹->🇫🇷_FR_法国
-      - _US_美国 5
-      - _AM_亚美尼亚
-      - _CN_中国->🇯🇵_JP_日本
-      - 德国-优化2
-      - 尼日利亚-优化
-      - 香港HKT-优化
-      - 哈萨克斯坦KZ-T
-      - 日本-优化3
-      - 日本-优化2
-      - 柬埔寨KH-T
-      - 美国LA-优化
-      - 南非-优化
-      - 印度-优化
-      - 德国-优化3
-      - 香港HKT-优化3
-      - 美国LA-优化2
-      - 香港HKT-优化2
-      - 土耳其TR-T
-      - 美国LA-优化3
-      - 澳大利亚-优化2
-      - 香港FDC-优化2
-      - 荷兰-优化
-      - 荷兰-优化3
-      - 英国UK-T
-      - 日本-优化
-      - 美国USLA-T
-      - 卢森堡LUX-T
-      - 德国DE-T
-      - 香港Az-优化
-      - 阿根廷AR-T
-      - 瑞士CH-T
-      - 新加坡-优化3
-      - 俄罗斯RU-T
-      - 韩国KR-T
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 套餐到期：长期有效
-      - 香港Az-优化2
-      - 葡萄牙PT-T
-      - 乌克兰UA-T
-      - 日本JP-T
-      - 剩余流量：1388.33 GB
-      - 新加坡-优化
-      - 以色列IL-T
-      - 香港HKT-T
-      - 新加坡SG-T
-      - 新加坡-优化2
-      - 越南VN-T
-      - 加拿大-优化
-      - 马来西亚MY-T
+      - _CN_中国->🇺🇸_US_美国
+      - _CY_塞浦路斯->🇫🇷_FR_法国
+      - _NL_荷兰 2
+      - _NL_荷兰 3
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - 广东省移动 12
+      - 美国CloudFlare节点 24
+      - 美国CloudFlare公司CDN节点 10
+      - 澳大利亚悉尼 19
+      - 巴西圣保罗CloudFlare节点 14
+      - 欧盟  23
+      - 澳大利亚悉尼 6
+      - 美国加利福尼亚州洛杉矶IT7网络 3
+      - 欧盟  20
+      - 美国  13
+      - 澳大利亚Lyndhurst Secondary College 18
+      - 澳门澳门电讯 2
+      - 澳大利亚Langwarrin Secondary College 16
+      - 美国CloudFlare节点 11
+      - US-DP2
+      - US-DP1
+      - US-BuyVM4
+      - US-DO
+      - CA-CF
+      - UK-CF
+      - KH-CF
+      - HK-CF
+      - _TW_台湾->🇺🇸_US_美国 3
+      - _BZ_伯利兹->🇫🇷_FR_法国 2
+      - _RO_罗马尼亚->🇺🇸_US_美国 2
+      - _BZ_伯利兹
+      - _NL_荷兰 4
+      - _NL_荷兰 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港
       - 香港 2
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 香港高速接入点-02
-      - 香港高速接入点-01
+      - 台湾
+      - 台北高级接入点-02
       - 台北高级接入点-01
       - 香港高速接入点-04
-      - 香港高速接入点-06
-      - 台北高级接入点-02
       - 香港高速接入点-05
-      - 台湾省台北市中华电信 5
-      - 香港HKT-优化
-      - 香港HKT-优化3
-      - 香港HKT-优化2
-      - 香港FDC-优化2
-      - 香港Az-优化
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 香港Az-优化2
-      - 香港HKT-T
+      - 香港高速接入点-01
+      - 香港高速接入点-03
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 香港-80端口-01
+      - 香港高速接入点-02
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - _TW_台湾->🇺🇸_US_美国 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 德国-优化
       - 美国
-      - 亚美尼亚
-      - 伯利兹
-      - 意大利
       - 美国 2
-      - 香港
-      - 塞浦路斯
+      - 乌克兰
+      - 中国
       - 美国 3
+      - 伯利兹
+      - 中国 2
+      - 伯利兹 2
+      - 伯利兹 3
+      - 中国 3
       - 美国 4
+      - 香港
       - 美国 5
+      - 美国 6
+      - 美国 7
+      - 荷兰
+      - 罗马尼亚
+      - 荷兰 2
+      - 美国 8
+      - 美国 9
+      - 美国 10
       - 香港 2
-      - 加拿大
-      - 亚美尼亚 2
-      - 德国
-      - 美国66
-      - 美国-39
-      - 中国-97
-      - 中国-100
-      - 中国-91
-      - 美国-73
-      - 美国-132
-      - 美国-67
-      - 中国-123
-      - 中国-134
-      - 中国-169
-      - 中国-121
-      - 美国-9
-      - 美国-145
-      - 美国-131
-      - 美国-160
-      - 中国-115
-      - 中国-89
-      - 美国-82
-      - 中国-122
-      - US_5
-      - US_77
-      - TW_171
-      - BZ_24
-      - BZ_119
-      - AU_42
-      - CN_92
-      - CA_56
-      - US_102
-      - CN_131
-      - CN_167
-      - US_140
-      - US_100
-      - US_175
-      - US_164
+      - 罗马尼亚 2
+      - 荷兰 3
+      - 英国
+      - 荷兰 4
+      - 美国 11
+      - 台湾
+      - 美国 12
+      - 亚美尼亚
+      - 中国 4
+      - 美国 13
+      - 美国 14
+      - 荷兰 5
+      - 塞浦路斯119
+      - 美国200
+      - 美国137
+      - 中国15
+      - 亚美尼亚113
+      - 中国18
+      - 美国201
+      - 美国212
+      - 伯利兹124
+      - 美国260
+      - 罗马尼亚161
+      - 中国21
+      - 美国221
+      - 美国68
+      - 加拿大139
+      - 美国259
+      - 中国28
+      - 亚美尼亚112
+      - 中国16
+      - 伯利兹130
+      - 乌克兰187
+      - 伯利兹133
+      - 伯利兹125
+      - 美国35
+      - 塞浦路斯118
+      - 意大利148
+      - 亚美尼亚111
+      - 美国206
+      - 伯利兹135
+      - 中国13
+      - 伯利兹126
+      - 美国242
+      - 乌克兰163
+      - 伯利兹128
+      - 美国91
+      - 美国99
+      - 美国101
+      - 塞浦路斯120
+      - 伯利兹123
+      - 美国108
+      - SG_32
+      - BZ_55
       - BZ_117
-      - CN_37
-      - US_127
-      - US_107
-      - US_124
-      - US_10
-      - CN_115
-      - CN_177
-      - US_168
-      - CN_160
-      - US_38
-      - US_61
-      - BZ_46
-      - GB_70
-      - US_118
-      - US_172
-      - US_122
-      - UA_141
-      - CN_157
-      - CY_146
-      - US_108
-      - US_79
-      - BZ_71
-      - CN_173
-      - CY_63
-      - CA_85
-      - BZ_21
-      - US_36
+      - CN_27
+      - TW_136
+      - TW_169
+      - TW_159
+      - US_131
+      - BZ_175
+      - CN_43
+      - BZ_150
+      - AM_19
+      - US_76
       - US_49
-      - US_174
-      - US_32
-      - PA_60
-      - DE_145
-      - AM_105
-      - US_103
-      - CN_162
-      - CN_39
-      - FR_33
-      - CA_161
-      - CN_96
-      - BZ_18
-      - FR_126
-      - US_47
-      - AM_153
-      - AM_11
+      - CN_193
+      - CA_31
+      - AM_160
+      - US_134
+      - CA_152
+      - US_3
+      - US_181
+      - US_192
+      - BZ_201
+      - CN_146
+      - CN_38
       - US_98
-      - US_66
-      - US_9
-      - CN_159
+      - US_102
+      - US_6
+      - CN_206
+      - DE_50
+      - NL_67
+      - US_39
+      - BZ_36
+      - US_186
+      - US_09
       - US_123
-      - DE_17
-      - US_54
-      - BZ_111
-      - US_82
-      - BZ_149
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 新加坡高速接入点-04
-      - 新加坡高速接入点-03
-      - 日本高速接入点-02
-      - 日本高速接入点-04
-      - 香港高速接入点-02
-      - 日本高速接入点-01
-      - 香港高速接入点-01
-      - 台北高级接入点-01
-      - 美国高速接入点-01
-      - 日本高速接入点-03
-      - 香港高速接入点-04
-      - 5x-临时-新加坡-高级节点1
-      - 美国高速接入点-02
-      - 新加坡高速接入点-02
-      - 韩国高速接入点-01
-      - 香港高速接入点-06
+      - CN_17
+      - DE_172
+      - BZ_34
+      - US_183
+      - HK_82
+      - AM_119
+      - US_126
+      - US_129
+      - TW_2
+      - US_203
+      - US_149
+      - CA_147
+      - TW_48
+      - TW_73
+      - US_68
+      - UA_29
+      - BZ_189
+      - BZ_184
+      - BZ_199
+      - CY_79
+      - BZ_207
+      - US_26
+      - CY_137
+      - CA_96
+      - CN_23
+      - CN_65
+      - TW_56
+      - US_52
+      - CN_145
+      - BZ_44
+      - US_110
       - 台北高级接入点-02
-      - 韩国高速接入点-02
+      - 日本高速接入点-02
+      - 台北高级接入点-01
+      - 香港高速接入点-04
       - 香港高速接入点-05
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国 2
-      - _RU_俄罗斯联邦
-      - 澳大利亚Cranbourne Secondary College 35
-      - 俄罗斯新西伯利亚JustHost 4
-      - 美国CloudFlare节点 28
-      - 美国CloudFlare公司CDN节点 21
-      - 台湾省台北市中华电信 5
-      - 美国CloudFlare节点 19
-      - 美国CloudFlare节点 30
-      - 澳大利亚悉尼 8
-      - 澳大利亚Cranbourne Secondary College 7
-      - 德国黑森州法兰克福Amazon数据中心 11
-      - 美国CloudFlare节点 32
-      - 美国CloudFlare公司CDN节点 15
-      - 美国CloudFlare公司CDN节点(shopify) 22
-      - 美国CloudFlare节点 18
-      - 美国CloudFlare公司CDN节点 9
-      - US-DP2
-      - US-BuyVM3
-      - US-BuyVM2
-      - UK-CF
-      - US-DO
-      - HK-CF
-      - US-BuyVM4
-      - DE-CF
-      - JP-LN-CF
-      - CA-CF
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _US_美国 3
-      - _BZ_伯利兹->🇺🇸_US_美国
-      - _BZ_伯利兹->🇺🇸_US_美国 2
-      - _US_美国 4
-      - _UA_乌克兰->🇯🇵_JP_日本
+      - 香港高速接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-03
+      - 美国高速接入点-02
+      - 新加坡高速接入点-03
+      - 日本高速接入点-04
+      - 日本高速接入点-03
+      - 新加坡高速接入点-02
+      - 韩国高速接入点-02
+      - 新加坡高速接入点-04
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 韩国高速接入点-01
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 新加坡高速接入点-01
+      - 香港高速接入点-02
+      - 美国高速接入点-01
+      - 日本-80端口-04
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _NL_荷兰
       - _BZ_伯利兹->🇫🇷_FR_法国
-      - _US_美国 5
-      - _AM_亚美尼亚
-      - _CN_中国->🇯🇵_JP_日本
-      - 德国-优化2
-      - 尼日利亚-优化
-      - 香港HKT-优化
-      - 哈萨克斯坦KZ-T
-      - 日本-优化3
-      - 日本-优化2
-      - 柬埔寨KH-T
-      - 美国LA-优化
-      - 南非-优化
-      - 印度-优化
-      - 德国-优化3
-      - 香港HKT-优化3
-      - 美国LA-优化2
-      - 香港HKT-优化2
-      - 土耳其TR-T
-      - 美国LA-优化3
-      - 澳大利亚-优化2
-      - 香港FDC-优化2
-      - 荷兰-优化
-      - 荷兰-优化3
-      - 英国UK-T
-      - 日本-优化
-      - 美国USLA-T
-      - 卢森堡LUX-T
-      - 德国DE-T
-      - 香港Az-优化
-      - 阿根廷AR-T
-      - 瑞士CH-T
-      - 新加坡-优化3
-      - 俄罗斯RU-T
-      - 韩国KR-T
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 套餐到期：长期有效
-      - 香港Az-优化2
-      - 葡萄牙PT-T
-      - 乌克兰UA-T
-      - 日本JP-T
-      - 剩余流量：1388.33 GB
-      - 新加坡-优化
-      - 以色列IL-T
-      - 香港HKT-T
-      - 新加坡SG-T
-      - 新加坡-优化2
-      - 越南VN-T
-      - 加拿大-优化
-      - 马来西亚MY-T
+      - _CN_中国->🇺🇸_US_美国
+      - _CY_塞浦路斯->🇫🇷_FR_法国
+      - _NL_荷兰 2
+      - _NL_荷兰 3
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - 广东省移动 12
+      - 美国CloudFlare节点 24
+      - 美国CloudFlare公司CDN节点 10
+      - 澳大利亚悉尼 19
+      - 巴西圣保罗CloudFlare节点 14
+      - 欧盟  23
+      - 澳大利亚悉尼 6
+      - 美国加利福尼亚州洛杉矶IT7网络 3
+      - 欧盟  20
+      - 美国  13
+      - 澳大利亚Lyndhurst Secondary College 18
+      - 澳门澳门电讯 2
+      - 澳大利亚Langwarrin Secondary College 16
+      - 美国CloudFlare节点 11
+      - US-DP2
+      - US-DP1
+      - US-BuyVM4
+      - US-DO
+      - CA-CF
+      - UK-CF
+      - KH-CF
+      - HK-CF
+      - _TW_台湾->🇺🇸_US_美国 3
+      - _BZ_伯利兹->🇫🇷_FR_法国 2
+      - _RO_罗马尼亚->🇺🇸_US_美国 2
+      - _BZ_伯利兹
+      - _NL_荷兰 4
+      - _NL_荷兰 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 德国-优化
       - 美国
-      - 亚美尼亚
-      - 伯利兹
-      - 意大利
       - 美国 2
-      - 香港
-      - 塞浦路斯
+      - 乌克兰
+      - 中国
       - 美国 3
+      - 伯利兹
+      - 中国 2
+      - 伯利兹 2
+      - 伯利兹 3
+      - 中国 3
       - 美国 4
+      - 香港
       - 美国 5
+      - 美国 6
+      - 美国 7
+      - 荷兰
+      - 罗马尼亚
+      - 荷兰 2
+      - 美国 8
+      - 美国 9
+      - 美国 10
       - 香港 2
-      - 加拿大
-      - 亚美尼亚 2
-      - 德国
-      - 美国66
-      - 美国-39
-      - 中国-97
-      - 中国-100
-      - 中国-91
-      - 美国-73
-      - 美国-132
-      - 美国-67
-      - 中国-123
-      - 中国-134
-      - 中国-169
-      - 中国-121
-      - 美国-9
-      - 美国-145
-      - 美国-131
-      - 美国-160
-      - 中国-115
-      - 中国-89
-      - 美国-82
-      - 中国-122
-      - US_5
-      - US_77
-      - TW_171
-      - BZ_24
-      - BZ_119
-      - AU_42
-      - CN_92
-      - CA_56
-      - US_102
-      - CN_131
-      - CN_167
-      - US_140
-      - US_100
-      - US_175
-      - US_164
+      - 罗马尼亚 2
+      - 荷兰 3
+      - 英国
+      - 荷兰 4
+      - 美国 11
+      - 台湾
+      - 美国 12
+      - 亚美尼亚
+      - 中国 4
+      - 美国 13
+      - 美国 14
+      - 荷兰 5
+      - 塞浦路斯119
+      - 美国200
+      - 美国137
+      - 中国15
+      - 亚美尼亚113
+      - 中国18
+      - 美国201
+      - 美国212
+      - 伯利兹124
+      - 美国260
+      - 罗马尼亚161
+      - 中国21
+      - 美国221
+      - 美国68
+      - 加拿大139
+      - 美国259
+      - 中国28
+      - 亚美尼亚112
+      - 中国16
+      - 伯利兹130
+      - 乌克兰187
+      - 伯利兹133
+      - 伯利兹125
+      - 美国35
+      - 塞浦路斯118
+      - 意大利148
+      - 亚美尼亚111
+      - 美国206
+      - 伯利兹135
+      - 中国13
+      - 伯利兹126
+      - 美国242
+      - 乌克兰163
+      - 伯利兹128
+      - 美国91
+      - 美国99
+      - 美国101
+      - 塞浦路斯120
+      - 伯利兹123
+      - 美国108
+      - SG_32
+      - BZ_55
       - BZ_117
-      - CN_37
-      - US_127
-      - US_107
-      - US_124
-      - US_10
-      - CN_115
-      - CN_177
-      - US_168
-      - CN_160
-      - US_38
-      - US_61
-      - BZ_46
-      - GB_70
-      - US_118
-      - US_172
-      - US_122
-      - UA_141
-      - CN_157
-      - CY_146
-      - US_108
-      - US_79
-      - BZ_71
-      - CN_173
-      - CY_63
-      - CA_85
-      - BZ_21
-      - US_36
+      - CN_27
+      - TW_136
+      - TW_169
+      - TW_159
+      - US_131
+      - BZ_175
+      - CN_43
+      - BZ_150
+      - AM_19
+      - US_76
       - US_49
-      - US_174
-      - US_32
-      - PA_60
-      - DE_145
-      - AM_105
-      - US_103
-      - CN_162
-      - CN_39
-      - FR_33
-      - CA_161
-      - CN_96
-      - BZ_18
-      - FR_126
-      - US_47
-      - AM_153
-      - AM_11
+      - CN_193
+      - CA_31
+      - AM_160
+      - US_134
+      - CA_152
+      - US_3
+      - US_181
+      - US_192
+      - BZ_201
+      - CN_146
+      - CN_38
       - US_98
-      - US_66
-      - US_9
-      - CN_159
+      - US_102
+      - US_6
+      - CN_206
+      - DE_50
+      - NL_67
+      - US_39
+      - BZ_36
+      - US_186
+      - US_09
       - US_123
-      - DE_17
-      - US_54
-      - BZ_111
-      - US_82
-      - BZ_149
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 新加坡高速接入点-04
-      - 新加坡高速接入点-03
-      - 日本高速接入点-02
-      - 日本高速接入点-04
-      - 香港高速接入点-02
-      - 日本高速接入点-01
-      - 香港高速接入点-01
-      - 台北高级接入点-01
-      - 美国高速接入点-01
-      - 日本高速接入点-03
-      - 香港高速接入点-04
-      - 5x-临时-新加坡-高级节点1
-      - 美国高速接入点-02
-      - 新加坡高速接入点-02
-      - 韩国高速接入点-01
-      - 香港高速接入点-06
+      - CN_17
+      - DE_172
+      - BZ_34
+      - US_183
+      - HK_82
+      - AM_119
+      - US_126
+      - US_129
+      - TW_2
+      - US_203
+      - US_149
+      - CA_147
+      - TW_48
+      - TW_73
+      - US_68
+      - UA_29
+      - BZ_189
+      - BZ_184
+      - BZ_199
+      - CY_79
+      - BZ_207
+      - US_26
+      - CY_137
+      - CA_96
+      - CN_23
+      - CN_65
+      - TW_56
+      - US_52
+      - CN_145
+      - BZ_44
+      - US_110
       - 台北高级接入点-02
-      - 韩国高速接入点-02
+      - 日本高速接入点-02
+      - 台北高级接入点-01
+      - 香港高速接入点-04
       - 香港高速接入点-05
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国 2
-      - _RU_俄罗斯联邦
-      - 澳大利亚Cranbourne Secondary College 35
-      - 俄罗斯新西伯利亚JustHost 4
-      - 美国CloudFlare节点 28
-      - 美国CloudFlare公司CDN节点 21
-      - 台湾省台北市中华电信 5
-      - 美国CloudFlare节点 19
-      - 美国CloudFlare节点 30
-      - 澳大利亚悉尼 8
-      - 澳大利亚Cranbourne Secondary College 7
-      - 德国黑森州法兰克福Amazon数据中心 11
-      - 美国CloudFlare节点 32
-      - 美国CloudFlare公司CDN节点 15
-      - 美国CloudFlare公司CDN节点(shopify) 22
-      - 美国CloudFlare节点 18
-      - 美国CloudFlare公司CDN节点 9
-      - US-DP2
-      - US-BuyVM3
-      - US-BuyVM2
-      - UK-CF
-      - US-DO
-      - HK-CF
-      - US-BuyVM4
-      - DE-CF
-      - JP-LN-CF
-      - CA-CF
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _US_美国 3
-      - _BZ_伯利兹->🇺🇸_US_美国
-      - _BZ_伯利兹->🇺🇸_US_美国 2
-      - _US_美国 4
-      - _UA_乌克兰->🇯🇵_JP_日本
+      - 香港高速接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-03
+      - 美国高速接入点-02
+      - 新加坡高速接入点-03
+      - 日本高速接入点-04
+      - 日本高速接入点-03
+      - 新加坡高速接入点-02
+      - 韩国高速接入点-02
+      - 新加坡高速接入点-04
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 韩国高速接入点-01
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 新加坡高速接入点-01
+      - 香港高速接入点-02
+      - 美国高速接入点-01
+      - 日本-80端口-04
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _NL_荷兰
       - _BZ_伯利兹->🇫🇷_FR_法国
-      - _US_美国 5
-      - _AM_亚美尼亚
-      - _CN_中国->🇯🇵_JP_日本
-      - 德国-优化2
-      - 尼日利亚-优化
-      - 香港HKT-优化
-      - 哈萨克斯坦KZ-T
-      - 日本-优化3
-      - 日本-优化2
-      - 柬埔寨KH-T
-      - 美国LA-优化
-      - 南非-优化
-      - 印度-优化
-      - 德国-优化3
-      - 香港HKT-优化3
-      - 美国LA-优化2
-      - 香港HKT-优化2
-      - 土耳其TR-T
-      - 美国LA-优化3
-      - 澳大利亚-优化2
-      - 香港FDC-优化2
-      - 荷兰-优化
-      - 荷兰-优化3
-      - 英国UK-T
-      - 日本-优化
-      - 美国USLA-T
-      - 卢森堡LUX-T
-      - 德国DE-T
-      - 香港Az-优化
-      - 阿根廷AR-T
-      - 瑞士CH-T
-      - 新加坡-优化3
-      - 俄罗斯RU-T
-      - 韩国KR-T
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 套餐到期：长期有效
-      - 香港Az-优化2
-      - 葡萄牙PT-T
-      - 乌克兰UA-T
-      - 日本JP-T
-      - 剩余流量：1388.33 GB
-      - 新加坡-优化
-      - 以色列IL-T
-      - 香港HKT-T
-      - 新加坡SG-T
-      - 新加坡-优化2
-      - 越南VN-T
-      - 加拿大-优化
-      - 马来西亚MY-T
+      - _CN_中国->🇺🇸_US_美国
+      - _CY_塞浦路斯->🇫🇷_FR_法国
+      - _NL_荷兰 2
+      - _NL_荷兰 3
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - 广东省移动 12
+      - 美国CloudFlare节点 24
+      - 美国CloudFlare公司CDN节点 10
+      - 澳大利亚悉尼 19
+      - 巴西圣保罗CloudFlare节点 14
+      - 欧盟  23
+      - 澳大利亚悉尼 6
+      - 美国加利福尼亚州洛杉矶IT7网络 3
+      - 欧盟  20
+      - 美国  13
+      - 澳大利亚Lyndhurst Secondary College 18
+      - 澳门澳门电讯 2
+      - 澳大利亚Langwarrin Secondary College 16
+      - 美国CloudFlare节点 11
+      - US-DP2
+      - US-DP1
+      - US-BuyVM4
+      - US-DO
+      - CA-CF
+      - UK-CF
+      - KH-CF
+      - HK-CF
+      - _TW_台湾->🇺🇸_US_美国 3
+      - _BZ_伯利兹->🇫🇷_FR_法国 2
+      - _RO_罗马尼亚->🇺🇸_US_美国 2
+      - _BZ_伯利兹
+      - _NL_荷兰 4
+      - _NL_荷兰 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国-优化
       - 美国
-      - 亚美尼亚
-      - 伯利兹
-      - 意大利
       - 美国 2
-      - 香港
-      - 塞浦路斯
+      - 乌克兰
+      - 中国
       - 美国 3
+      - 伯利兹
+      - 中国 2
+      - 伯利兹 2
+      - 伯利兹 3
+      - 中国 3
       - 美国 4
+      - 香港
       - 美国 5
+      - 美国 6
+      - 美国 7
+      - 荷兰
+      - 罗马尼亚
+      - 荷兰 2
+      - 美国 8
+      - 美国 9
+      - 美国 10
       - 香港 2
-      - 加拿大
-      - 亚美尼亚 2
-      - 德国
-      - 美国66
-      - 美国-39
-      - 中国-97
-      - 中国-100
-      - 中国-91
-      - 美国-73
-      - 美国-132
-      - 美国-67
-      - 中国-123
-      - 中国-134
-      - 中国-169
-      - 中国-121
-      - 美国-9
-      - 美国-145
-      - 美国-131
-      - 美国-160
-      - 中国-115
-      - 中国-89
-      - 美国-82
-      - 中国-122
-      - US_5
-      - US_77
-      - TW_171
-      - BZ_24
-      - BZ_119
-      - AU_42
-      - CN_92
-      - CA_56
-      - US_102
-      - CN_131
-      - CN_167
-      - US_140
-      - US_100
-      - US_175
-      - US_164
+      - 罗马尼亚 2
+      - 荷兰 3
+      - 英国
+      - 荷兰 4
+      - 美国 11
+      - 台湾
+      - 美国 12
+      - 亚美尼亚
+      - 中国 4
+      - 美国 13
+      - 美国 14
+      - 荷兰 5
+      - 塞浦路斯119
+      - 美国200
+      - 美国137
+      - 中国15
+      - 亚美尼亚113
+      - 中国18
+      - 美国201
+      - 美国212
+      - 伯利兹124
+      - 美国260
+      - 罗马尼亚161
+      - 中国21
+      - 美国221
+      - 美国68
+      - 加拿大139
+      - 美国259
+      - 中国28
+      - 亚美尼亚112
+      - 中国16
+      - 伯利兹130
+      - 乌克兰187
+      - 伯利兹133
+      - 伯利兹125
+      - 美国35
+      - 塞浦路斯118
+      - 意大利148
+      - 亚美尼亚111
+      - 美国206
+      - 伯利兹135
+      - 中国13
+      - 伯利兹126
+      - 美国242
+      - 乌克兰163
+      - 伯利兹128
+      - 美国91
+      - 美国99
+      - 美国101
+      - 塞浦路斯120
+      - 伯利兹123
+      - 美国108
+      - SG_32
+      - BZ_55
       - BZ_117
-      - CN_37
-      - US_127
-      - US_107
-      - US_124
-      - US_10
-      - CN_115
-      - CN_177
-      - US_168
-      - CN_160
-      - US_38
-      - US_61
-      - BZ_46
-      - GB_70
-      - US_118
-      - US_172
-      - US_122
-      - UA_141
-      - CN_157
-      - CY_146
-      - US_108
-      - US_79
-      - BZ_71
-      - CN_173
-      - CY_63
-      - CA_85
-      - BZ_21
-      - US_36
+      - CN_27
+      - TW_136
+      - TW_169
+      - TW_159
+      - US_131
+      - BZ_175
+      - CN_43
+      - BZ_150
+      - AM_19
+      - US_76
       - US_49
-      - US_174
-      - US_32
-      - PA_60
-      - DE_145
-      - AM_105
-      - US_103
-      - CN_162
-      - CN_39
-      - FR_33
-      - CA_161
-      - CN_96
-      - BZ_18
-      - FR_126
-      - US_47
-      - AM_153
-      - AM_11
+      - CN_193
+      - CA_31
+      - AM_160
+      - US_134
+      - CA_152
+      - US_3
+      - US_181
+      - US_192
+      - BZ_201
+      - CN_146
+      - CN_38
       - US_98
-      - US_66
-      - US_9
-      - CN_159
+      - US_102
+      - US_6
+      - CN_206
+      - DE_50
+      - NL_67
+      - US_39
+      - BZ_36
+      - US_186
+      - US_09
       - US_123
-      - DE_17
-      - US_54
-      - BZ_111
-      - US_82
-      - BZ_149
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 新加坡高速接入点-04
-      - 新加坡高速接入点-03
-      - 日本高速接入点-02
-      - 日本高速接入点-04
-      - 香港高速接入点-02
-      - 日本高速接入点-01
-      - 香港高速接入点-01
-      - 台北高级接入点-01
-      - 美国高速接入点-01
-      - 日本高速接入点-03
-      - 香港高速接入点-04
-      - 5x-临时-新加坡-高级节点1
-      - 美国高速接入点-02
-      - 新加坡高速接入点-02
-      - 韩国高速接入点-01
-      - 香港高速接入点-06
+      - CN_17
+      - DE_172
+      - BZ_34
+      - US_183
+      - HK_82
+      - AM_119
+      - US_126
+      - US_129
+      - TW_2
+      - US_203
+      - US_149
+      - CA_147
+      - TW_48
+      - TW_73
+      - US_68
+      - UA_29
+      - BZ_189
+      - BZ_184
+      - BZ_199
+      - CY_79
+      - BZ_207
+      - US_26
+      - CY_137
+      - CA_96
+      - CN_23
+      - CN_65
+      - TW_56
+      - US_52
+      - CN_145
+      - BZ_44
+      - US_110
       - 台北高级接入点-02
-      - 韩国高速接入点-02
+      - 日本高速接入点-02
+      - 台北高级接入点-01
+      - 香港高速接入点-04
       - 香港高速接入点-05
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国 2
-      - _RU_俄罗斯联邦
-      - 澳大利亚Cranbourne Secondary College 35
-      - 俄罗斯新西伯利亚JustHost 4
-      - 美国CloudFlare节点 28
-      - 美国CloudFlare公司CDN节点 21
-      - 台湾省台北市中华电信 5
-      - 美国CloudFlare节点 19
-      - 美国CloudFlare节点 30
-      - 澳大利亚悉尼 8
-      - 澳大利亚Cranbourne Secondary College 7
-      - 德国黑森州法兰克福Amazon数据中心 11
-      - 美国CloudFlare节点 32
-      - 美国CloudFlare公司CDN节点 15
-      - 美国CloudFlare公司CDN节点(shopify) 22
-      - 美国CloudFlare节点 18
-      - 美国CloudFlare公司CDN节点 9
-      - US-DP2
-      - US-BuyVM3
-      - US-BuyVM2
-      - UK-CF
-      - US-DO
-      - HK-CF
-      - US-BuyVM4
-      - DE-CF
-      - JP-LN-CF
-      - CA-CF
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _US_美国 3
-      - _BZ_伯利兹->🇺🇸_US_美国
-      - _BZ_伯利兹->🇺🇸_US_美国 2
-      - _US_美国 4
-      - _UA_乌克兰->🇯🇵_JP_日本
+      - 香港高速接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-03
+      - 美国高速接入点-02
+      - 新加坡高速接入点-03
+      - 日本高速接入点-04
+      - 日本高速接入点-03
+      - 新加坡高速接入点-02
+      - 韩国高速接入点-02
+      - 新加坡高速接入点-04
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 韩国高速接入点-01
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 新加坡高速接入点-01
+      - 香港高速接入点-02
+      - 美国高速接入点-01
+      - 日本-80端口-04
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _NL_荷兰
       - _BZ_伯利兹->🇫🇷_FR_法国
-      - _US_美国 5
-      - _AM_亚美尼亚
-      - _CN_中国->🇯🇵_JP_日本
-      - 德国-优化2
-      - 尼日利亚-优化
-      - 香港HKT-优化
-      - 哈萨克斯坦KZ-T
-      - 日本-优化3
-      - 日本-优化2
-      - 柬埔寨KH-T
-      - 美国LA-优化
-      - 南非-优化
-      - 印度-优化
-      - 德国-优化3
-      - 香港HKT-优化3
-      - 美国LA-优化2
-      - 香港HKT-优化2
-      - 土耳其TR-T
-      - 美国LA-优化3
-      - 澳大利亚-优化2
-      - 香港FDC-优化2
-      - 荷兰-优化
-      - 荷兰-优化3
-      - 英国UK-T
-      - 日本-优化
-      - 美国USLA-T
-      - 卢森堡LUX-T
-      - 德国DE-T
-      - 香港Az-优化
-      - 阿根廷AR-T
-      - 瑞士CH-T
-      - 新加坡-优化3
-      - 俄罗斯RU-T
-      - 韩国KR-T
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 套餐到期：长期有效
-      - 香港Az-优化2
-      - 葡萄牙PT-T
-      - 乌克兰UA-T
-      - 日本JP-T
-      - 剩余流量：1388.33 GB
-      - 新加坡-优化
-      - 以色列IL-T
-      - 香港HKT-T
-      - 新加坡SG-T
-      - 新加坡-优化2
-      - 越南VN-T
-      - 加拿大-优化
-      - 马来西亚MY-T
+      - _CN_中国->🇺🇸_US_美国
+      - _CY_塞浦路斯->🇫🇷_FR_法国
+      - _NL_荷兰 2
+      - _NL_荷兰 3
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - 广东省移动 12
+      - 美国CloudFlare节点 24
+      - 美国CloudFlare公司CDN节点 10
+      - 澳大利亚悉尼 19
+      - 巴西圣保罗CloudFlare节点 14
+      - 欧盟  23
+      - 澳大利亚悉尼 6
+      - 美国加利福尼亚州洛杉矶IT7网络 3
+      - 欧盟  20
+      - 美国  13
+      - 澳大利亚Lyndhurst Secondary College 18
+      - 澳门澳门电讯 2
+      - 澳大利亚Langwarrin Secondary College 16
+      - 美国CloudFlare节点 11
+      - US-DP2
+      - US-DP1
+      - US-BuyVM4
+      - US-DO
+      - CA-CF
+      - UK-CF
+      - KH-CF
+      - HK-CF
+      - _TW_台湾->🇺🇸_US_美国 3
+      - _BZ_伯利兹->🇫🇷_FR_法国 2
+      - _RO_罗马尼亚->🇺🇸_US_美国 2
+      - _BZ_伯利兹
+      - _NL_荷兰 4
+      - _NL_荷兰 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1793,218 +1724,210 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国-优化
       - 美国
-      - 亚美尼亚
-      - 伯利兹
-      - 意大利
       - 美国 2
-      - 香港
-      - 塞浦路斯
+      - 乌克兰
+      - 中国
       - 美国 3
+      - 伯利兹
+      - 中国 2
+      - 伯利兹 2
+      - 伯利兹 3
+      - 中国 3
       - 美国 4
+      - 香港
       - 美国 5
+      - 美国 6
+      - 美国 7
+      - 荷兰
+      - 罗马尼亚
+      - 荷兰 2
+      - 美国 8
+      - 美国 9
+      - 美国 10
       - 香港 2
-      - 加拿大
-      - 亚美尼亚 2
-      - 德国
-      - 美国66
-      - 美国-39
-      - 中国-97
-      - 中国-100
-      - 中国-91
-      - 美国-73
-      - 美国-132
-      - 美国-67
-      - 中国-123
-      - 中国-134
-      - 中国-169
-      - 中国-121
-      - 美国-9
-      - 美国-145
-      - 美国-131
-      - 美国-160
-      - 中国-115
-      - 中国-89
-      - 美国-82
-      - 中国-122
-      - US_5
-      - US_77
-      - TW_171
-      - BZ_24
-      - BZ_119
-      - AU_42
-      - CN_92
-      - CA_56
-      - US_102
-      - CN_131
-      - CN_167
-      - US_140
-      - US_100
-      - US_175
-      - US_164
+      - 罗马尼亚 2
+      - 荷兰 3
+      - 英国
+      - 荷兰 4
+      - 美国 11
+      - 台湾
+      - 美国 12
+      - 亚美尼亚
+      - 中国 4
+      - 美国 13
+      - 美国 14
+      - 荷兰 5
+      - 塞浦路斯119
+      - 美国200
+      - 美国137
+      - 中国15
+      - 亚美尼亚113
+      - 中国18
+      - 美国201
+      - 美国212
+      - 伯利兹124
+      - 美国260
+      - 罗马尼亚161
+      - 中国21
+      - 美国221
+      - 美国68
+      - 加拿大139
+      - 美国259
+      - 中国28
+      - 亚美尼亚112
+      - 中国16
+      - 伯利兹130
+      - 乌克兰187
+      - 伯利兹133
+      - 伯利兹125
+      - 美国35
+      - 塞浦路斯118
+      - 意大利148
+      - 亚美尼亚111
+      - 美国206
+      - 伯利兹135
+      - 中国13
+      - 伯利兹126
+      - 美国242
+      - 乌克兰163
+      - 伯利兹128
+      - 美国91
+      - 美国99
+      - 美国101
+      - 塞浦路斯120
+      - 伯利兹123
+      - 美国108
+      - SG_32
+      - BZ_55
       - BZ_117
-      - CN_37
-      - US_127
-      - US_107
-      - US_124
-      - US_10
-      - CN_115
-      - CN_177
-      - US_168
-      - CN_160
-      - US_38
-      - US_61
-      - BZ_46
-      - GB_70
-      - US_118
-      - US_172
-      - US_122
-      - UA_141
-      - CN_157
-      - CY_146
-      - US_108
-      - US_79
-      - BZ_71
-      - CN_173
-      - CY_63
-      - CA_85
-      - BZ_21
-      - US_36
+      - CN_27
+      - TW_136
+      - TW_169
+      - TW_159
+      - US_131
+      - BZ_175
+      - CN_43
+      - BZ_150
+      - AM_19
+      - US_76
       - US_49
-      - US_174
-      - US_32
-      - PA_60
-      - DE_145
-      - AM_105
-      - US_103
-      - CN_162
-      - CN_39
-      - FR_33
-      - CA_161
-      - CN_96
-      - BZ_18
-      - FR_126
-      - US_47
-      - AM_153
-      - AM_11
+      - CN_193
+      - CA_31
+      - AM_160
+      - US_134
+      - CA_152
+      - US_3
+      - US_181
+      - US_192
+      - BZ_201
+      - CN_146
+      - CN_38
       - US_98
-      - US_66
-      - US_9
-      - CN_159
+      - US_102
+      - US_6
+      - CN_206
+      - DE_50
+      - NL_67
+      - US_39
+      - BZ_36
+      - US_186
+      - US_09
       - US_123
-      - DE_17
-      - US_54
-      - BZ_111
-      - US_82
-      - BZ_149
-      - 香港高速接入点-03
-      - 香港-80端口-02
-      - 新加坡高速接入点-04
-      - 新加坡高速接入点-03
-      - 日本高速接入点-02
-      - 日本高速接入点-04
-      - 香港高速接入点-02
-      - 日本高速接入点-01
-      - 香港高速接入点-01
-      - 台北高级接入点-01
-      - 美国高速接入点-01
-      - 日本高速接入点-03
-      - 香港高速接入点-04
-      - 5x-临时-新加坡-高级节点1
-      - 美国高速接入点-02
-      - 新加坡高速接入点-02
-      - 韩国高速接入点-01
-      - 香港高速接入点-06
+      - CN_17
+      - DE_172
+      - BZ_34
+      - US_183
+      - HK_82
+      - AM_119
+      - US_126
+      - US_129
+      - TW_2
+      - US_203
+      - US_149
+      - CA_147
+      - TW_48
+      - TW_73
+      - US_68
+      - UA_29
+      - BZ_189
+      - BZ_184
+      - BZ_199
+      - CY_79
+      - BZ_207
+      - US_26
+      - CY_137
+      - CA_96
+      - CN_23
+      - CN_65
+      - TW_56
+      - US_52
+      - CN_145
+      - BZ_44
+      - US_110
       - 台北高级接入点-02
-      - 韩国高速接入点-02
+      - 日本高速接入点-02
+      - 台北高级接入点-01
+      - 香港高速接入点-04
       - 香港高速接入点-05
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国
-      - _US_美国 2
-      - _RU_俄罗斯联邦
-      - 澳大利亚Cranbourne Secondary College 35
-      - 俄罗斯新西伯利亚JustHost 4
-      - 美国CloudFlare节点 28
-      - 美国CloudFlare公司CDN节点 21
-      - 台湾省台北市中华电信 5
-      - 美国CloudFlare节点 19
-      - 美国CloudFlare节点 30
-      - 澳大利亚悉尼 8
-      - 澳大利亚Cranbourne Secondary College 7
-      - 德国黑森州法兰克福Amazon数据中心 11
-      - 美国CloudFlare节点 32
-      - 美国CloudFlare公司CDN节点 15
-      - 美国CloudFlare公司CDN节点(shopify) 22
-      - 美国CloudFlare节点 18
-      - 美国CloudFlare公司CDN节点 9
-      - US-DP2
-      - US-BuyVM3
-      - US-BuyVM2
-      - UK-CF
-      - US-DO
-      - HK-CF
-      - US-BuyVM4
-      - DE-CF
-      - JP-LN-CF
-      - CA-CF
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _US_美国 3
-      - _BZ_伯利兹->🇺🇸_US_美国
-      - _BZ_伯利兹->🇺🇸_US_美国 2
-      - _US_美国 4
-      - _UA_乌克兰->🇯🇵_JP_日本
+      - 香港高速接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-03
+      - 美国高速接入点-02
+      - 新加坡高速接入点-03
+      - 日本高速接入点-04
+      - 日本高速接入点-03
+      - 新加坡高速接入点-02
+      - 韩国高速接入点-02
+      - 新加坡高速接入点-04
+      - 香港-80端口-02
+      - 香港高速接入点-06
+      - 韩国高速接入点-01
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 新加坡高速接入点-01
+      - 香港高速接入点-02
+      - 美国高速接入点-01
+      - 日本-80端口-04
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _NL_荷兰
       - _BZ_伯利兹->🇫🇷_FR_法国
-      - _US_美国 5
-      - _AM_亚美尼亚
-      - _CN_中国->🇯🇵_JP_日本
-      - 德国-优化2
-      - 尼日利亚-优化
-      - 香港HKT-优化
-      - 哈萨克斯坦KZ-T
-      - 日本-优化3
-      - 日本-优化2
-      - 柬埔寨KH-T
-      - 美国LA-优化
-      - 南非-优化
-      - 印度-优化
-      - 德国-优化3
-      - 香港HKT-优化3
-      - 美国LA-优化2
-      - 香港HKT-优化2
-      - 土耳其TR-T
-      - 美国LA-优化3
-      - 澳大利亚-优化2
-      - 香港FDC-优化2
-      - 荷兰-优化
-      - 荷兰-优化3
-      - 英国UK-T
-      - 日本-优化
-      - 美国USLA-T
-      - 卢森堡LUX-T
-      - 德国DE-T
-      - 香港Az-优化
-      - 阿根廷AR-T
-      - 瑞士CH-T
-      - 新加坡-优化3
-      - 俄罗斯RU-T
-      - 韩国KR-T
-      - 台湾HINET-T
-      - 香港Az-优化3
-      - 套餐到期：长期有效
-      - 香港Az-优化2
-      - 葡萄牙PT-T
-      - 乌克兰UA-T
-      - 日本JP-T
-      - 剩余流量：1388.33 GB
-      - 新加坡-优化
-      - 以色列IL-T
-      - 香港HKT-T
-      - 新加坡SG-T
-      - 新加坡-优化2
-      - 越南VN-T
-      - 加拿大-优化
-      - 马来西亚MY-T
+      - _CN_中国->🇺🇸_US_美国
+      - _CY_塞浦路斯->🇫🇷_FR_法国
+      - _NL_荷兰 2
+      - _NL_荷兰 3
+      - _TW_台湾->🇺🇸_US_美国
+      - _TW_台湾->🇺🇸_US_美国 2
+      - 广东省移动 12
+      - 美国CloudFlare节点 24
+      - 美国CloudFlare公司CDN节点 10
+      - 澳大利亚悉尼 19
+      - 巴西圣保罗CloudFlare节点 14
+      - 欧盟  23
+      - 澳大利亚悉尼 6
+      - 美国加利福尼亚州洛杉矶IT7网络 3
+      - 欧盟  20
+      - 美国  13
+      - 澳大利亚Lyndhurst Secondary College 18
+      - 澳门澳门电讯 2
+      - 澳大利亚Langwarrin Secondary College 16
+      - 美国CloudFlare节点 11
+      - US-DP2
+      - US-DP1
+      - US-BuyVM4
+      - US-DO
+      - CA-CF
+      - UK-CF
+      - KH-CF
+      - HK-CF
+      - _TW_台湾->🇺🇸_US_美国 3
+      - _BZ_伯利兹->🇫🇷_FR_法国 2
+      - _RO_罗马尼亚->🇺🇸_US_美国 2
+      - _BZ_伯利兹
+      - _NL_荷兰 4
+      - _NL_荷兰 5
+      - _NL_荷兰 6
+      - _NL_荷兰 7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
