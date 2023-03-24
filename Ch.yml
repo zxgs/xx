@@ -5,395 +5,471 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _SE_瑞典, server: shopify.co.uk, port: 443, type: vmess, uuid: be35f39f-571d-4240-8ab2-8055aae3a53e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /retreyte6, headers: {Host: fr.seeworld.pro}}, udp: true}
-  - {name: POL_2🇵🇱, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol2.fovi.tk}}, udp: true}
-  - {name: GBR🇬🇧, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}, udp: true}
-  - {name: POL_2🇵🇱 2, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol3.fovi.tk}}, udp: true}
-  - {name: 美国, server: holyquran18.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran18.store}}, udp: true}
-  - {name: 美国 2, server: Tokyo.v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
-  - {name: 美国 3, server: quranweb7.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb7.xyz}}, udp: true}
-  - {name: 美国 4, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sgm1.targoocloud.live}}, udp: true}
-  - {name: 荷兰, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国 5, server: quranweb12.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb12.xyz}}, udp: true}
-  - {name: 美国 6, server: quranweb15.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb15.xyz}}, udp: true}
-  - {name: 美国 7, server: quranweb11.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb11.xyz}}, udp: true}
-  - {name: 美国 8, server: new8.hucloud-dns.xyz, port: 443, type: vmess, uuid: f11786fc-abf0-40e8-8177-992c699cc95f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0fa5cea95e7/, headers: {Host: new8.hucloud-dns.xyz}}, udp: true}
-  - {name: 美国 9, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: 英国, server: kt.p.mkitty.top, port: 443, type: trojan, password: 45c40b80-3d85-47aa-b6e4-3e0e2a066842, sni: kt.p.mkitty.top, skip-cert-verify: true, udp: true}
-  - {name: 美国 10, server: cf-topspeedone.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedone.uk}}, udp: true}
-  - {name: 美国 11, server: quran-audio.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quran-audio.xyz}}, udp: true}
-  - {name: 罗马尼亚, server: mtn.ircf.space, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dp2.scproxy.top/shirker, headers: {Host: irancelll.appsandhack2.tech}}, udp: true}
-  - {name: 荷兰 2, server: 172.99.188.99, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国 12, server: quranweb1.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb1.xyz}}, udp: true}
-  - {name: 美国 13, server: 172.64.150.150, port: 443, type: vmess, uuid: 128a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp03.cctvvip.ml}}, udp: true}
-  - {name: 美国 14, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sgm2.targoocloud.live}}, udp: true}
-  - {name: 美国 15, server: cf.noaries.de, port: 8080, type: vmess, uuid: ba1b14e5-33ad-46df-8116-a2935e712a2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: 塞浦路斯119, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: 伯利兹125, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: 加拿大144, server: 23.227.38.25, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: 亚美尼亚113, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: 中国22, server: hnm.xiaohouzi.club, port: 18831, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: avas01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 伯利兹135, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: 乌克兰187, server: doinb.ml, port: 443, type: vmess, uuid: 7f6fdc53-27d0-4ac8-8440-715992b7aab1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dsfsdf, headers: {Host: sg1.doinb.tk}}, udp: true}
-  - {name: Alien, server: 0kxedm1x8q8lksmj01.xingbayun.buzz, port: 1001, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_161, server: holyquran1.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran1.store}}, udp: true}
-  - {name: US_28, server: cf-topspeedvv3.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedvv3.uk}}, udp: true}
-  - {name: CN_177, server: hn.xiaohouzi.club, port: 18835, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: $feilvbin.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_114, server: holyquran18.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran18.store}}, udp: true}
-  - {name: CN_108, server: 02.node.vmssr.info, port: 22205, type: ss, cipher: chacha20-ietf-poly1305, password: da97c102-3bd6-4751-ad05-b4dcbb34fbd0, udp: true}
-  - {name: US_96, server: quranweb6.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb6.xyz}}, udp: true}
-  - {name: US_86, server: quranweb41.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb41.xyz}}, udp: true}
-  - {name: US_93, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
-  - {name: US_137, server: 148.59.74.196, port: 443, type: trojan, password: 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: TW_13, server: polotw1.applebench.tech, port: 56568, type: vmess, uuid: 7ffd6009-0085-4b4e-9598-e62c133fbd21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_221, server: 88.node.vmssr.info, port: 44417, type: ss, cipher: chacha20-ietf-poly1305, password: da97c102-3bd6-4751-ad05-b4dcbb34fbd0, udp: true}
-  - {name: US_116, server: freequranbook.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: freequranbook.uk}}, udp: true}
-  - {name: BZ_128, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: US_33, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 1076a8af.ikunxiao.top}}, udp: true}
-  - {name: BZ_179, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: CN_143, server: 03.node.vmssr.info, port: 33315, type: ss, cipher: chacha20-ietf-poly1305, password: da97c102-3bd6-4751-ad05-b4dcbb34fbd0, udp: true}
-  - {name: CN_71, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga03.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: US_34, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}, udp: true}
-  - {name: US_24, server: quranweb9.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb9.xyz}}, udp: true}
-  - {name: AM_173, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: 香港高速接入点-01, server: hk1.b.bd6b6c503c93.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 韩国高速接入点-02, server: kr2.b20dac2fc8d5.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, udp: true}
+  - {name: JP_（广告位招租@自学志）_5, server: jp3.microsoftjs.top, port: 80, type: vmess, uuid: 0b79f35c-72d3-4071-b171-28c30914b7f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+  - {name: POL_3🇵🇱, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol3.fovi.tk}}, udp: true}
+  - {name: POL🇵🇱, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true}
+  - {name: _JP_日本, server: 85.208.108.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _SG_新加坡->🇬🇧_GB_英国, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu7.misakano.ml}}, udp: true}
+  - {name: _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.26, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: _JP_日本 2, server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _JP_日本 3, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12344, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: iyvwbaniohxcsawa.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: 欧盟  20, server: legenderyserversirn.ddns.net, port: 443, type: vmess, uuid: DDB05F7A-A4A3-4F34-B730-FCC7ACB3B17F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: 香港Amazon数据中心 7, server: 0kxedm1x8q8lksmj02.xingbayun.buzz, port: 2001, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 19, server: fr1.trump2023.org, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 亚太地区  6, server: 103.152.221.113, port: 4721, type: vmess, uuid: 32f0c996-f0f8-3103-90a6-230b98ac384e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 卢森堡root.lu数据中心 16, server: ztl.ircf.space, port: 2096, type: vmess, uuid: 4a92ff9c-7940-4dba-e5de-22df9c20c798, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nodejs, headers: {Host: social.progbyrazyar.ir}}, udp: true}
+  - {name: 澳大利亚Kooweerup Secondary College 5, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: 沙特阿拉伯Arabic Computer System Co. 22, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧盟  18, server: 45.85.119.10, port: 2096, type: vmess, uuid: 8537598c-2adc-45eb-9eb5-14aa3cc94412, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wow2.melo-eztic.shop, network: ws, ws-opts: {path: /@melov2ray, headers: {Host: wow2.melo-eztic.shop}}, udp: true}
+  - {name: 美国CloudFlare节点 30, server: cf.noaries.de, port: 8080, type: vmess, uuid: ba1b14e5-33ad-46df-8116-a2935e712a2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: waw.cloudflare.quest}}, udp: true}
+  - {name: 美国CloudFlare节点 25, server: 200.aquabazi.site, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /suzhihan.eu.org/roewesu, headers: {Host: 200.aquabazi.site}}, udp: true}
+  - {name: 欧盟  11, server: mtnx.ircf.space, port: 2096, type: vmess, uuid: 4a92ff9c-7940-4dba-e5de-22df9c20c798, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: social.progbyrazyar.ir, network: ws, ws-opts: {path: /nodejs, headers: {Host: social.progbyrazyar.ir}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 32, server: new8.hucloud-dns.xyz, port: 443, type: vmess, uuid: f11786fc-abf0-40e8-8177-992c699cc95f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0fa5cea95e7/, headers: {Host: new8.hucloud-dns.xyz}}, udp: true}
+  - {name: 丹麦  14, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 中国阿里云 34, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: woi-eu7.misakano.ml}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点(shopify) 15, server: 23.227.38.27, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 26, server: sogood.linefriends.com, port: 443, type: vmess, uuid: acd17818-d434-49ae-80a6-d194bcaf6392, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vvip, headers: {Host: sgray.jagoan.vip}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 10, server: 104.21.234.238, port: 443, type: vmess, uuid: 128a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp03.cctvvip.ml}}, udp: true}
   - {name: 台北高级接入点-01, server: tw1.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 5x-临时-新加坡-高级节点1, server: 2f36c18cfe75.sanfen001.pics, port: 15526, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港高速接入点-01, server: hk1.b.bd6b6c503c93.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
   - {name: 香港高速接入点-03, server: hk3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港高速接入点-04, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港高速接入点-05, server: hk5.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 香港-80端口-01, server: hk80.8b750e3e20aa.sanfen001.pics, port: 80, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 美国高速接入点-02, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn.net, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
+  - {name: 香港-80端口-02, server: hk80-2.8b750e3e20aa.sanfen001.pics, port: 80, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
   - {name: 日本高速接入点-02, server: jp2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, udp: true}
-  - {name: 新加坡高速接入点-03, server: sg3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
-  - {name: 韩国高速接入点-01, server: kr1.b20dac2fc8d5.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, udp: true}
-  - {name: 日本高速接入点-01, server: jp1.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 台北高级接入点-02, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.sanfen001.pics, udp: true}
-  - {name: 美国高速接入点-01, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn.net, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn.net}}, udp: true}
-  - {name: 新加坡高速接入点-01, server: sg1.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
-  - {name: 新加坡高速接入点-02, server: sg2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
-  - {name: 新加坡高速接入点-04, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 日本高速接入点-04, server: jp4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, udp: true}
+  - {name: 香港高速接入点-05, server: hk5.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 香港高速接入点-04, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
   - {name: 香港高速接入点-06, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: _US_美国, server: 148.59.74.196, port: 443, type: trojan, password: 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: pyptom.cf, port: 443, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pyptom.cf}}, udp: true}
-  - {name: _AM_亚美尼亚->🇫🇷_FR_法国, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: _BZ_伯利兹->🇫🇷_FR_法国, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: _BZ_伯利兹, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
-  - {name: _HK_香港, server: 16.162.120.71, port: 443, type: trojan, password: 84fd7a9f-aafd-40c1-aa76-88527f6c47bd, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: 148.59.74.236, port: 443, type: trojan, password: 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: 146.19.215.165, port: 443, type: trojan, password: 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 148.59.74.200, port: 443, type: trojan, password: 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 6, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: UK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dp1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: CA-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca-nnc.ilovescp.com, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kh1.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
-  - {name: US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dp2.scproxy.top, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: US-DO, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sharecentrepro.com, network: ws, ws-opts: {path: /shirker, headers: {Host: us1.sharecentrepro.com}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: quranweb40.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb40.xyz}}, udp: true}
-  - {name: _US_美国 7, server: 148.59.74.200, port: 443, type: trojan, password: 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgm1.targoocloud.live}}, udp: true}
-  - {name: _NL_荷兰, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _NL_荷兰 2, server: 172.99.188.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大->🇫🇷_FR_法国, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}, udp: true}
-  - {name: _NL_荷兰 3, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _AM_亚美尼亚->🇫🇷_FR_法国 2, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 台北高级接入点-02, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.sanfen001.pics, udp: true}
+  - {name: 新加坡高速接入点-04, server: sg4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 新加坡高速接入点-01, server: sg1.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 新加坡高速接入点-03, server: sg3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 香港-80端口-01, server: hk80.8b750e3e20aa.sanfen001.pics, port: 80, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 日本高速接入点-01, server: jp1.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 香港高速接入点-02, server: hk2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen001.pics, udp: true}
+  - {name: 新加坡高速接入点-02, server: sg2.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen001.pics, udp: true}
+  - {name: 日本高速接入点-03, server: jp3.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.sanfen001.pics, udp: true}
+  - {name: 美国高速接入点-01, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn.net, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn.net}}, udp: true}
+  - {name: 美国高速接入点-02, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn.net, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
+  - {name: 韩国高速接入点-01, server: kr1.b20dac2fc8d5.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, udp: true}
+  - {name: 韩国高速接入点-02, server: kr2.b20dac2fc8d5.sanfen001.pics, port: 443, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr1.sanfen001.pics, udp: true}
+  - {name: 日本-80端口-04, server: jp80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US_（广告位招租@自学志）_76, server: cf-topspeedonline.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedonline.uk}}, udp: true}
+  - {name: BZ_（广告位招租@自学志）_122, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US_（广告位招租@自学志）_103, server: holyquran18.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran18.store}}, udp: true}
+  - {name: IN_（广告位招租@自学志）_222, server: in2.microsoftjs.top, port: 80, type: vmess, uuid: 0b79f35c-72d3-4071-b171-28c30914b7f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+  - {name: RO_（广告位招租@自学志）_25, server: legenderyserversirn.ddns.net, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedvv2.uk}}, udp: true}
+  - {name: US_（广告位招租@自学志）_249, server: cf-topspeedonline.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedonline.uk}}, udp: true}
+  - {name: US_（广告位招租@自学志）_165, server: quranweb9.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb9.xyz}}, udp: true}
+  - {name: US_（广告位招租@自学志）_93, server: quran-audio.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quran-audio.xyz}}, udp: true}
+  - {name: HK_（广告位招租@自学志）_123, server: 23.226.8.223, port: 443, type: trojan, password: 0b79f35c-72d3-4071-b171-28c30914b7f1, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: US_（广告位招租@自学志）_47, server: holyquran15.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran15.store}}, udp: true}
+  - {name: JP_（广告位招租@自学志）_57, server: jp10.microsoftjs.top, port: 80, type: vmess, uuid: 0b79f35c-72d3-4071-b171-28c30914b7f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+  - {name: CN_（广告位招租@自学志）_78, server: hk7.microsoftjs.top, port: 443, type: trojan, password: 0b79f35c-72d3-4071-b171-28c30914b7f1, sni: tls.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: SG_（广告位招租@自学志）_45, server: sg6.microsoftjs.top, port: 80, type: vmess, uuid: 0b79f35c-72d3-4071-b171-28c30914b7f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+  - {name: SG_（广告位招租@自学志）_166, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu2.misakano.ml}}, udp: true}
+  - {name: US_（广告位招租@自学志）_126, server: Kansas.v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: US_（广告位招租@自学志）_84, server: 148.59.74.236, port: 443, type: trojan, password: 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: JP_（广告位招租@自学志）_228, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: SG_（广告位招租@自学志）_208, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-eu5.misakano.ml}}, udp: true}
+  - {name: AM_（广告位招租@自学志）_243, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: US_（广告位招租@自学志）_146, server: cf.noaries.de, port: 2086, type: vmess, uuid: ba1b14e5-33ad-46df-8116-a2935e712a2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
+  - {name: RO_（广告位招租@自学志）_221, server: 45.85.119.121, port: 443, type: vmess, uuid: 5632cdd9-910b-4976-8195-6111a68b6336, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: gemws.mainssh.xyz}}, udp: true}
+  - {name: US_（广告位招租@自学志）_18, server: 148.59.74.200, port: 443, type: trojan, password: 2ea5fc44-bd38-4fb0-a9b9-88c83fc56622, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: JP_（广告位招租@自学志）_30, server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_（广告位招租@自学志）_244, server: cf-topspeedone.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedone.uk}}, udp: true}
+  - {name: Alien（广告位招租@自学志）_, server: 0kxedm1x8q8lksmj12.xingbayun.buzz, port: 443, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien（广告位招租@自学志）_ 2, server: 0kxedm1x8q8lksmj18.xingbayun.buzz, port: 443, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien（广告位招租@自学志）_ 3, server: 0kxedm1x8q8lksmj20.xingbayun.buzz, port: 443, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国（广告位招租@自学志）_28, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12346, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: oiugbalxawdfas.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: 中国（广告位招租@自学志）_21, server: hnm.xiaohouzi.club, port: 36872, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: freeus.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国（广告位招租@自学志）_215, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: 亚美尼亚（广告位招租@自学志）_112, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 伯利兹（广告位招租@自学志）_122, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 亚美尼亚（广告位招租@自学志）_113, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 伯利兹（广告位招租@自学志）_125, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: 伯利兹（广告位招租@自学志）_124, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 伯利兹（广告位招租@自学志）_128, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 塞浦路斯（广告位招租@自学志）_118, server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 未知（广告位招租@自学志）_234, server: october.mytargoocloud.live, port: 80, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jpm2.nascloudreve.live}}, udp: true}
+  - {name: 伯利兹（广告位招租@自学志）_133, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 美国（广告位招租@自学志）_46, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
+  - {name: 伯利兹（广告位招租@自学志）_130, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 美国（广告位招租@自学志）_101, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 亚美尼亚（广告位招租@自学志）_111, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
+  - {name: 中国（广告位招租@自学志）_24, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 12344, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: iyvwbaniohxcsawa.vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: 日本(广告位招租@自学志), server: 85.208.108.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(广告位招租@自学志), server: quranweb23.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb23.xyz}}, udp: true}
+  - {name: 日本(广告位招租@自学志) 2, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(广告位招租@自学志) 2, server: quranweb29.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb29.xyz}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 3, server: 104.16.176.44, port: 443, type: vmess, uuid: c002de50-e64e-4328-b98a-fae82bdcafa4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: de-v.sshmax.xyz}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 4, server: holyquran15.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran15.store}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 5, server: cf-topspeedone.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedone.uk}}, udp: true}
+  - {name: 日本(广告位招租@自学志) 3, server: 85.208.108.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(广告位招租@自学志) 6, server: freequranbook.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: freequranbook.uk}}, udp: true}
+  - {name: 日本(广告位招租@自学志) 4, server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(广告位招租@自学志) 7, server: 172.66.41.99, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: ss.239000.xyz}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 8, server: cf.noaries.de, port: 8080, type: vmess, uuid: ba1b14e5-33ad-46df-8116-a2935e712a2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 9, server: holyquran11.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran11.store}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 10, server: holyquran3.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran3.store}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 11, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 12, server: fr1.trump2023.org, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 13, server: pyptom.cf, port: 443, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnneo, headers: {Host: pyptom.cf}}, udp: true}
+  - {name: 美国(广告位招租@自学志) 14, server: quran-audio.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quran-audio.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SE_瑞典
-      - POL_2🇵🇱
-      - GBR🇬🇧
-      - POL_2🇵🇱 2
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 荷兰
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 英国
-      - 美国 10
-      - 美国 11
-      - 罗马尼亚
-      - 荷兰 2
-      - 美国 12
-      - 美国 13
-      - 美国 14
-      - 美国 15
-      - 塞浦路斯119
-      - 伯利兹125
-      - 加拿大144
-      - 亚美尼亚113
-      - 中国22
-      - 伯利兹135
-      - 乌克兰187
-      - Alien
-      - US_161
-      - US_28
-      - CN_177
-      - US_114
-      - CN_108
-      - US_96
-      - US_86
-      - US_93
-      - US_137
-      - TW_13
-      - CN_221
-      - US_116
-      - BZ_128
-      - US_33
-      - BZ_179
-      - CN_143
-      - CN_71
-      - US_34
-      - US_24
-      - AM_173
-      - 香港高速接入点-01
-      - 韩国高速接入点-02
+      - JP_（广告位招租@自学志）_5
+      - POL_3🇵🇱
+      - POL🇵🇱
+      - _JP_日本
+      - _SG_新加坡->🇬🇧_GB_英国
+      - _CA_加拿大->🇺🇸_US_美国
+      - _JP_日本 2
+      - _JP_日本 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 欧盟  20
+      - 香港Amazon数据中心 7
+      - 美国CloudFlare公司CDN节点 19
+      - 亚太地区  6
+      - 卢森堡root.lu数据中心 16
+      - 澳大利亚Kooweerup Secondary College 5
+      - 沙特阿拉伯Arabic Computer System Co. 22
+      - 欧盟  18
+      - 美国CloudFlare节点 30
+      - 美国CloudFlare节点 25
+      - 欧盟  11
+      - 美国CloudFlare公司CDN节点 32
+      - 丹麦  14
+      - 中国阿里云 34
+      - 美国CloudFlare公司CDN节点(shopify) 15
+      - 美国CloudFlare公司CDN节点 26
+      - 美国CloudFlare公司CDN节点 10
       - 台北高级接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港-80端口-01
-      - 美国高速接入点-02
+      - 香港-80端口-02
       - 日本高速接入点-02
-      - 新加坡高速接入点-03
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 台北高级接入点-02
-      - 美国高速接入点-01
-      - 新加坡高速接入点-01
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-04
+      - 日本高速接入点-04
+      - 香港高速接入点-05
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _US_美国
-      - _US_美国 2
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - _BZ_伯利兹
-      - _HK_香港
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - UK-CF
-      - US-DP1
-      - CA-CF
-      - KH-CF
-      - US-DP2
-      - US-DO
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _NL_荷兰
-      - _NL_荷兰 2
-      - _CA_加拿大->🇫🇷_FR_法国
-      - _NL_荷兰 3
-      - _AM_亚美尼亚->🇫🇷_FR_法国 2
+      - 台北高级接入点-02
+      - 新加坡高速接入点-04
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 香港高速接入点-02
+      - 新加坡高速接入点-02
+      - 日本高速接入点-03
+      - 美国高速接入点-01
+      - 美国高速接入点-02
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 日本-80端口-04
+      - US_（广告位招租@自学志）_76
+      - BZ_（广告位招租@自学志）_122
+      - US_（广告位招租@自学志）_103
+      - IN_（广告位招租@自学志）_222
+      - RO_（广告位招租@自学志）_25
+      - US_（广告位招租@自学志）_249
+      - US_（广告位招租@自学志）_165
+      - US_（广告位招租@自学志）_93
+      - HK_（广告位招租@自学志）_123
+      - US_（广告位招租@自学志）_47
+      - JP_（广告位招租@自学志）_57
+      - CN_（广告位招租@自学志）_78
+      - SG_（广告位招租@自学志）_45
+      - SG_（广告位招租@自学志）_166
+      - US_（广告位招租@自学志）_126
+      - US_（广告位招租@自学志）_84
+      - JP_（广告位招租@自学志）_228
+      - SG_（广告位招租@自学志）_208
+      - AM_（广告位招租@自学志）_243
+      - US_（广告位招租@自学志）_146
+      - RO_（广告位招租@自学志）_221
+      - US_（广告位招租@自学志）_18
+      - JP_（广告位招租@自学志）_30
+      - US_（广告位招租@自学志）_244
+      - Alien（广告位招租@自学志）_
+      - Alien（广告位招租@自学志）_ 2
+      - Alien（广告位招租@自学志）_ 3
+      - 中国（广告位招租@自学志）_28
+      - 中国（广告位招租@自学志）_21
+      - 美国（广告位招租@自学志）_215
+      - 亚美尼亚（广告位招租@自学志）_112
+      - 伯利兹（广告位招租@自学志）_122
+      - 亚美尼亚（广告位招租@自学志）_113
+      - 伯利兹（广告位招租@自学志）_125
+      - 伯利兹（广告位招租@自学志）_124
+      - 伯利兹（广告位招租@自学志）_128
+      - 塞浦路斯（广告位招租@自学志）_118
+      - 未知（广告位招租@自学志）_234
+      - 伯利兹（广告位招租@自学志）_133
+      - 美国（广告位招租@自学志）_46
+      - 伯利兹（广告位招租@自学志）_130
+      - 美国（广告位招租@自学志）_101
+      - 亚美尼亚（广告位招租@自学志）_111
+      - 中国（广告位招租@自学志）_24
+      - 日本(广告位招租@自学志)
+      - 美国(广告位招租@自学志)
+      - 日本(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 5
+      - 日本(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 6
+      - 日本(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 7
+      - 美国(广告位招租@自学志) 8
+      - 美国(广告位招租@自学志) 9
+      - 美国(广告位招租@自学志) 10
+      - 美国(广告位招租@自学志) 11
+      - 美国(广告位招租@自学志) 12
+      - 美国(广告位招租@自学志) 13
+      - 美国(广告位招租@自学志) 14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _SE_瑞典
-      - POL_2🇵🇱
-      - GBR🇬🇧
-      - POL_2🇵🇱 2
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 荷兰
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 英国
-      - 美国 10
-      - 美国 11
-      - 罗马尼亚
-      - 荷兰 2
-      - 美国 12
-      - 美国 13
-      - 美国 14
-      - 美国 15
-      - 塞浦路斯119
-      - 伯利兹125
-      - 加拿大144
-      - 亚美尼亚113
-      - 中国22
-      - 伯利兹135
-      - 乌克兰187
-      - Alien
-      - US_161
-      - US_28
-      - CN_177
-      - US_114
-      - CN_108
-      - US_96
-      - US_86
-      - US_93
-      - US_137
-      - TW_13
-      - CN_221
-      - US_116
-      - BZ_128
-      - US_33
-      - BZ_179
-      - CN_143
-      - CN_71
-      - US_34
-      - US_24
-      - AM_173
-      - 香港高速接入点-01
-      - 韩国高速接入点-02
+      - JP_（广告位招租@自学志）_5
+      - POL_3🇵🇱
+      - POL🇵🇱
+      - _JP_日本
+      - _SG_新加坡->🇬🇧_GB_英国
+      - _CA_加拿大->🇺🇸_US_美国
+      - _JP_日本 2
+      - _JP_日本 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 欧盟  20
+      - 香港Amazon数据中心 7
+      - 美国CloudFlare公司CDN节点 19
+      - 亚太地区  6
+      - 卢森堡root.lu数据中心 16
+      - 澳大利亚Kooweerup Secondary College 5
+      - 沙特阿拉伯Arabic Computer System Co. 22
+      - 欧盟  18
+      - 美国CloudFlare节点 30
+      - 美国CloudFlare节点 25
+      - 欧盟  11
+      - 美国CloudFlare公司CDN节点 32
+      - 丹麦  14
+      - 中国阿里云 34
+      - 美国CloudFlare公司CDN节点(shopify) 15
+      - 美国CloudFlare公司CDN节点 26
+      - 美国CloudFlare公司CDN节点 10
       - 台北高级接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港-80端口-01
-      - 美国高速接入点-02
+      - 香港-80端口-02
       - 日本高速接入点-02
-      - 新加坡高速接入点-03
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 台北高级接入点-02
-      - 美国高速接入点-01
-      - 新加坡高速接入点-01
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-04
+      - 日本高速接入点-04
+      - 香港高速接入点-05
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _US_美国
-      - _US_美国 2
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - _BZ_伯利兹
-      - _HK_香港
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - UK-CF
-      - US-DP1
-      - CA-CF
-      - KH-CF
-      - US-DP2
-      - US-DO
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _NL_荷兰
-      - _NL_荷兰 2
-      - _CA_加拿大->🇫🇷_FR_法国
-      - _NL_荷兰 3
-      - _AM_亚美尼亚->🇫🇷_FR_法国 2
+      - 台北高级接入点-02
+      - 新加坡高速接入点-04
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 香港高速接入点-02
+      - 新加坡高速接入点-02
+      - 日本高速接入点-03
+      - 美国高速接入点-01
+      - 美国高速接入点-02
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 日本-80端口-04
+      - US_（广告位招租@自学志）_76
+      - BZ_（广告位招租@自学志）_122
+      - US_（广告位招租@自学志）_103
+      - IN_（广告位招租@自学志）_222
+      - RO_（广告位招租@自学志）_25
+      - US_（广告位招租@自学志）_249
+      - US_（广告位招租@自学志）_165
+      - US_（广告位招租@自学志）_93
+      - HK_（广告位招租@自学志）_123
+      - US_（广告位招租@自学志）_47
+      - JP_（广告位招租@自学志）_57
+      - CN_（广告位招租@自学志）_78
+      - SG_（广告位招租@自学志）_45
+      - SG_（广告位招租@自学志）_166
+      - US_（广告位招租@自学志）_126
+      - US_（广告位招租@自学志）_84
+      - JP_（广告位招租@自学志）_228
+      - SG_（广告位招租@自学志）_208
+      - AM_（广告位招租@自学志）_243
+      - US_（广告位招租@自学志）_146
+      - RO_（广告位招租@自学志）_221
+      - US_（广告位招租@自学志）_18
+      - JP_（广告位招租@自学志）_30
+      - US_（广告位招租@自学志）_244
+      - Alien（广告位招租@自学志）_
+      - Alien（广告位招租@自学志）_ 2
+      - Alien（广告位招租@自学志）_ 3
+      - 中国（广告位招租@自学志）_28
+      - 中国（广告位招租@自学志）_21
+      - 美国（广告位招租@自学志）_215
+      - 亚美尼亚（广告位招租@自学志）_112
+      - 伯利兹（广告位招租@自学志）_122
+      - 亚美尼亚（广告位招租@自学志）_113
+      - 伯利兹（广告位招租@自学志）_125
+      - 伯利兹（广告位招租@自学志）_124
+      - 伯利兹（广告位招租@自学志）_128
+      - 塞浦路斯（广告位招租@自学志）_118
+      - 未知（广告位招租@自学志）_234
+      - 伯利兹（广告位招租@自学志）_133
+      - 美国（广告位招租@自学志）_46
+      - 伯利兹（广告位招租@自学志）_130
+      - 美国（广告位招租@自学志）_101
+      - 亚美尼亚（广告位招租@自学志）_111
+      - 中国（广告位招租@自学志）_24
+      - 日本(广告位招租@自学志)
+      - 美国(广告位招租@自学志)
+      - 日本(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 5
+      - 日本(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 6
+      - 日本(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 7
+      - 美国(广告位招租@自学志) 8
+      - 美国(广告位招租@自学志) 9
+      - 美国(广告位招租@自学志) 10
+      - 美国(广告位招租@自学志) 11
+      - 美国(广告位招租@自学志) 12
+      - 美国(广告位招租@自学志) 13
+      - 美国(广告位招租@自学志) 14
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SE_瑞典
-      - POL_2🇵🇱
-      - GBR🇬🇧
-      - POL_2🇵🇱 2
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 荷兰
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 英国
-      - 美国 10
-      - 美国 11
-      - 罗马尼亚
-      - 荷兰 2
-      - 美国 12
-      - 美国 13
-      - 美国 14
-      - 美国 15
-      - 塞浦路斯119
-      - 伯利兹125
-      - 加拿大144
-      - 亚美尼亚113
-      - 中国22
-      - 伯利兹135
-      - 乌克兰187
-      - Alien
-      - US_161
-      - US_28
-      - CN_177
-      - US_114
-      - CN_108
-      - US_96
-      - US_86
-      - US_93
-      - US_137
-      - TW_13
-      - CN_221
-      - US_116
-      - BZ_128
-      - US_33
-      - BZ_179
-      - CN_143
-      - CN_71
-      - US_34
-      - US_24
-      - AM_173
-      - 香港高速接入点-01
-      - 韩国高速接入点-02
+      - JP_（广告位招租@自学志）_5
+      - POL_3🇵🇱
+      - POL🇵🇱
+      - _JP_日本
+      - _SG_新加坡->🇬🇧_GB_英国
+      - _CA_加拿大->🇺🇸_US_美国
+      - _JP_日本 2
+      - _JP_日本 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 欧盟  20
+      - 香港Amazon数据中心 7
+      - 美国CloudFlare公司CDN节点 19
+      - 亚太地区  6
+      - 卢森堡root.lu数据中心 16
+      - 澳大利亚Kooweerup Secondary College 5
+      - 沙特阿拉伯Arabic Computer System Co. 22
+      - 欧盟  18
+      - 美国CloudFlare节点 30
+      - 美国CloudFlare节点 25
+      - 欧盟  11
+      - 美国CloudFlare公司CDN节点 32
+      - 丹麦  14
+      - 中国阿里云 34
+      - 美国CloudFlare公司CDN节点(shopify) 15
+      - 美国CloudFlare公司CDN节点 26
+      - 美国CloudFlare公司CDN节点 10
       - 台北高级接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港-80端口-01
-      - 美国高速接入点-02
+      - 香港-80端口-02
       - 日本高速接入点-02
-      - 新加坡高速接入点-03
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 台北高级接入点-02
-      - 美国高速接入点-01
-      - 新加坡高速接入点-01
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-04
+      - 日本高速接入点-04
+      - 香港高速接入点-05
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _US_美国
-      - _US_美国 2
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - _BZ_伯利兹
-      - _HK_香港
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - UK-CF
-      - US-DP1
-      - CA-CF
-      - KH-CF
-      - US-DP2
-      - US-DO
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _NL_荷兰
-      - _NL_荷兰 2
-      - _CA_加拿大->🇫🇷_FR_法国
-      - _NL_荷兰 3
-      - _AM_亚美尼亚->🇫🇷_FR_法国 2
+      - 台北高级接入点-02
+      - 新加坡高速接入点-04
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 香港高速接入点-02
+      - 新加坡高速接入点-02
+      - 日本高速接入点-03
+      - 美国高速接入点-01
+      - 美国高速接入点-02
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 日本-80端口-04
+      - US_（广告位招租@自学志）_76
+      - BZ_（广告位招租@自学志）_122
+      - US_（广告位招租@自学志）_103
+      - IN_（广告位招租@自学志）_222
+      - RO_（广告位招租@自学志）_25
+      - US_（广告位招租@自学志）_249
+      - US_（广告位招租@自学志）_165
+      - US_（广告位招租@自学志）_93
+      - HK_（广告位招租@自学志）_123
+      - US_（广告位招租@自学志）_47
+      - JP_（广告位招租@自学志）_57
+      - CN_（广告位招租@自学志）_78
+      - SG_（广告位招租@自学志）_45
+      - SG_（广告位招租@自学志）_166
+      - US_（广告位招租@自学志）_126
+      - US_（广告位招租@自学志）_84
+      - JP_（广告位招租@自学志）_228
+      - SG_（广告位招租@自学志）_208
+      - AM_（广告位招租@自学志）_243
+      - US_（广告位招租@自学志）_146
+      - RO_（广告位招租@自学志）_221
+      - US_（广告位招租@自学志）_18
+      - JP_（广告位招租@自学志）_30
+      - US_（广告位招租@自学志）_244
+      - Alien（广告位招租@自学志）_
+      - Alien（广告位招租@自学志）_ 2
+      - Alien（广告位招租@自学志）_ 3
+      - 中国（广告位招租@自学志）_28
+      - 中国（广告位招租@自学志）_21
+      - 美国（广告位招租@自学志）_215
+      - 亚美尼亚（广告位招租@自学志）_112
+      - 伯利兹（广告位招租@自学志）_122
+      - 亚美尼亚（广告位招租@自学志）_113
+      - 伯利兹（广告位招租@自学志）_125
+      - 伯利兹（广告位招租@自学志）_124
+      - 伯利兹（广告位招租@自学志）_128
+      - 塞浦路斯（广告位招租@自学志）_118
+      - 未知（广告位招租@自学志）_234
+      - 伯利兹（广告位招租@自学志）_133
+      - 美国（广告位招租@自学志）_46
+      - 伯利兹（广告位招租@自学志）_130
+      - 美国（广告位招租@自学志）_101
+      - 亚美尼亚（广告位招租@自学志）_111
+      - 中国（广告位招租@自学志）_24
+      - 日本(广告位招租@自学志)
+      - 美国(广告位招租@自学志)
+      - 日本(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 5
+      - 日本(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 6
+      - 日本(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 7
+      - 美国(广告位招租@自学志) 8
+      - 美国(广告位招租@自学志) 9
+      - 美国(广告位招租@自学志) 10
+      - 美国(广告位招租@自学志) 11
+      - 美国(广告位招租@自学志) 12
+      - 美国(广告位招租@自学志) 13
+      - 美国(广告位招租@自学志) 14
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -412,409 +488,486 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SE_瑞典
-      - POL_2🇵🇱
-      - GBR🇬🇧
-      - POL_2🇵🇱 2
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 荷兰
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 英国
-      - 美国 10
-      - 美国 11
-      - 罗马尼亚
-      - 荷兰 2
-      - 美国 12
-      - 美国 13
-      - 美国 14
-      - 美国 15
-      - 塞浦路斯119
-      - 伯利兹125
-      - 加拿大144
-      - 亚美尼亚113
-      - 中国22
-      - 伯利兹135
-      - 乌克兰187
-      - Alien
-      - US_161
-      - US_28
-      - CN_177
-      - US_114
-      - CN_108
-      - US_96
-      - US_86
-      - US_93
-      - US_137
-      - TW_13
-      - CN_221
-      - US_116
-      - BZ_128
-      - US_33
-      - BZ_179
-      - CN_143
-      - CN_71
-      - US_34
-      - US_24
-      - AM_173
-      - 香港高速接入点-01
-      - 韩国高速接入点-02
+      - JP_（广告位招租@自学志）_5
+      - POL_3🇵🇱
+      - POL🇵🇱
+      - _JP_日本
+      - _SG_新加坡->🇬🇧_GB_英国
+      - _CA_加拿大->🇺🇸_US_美国
+      - _JP_日本 2
+      - _JP_日本 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 欧盟  20
+      - 香港Amazon数据中心 7
+      - 美国CloudFlare公司CDN节点 19
+      - 亚太地区  6
+      - 卢森堡root.lu数据中心 16
+      - 澳大利亚Kooweerup Secondary College 5
+      - 沙特阿拉伯Arabic Computer System Co. 22
+      - 欧盟  18
+      - 美国CloudFlare节点 30
+      - 美国CloudFlare节点 25
+      - 欧盟  11
+      - 美国CloudFlare公司CDN节点 32
+      - 丹麦  14
+      - 中国阿里云 34
+      - 美国CloudFlare公司CDN节点(shopify) 15
+      - 美国CloudFlare公司CDN节点 26
+      - 美国CloudFlare公司CDN节点 10
       - 台北高级接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港-80端口-01
-      - 美国高速接入点-02
+      - 香港-80端口-02
       - 日本高速接入点-02
-      - 新加坡高速接入点-03
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 台北高级接入点-02
-      - 美国高速接入点-01
-      - 新加坡高速接入点-01
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-04
+      - 日本高速接入点-04
+      - 香港高速接入点-05
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _US_美国
-      - _US_美国 2
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - _BZ_伯利兹
-      - _HK_香港
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - UK-CF
-      - US-DP1
-      - CA-CF
-      - KH-CF
-      - US-DP2
-      - US-DO
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _NL_荷兰
-      - _NL_荷兰 2
-      - _CA_加拿大->🇫🇷_FR_法国
-      - _NL_荷兰 3
-      - _AM_亚美尼亚->🇫🇷_FR_法国 2
+      - 台北高级接入点-02
+      - 新加坡高速接入点-04
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 香港高速接入点-02
+      - 新加坡高速接入点-02
+      - 日本高速接入点-03
+      - 美国高速接入点-01
+      - 美国高速接入点-02
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 日本-80端口-04
+      - US_（广告位招租@自学志）_76
+      - BZ_（广告位招租@自学志）_122
+      - US_（广告位招租@自学志）_103
+      - IN_（广告位招租@自学志）_222
+      - RO_（广告位招租@自学志）_25
+      - US_（广告位招租@自学志）_249
+      - US_（广告位招租@自学志）_165
+      - US_（广告位招租@自学志）_93
+      - HK_（广告位招租@自学志）_123
+      - US_（广告位招租@自学志）_47
+      - JP_（广告位招租@自学志）_57
+      - CN_（广告位招租@自学志）_78
+      - SG_（广告位招租@自学志）_45
+      - SG_（广告位招租@自学志）_166
+      - US_（广告位招租@自学志）_126
+      - US_（广告位招租@自学志）_84
+      - JP_（广告位招租@自学志）_228
+      - SG_（广告位招租@自学志）_208
+      - AM_（广告位招租@自学志）_243
+      - US_（广告位招租@自学志）_146
+      - RO_（广告位招租@自学志）_221
+      - US_（广告位招租@自学志）_18
+      - JP_（广告位招租@自学志）_30
+      - US_（广告位招租@自学志）_244
+      - Alien（广告位招租@自学志）_
+      - Alien（广告位招租@自学志）_ 2
+      - Alien（广告位招租@自学志）_ 3
+      - 中国（广告位招租@自学志）_28
+      - 中国（广告位招租@自学志）_21
+      - 美国（广告位招租@自学志）_215
+      - 亚美尼亚（广告位招租@自学志）_112
+      - 伯利兹（广告位招租@自学志）_122
+      - 亚美尼亚（广告位招租@自学志）_113
+      - 伯利兹（广告位招租@自学志）_125
+      - 伯利兹（广告位招租@自学志）_124
+      - 伯利兹（广告位招租@自学志）_128
+      - 塞浦路斯（广告位招租@自学志）_118
+      - 未知（广告位招租@自学志）_234
+      - 伯利兹（广告位招租@自学志）_133
+      - 美国（广告位招租@自学志）_46
+      - 伯利兹（广告位招租@自学志）_130
+      - 美国（广告位招租@自学志）_101
+      - 亚美尼亚（广告位招租@自学志）_111
+      - 中国（广告位招租@自学志）_24
+      - 日本(广告位招租@自学志)
+      - 美国(广告位招租@自学志)
+      - 日本(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 5
+      - 日本(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 6
+      - 日本(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 7
+      - 美国(广告位招租@自学志) 8
+      - 美国(广告位招租@自学志) 9
+      - 美国(广告位招租@自学志) 10
+      - 美国(广告位招租@自学志) 11
+      - 美国(广告位招租@自学志) 12
+      - 美国(广告位招租@自学志) 13
+      - 美国(广告位招租@自学志) 14
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港高速接入点-01
+      - 香港Amazon数据中心 7
       - 台北高级接入点-01
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
+      - 香港-80端口-02
       - 香港高速接入点-05
-      - 香港-80端口-01
-      - 台北高级接入点-02
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _HK_香港
-      - _HK_香港->🇸🇬_SG_新加坡
+      - 台北高级接入点-02
+      - 香港-80端口-01
+      - 香港高速接入点-02
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _SE_瑞典
-      - POL_2🇵🇱
-      - GBR🇬🇧
-      - POL_2🇵🇱 2
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 荷兰
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 英国
-      - 美国 10
-      - 美国 11
-      - 罗马尼亚
-      - 荷兰 2
-      - 美国 12
-      - 美国 13
-      - 美国 14
-      - 美国 15
-      - 塞浦路斯119
-      - 伯利兹125
-      - 加拿大144
-      - 亚美尼亚113
-      - 中国22
-      - 伯利兹135
-      - 乌克兰187
-      - Alien
-      - US_161
-      - US_28
-      - CN_177
-      - US_114
-      - CN_108
-      - US_96
-      - US_86
-      - US_93
-      - US_137
-      - TW_13
-      - CN_221
-      - US_116
-      - BZ_128
-      - US_33
-      - BZ_179
-      - CN_143
-      - CN_71
-      - US_34
-      - US_24
-      - AM_173
-      - 香港高速接入点-01
-      - 韩国高速接入点-02
+      - JP_（广告位招租@自学志）_5
+      - POL_3🇵🇱
+      - POL🇵🇱
+      - _JP_日本
+      - _SG_新加坡->🇬🇧_GB_英国
+      - _CA_加拿大->🇺🇸_US_美国
+      - _JP_日本 2
+      - _JP_日本 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 欧盟  20
+      - 香港Amazon数据中心 7
+      - 美国CloudFlare公司CDN节点 19
+      - 亚太地区  6
+      - 卢森堡root.lu数据中心 16
+      - 澳大利亚Kooweerup Secondary College 5
+      - 沙特阿拉伯Arabic Computer System Co. 22
+      - 欧盟  18
+      - 美国CloudFlare节点 30
+      - 美国CloudFlare节点 25
+      - 欧盟  11
+      - 美国CloudFlare公司CDN节点 32
+      - 丹麦  14
+      - 中国阿里云 34
+      - 美国CloudFlare公司CDN节点(shopify) 15
+      - 美国CloudFlare公司CDN节点 26
+      - 美国CloudFlare公司CDN节点 10
       - 台北高级接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港-80端口-01
-      - 美国高速接入点-02
+      - 香港-80端口-02
       - 日本高速接入点-02
-      - 新加坡高速接入点-03
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 台北高级接入点-02
-      - 美国高速接入点-01
-      - 新加坡高速接入点-01
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-04
+      - 日本高速接入点-04
+      - 香港高速接入点-05
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _US_美国
-      - _US_美国 2
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - _BZ_伯利兹
-      - _HK_香港
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - UK-CF
-      - US-DP1
-      - CA-CF
-      - KH-CF
-      - US-DP2
-      - US-DO
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _NL_荷兰
-      - _NL_荷兰 2
-      - _CA_加拿大->🇫🇷_FR_法国
-      - _NL_荷兰 3
-      - _AM_亚美尼亚->🇫🇷_FR_法国 2
+      - 台北高级接入点-02
+      - 新加坡高速接入点-04
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 香港高速接入点-02
+      - 新加坡高速接入点-02
+      - 日本高速接入点-03
+      - 美国高速接入点-01
+      - 美国高速接入点-02
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 日本-80端口-04
+      - US_（广告位招租@自学志）_76
+      - BZ_（广告位招租@自学志）_122
+      - US_（广告位招租@自学志）_103
+      - IN_（广告位招租@自学志）_222
+      - RO_（广告位招租@自学志）_25
+      - US_（广告位招租@自学志）_249
+      - US_（广告位招租@自学志）_165
+      - US_（广告位招租@自学志）_93
+      - HK_（广告位招租@自学志）_123
+      - US_（广告位招租@自学志）_47
+      - JP_（广告位招租@自学志）_57
+      - CN_（广告位招租@自学志）_78
+      - SG_（广告位招租@自学志）_45
+      - SG_（广告位招租@自学志）_166
+      - US_（广告位招租@自学志）_126
+      - US_（广告位招租@自学志）_84
+      - JP_（广告位招租@自学志）_228
+      - SG_（广告位招租@自学志）_208
+      - AM_（广告位招租@自学志）_243
+      - US_（广告位招租@自学志）_146
+      - RO_（广告位招租@自学志）_221
+      - US_（广告位招租@自学志）_18
+      - JP_（广告位招租@自学志）_30
+      - US_（广告位招租@自学志）_244
+      - Alien（广告位招租@自学志）_
+      - Alien（广告位招租@自学志）_ 2
+      - Alien（广告位招租@自学志）_ 3
+      - 中国（广告位招租@自学志）_28
+      - 中国（广告位招租@自学志）_21
+      - 美国（广告位招租@自学志）_215
+      - 亚美尼亚（广告位招租@自学志）_112
+      - 伯利兹（广告位招租@自学志）_122
+      - 亚美尼亚（广告位招租@自学志）_113
+      - 伯利兹（广告位招租@自学志）_125
+      - 伯利兹（广告位招租@自学志）_124
+      - 伯利兹（广告位招租@自学志）_128
+      - 塞浦路斯（广告位招租@自学志）_118
+      - 未知（广告位招租@自学志）_234
+      - 伯利兹（广告位招租@自学志）_133
+      - 美国（广告位招租@自学志）_46
+      - 伯利兹（广告位招租@自学志）_130
+      - 美国（广告位招租@自学志）_101
+      - 亚美尼亚（广告位招租@自学志）_111
+      - 中国（广告位招租@自学志）_24
+      - 日本(广告位招租@自学志)
+      - 美国(广告位招租@自学志)
+      - 日本(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 5
+      - 日本(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 6
+      - 日本(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 7
+      - 美国(广告位招租@自学志) 8
+      - 美国(广告位招租@自学志) 9
+      - 美国(广告位招租@自学志) 10
+      - 美国(广告位招租@自学志) 11
+      - 美国(广告位招租@自学志) 12
+      - 美国(广告位招租@自学志) 13
+      - 美国(广告位招租@自学志) 14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _SE_瑞典
-      - POL_2🇵🇱
-      - GBR🇬🇧
-      - POL_2🇵🇱 2
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 荷兰
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 英国
-      - 美国 10
-      - 美国 11
-      - 罗马尼亚
-      - 荷兰 2
-      - 美国 12
-      - 美国 13
-      - 美国 14
-      - 美国 15
-      - 塞浦路斯119
-      - 伯利兹125
-      - 加拿大144
-      - 亚美尼亚113
-      - 中国22
-      - 伯利兹135
-      - 乌克兰187
-      - Alien
-      - US_161
-      - US_28
-      - CN_177
-      - US_114
-      - CN_108
-      - US_96
-      - US_86
-      - US_93
-      - US_137
-      - TW_13
-      - CN_221
-      - US_116
-      - BZ_128
-      - US_33
-      - BZ_179
-      - CN_143
-      - CN_71
-      - US_34
-      - US_24
-      - AM_173
-      - 香港高速接入点-01
-      - 韩国高速接入点-02
+      - JP_（广告位招租@自学志）_5
+      - POL_3🇵🇱
+      - POL🇵🇱
+      - _JP_日本
+      - _SG_新加坡->🇬🇧_GB_英国
+      - _CA_加拿大->🇺🇸_US_美国
+      - _JP_日本 2
+      - _JP_日本 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 欧盟  20
+      - 香港Amazon数据中心 7
+      - 美国CloudFlare公司CDN节点 19
+      - 亚太地区  6
+      - 卢森堡root.lu数据中心 16
+      - 澳大利亚Kooweerup Secondary College 5
+      - 沙特阿拉伯Arabic Computer System Co. 22
+      - 欧盟  18
+      - 美国CloudFlare节点 30
+      - 美国CloudFlare节点 25
+      - 欧盟  11
+      - 美国CloudFlare公司CDN节点 32
+      - 丹麦  14
+      - 中国阿里云 34
+      - 美国CloudFlare公司CDN节点(shopify) 15
+      - 美国CloudFlare公司CDN节点 26
+      - 美国CloudFlare公司CDN节点 10
       - 台北高级接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港-80端口-01
-      - 美国高速接入点-02
+      - 香港-80端口-02
       - 日本高速接入点-02
-      - 新加坡高速接入点-03
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 台北高级接入点-02
-      - 美国高速接入点-01
-      - 新加坡高速接入点-01
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-04
+      - 日本高速接入点-04
+      - 香港高速接入点-05
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _US_美国
-      - _US_美国 2
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - _BZ_伯利兹
-      - _HK_香港
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - UK-CF
-      - US-DP1
-      - CA-CF
-      - KH-CF
-      - US-DP2
-      - US-DO
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _NL_荷兰
-      - _NL_荷兰 2
-      - _CA_加拿大->🇫🇷_FR_法国
-      - _NL_荷兰 3
-      - _AM_亚美尼亚->🇫🇷_FR_法国 2
+      - 台北高级接入点-02
+      - 新加坡高速接入点-04
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 香港高速接入点-02
+      - 新加坡高速接入点-02
+      - 日本高速接入点-03
+      - 美国高速接入点-01
+      - 美国高速接入点-02
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 日本-80端口-04
+      - US_（广告位招租@自学志）_76
+      - BZ_（广告位招租@自学志）_122
+      - US_（广告位招租@自学志）_103
+      - IN_（广告位招租@自学志）_222
+      - RO_（广告位招租@自学志）_25
+      - US_（广告位招租@自学志）_249
+      - US_（广告位招租@自学志）_165
+      - US_（广告位招租@自学志）_93
+      - HK_（广告位招租@自学志）_123
+      - US_（广告位招租@自学志）_47
+      - JP_（广告位招租@自学志）_57
+      - CN_（广告位招租@自学志）_78
+      - SG_（广告位招租@自学志）_45
+      - SG_（广告位招租@自学志）_166
+      - US_（广告位招租@自学志）_126
+      - US_（广告位招租@自学志）_84
+      - JP_（广告位招租@自学志）_228
+      - SG_（广告位招租@自学志）_208
+      - AM_（广告位招租@自学志）_243
+      - US_（广告位招租@自学志）_146
+      - RO_（广告位招租@自学志）_221
+      - US_（广告位招租@自学志）_18
+      - JP_（广告位招租@自学志）_30
+      - US_（广告位招租@自学志）_244
+      - Alien（广告位招租@自学志）_
+      - Alien（广告位招租@自学志）_ 2
+      - Alien（广告位招租@自学志）_ 3
+      - 中国（广告位招租@自学志）_28
+      - 中国（广告位招租@自学志）_21
+      - 美国（广告位招租@自学志）_215
+      - 亚美尼亚（广告位招租@自学志）_112
+      - 伯利兹（广告位招租@自学志）_122
+      - 亚美尼亚（广告位招租@自学志）_113
+      - 伯利兹（广告位招租@自学志）_125
+      - 伯利兹（广告位招租@自学志）_124
+      - 伯利兹（广告位招租@自学志）_128
+      - 塞浦路斯（广告位招租@自学志）_118
+      - 未知（广告位招租@自学志）_234
+      - 伯利兹（广告位招租@自学志）_133
+      - 美国（广告位招租@自学志）_46
+      - 伯利兹（广告位招租@自学志）_130
+      - 美国（广告位招租@自学志）_101
+      - 亚美尼亚（广告位招租@自学志）_111
+      - 中国（广告位招租@自学志）_24
+      - 日本(广告位招租@自学志)
+      - 美国(广告位招租@自学志)
+      - 日本(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 5
+      - 日本(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 6
+      - 日本(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 7
+      - 美国(广告位招租@自学志) 8
+      - 美国(广告位招租@自学志) 9
+      - 美国(广告位招租@自学志) 10
+      - 美国(广告位招租@自学志) 11
+      - 美国(广告位招租@自学志) 12
+      - 美国(广告位招租@自学志) 13
+      - 美国(广告位招租@自学志) 14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SE_瑞典
-      - POL_2🇵🇱
-      - GBR🇬🇧
-      - POL_2🇵🇱 2
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 荷兰
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 英国
-      - 美国 10
-      - 美国 11
-      - 罗马尼亚
-      - 荷兰 2
-      - 美国 12
-      - 美国 13
-      - 美国 14
-      - 美国 15
-      - 塞浦路斯119
-      - 伯利兹125
-      - 加拿大144
-      - 亚美尼亚113
-      - 中国22
-      - 伯利兹135
-      - 乌克兰187
-      - Alien
-      - US_161
-      - US_28
-      - CN_177
-      - US_114
-      - CN_108
-      - US_96
-      - US_86
-      - US_93
-      - US_137
-      - TW_13
-      - CN_221
-      - US_116
-      - BZ_128
-      - US_33
-      - BZ_179
-      - CN_143
-      - CN_71
-      - US_34
-      - US_24
-      - AM_173
-      - 香港高速接入点-01
-      - 韩国高速接入点-02
+      - JP_（广告位招租@自学志）_5
+      - POL_3🇵🇱
+      - POL🇵🇱
+      - _JP_日本
+      - _SG_新加坡->🇬🇧_GB_英国
+      - _CA_加拿大->🇺🇸_US_美国
+      - _JP_日本 2
+      - _JP_日本 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 欧盟  20
+      - 香港Amazon数据中心 7
+      - 美国CloudFlare公司CDN节点 19
+      - 亚太地区  6
+      - 卢森堡root.lu数据中心 16
+      - 澳大利亚Kooweerup Secondary College 5
+      - 沙特阿拉伯Arabic Computer System Co. 22
+      - 欧盟  18
+      - 美国CloudFlare节点 30
+      - 美国CloudFlare节点 25
+      - 欧盟  11
+      - 美国CloudFlare公司CDN节点 32
+      - 丹麦  14
+      - 中国阿里云 34
+      - 美国CloudFlare公司CDN节点(shopify) 15
+      - 美国CloudFlare公司CDN节点 26
+      - 美国CloudFlare公司CDN节点 10
       - 台北高级接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港-80端口-01
-      - 美国高速接入点-02
+      - 香港-80端口-02
       - 日本高速接入点-02
-      - 新加坡高速接入点-03
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 台北高级接入点-02
-      - 美国高速接入点-01
-      - 新加坡高速接入点-01
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-04
+      - 日本高速接入点-04
+      - 香港高速接入点-05
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _US_美国
-      - _US_美国 2
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - _BZ_伯利兹
-      - _HK_香港
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - UK-CF
-      - US-DP1
-      - CA-CF
-      - KH-CF
-      - US-DP2
-      - US-DO
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _NL_荷兰
-      - _NL_荷兰 2
-      - _CA_加拿大->🇫🇷_FR_法国
-      - _NL_荷兰 3
-      - _AM_亚美尼亚->🇫🇷_FR_法国 2
+      - 台北高级接入点-02
+      - 新加坡高速接入点-04
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 香港高速接入点-02
+      - 新加坡高速接入点-02
+      - 日本高速接入点-03
+      - 美国高速接入点-01
+      - 美国高速接入点-02
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 日本-80端口-04
+      - US_（广告位招租@自学志）_76
+      - BZ_（广告位招租@自学志）_122
+      - US_（广告位招租@自学志）_103
+      - IN_（广告位招租@自学志）_222
+      - RO_（广告位招租@自学志）_25
+      - US_（广告位招租@自学志）_249
+      - US_（广告位招租@自学志）_165
+      - US_（广告位招租@自学志）_93
+      - HK_（广告位招租@自学志）_123
+      - US_（广告位招租@自学志）_47
+      - JP_（广告位招租@自学志）_57
+      - CN_（广告位招租@自学志）_78
+      - SG_（广告位招租@自学志）_45
+      - SG_（广告位招租@自学志）_166
+      - US_（广告位招租@自学志）_126
+      - US_（广告位招租@自学志）_84
+      - JP_（广告位招租@自学志）_228
+      - SG_（广告位招租@自学志）_208
+      - AM_（广告位招租@自学志）_243
+      - US_（广告位招租@自学志）_146
+      - RO_（广告位招租@自学志）_221
+      - US_（广告位招租@自学志）_18
+      - JP_（广告位招租@自学志）_30
+      - US_（广告位招租@自学志）_244
+      - Alien（广告位招租@自学志）_
+      - Alien（广告位招租@自学志）_ 2
+      - Alien（广告位招租@自学志）_ 3
+      - 中国（广告位招租@自学志）_28
+      - 中国（广告位招租@自学志）_21
+      - 美国（广告位招租@自学志）_215
+      - 亚美尼亚（广告位招租@自学志）_112
+      - 伯利兹（广告位招租@自学志）_122
+      - 亚美尼亚（广告位招租@自学志）_113
+      - 伯利兹（广告位招租@自学志）_125
+      - 伯利兹（广告位招租@自学志）_124
+      - 伯利兹（广告位招租@自学志）_128
+      - 塞浦路斯（广告位招租@自学志）_118
+      - 未知（广告位招租@自学志）_234
+      - 伯利兹（广告位招租@自学志）_133
+      - 美国（广告位招租@自学志）_46
+      - 伯利兹（广告位招租@自学志）_130
+      - 美国（广告位招租@自学志）_101
+      - 亚美尼亚（广告位招租@自学志）_111
+      - 中国（广告位招租@自学志）_24
+      - 日本(广告位招租@自学志)
+      - 美国(广告位招租@自学志)
+      - 日本(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 5
+      - 日本(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 6
+      - 日本(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 7
+      - 美国(广告位招租@自学志) 8
+      - 美国(广告位招租@自学志) 9
+      - 美国(广告位招租@自学志) 10
+      - 美国(广告位招租@自学志) 11
+      - 美国(广告位招租@自学志) 12
+      - 美国(广告位招租@自学志) 13
+      - 美国(广告位招租@自学志) 14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -830,99 +983,118 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SE_瑞典
-      - POL_2🇵🇱
-      - GBR🇬🇧
-      - POL_2🇵🇱 2
-      - 美国
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 荷兰
-      - 美国 5
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 英国
-      - 美国 10
-      - 美国 11
-      - 罗马尼亚
-      - 荷兰 2
-      - 美国 12
-      - 美国 13
-      - 美国 14
-      - 美国 15
-      - 塞浦路斯119
-      - 伯利兹125
-      - 加拿大144
-      - 亚美尼亚113
-      - 中国22
-      - 伯利兹135
-      - 乌克兰187
-      - Alien
-      - US_161
-      - US_28
-      - CN_177
-      - US_114
-      - CN_108
-      - US_96
-      - US_86
-      - US_93
-      - US_137
-      - TW_13
-      - CN_221
-      - US_116
-      - BZ_128
-      - US_33
-      - BZ_179
-      - CN_143
-      - CN_71
-      - US_34
-      - US_24
-      - AM_173
-      - 香港高速接入点-01
-      - 韩国高速接入点-02
+      - JP_（广告位招租@自学志）_5
+      - POL_3🇵🇱
+      - POL🇵🇱
+      - _JP_日本
+      - _SG_新加坡->🇬🇧_GB_英国
+      - _CA_加拿大->🇺🇸_US_美国
+      - _JP_日本 2
+      - _JP_日本 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 欧盟  20
+      - 香港Amazon数据中心 7
+      - 美国CloudFlare公司CDN节点 19
+      - 亚太地区  6
+      - 卢森堡root.lu数据中心 16
+      - 澳大利亚Kooweerup Secondary College 5
+      - 沙特阿拉伯Arabic Computer System Co. 22
+      - 欧盟  18
+      - 美国CloudFlare节点 30
+      - 美国CloudFlare节点 25
+      - 欧盟  11
+      - 美国CloudFlare公司CDN节点 32
+      - 丹麦  14
+      - 中国阿里云 34
+      - 美国CloudFlare公司CDN节点(shopify) 15
+      - 美国CloudFlare公司CDN节点 26
+      - 美国CloudFlare公司CDN节点 10
       - 台北高级接入点-01
+      - 5x-临时-新加坡-高级节点1
+      - 香港高速接入点-01
       - 香港高速接入点-03
-      - 香港高速接入点-04
-      - 香港高速接入点-05
-      - 香港-80端口-01
-      - 美国高速接入点-02
+      - 香港-80端口-02
       - 日本高速接入点-02
-      - 新加坡高速接入点-03
-      - 韩国高速接入点-01
-      - 日本高速接入点-01
-      - 台北高级接入点-02
-      - 美国高速接入点-01
-      - 新加坡高速接入点-01
-      - 新加坡高速接入点-02
-      - 新加坡高速接入点-04
+      - 日本高速接入点-04
+      - 香港高速接入点-05
+      - 香港高速接入点-04
       - 香港高速接入点-06
-      - _US_美国
-      - _US_美国 2
-      - _AM_亚美尼亚->🇫🇷_FR_法国
-      - _BZ_伯利兹->🇫🇷_FR_法国
-      - _BZ_伯利兹
-      - _HK_香港
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - UK-CF
-      - US-DP1
-      - CA-CF
-      - KH-CF
-      - US-DP2
-      - US-DO
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _NL_荷兰
-      - _NL_荷兰 2
-      - _CA_加拿大->🇫🇷_FR_法国
-      - _NL_荷兰 3
-      - _AM_亚美尼亚->🇫🇷_FR_法国 2
+      - 台北高级接入点-02
+      - 新加坡高速接入点-04
+      - 新加坡高速接入点-01
+      - 新加坡高速接入点-03
+      - 香港-80端口-01
+      - 日本高速接入点-01
+      - 香港高速接入点-02
+      - 新加坡高速接入点-02
+      - 日本高速接入点-03
+      - 美国高速接入点-01
+      - 美国高速接入点-02
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 日本-80端口-04
+      - US_（广告位招租@自学志）_76
+      - BZ_（广告位招租@自学志）_122
+      - US_（广告位招租@自学志）_103
+      - IN_（广告位招租@自学志）_222
+      - RO_（广告位招租@自学志）_25
+      - US_（广告位招租@自学志）_249
+      - US_（广告位招租@自学志）_165
+      - US_（广告位招租@自学志）_93
+      - HK_（广告位招租@自学志）_123
+      - US_（广告位招租@自学志）_47
+      - JP_（广告位招租@自学志）_57
+      - CN_（广告位招租@自学志）_78
+      - SG_（广告位招租@自学志）_45
+      - SG_（广告位招租@自学志）_166
+      - US_（广告位招租@自学志）_126
+      - US_（广告位招租@自学志）_84
+      - JP_（广告位招租@自学志）_228
+      - SG_（广告位招租@自学志）_208
+      - AM_（广告位招租@自学志）_243
+      - US_（广告位招租@自学志）_146
+      - RO_（广告位招租@自学志）_221
+      - US_（广告位招租@自学志）_18
+      - JP_（广告位招租@自学志）_30
+      - US_（广告位招租@自学志）_244
+      - Alien（广告位招租@自学志）_
+      - Alien（广告位招租@自学志）_ 2
+      - Alien（广告位招租@自学志）_ 3
+      - 中国（广告位招租@自学志）_28
+      - 中国（广告位招租@自学志）_21
+      - 美国（广告位招租@自学志）_215
+      - 亚美尼亚（广告位招租@自学志）_112
+      - 伯利兹（广告位招租@自学志）_122
+      - 亚美尼亚（广告位招租@自学志）_113
+      - 伯利兹（广告位招租@自学志）_125
+      - 伯利兹（广告位招租@自学志）_124
+      - 伯利兹（广告位招租@自学志）_128
+      - 塞浦路斯（广告位招租@自学志）_118
+      - 未知（广告位招租@自学志）_234
+      - 伯利兹（广告位招租@自学志）_133
+      - 美国（广告位招租@自学志）_46
+      - 伯利兹（广告位招租@自学志）_130
+      - 美国（广告位招租@自学志）_101
+      - 亚美尼亚（广告位招租@自学志）_111
+      - 中国（广告位招租@自学志）_24
+      - 日本(广告位招租@自学志)
+      - 美国(广告位招租@自学志)
+      - 日本(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 2
+      - 美国(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 5
+      - 日本(广告位招租@自学志) 3
+      - 美国(广告位招租@自学志) 6
+      - 日本(广告位招租@自学志) 4
+      - 美国(广告位招租@自学志) 7
+      - 美国(广告位招租@自学志) 8
+      - 美国(广告位招租@自学志) 9
+      - 美国(广告位招租@自学志) 10
+      - 美国(广告位招租@自学志) 11
+      - 美国(广告位招租@自学志) 12
+      - 美国(广告位招租@自学志) 13
+      - 美国(广告位招租@自学志) 14
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
