@@ -5,557 +5,173 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 无限流量_新加坡1, server: sg.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 无限流量_新加坡2, server: sg2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 无限流量_新加坡3, server: sg3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 无限流量_德国, server: de2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 无限流量_美国, server: us1.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 无限流量_美国2, server: sf3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 无限流量_英国1, server: uk.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 无限流量_英国2, server: uk2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 无限流量_英国3, server: vd2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 无限流量_法国1, server: fr.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 无限流量_法国2, server: fr2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 无限流量_法国3, server: fr3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 无限流量_荷兰1, server: ne.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 无限流量_荷兰2, server: ne2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 无限流量_荷兰3, server: ne3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 无限流量_印度1, server: ne.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 无限流量_印度2, server: ne2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 无限流量_印度3, server: ne3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 无限流量_加拿大1, server: ca.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 无限流量_加拿大2, server: ca2.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 无限流量_加拿大3, server: ca3.无限流量browser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 法国(无限流量), server: 172.64.111.163, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 2, server: 172.67.238.164, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 3, server: www.gov.se, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 4, server: 172.64.84.38, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 5, server: 172.67.14.233, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 6, server: JAPAN.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 7, server: 172.67.58.189, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 8, server: MALAYSIA.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 9, server: 172.67.33.38, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 10, server: SINGAPORE.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 11, server: digitalocean.com, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 12, server: BRAZIL.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 13, server: CSGO.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 14, server: SHOPIFY.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 15, server: RUSSIA.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 16, server: SHOPIFY.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 17, server: www.gco.gov.qa, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 18, server: cloudflare.binghe.design, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 19, server: www.qatar2022.qa, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 20, server: ip.skk.moe, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 21, server: ping.pe, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 22, server: www.gov.ua, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 23, server: www.thaigov.go.th, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 24, server: FBI.GOV, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 25, server: VISA.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 26, server: VISA.CN, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 27, server: VISA.FI, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 28, server: VISA.HK, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 29, server: AMEX.COM, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 30, server: 172.64.141.160, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 31, server: 172.64.204.70, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 32, server: 162.159.137.229, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 33, server: 172.64.142.231, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 34, server: 172.67.195.191, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 35, server: 162.159.160.133, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 36, server: 162.159.245.157, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 37, server: 172.67.116.19, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 38, server: 172.67.39.140, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 39, server: 172.67.210.194, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 40, server: 172.67.201.152, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 41, server: 172.64.198.110, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 42, server: 172.64.204.36, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
-  - {name: 法国(无限流量) 43, server: 172.67.199.4, port: 443, type: vmess, uuid: 93fc8952-de62-432b-af7a-f5a885cc2fed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志), server: 172.67.115.191, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 2, server: 162.159.128.53, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 3, server: 172.67.205.74, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 4, server: 172.67.122.29, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 5, server: 172.67.0.121, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 6, server: 172.64.97.8, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 7, server: 172.64.198.203, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 8, server: 172.64.195.11, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 9, server: 172.67.185.96, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 10, server: 172.64.204.152, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 11, server: 172.64.143.190, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 12, server: 172.64.97.84, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 13, server: 172.67.176.231, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 14, server: 172.64.105.115, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 15, server: 172.67.1.236, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
+  - {name: 法国_(广告位招租@自学志) 16, server: cloudflare.binghe.design, port: 443, type: vmess, uuid: 53e48fa9-d5f8-467b-8ae5-4c35ca4ce66e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 无限流量_新加坡1
-      - 🇸🇬 无限流量_新加坡2
-      - 🇸🇬 无限流量_新加坡3
-      - 🇩🇪 无限流量_德国
-      - 🇺🇸 无限流量_美国
-      - 🇺🇸 无限流量_美国2
-      - 🇬🇧 无限流量_英国1
-      - 🇬🇧 无限流量_英国2
-      - 🇬🇧 无限流量_英国3
-      - 🇫🇷 无限流量_法国1
-      - 🇫🇷 无限流量_法国2
-      - 🇫🇷 无限流量_法国3
-      - 🇳🇱 无限流量_荷兰1
-      - 🇳🇱 无限流量_荷兰2
-      - 🇳🇱 无限流量_荷兰3
-      - 🇮🇳 无限流量_印度1
-      - 🇮🇳 无限流量_印度2
-      - 🇮🇳 无限流量_印度3
-      - 🇨🇦 无限流量_加拿大1
-      - 🇨🇦 无限流量_加拿大2
-      - 🇨🇦 无限流量_加拿大3
-      - 法国(无限流量)
-      - 法国(无限流量) 2
-      - 法国(无限流量) 3
-      - 法国(无限流量) 4
-      - 法国(无限流量) 5
-      - 法国(无限流量) 6
-      - 法国(无限流量) 7
-      - 法国(无限流量) 8
-      - 法国(无限流量) 9
-      - 法国(无限流量) 10
-      - 法国(无限流量) 11
-      - 法国(无限流量) 12
-      - 法国(无限流量) 13
-      - 法国(无限流量) 14
-      - 法国(无限流量) 15
-      - 法国(无限流量) 16
-      - 法国(无限流量) 17
-      - 法国(无限流量) 18
-      - 法国(无限流量) 19
-      - 法国(无限流量) 20
-      - 法国(无限流量) 21
-      - 法国(无限流量) 22
-      - 法国(无限流量) 23
-      - 法国(无限流量) 24
-      - 法国(无限流量) 25
-      - 法国(无限流量) 26
-      - 法国(无限流量) 27
-      - 法国(无限流量) 28
-      - 法国(无限流量) 29
-      - 法国(无限流量) 30
-      - 法国(无限流量) 31
-      - 法国(无限流量) 32
-      - 法国(无限流量) 33
-      - 法国(无限流量) 34
-      - 法国(无限流量) 35
-      - 法国(无限流量) 36
-      - 法国(无限流量) 37
-      - 法国(无限流量) 38
-      - 法国(无限流量) 39
-      - 法国(无限流量) 40
-      - 法国(无限流量) 41
-      - 法国(无限流量) 42
-      - 法国(无限流量) 43
+      - 法国_(广告位招租@自学志)
+      - 法国_(广告位招租@自学志) 2
+      - 法国_(广告位招租@自学志) 3
+      - 法国_(广告位招租@自学志) 4
+      - 法国_(广告位招租@自学志) 5
+      - 法国_(广告位招租@自学志) 6
+      - 法国_(广告位招租@自学志) 7
+      - 法国_(广告位招租@自学志) 8
+      - 法国_(广告位招租@自学志) 9
+      - 法国_(广告位招租@自学志) 10
+      - 法国_(广告位招租@自学志) 11
+      - 法国_(广告位招租@自学志) 12
+      - 法国_(广告位招租@自学志) 13
+      - 法国_(广告位招租@自学志) 14
+      - 法国_(广告位招租@自学志) 15
+      - 法国_(广告位招租@自学志) 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 无限流量_新加坡1
-      - 🇸🇬 无限流量_新加坡2
-      - 🇸🇬 无限流量_新加坡3
-      - 🇩🇪 无限流量_德国
-      - 🇺🇸 无限流量_美国
-      - 🇺🇸 无限流量_美国2
-      - 🇬🇧 无限流量_英国1
-      - 🇬🇧 无限流量_英国2
-      - 🇬🇧 无限流量_英国3
-      - 🇫🇷 无限流量_法国1
-      - 🇫🇷 无限流量_法国2
-      - 🇫🇷 无限流量_法国3
-      - 🇳🇱 无限流量_荷兰1
-      - 🇳🇱 无限流量_荷兰2
-      - 🇳🇱 无限流量_荷兰3
-      - 🇮🇳 无限流量_印度1
-      - 🇮🇳 无限流量_印度2
-      - 🇮🇳 无限流量_印度3
-      - 🇨🇦 无限流量_加拿大1
-      - 🇨🇦 无限流量_加拿大2
-      - 🇨🇦 无限流量_加拿大3
-      - 法国(无限流量)
-      - 法国(无限流量) 2
-      - 法国(无限流量) 3
-      - 法国(无限流量) 4
-      - 法国(无限流量) 5
-      - 法国(无限流量) 6
-      - 法国(无限流量) 7
-      - 法国(无限流量) 8
-      - 法国(无限流量) 9
-      - 法国(无限流量) 10
-      - 法国(无限流量) 11
-      - 法国(无限流量) 12
-      - 法国(无限流量) 13
-      - 法国(无限流量) 14
-      - 法国(无限流量) 15
-      - 法国(无限流量) 16
-      - 法国(无限流量) 17
-      - 法国(无限流量) 18
-      - 法国(无限流量) 19
-      - 法国(无限流量) 20
-      - 法国(无限流量) 21
-      - 法国(无限流量) 22
-      - 法国(无限流量) 23
-      - 法国(无限流量) 24
-      - 法国(无限流量) 25
-      - 法国(无限流量) 26
-      - 法国(无限流量) 27
-      - 法国(无限流量) 28
-      - 法国(无限流量) 29
-      - 法国(无限流量) 30
-      - 法国(无限流量) 31
-      - 法国(无限流量) 32
-      - 法国(无限流量) 33
-      - 法国(无限流量) 34
-      - 法国(无限流量) 35
-      - 法国(无限流量) 36
-      - 法国(无限流量) 37
-      - 法国(无限流量) 38
-      - 法国(无限流量) 39
-      - 法国(无限流量) 40
-      - 法国(无限流量) 41
-      - 法国(无限流量) 42
-      - 法国(无限流量) 43
+      - 法国_(广告位招租@自学志)
+      - 法国_(广告位招租@自学志) 2
+      - 法国_(广告位招租@自学志) 3
+      - 法国_(广告位招租@自学志) 4
+      - 法国_(广告位招租@自学志) 5
+      - 法国_(广告位招租@自学志) 6
+      - 法国_(广告位招租@自学志) 7
+      - 法国_(广告位招租@自学志) 8
+      - 法国_(广告位招租@自学志) 9
+      - 法国_(广告位招租@自学志) 10
+      - 法国_(广告位招租@自学志) 11
+      - 法国_(广告位招租@自学志) 12
+      - 法国_(广告位招租@自学志) 13
+      - 法国_(广告位招租@自学志) 14
+      - 法国_(广告位招租@自学志) 15
+      - 法国_(广告位招租@自学志) 16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 无限流量_新加坡1
-      - 🇸🇬 无限流量_新加坡2
-      - 🇸🇬 无限流量_新加坡3
-      - 🇩🇪 无限流量_德国
-      - 🇺🇸 无限流量_美国
-      - 🇺🇸 无限流量_美国2
-      - 🇬🇧 无限流量_英国1
-      - 🇬🇧 无限流量_英国2
-      - 🇬🇧 无限流量_英国3
-      - 🇫🇷 无限流量_法国1
-      - 🇫🇷 无限流量_法国2
-      - 🇫🇷 无限流量_法国3
-      - 🇳🇱 无限流量_荷兰1
-      - 🇳🇱 无限流量_荷兰2
-      - 🇳🇱 无限流量_荷兰3
-      - 🇮🇳 无限流量_印度1
-      - 🇮🇳 无限流量_印度2
-      - 🇮🇳 无限流量_印度3
-      - 🇨🇦 无限流量_加拿大1
-      - 🇨🇦 无限流量_加拿大2
-      - 🇨🇦 无限流量_加拿大3
-      - 法国(无限流量)
-      - 法国(无限流量) 2
-      - 法国(无限流量) 3
-      - 法国(无限流量) 4
-      - 法国(无限流量) 5
-      - 法国(无限流量) 6
-      - 法国(无限流量) 7
-      - 法国(无限流量) 8
-      - 法国(无限流量) 9
-      - 法国(无限流量) 10
-      - 法国(无限流量) 11
-      - 法国(无限流量) 12
-      - 法国(无限流量) 13
-      - 法国(无限流量) 14
-      - 法国(无限流量) 15
-      - 法国(无限流量) 16
-      - 法国(无限流量) 17
-      - 法国(无限流量) 18
-      - 法国(无限流量) 19
-      - 法国(无限流量) 20
-      - 法国(无限流量) 21
-      - 法国(无限流量) 22
-      - 法国(无限流量) 23
-      - 法国(无限流量) 24
-      - 法国(无限流量) 25
-      - 法国(无限流量) 26
-      - 法国(无限流量) 27
-      - 法国(无限流量) 28
-      - 法国(无限流量) 29
-      - 法国(无限流量) 30
-      - 法国(无限流量) 31
-      - 法国(无限流量) 32
-      - 法国(无限流量) 33
-      - 法国(无限流量) 34
-      - 法国(无限流量) 35
-      - 法国(无限流量) 36
-      - 法国(无限流量) 37
-      - 法国(无限流量) 38
-      - 法国(无限流量) 39
-      - 法国(无限流量) 40
-      - 法国(无限流量) 41
-      - 法国(无限流量) 42
-      - 法国(无限流量) 43
+      - 法国_(广告位招租@自学志)
+      - 法国_(广告位招租@自学志) 2
+      - 法国_(广告位招租@自学志) 3
+      - 法国_(广告位招租@自学志) 4
+      - 法国_(广告位招租@自学志) 5
+      - 法国_(广告位招租@自学志) 6
+      - 法国_(广告位招租@自学志) 7
+      - 法国_(广告位招租@自学志) 8
+      - 法国_(广告位招租@自学志) 9
+      - 法国_(广告位招租@自学志) 10
+      - 法国_(广告位招租@自学志) 11
+      - 法国_(广告位招租@自学志) 12
+      - 法国_(广告位招租@自学志) 13
+      - 法国_(广告位招租@自学志) 14
+      - 法国_(广告位招租@自学志) 15
+      - 法国_(广告位招租@自学志) 16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 无限流量_新加坡1
-      - 🇸🇬 无限流量_新加坡2
-      - 🇸🇬 无限流量_新加坡3
-      - 🇩🇪 无限流量_德国
-      - 🇺🇸 无限流量_美国
-      - 🇺🇸 无限流量_美国2
-      - 🇬🇧 无限流量_英国1
-      - 🇬🇧 无限流量_英国2
-      - 🇬🇧 无限流量_英国3
-      - 🇫🇷 无限流量_法国1
-      - 🇫🇷 无限流量_法国2
-      - 🇫🇷 无限流量_法国3
-      - 🇳🇱 无限流量_荷兰1
-      - 🇳🇱 无限流量_荷兰2
-      - 🇳🇱 无限流量_荷兰3
-      - 🇮🇳 无限流量_印度1
-      - 🇮🇳 无限流量_印度2
-      - 🇮🇳 无限流量_印度3
-      - 🇨🇦 无限流量_加拿大1
-      - 🇨🇦 无限流量_加拿大2
-      - 🇨🇦 无限流量_加拿大3
-      - 法国(无限流量)
-      - 法国(无限流量) 2
-      - 法国(无限流量) 3
-      - 法国(无限流量) 4
-      - 法国(无限流量) 5
-      - 法国(无限流量) 6
-      - 法国(无限流量) 7
-      - 法国(无限流量) 8
-      - 法国(无限流量) 9
-      - 法国(无限流量) 10
-      - 法国(无限流量) 11
-      - 法国(无限流量) 12
-      - 法国(无限流量) 13
-      - 法国(无限流量) 14
-      - 法国(无限流量) 15
-      - 法国(无限流量) 16
-      - 法国(无限流量) 17
-      - 法国(无限流量) 18
-      - 法国(无限流量) 19
-      - 法国(无限流量) 20
-      - 法国(无限流量) 21
-      - 法国(无限流量) 22
-      - 法国(无限流量) 23
-      - 法国(无限流量) 24
-      - 法国(无限流量) 25
-      - 法国(无限流量) 26
-      - 法国(无限流量) 27
-      - 法国(无限流量) 28
-      - 法国(无限流量) 29
-      - 法国(无限流量) 30
-      - 法国(无限流量) 31
-      - 法国(无限流量) 32
-      - 法国(无限流量) 33
-      - 法国(无限流量) 34
-      - 法国(无限流量) 35
-      - 法国(无限流量) 36
-      - 法国(无限流量) 37
-      - 法国(无限流量) 38
-      - 法国(无限流量) 39
-      - 法国(无限流量) 40
-      - 法国(无限流量) 41
-      - 法国(无限流量) 42
-      - 法国(无限流量) 43
+      - 法国_(广告位招租@自学志)
+      - 法国_(广告位招租@自学志) 2
+      - 法国_(广告位招租@自学志) 3
+      - 法国_(广告位招租@自学志) 4
+      - 法国_(广告位招租@自学志) 5
+      - 法国_(广告位招租@自学志) 6
+      - 法国_(广告位招租@自学志) 7
+      - 法国_(广告位招租@自学志) 8
+      - 法国_(广告位招租@自学志) 9
+      - 法国_(广告位招租@自学志) 10
+      - 法国_(广告位招租@自学志) 11
+      - 法国_(广告位招租@自学志) 12
+      - 法国_(广告位招租@自学志) 13
+      - 法国_(广告位招租@自学志) 14
+      - 法国_(广告位招租@自学志) 15
+      - 法国_(广告位招租@自学志) 16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 无限流量_新加坡1
-      - 🇸🇬 无限流量_新加坡2
-      - 🇸🇬 无限流量_新加坡3
-      - 🇩🇪 无限流量_德国
-      - 🇺🇸 无限流量_美国
-      - 🇺🇸 无限流量_美国2
-      - 🇬🇧 无限流量_英国1
-      - 🇬🇧 无限流量_英国2
-      - 🇬🇧 无限流量_英国3
-      - 🇫🇷 无限流量_法国1
-      - 🇫🇷 无限流量_法国2
-      - 🇫🇷 无限流量_法国3
-      - 🇳🇱 无限流量_荷兰1
-      - 🇳🇱 无限流量_荷兰2
-      - 🇳🇱 无限流量_荷兰3
-      - 🇮🇳 无限流量_印度1
-      - 🇮🇳 无限流量_印度2
-      - 🇮🇳 无限流量_印度3
-      - 🇨🇦 无限流量_加拿大1
-      - 🇨🇦 无限流量_加拿大2
-      - 🇨🇦 无限流量_加拿大3
-      - 法国(无限流量)
-      - 法国(无限流量) 2
-      - 法国(无限流量) 3
-      - 法国(无限流量) 4
-      - 法国(无限流量) 5
-      - 法国(无限流量) 6
-      - 法国(无限流量) 7
-      - 法国(无限流量) 8
-      - 法国(无限流量) 9
-      - 法国(无限流量) 10
-      - 法国(无限流量) 11
-      - 法国(无限流量) 12
-      - 法国(无限流量) 13
-      - 法国(无限流量) 14
-      - 法国(无限流量) 15
-      - 法国(无限流量) 16
-      - 法国(无限流量) 17
-      - 法国(无限流量) 18
-      - 法国(无限流量) 19
-      - 法国(无限流量) 20
-      - 法国(无限流量) 21
-      - 法国(无限流量) 22
-      - 法国(无限流量) 23
-      - 法国(无限流量) 24
-      - 法国(无限流量) 25
-      - 法国(无限流量) 26
-      - 法国(无限流量) 27
-      - 法国(无限流量) 28
-      - 法国(无限流量) 29
-      - 法国(无限流量) 30
-      - 法国(无限流量) 31
-      - 法国(无限流量) 32
-      - 法国(无限流量) 33
-      - 法国(无限流量) 34
-      - 法国(无限流量) 35
-      - 法国(无限流量) 36
-      - 法国(无限流量) 37
-      - 法国(无限流量) 38
-      - 法国(无限流量) 39
-      - 法国(无限流量) 40
-      - 法国(无限流量) 41
-      - 法国(无限流量) 42
-      - 法国(无限流量) 43
+      - 法国_(广告位招租@自学志)
+      - 法国_(广告位招租@自学志) 2
+      - 法国_(广告位招租@自学志) 3
+      - 法国_(广告位招租@自学志) 4
+      - 法国_(广告位招租@自学志) 5
+      - 法国_(广告位招租@自学志) 6
+      - 法国_(广告位招租@自学志) 7
+      - 法国_(广告位招租@自学志) 8
+      - 法国_(广告位招租@自学志) 9
+      - 法国_(广告位招租@自学志) 10
+      - 法国_(广告位招租@自学志) 11
+      - 法国_(广告位招租@自学志) 12
+      - 法国_(广告位招租@自学志) 13
+      - 法国_(广告位招租@自学志) 14
+      - 法国_(广告位招租@自学志) 15
+      - 法国_(广告位招租@自学志) 16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 无限流量_新加坡1
-      - 🇸🇬 无限流量_新加坡2
-      - 🇸🇬 无限流量_新加坡3
-      - 🇩🇪 无限流量_德国
-      - 🇺🇸 无限流量_美国
-      - 🇺🇸 无限流量_美国2
-      - 🇬🇧 无限流量_英国1
-      - 🇬🇧 无限流量_英国2
-      - 🇬🇧 无限流量_英国3
-      - 🇫🇷 无限流量_法国1
-      - 🇫🇷 无限流量_法国2
-      - 🇫🇷 无限流量_法国3
-      - 🇳🇱 无限流量_荷兰1
-      - 🇳🇱 无限流量_荷兰2
-      - 🇳🇱 无限流量_荷兰3
-      - 🇮🇳 无限流量_印度1
-      - 🇮🇳 无限流量_印度2
-      - 🇮🇳 无限流量_印度3
-      - 🇨🇦 无限流量_加拿大1
-      - 🇨🇦 无限流量_加拿大2
-      - 🇨🇦 无限流量_加拿大3
-      - 法国(无限流量)
-      - 法国(无限流量) 2
-      - 法国(无限流量) 3
-      - 法国(无限流量) 4
-      - 法国(无限流量) 5
-      - 法国(无限流量) 6
-      - 法国(无限流量) 7
-      - 法国(无限流量) 8
-      - 法国(无限流量) 9
-      - 法国(无限流量) 10
-      - 法国(无限流量) 11
-      - 法国(无限流量) 12
-      - 法国(无限流量) 13
-      - 法国(无限流量) 14
-      - 法国(无限流量) 15
-      - 法国(无限流量) 16
-      - 法国(无限流量) 17
-      - 法国(无限流量) 18
-      - 法国(无限流量) 19
-      - 法国(无限流量) 20
-      - 法国(无限流量) 21
-      - 法国(无限流量) 22
-      - 法国(无限流量) 23
-      - 法国(无限流量) 24
-      - 法国(无限流量) 25
-      - 法国(无限流量) 26
-      - 法国(无限流量) 27
-      - 法国(无限流量) 28
-      - 法国(无限流量) 29
-      - 法国(无限流量) 30
-      - 法国(无限流量) 31
-      - 法国(无限流量) 32
-      - 法国(无限流量) 33
-      - 法国(无限流量) 34
-      - 法国(无限流量) 35
-      - 法国(无限流量) 36
-      - 法国(无限流量) 37
-      - 法国(无限流量) 38
-      - 法国(无限流量) 39
-      - 法国(无限流量) 40
-      - 法国(无限流量) 41
-      - 法国(无限流量) 42
-      - 法国(无限流量) 43
+      - 法国_(广告位招租@自学志)
+      - 法国_(广告位招租@自学志) 2
+      - 法国_(广告位招租@自学志) 3
+      - 法国_(广告位招租@自学志) 4
+      - 法国_(广告位招租@自学志) 5
+      - 法国_(广告位招租@自学志) 6
+      - 法国_(广告位招租@自学志) 7
+      - 法国_(广告位招租@自学志) 8
+      - 法国_(广告位招租@自学志) 9
+      - 法国_(广告位招租@自学志) 10
+      - 法国_(广告位招租@自学志) 11
+      - 法国_(广告位招租@自学志) 12
+      - 法国_(广告位招租@自学志) 13
+      - 法国_(广告位招租@自学志) 14
+      - 法国_(广告位招租@自学志) 15
+      - 法国_(广告位招租@自学志) 16
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 无限流量_新加坡1
-      - 🇸🇬 无限流量_新加坡2
-      - 🇸🇬 无限流量_新加坡3
-      - 🇩🇪 无限流量_德国
-      - 🇺🇸 无限流量_美国
-      - 🇺🇸 无限流量_美国2
-      - 🇬🇧 无限流量_英国1
-      - 🇬🇧 无限流量_英国2
-      - 🇬🇧 无限流量_英国3
-      - 🇫🇷 无限流量_法国1
-      - 🇫🇷 无限流量_法国2
-      - 🇫🇷 无限流量_法国3
-      - 🇳🇱 无限流量_荷兰1
-      - 🇳🇱 无限流量_荷兰2
-      - 🇳🇱 无限流量_荷兰3
-      - 🇮🇳 无限流量_印度1
-      - 🇮🇳 无限流量_印度2
-      - 🇮🇳 无限流量_印度3
-      - 🇨🇦 无限流量_加拿大1
-      - 🇨🇦 无限流量_加拿大2
-      - 🇨🇦 无限流量_加拿大3
-      - 法国(无限流量)
-      - 法国(无限流量) 2
-      - 法国(无限流量) 3
-      - 法国(无限流量) 4
-      - 法国(无限流量) 5
-      - 法国(无限流量) 6
-      - 法国(无限流量) 7
-      - 法国(无限流量) 8
-      - 法国(无限流量) 9
-      - 法国(无限流量) 10
-      - 法国(无限流量) 11
-      - 法国(无限流量) 12
-      - 法国(无限流量) 13
-      - 法国(无限流量) 14
-      - 法国(无限流量) 15
-      - 法国(无限流量) 16
-      - 法国(无限流量) 17
-      - 法国(无限流量) 18
-      - 法国(无限流量) 19
-      - 法国(无限流量) 20
-      - 法国(无限流量) 21
-      - 法国(无限流量) 22
-      - 法国(无限流量) 23
-      - 法国(无限流量) 24
-      - 法国(无限流量) 25
-      - 法国(无限流量) 26
-      - 法国(无限流量) 27
-      - 法国(无限流量) 28
-      - 法国(无限流量) 29
-      - 法国(无限流量) 30
-      - 法国(无限流量) 31
-      - 法国(无限流量) 32
-      - 法国(无限流量) 33
-      - 法国(无限流量) 34
-      - 法国(无限流量) 35
-      - 法国(无限流量) 36
-      - 法国(无限流量) 37
-      - 法国(无限流量) 38
-      - 法国(无限流量) 39
-      - 法国(无限流量) 40
-      - 法国(无限流量) 41
-      - 法国(无限流量) 42
-      - 法国(无限流量) 43
+      - 法国_(广告位招租@自学志)
+      - 法国_(广告位招租@自学志) 2
+      - 法国_(广告位招租@自学志) 3
+      - 法国_(广告位招租@自学志) 4
+      - 法国_(广告位招租@自学志) 5
+      - 法国_(广告位招租@自学志) 6
+      - 法国_(广告位招租@自学志) 7
+      - 法国_(广告位招租@自学志) 8
+      - 法国_(广告位招租@自学志) 9
+      - 法国_(广告位招租@自学志) 10
+      - 法国_(广告位招租@自学志) 11
+      - 法国_(广告位招租@自学志) 12
+      - 法国_(广告位招租@自学志) 13
+      - 法国_(广告位招租@自学志) 14
+      - 法国_(广告位招租@自学志) 15
+      - 法国_(广告位招租@自学志) 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -578,70 +194,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 无限流量_新加坡1
-      - 🇸🇬 无限流量_新加坡2
-      - 🇸🇬 无限流量_新加坡3
-      - 🇩🇪 无限流量_德国
-      - 🇺🇸 无限流量_美国
-      - 🇺🇸 无限流量_美国2
-      - 🇬🇧 无限流量_英国1
-      - 🇬🇧 无限流量_英国2
-      - 🇬🇧 无限流量_英国3
-      - 🇫🇷 无限流量_法国1
-      - 🇫🇷 无限流量_法国2
-      - 🇫🇷 无限流量_法国3
-      - 🇳🇱 无限流量_荷兰1
-      - 🇳🇱 无限流量_荷兰2
-      - 🇳🇱 无限流量_荷兰3
-      - 🇮🇳 无限流量_印度1
-      - 🇮🇳 无限流量_印度2
-      - 🇮🇳 无限流量_印度3
-      - 🇨🇦 无限流量_加拿大1
-      - 🇨🇦 无限流量_加拿大2
-      - 🇨🇦 无限流量_加拿大3
-      - 法国(无限流量)
-      - 法国(无限流量) 2
-      - 法国(无限流量) 3
-      - 法国(无限流量) 4
-      - 法国(无限流量) 5
-      - 法国(无限流量) 6
-      - 法国(无限流量) 7
-      - 法国(无限流量) 8
-      - 法国(无限流量) 9
-      - 法国(无限流量) 10
-      - 法国(无限流量) 11
-      - 法国(无限流量) 12
-      - 法国(无限流量) 13
-      - 法国(无限流量) 14
-      - 法国(无限流量) 15
-      - 法国(无限流量) 16
-      - 法国(无限流量) 17
-      - 法国(无限流量) 18
-      - 法国(无限流量) 19
-      - 法国(无限流量) 20
-      - 法国(无限流量) 21
-      - 法国(无限流量) 22
-      - 法国(无限流量) 23
-      - 法国(无限流量) 24
-      - 法国(无限流量) 25
-      - 法国(无限流量) 26
-      - 法国(无限流量) 27
-      - 法国(无限流量) 28
-      - 法国(无限流量) 29
-      - 法国(无限流量) 30
-      - 法国(无限流量) 31
-      - 法国(无限流量) 32
-      - 法国(无限流量) 33
-      - 法国(无限流量) 34
-      - 法国(无限流量) 35
-      - 法国(无限流量) 36
-      - 法国(无限流量) 37
-      - 法国(无限流量) 38
-      - 法国(无限流量) 39
-      - 法国(无限流量) 40
-      - 法国(无限流量) 41
-      - 法国(无限流量) 42
-      - 法国(无限流量) 43
+      - 法国_(广告位招租@自学志)
+      - 法国_(广告位招租@自学志) 2
+      - 法国_(广告位招租@自学志) 3
+      - 法国_(广告位招租@自学志) 4
+      - 法国_(广告位招租@自学志) 5
+      - 法国_(广告位招租@自学志) 6
+      - 法国_(广告位招租@自学志) 7
+      - 法国_(广告位招租@自学志) 8
+      - 法国_(广告位招租@自学志) 9
+      - 法国_(广告位招租@自学志) 10
+      - 法国_(广告位招租@自学志) 11
+      - 法国_(广告位招租@自学志) 12
+      - 法国_(广告位招租@自学志) 13
+      - 法国_(广告位招租@自学志) 14
+      - 法国_(广告位招租@自学志) 15
+      - 法国_(广告位招租@自学志) 16
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -678,7 +246,7 @@ rules:
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
- - DOMAIN-SUFFIX,ol.无限流量games.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
@@ -1450,7 +1018,6 @@ rules:
  - DOMAIN-SUFFIX,baidu9635.com,🍃 应用净化
  - DOMAIN-SUFFIX,baidustatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,baidutv.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
@@ -2381,8 +1948,9 @@ rules:
  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
- - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
  - DOMAIN,wmsjsteam.com,🎯 全球直连
  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
@@ -3395,8 +2963,8 @@ rules:
  - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
- - DOMAIN-SUFFIX,无限流量games.com,🎯 全球直连
- - DOMAIN-SUFFIX,无限流量games.dev,🎯 全球直连
+ - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
