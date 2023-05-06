@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于:05-06 17:30 -by 自学志, server: 8.8.8.8, port: 443, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 更新于:05-06 18:00 -by 自学志, server: 8.8.8.8, port: 443, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _NL_荷兰, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: _US, server: 129.150.58.52, port: 37214, type: vmess, uuid: a2792c27-bf3d-4a17-b178-b0a455ec506c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 129.150.58.52, udp: true}
   - {name: TW, server: sw.tbstbstbstbs666.com, port: 18807, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}, udp: true}
@@ -120,13 +120,73 @@ proxies:
   - {name: zxz 6, server: 3.wgong1.top, port: 11203, type: vmess, uuid: 6202e1d7-acf1-3beb-ae7a-3480d7db5610, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: zxz 7, server: 45.128.153.168, port: 33411, type: vmess, uuid: e748f5b1-5b7a-4398-fa1a-20a0cc1b2ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: zxz 8, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 9, server: t.cccao.cyou, port: 16627, type: vmess, uuid: aa439eb7-5acb-436c-a904-b5111a719d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: zxz 2 2, server: 140.99.149.45, port: 53082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 3 2, server: cdn-xjp4.cqjsl.xyz, port: 443, type: vmess, uuid: 682fe519-d21b-40d2-ac87-1efca1c813fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp4.cqjsl.xyz}}, udp: true}
+  - {name: zxz 4 2, server: wj-jp-03.wujie.bio, port: 7010, type: vmess, uuid: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wj-jp-03.wujie.bio}}, udp: true}
+  - {name: zxz 5 2, server: 137.175.41.197, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 6 2, server: 120.226.50.76, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 7 2, server: 156.225.67.38, port: 41825, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 8 2, server: 172.67.147.152, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cutino, headers: {Host: chat.samrg.buzz}}, udp: true}
+  - {name: zxz 9 2, server: 172.67.73.39, port: 80, type: vmess, uuid: b8458948-a630-4e6d-809a-230b2223ff3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xrayvws, headers: {Host: f.tun4.live}}, udp: true}
+  - {name: zxz 10, server: 54.37.206.205, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 11, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: zxz 12, server: 3.wgong1.top, port: 11203, type: vmess, uuid: 6202e1d7-acf1-3beb-ae7a-3480d7db5610, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 13, server: wj-us-01.wujie.bio, port: 9039, type: vmess, uuid: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wj-us-01.wujie.bio}}, udp: true}
+  - {name: zxz 14, server: 45.12.144.83, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 15, server: 156.249.18.36, port: 30335, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 17, server: v.vpchi.tk, port: 2086, type: vmess, uuid: 7165a97e-9a41-421f-f709-e33e9e23f4d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v.vpchi.tk}}, udp: true}
+  - {name: zxz 18, server: wj-jp-04.wujie.bio, port: 30010, type: vmess, uuid: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wj-jp-14.wujie.bio}}, udp: true}
+  - {name: zxz 19, server: 120.232.179.161, port: 63088, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: zxz 20, server: 140.99.48.42, port: 56102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 21, server: 142.4.127.11, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 22, server: wj-fi-01.wujie.bio, port: 9001, type: vmess, uuid: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wj-fi-01.wujie.bio}}, udp: true}
+  - {name: zxz 23, server: 154.85.0.234, port: 56120, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 24, server: 142.0.132.41, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 25, server: us1.x898989.xyz, port: 52202, type: vmess, uuid: 01e07f2e-fc00-45bb-bbf5-547f58316e18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aricke.com, headers: {Host: us1.x898989.xyz}}, udp: true}
+  - {name: zxz 26, server: wj-jp-01.wujie.bio, port: 9039, type: vmess, uuid: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wj-jp-01.wujie.bio}}, udp: true}
+  - {name: zxz 27, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
+  - {name: zxz 28, server: 45.12.144.79, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 29, server: us1.x898989.xyz, port: 54401, type: vmess, uuid: 01e07f2e-fc00-45bb-bbf5-547f58316e18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aricke.com, headers: {Host: us1.x898989.xyz}}, udp: true}
+  - {name: zxz 31, server: 137.175.18.91, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 32, server: 142.4.114.25, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 33, server: cdn-xjp5.cqjsl.xyz, port: 443, type: vmess, uuid: 48dc34e8-561b-4d4b-8a9e-58c06dbfb1da, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp5.cqjsl.xyz}}, udp: true}
+  - {name: zxz 34, server: 142.4.126.60, port: 33392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 35, server: 192.74.243.53, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 36, server: chat.samrg.buzz, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cutino, headers: {Host: chat.samrg.buzz}}, udp: true}
+  - {name: zxz 37, server: cdn-xjp5.cqjsl.xyz, port: 443, type: vmess, uuid: 682fe519-d21b-40d2-ac87-1efca1c813fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp5.cqjsl.xyz}}, udp: true}
+  - {name: zxz 38, server: 45.128.153.168, port: 33411, type: vmess, uuid: e748f5b1-5b7a-4398-fa1a-20a0cc1b2ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 39, server: cdn-xjp4.cqjsl.xyz, port: 443, type: vmess, uuid: 48dc34e8-561b-4d4b-8a9e-58c06dbfb1da, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp4.cqjsl.xyz}}, udp: true}
+  - {name: zxz 40, server: cdn-xjp3.cqjsl.xyz, port: 443, type: vmess, uuid: 72112e00-b078-40e5-a814-5ec7c20c22f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp3.cqjsl.xyz}}, udp: true}
+  - {name: zxz 41, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: zxz 42, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
+  - {name: zxz 43, server: cdn-xjp3.cqjsl.xyz, port: 443, type: vmess, uuid: 682fe519-d21b-40d2-ac87-1efca1c813fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp3.cqjsl.xyz}}, udp: true}
+  - {name: zxz 44, server: cdn-xjp5.cqjsl.xyz, port: 443, type: vmess, uuid: 72112e00-b078-40e5-a814-5ec7c20c22f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp5.cqjsl.xyz}}, udp: true}
+  - {name: zxz 45, server: 104.21.63.117, port: 8080, type: vmess, uuid: 7d69996f-cb8a-4c67-cbe5-d72a672a0902, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /uitsrt, headers: {Host: eu3-fsn-kvm.uitsrt.me}}, udp: true}
+  - {name: zxz 46, server: 190.93.245.4, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}, udp: true}
+  - {name: zxz 47, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: zxz 48, server: i.vpchi.tk, port: 2082, type: vmess, uuid: 1cbcbeff-de07-4f43-8ca9-4cb3a2a508ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: i.vpchi.tk}}, udp: true}
+  - {name: zxz 50, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: zxz 51, server: 198.2.205.113, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 52, server: 140.99.59.227, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 53, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: zxz 54, server: 45.88.43.237, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 55, server: 172.247.148.82, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 56, server: wj-jp-01.wujie.bio, port: 9039, type: vmess, uuid: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wj-jp-01.wujie.bio}}, udp: true}
+  - {name: zxz 57, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}, udp: true}
+  - {name: zxz 59, server: 45.58.180.86, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: zxz 16, server: 43.206.124.106, port: 443, type: trojan, password: 6a3aa35d-27c9-42de-bd4c-f0fcd8b9d822, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: zxz 30, server: vpn.vmess.vless.v2ray.ss.ssr.taojan.socks5.fanqiangvpn.xijingpin.19890604.day, port: 35000, type: ss, cipher: aes-256-gcm, password: ce2f4ed3-3d47-4830-ace7-2040e61047f0, udp: true}
+  - {name: zxz 49, server: wj-tw-02.wujie.bio, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3, udp: true}
+  - {name: zxz 58, server: wj-tw-01.wujie.bio, port: 9003, type: ss, cipher: chacha20-ietf-poly1305, password: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3, udp: true}
+  - {name: zxz 60, server: ahyd.pangupy.com, port: 55479, type: ss, cipher: aes-256-gcm, password: f8d2f62b-67e1-4be1-9fe2-55a83a359490, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 更新于:05-06 17:30 -by 自学志
+      - 更新于:05-06 18:00 -by 自学志
       - _NL_荷兰
       - _US
       - TW
@@ -241,13 +301,73 @@ proxy-groups:
       - zxz 6
       - zxz 7
       - zxz 8
+      - zxz 9
+      - zxz 2 2
+      - zxz 3 2
+      - zxz 4 2
+      - zxz 5 2
+      - zxz 6 2
+      - zxz 7 2
+      - zxz 8 2
+      - zxz 9 2
+      - zxz 10
+      - zxz 11
+      - zxz 12
+      - zxz 13
+      - zxz 14
+      - zxz 15
+      - zxz 17
+      - zxz 18
+      - zxz 19
+      - zxz 20
+      - zxz 21
+      - zxz 22
+      - zxz 23
+      - zxz 24
+      - zxz 25
+      - zxz 26
+      - zxz 27
+      - zxz 28
+      - zxz 29
+      - zxz 31
+      - zxz 32
+      - zxz 33
+      - zxz 34
+      - zxz 35
+      - zxz 36
+      - zxz 37
+      - zxz 38
+      - zxz 39
+      - zxz 40
+      - zxz 41
+      - zxz 42
+      - zxz 43
+      - zxz 44
+      - zxz 45
+      - zxz 46
+      - zxz 47
+      - zxz 48
+      - zxz 50
+      - zxz 51
+      - zxz 52
+      - zxz 53
+      - zxz 54
+      - zxz 55
+      - zxz 56
+      - zxz 57
+      - zxz 59
+      - zxz 16
+      - zxz 30
+      - zxz 49
+      - zxz 58
+      - zxz 60
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:05-06 17:30 -by 自学志
+      - 更新于:05-06 18:00 -by 自学志
       - _NL_荷兰
       - _US
       - TW
@@ -362,13 +482,73 @@ proxy-groups:
       - zxz 6
       - zxz 7
       - zxz 8
+      - zxz 9
+      - zxz 2 2
+      - zxz 3 2
+      - zxz 4 2
+      - zxz 5 2
+      - zxz 6 2
+      - zxz 7 2
+      - zxz 8 2
+      - zxz 9 2
+      - zxz 10
+      - zxz 11
+      - zxz 12
+      - zxz 13
+      - zxz 14
+      - zxz 15
+      - zxz 17
+      - zxz 18
+      - zxz 19
+      - zxz 20
+      - zxz 21
+      - zxz 22
+      - zxz 23
+      - zxz 24
+      - zxz 25
+      - zxz 26
+      - zxz 27
+      - zxz 28
+      - zxz 29
+      - zxz 31
+      - zxz 32
+      - zxz 33
+      - zxz 34
+      - zxz 35
+      - zxz 36
+      - zxz 37
+      - zxz 38
+      - zxz 39
+      - zxz 40
+      - zxz 41
+      - zxz 42
+      - zxz 43
+      - zxz 44
+      - zxz 45
+      - zxz 46
+      - zxz 47
+      - zxz 48
+      - zxz 50
+      - zxz 51
+      - zxz 52
+      - zxz 53
+      - zxz 54
+      - zxz 55
+      - zxz 56
+      - zxz 57
+      - zxz 59
+      - zxz 16
+      - zxz 30
+      - zxz 49
+      - zxz 58
+      - zxz 60
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于:05-06 17:30 -by 自学志
+      - 更新于:05-06 18:00 -by 自学志
       - _NL_荷兰
       - _US
       - TW
@@ -483,12 +663,72 @@ proxy-groups:
       - zxz 6
       - zxz 7
       - zxz 8
+      - zxz 9
+      - zxz 2 2
+      - zxz 3 2
+      - zxz 4 2
+      - zxz 5 2
+      - zxz 6 2
+      - zxz 7 2
+      - zxz 8 2
+      - zxz 9 2
+      - zxz 10
+      - zxz 11
+      - zxz 12
+      - zxz 13
+      - zxz 14
+      - zxz 15
+      - zxz 17
+      - zxz 18
+      - zxz 19
+      - zxz 20
+      - zxz 21
+      - zxz 22
+      - zxz 23
+      - zxz 24
+      - zxz 25
+      - zxz 26
+      - zxz 27
+      - zxz 28
+      - zxz 29
+      - zxz 31
+      - zxz 32
+      - zxz 33
+      - zxz 34
+      - zxz 35
+      - zxz 36
+      - zxz 37
+      - zxz 38
+      - zxz 39
+      - zxz 40
+      - zxz 41
+      - zxz 42
+      - zxz 43
+      - zxz 44
+      - zxz 45
+      - zxz 46
+      - zxz 47
+      - zxz 48
+      - zxz 50
+      - zxz 51
+      - zxz 52
+      - zxz 53
+      - zxz 54
+      - zxz 55
+      - zxz 56
+      - zxz 57
+      - zxz 59
+      - zxz 16
+      - zxz 30
+      - zxz 49
+      - zxz 58
+      - zxz 60
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新于:05-06 17:30 -by 自学志
+      - 更新于:05-06 18:00 -by 自学志
       - _NL_荷兰
       - _US
       - TW
@@ -603,12 +843,72 @@ proxy-groups:
       - zxz 6
       - zxz 7
       - zxz 8
+      - zxz 9
+      - zxz 2 2
+      - zxz 3 2
+      - zxz 4 2
+      - zxz 5 2
+      - zxz 6 2
+      - zxz 7 2
+      - zxz 8 2
+      - zxz 9 2
+      - zxz 10
+      - zxz 11
+      - zxz 12
+      - zxz 13
+      - zxz 14
+      - zxz 15
+      - zxz 17
+      - zxz 18
+      - zxz 19
+      - zxz 20
+      - zxz 21
+      - zxz 22
+      - zxz 23
+      - zxz 24
+      - zxz 25
+      - zxz 26
+      - zxz 27
+      - zxz 28
+      - zxz 29
+      - zxz 31
+      - zxz 32
+      - zxz 33
+      - zxz 34
+      - zxz 35
+      - zxz 36
+      - zxz 37
+      - zxz 38
+      - zxz 39
+      - zxz 40
+      - zxz 41
+      - zxz 42
+      - zxz 43
+      - zxz 44
+      - zxz 45
+      - zxz 46
+      - zxz 47
+      - zxz 48
+      - zxz 50
+      - zxz 51
+      - zxz 52
+      - zxz 53
+      - zxz 54
+      - zxz 55
+      - zxz 56
+      - zxz 57
+      - zxz 59
+      - zxz 16
+      - zxz 30
+      - zxz 49
+      - zxz 58
+      - zxz 60
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 更新于:05-06 17:30 -by 自学志
+      - 更新于:05-06 18:00 -by 自学志
       - _NL_荷兰
       - _US
       - TW
@@ -723,12 +1023,72 @@ proxy-groups:
       - zxz 6
       - zxz 7
       - zxz 8
+      - zxz 9
+      - zxz 2 2
+      - zxz 3 2
+      - zxz 4 2
+      - zxz 5 2
+      - zxz 6 2
+      - zxz 7 2
+      - zxz 8 2
+      - zxz 9 2
+      - zxz 10
+      - zxz 11
+      - zxz 12
+      - zxz 13
+      - zxz 14
+      - zxz 15
+      - zxz 17
+      - zxz 18
+      - zxz 19
+      - zxz 20
+      - zxz 21
+      - zxz 22
+      - zxz 23
+      - zxz 24
+      - zxz 25
+      - zxz 26
+      - zxz 27
+      - zxz 28
+      - zxz 29
+      - zxz 31
+      - zxz 32
+      - zxz 33
+      - zxz 34
+      - zxz 35
+      - zxz 36
+      - zxz 37
+      - zxz 38
+      - zxz 39
+      - zxz 40
+      - zxz 41
+      - zxz 42
+      - zxz 43
+      - zxz 44
+      - zxz 45
+      - zxz 46
+      - zxz 47
+      - zxz 48
+      - zxz 50
+      - zxz 51
+      - zxz 52
+      - zxz 53
+      - zxz 54
+      - zxz 55
+      - zxz 56
+      - zxz 57
+      - zxz 59
+      - zxz 16
+      - zxz 30
+      - zxz 49
+      - zxz 58
+      - zxz 60
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新于:05-06 17:30 -by 自学志
+      - 更新于:05-06 18:00 -by 自学志
       - _NL_荷兰
       - _US
       - TW
@@ -843,13 +1203,73 @@ proxy-groups:
       - zxz 6
       - zxz 7
       - zxz 8
+      - zxz 9
+      - zxz 2 2
+      - zxz 3 2
+      - zxz 4 2
+      - zxz 5 2
+      - zxz 6 2
+      - zxz 7 2
+      - zxz 8 2
+      - zxz 9 2
+      - zxz 10
+      - zxz 11
+      - zxz 12
+      - zxz 13
+      - zxz 14
+      - zxz 15
+      - zxz 17
+      - zxz 18
+      - zxz 19
+      - zxz 20
+      - zxz 21
+      - zxz 22
+      - zxz 23
+      - zxz 24
+      - zxz 25
+      - zxz 26
+      - zxz 27
+      - zxz 28
+      - zxz 29
+      - zxz 31
+      - zxz 32
+      - zxz 33
+      - zxz 34
+      - zxz 35
+      - zxz 36
+      - zxz 37
+      - zxz 38
+      - zxz 39
+      - zxz 40
+      - zxz 41
+      - zxz 42
+      - zxz 43
+      - zxz 44
+      - zxz 45
+      - zxz 46
+      - zxz 47
+      - zxz 48
+      - zxz 50
+      - zxz 51
+      - zxz 52
+      - zxz 53
+      - zxz 54
+      - zxz 55
+      - zxz 56
+      - zxz 57
+      - zxz 59
+      - zxz 16
+      - zxz 30
+      - zxz 49
+      - zxz 58
+      - zxz 60
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:05-06 17:30 -by 自学志
+      - 更新于:05-06 18:00 -by 自学志
       - _NL_荷兰
       - _US
       - TW
@@ -964,6 +1384,66 @@ proxy-groups:
       - zxz 6
       - zxz 7
       - zxz 8
+      - zxz 9
+      - zxz 2 2
+      - zxz 3 2
+      - zxz 4 2
+      - zxz 5 2
+      - zxz 6 2
+      - zxz 7 2
+      - zxz 8 2
+      - zxz 9 2
+      - zxz 10
+      - zxz 11
+      - zxz 12
+      - zxz 13
+      - zxz 14
+      - zxz 15
+      - zxz 17
+      - zxz 18
+      - zxz 19
+      - zxz 20
+      - zxz 21
+      - zxz 22
+      - zxz 23
+      - zxz 24
+      - zxz 25
+      - zxz 26
+      - zxz 27
+      - zxz 28
+      - zxz 29
+      - zxz 31
+      - zxz 32
+      - zxz 33
+      - zxz 34
+      - zxz 35
+      - zxz 36
+      - zxz 37
+      - zxz 38
+      - zxz 39
+      - zxz 40
+      - zxz 41
+      - zxz 42
+      - zxz 43
+      - zxz 44
+      - zxz 45
+      - zxz 46
+      - zxz 47
+      - zxz 48
+      - zxz 50
+      - zxz 51
+      - zxz 52
+      - zxz 53
+      - zxz 54
+      - zxz 55
+      - zxz 56
+      - zxz 57
+      - zxz 59
+      - zxz 16
+      - zxz 30
+      - zxz 49
+      - zxz 58
+      - zxz 60
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -986,7 +1466,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:05-06 17:30 -by 自学志
+      - 更新于:05-06 18:00 -by 自学志
       - _NL_荷兰
       - _US
       - TW
@@ -1101,6 +1581,66 @@ proxy-groups:
       - zxz 6
       - zxz 7
       - zxz 8
+      - zxz 9
+      - zxz 2 2
+      - zxz 3 2
+      - zxz 4 2
+      - zxz 5 2
+      - zxz 6 2
+      - zxz 7 2
+      - zxz 8 2
+      - zxz 9 2
+      - zxz 10
+      - zxz 11
+      - zxz 12
+      - zxz 13
+      - zxz 14
+      - zxz 15
+      - zxz 17
+      - zxz 18
+      - zxz 19
+      - zxz 20
+      - zxz 21
+      - zxz 22
+      - zxz 23
+      - zxz 24
+      - zxz 25
+      - zxz 26
+      - zxz 27
+      - zxz 28
+      - zxz 29
+      - zxz 31
+      - zxz 32
+      - zxz 33
+      - zxz 34
+      - zxz 35
+      - zxz 36
+      - zxz 37
+      - zxz 38
+      - zxz 39
+      - zxz 40
+      - zxz 41
+      - zxz 42
+      - zxz 43
+      - zxz 44
+      - zxz 45
+      - zxz 46
+      - zxz 47
+      - zxz 48
+      - zxz 50
+      - zxz 51
+      - zxz 52
+      - zxz 53
+      - zxz 54
+      - zxz 55
+      - zxz 56
+      - zxz 57
+      - zxz 59
+      - zxz 16
+      - zxz 30
+      - zxz 49
+      - zxz 58
+      - zxz 60
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
