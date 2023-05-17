@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于:05-16 17:30 -by 自学志, server: 8.8.8.8, port: 443, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 更新于:05-17 8:00 -by 自学志, server: 8.8.8.8, port: 443, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TW, server: sw.tbstbstbstbs666.com, port: 18807, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}, udp: true}
   - {name: US, server: 142.0.132.41, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸, server: 142.4.112.12, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -61,55 +61,52 @@ proxies:
   - {name: 自学志, server: sw.tbstbstbstbs666.com, port: 18807, type: vmess, uuid: b18c1d76-c13f-303a-9bd1-58725fc6db38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}, udp: true}
   - {name: 自学志 2, server: hk4.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: 004d5ee6-381f-4e2f-960f-1eea33c7cff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
   - {name: 自学志 3, server: shck1.8bqyato.ml, port: 15693, type: vmess, uuid: 7f6689b0-339e-4546-8ccd-217859e5a78f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
-  - {name: _US_美国, server: 139.28.234.220, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _JP_日本, server: 139.162.76.162, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _KR_韩国, server: kr4.microsoft-orgwly.vip, port: 443, type: trojan, password: f3ccb94b-fc75-475a-80e1-b67913115462, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇲🇴_MO_澳门, server: 104.233.191.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _SG_新加坡->🇱🇺_LU_卢森堡, server: br.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: 140.99.48.46, port: 53102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: 104.194.233.43, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰, server: 154.85.1.140, port: 48020, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d1fca18b-00ce-4024-8cc8-4b49a4dd5e52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: _HK_香港, server: awshk15-data.amazon-azure.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 192.74.224.23, port: 54027, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港, server: awshk8-data.amazon-azure.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇱🇺_LU_卢森堡, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
+  - {name: _US_美国 2, server: 143.42.199.130, port: 38867, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 8257221136, udp: true}
+  - {name: _SG_新加坡->🇹🇼_TW_台湾, server: stw6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港 2, server: 16.162.50.230, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: 137.175.18.107, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: us62vms.qpfdpf5.jfdiwue7.wpdfj.mrgspeed.site, port: 36611, type: vmess, uuid: d1c5b6b0-b6f9-4f1d-875d-7ccc88f4ca53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡, server: 57dc969f-c6d4-4028-b845-174a8e01a583.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: ca099159-d67c-4918-9741-82a28c802234, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 57dc969f-c6d4-4028-b845-174a8e01a583.xn--9kq12xdq7a.com}}, udp: true}
+  - {name: _HK_香港 3, server: 43.154.76.92, port: 21857, type: vmess, uuid: 784272d2-bd2d-438a-bbd4-1271bb1f1b0d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国 6, server: 172.67.73.39, port: 80, type: vmess, uuid: b8458948-a630-4e6d-809a-230b2223ff3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xrayvws, headers: {Host: f.tun4.live}}, udp: true}
+  - {name: _EG_埃及, server: 41.215.242.89, port: 35679, type: vmess, uuid: ee442f43-b07a-419d-bd27-2d3456393abc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _TW_台湾, server: stw3-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 6, server: 163.123.192.61, port: 443, type: trojan, password: b3359b2b-cb0f-44cd-a152-a796d8b46b01, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港 2, server: awshk19-data.amazon-azure.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国->🇻🇳_VN_越南, server: vn.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, skip-cert-verify: true, udp: true}
-  - {name: _IN_印度, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 7, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
+  - {name: _IR_伊朗, server: de63.thugiping.cloud, port: 443, type: vmess, uuid: c9a22360-3f66-48c8-89ab-13799b05a730, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _HK_香港 4, server: awshk19-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港 5, server: hk2.c2bfe79372be.sanfen004.me, port: 443, type: vmess, uuid: adb800cf-f56b-4c93-964d-07e8cc9eaf05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk2.c2bfe79372be.sanfen004.me}}, udp: true}
+  - {name: _US_美国 8, server: 198.2.200.105, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _JP_日本, server: 109.166.36.193, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 9, server: 104.194.224.93, port: 50912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: 192.74.234.84, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _IR_伊朗 2, server: aparat.persianmizban.com, port: 4433, type: vmess, uuid: 88790a1b-f059-40c7-9c9d-b7c943b4420b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡->🇹🇼_TW_台湾 2, server: stw8-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
   - {name: _TR_土耳其, server: 185.40.86.195, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: awshk12-data.amazon-azure.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港 3, server: 16.162.50.230, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}, udp: true}
-  - {name: _HK_香港->🇲🇾_MY_马来西亚, server: my.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: my.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡, server: stw8-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大, server: 199.212.90.14, port: 443, type: vmess, uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: _JP_日本 2, server: aws-jp.aikun.online, port: 443, type: trojan, password: 43f271a7-2242-40aa-81f0-29f8d3bf8a26, sni: aws-jp.aikun.online, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本->🇮🇱_IL_以色列, server: il.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: il.mjt001.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 8, server: 192.74.237.49, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡->🇺🇸_US_美国, server: usla.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡 2, server: stw7-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚, server: 139.99.131.113, port: 33505, type: vmess, uuid: 6c04a273-7302-4e09-9ced-aedaaa7461af, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 9, server: 192.74.234.84, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 10, server: 45.88.176.12, port: 53332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 11, server: 104.21.30.82, port: 2096, type: vmess, uuid: 408e2686-9e0d-4014-841e-7ca5da55a215, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ho3ino, headers: {Host: h.h3io.co}}, udp: true}
-  - {name: _HK_香港 4, server: awshk8-data.amazon-azure.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰 2, server: iranfreedom.duckdns.org, port: 443, type: trojan, password: 8357816b-68e4-4a2b-830c-e9bdd369ea22, sni: iranfreedom.duckdns.org, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰 3, server: bozbozghandi.foriran.nl, port: 80, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bozbozghandi.foriran.nl}}, udp: true}
-  - {name: _KR_韩国->🇰🇭_KH_柬埔寨, server: kh.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, skip-cert-verify: true, udp: true}
-  - {name: _ID_印度尼西亚, server: 103.169.7.11, port: 80, type: trojan, password: c0d9da22-2569-4bed-a395-607d9e7ae687, sni: sciencedirect.com, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 12, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡->🇹🇼_TW_台湾, server: stw4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡->🇹🇼_TW_台湾 2, server: stw6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港 6, server: hk5.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: 5859520d-6c8e-4a80-8255-7cdd563b778f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk5.af49c4e4c2ef.sanfen004.me}}, udp: true}
+  - {name: _US_美国 11, server: 135.148.149.209, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 2, server: 43.198.88.173, port: 443, type: trojan, password: d1dd56f6-53e7-4380-bb09-46cdd4b0643d, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港 7, server: awshk15-data.amazon-azure.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: cnah2.lanyunshi.top, port: 19902, type: vmess, uuid: 05266f8e-249b-3630-be8f-fc56efaa21cd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 12, server: 192.74.234.83, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: _US_美国 13, server: 192.74.242.154, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港 8, server: awshk5-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾 2, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡 2, server: aws-sg.aikun.online, port: 443, type: trojan, password: f9df5923-6775-46e3-a43a-9865a2b77e88, sni: aws-sg.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 3, server: hk4.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: c69e7b18-abd6-47df-ab1a-c89a96fba5ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.af49c4e4c2ef.sanfen004.me}}, udp: true}
+  - {name: _HK_香港 9, server: awshk17-data.amazon-azure.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 更新于:05-16 17:30 -by 自学志
+      - 更新于:05-17 8:00 -by 自学志
       - TW
       - US
       - 🇺🇸
@@ -166,54 +163,51 @@ proxy-groups:
       - 自学志 2
       - 自学志 3
       - _US_美国
-      - _JP_日本
-      - _KR_韩国
-      - _US_美国->🇲🇴_MO_澳门
-      - _SG_新加坡->🇱🇺_LU_卢森堡
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _NL_荷兰
-      - _US_美国 5
       - _HK_香港
-      - _TW_台湾
-      - _US_美国 6
-      - _HK_香港 2
-      - _KR_韩国->🇻🇳_VN_越南
-      - _IN_印度
-      - _US_美国 7
-      - _TR_土耳其
-      - _CN_中国
-      - _HK_香港 3
-      - _CA_加拿大->🇺🇸_US_美国
-      - _HK_香港->🇲🇾_MY_马来西亚
-      - _SG_新加坡
-      - _CA_加拿大
-      - _JP_日本 2
-      - _JP_日本->🇮🇱_IL_以色列
-      - _US_美国 8
-      - _SG_新加坡->🇺🇸_US_美国
-      - _SG_新加坡 2
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _HK_香港 4
-      - _NL_荷兰 2
-      - _NL_荷兰 3
-      - _KR_韩国->🇰🇭_KH_柬埔寨
-      - _ID_印度尼西亚
-      - _RU_俄罗斯联邦
-      - _US_美国 12
+      - _US_美国->🇱🇺_LU_卢森堡
+      - _US_美国 2
       - _SG_新加坡->🇹🇼_TW_台湾
+      - _US_美国 3
+      - _HK_香港 2
+      - _US_美国 4
+      - _US_美国 5
+      - _SG_新加坡
+      - _HK_香港 3
+      - _US_美国 6
+      - _EG_埃及
+      - _TW_台湾
+      - _IR_伊朗
+      - _US_美国 7
+      - _HK_香港 4
+      - _HK_香港 5
+      - _US_美国 8
+      - _JP_日本
+      - _US_美国 9
+      - _CN_中国
+      - _US_美国 10
+      - _IR_伊朗 2
       - _SG_新加坡->🇹🇼_TW_台湾 2
+      - _TR_土耳其
+      - _HK_香港 6
+      - _US_美国 11
+      - _CN_中国 2
+      - _HK_香港 7
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 12
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 13
+      - _HK_香港 8
+      - _TW_台湾 2
+      - _SG_新加坡 2
+      - _CN_中国 3
+      - _HK_香港 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:05-16 17:30 -by 自学志
+      - 更新于:05-17 8:00 -by 自学志
       - TW
       - US
       - 🇺🇸
@@ -270,54 +264,51 @@ proxy-groups:
       - 自学志 2
       - 自学志 3
       - _US_美国
-      - _JP_日本
-      - _KR_韩国
-      - _US_美国->🇲🇴_MO_澳门
-      - _SG_新加坡->🇱🇺_LU_卢森堡
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _NL_荷兰
-      - _US_美国 5
       - _HK_香港
-      - _TW_台湾
-      - _US_美国 6
-      - _HK_香港 2
-      - _KR_韩国->🇻🇳_VN_越南
-      - _IN_印度
-      - _US_美国 7
-      - _TR_土耳其
-      - _CN_中国
-      - _HK_香港 3
-      - _CA_加拿大->🇺🇸_US_美国
-      - _HK_香港->🇲🇾_MY_马来西亚
-      - _SG_新加坡
-      - _CA_加拿大
-      - _JP_日本 2
-      - _JP_日本->🇮🇱_IL_以色列
-      - _US_美国 8
-      - _SG_新加坡->🇺🇸_US_美国
-      - _SG_新加坡 2
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _HK_香港 4
-      - _NL_荷兰 2
-      - _NL_荷兰 3
-      - _KR_韩国->🇰🇭_KH_柬埔寨
-      - _ID_印度尼西亚
-      - _RU_俄罗斯联邦
-      - _US_美国 12
+      - _US_美国->🇱🇺_LU_卢森堡
+      - _US_美国 2
       - _SG_新加坡->🇹🇼_TW_台湾
+      - _US_美国 3
+      - _HK_香港 2
+      - _US_美国 4
+      - _US_美国 5
+      - _SG_新加坡
+      - _HK_香港 3
+      - _US_美国 6
+      - _EG_埃及
+      - _TW_台湾
+      - _IR_伊朗
+      - _US_美国 7
+      - _HK_香港 4
+      - _HK_香港 5
+      - _US_美国 8
+      - _JP_日本
+      - _US_美国 9
+      - _CN_中国
+      - _US_美国 10
+      - _IR_伊朗 2
       - _SG_新加坡->🇹🇼_TW_台湾 2
+      - _TR_土耳其
+      - _HK_香港 6
+      - _US_美国 11
+      - _CN_中国 2
+      - _HK_香港 7
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 12
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 13
+      - _HK_香港 8
+      - _TW_台湾 2
+      - _SG_新加坡 2
+      - _CN_中国 3
+      - _HK_香港 9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于:05-16 17:30 -by 自学志
+      - 更新于:05-17 8:00 -by 自学志
       - TW
       - US
       - 🇺🇸
@@ -374,53 +365,50 @@ proxy-groups:
       - 自学志 2
       - 自学志 3
       - _US_美国
-      - _JP_日本
-      - _KR_韩国
-      - _US_美国->🇲🇴_MO_澳门
-      - _SG_新加坡->🇱🇺_LU_卢森堡
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _NL_荷兰
-      - _US_美国 5
       - _HK_香港
-      - _TW_台湾
-      - _US_美国 6
-      - _HK_香港 2
-      - _KR_韩国->🇻🇳_VN_越南
-      - _IN_印度
-      - _US_美国 7
-      - _TR_土耳其
-      - _CN_中国
-      - _HK_香港 3
-      - _CA_加拿大->🇺🇸_US_美国
-      - _HK_香港->🇲🇾_MY_马来西亚
-      - _SG_新加坡
-      - _CA_加拿大
-      - _JP_日本 2
-      - _JP_日本->🇮🇱_IL_以色列
-      - _US_美国 8
-      - _SG_新加坡->🇺🇸_US_美国
-      - _SG_新加坡 2
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _HK_香港 4
-      - _NL_荷兰 2
-      - _NL_荷兰 3
-      - _KR_韩国->🇰🇭_KH_柬埔寨
-      - _ID_印度尼西亚
-      - _RU_俄罗斯联邦
-      - _US_美国 12
+      - _US_美国->🇱🇺_LU_卢森堡
+      - _US_美国 2
       - _SG_新加坡->🇹🇼_TW_台湾
+      - _US_美国 3
+      - _HK_香港 2
+      - _US_美国 4
+      - _US_美国 5
+      - _SG_新加坡
+      - _HK_香港 3
+      - _US_美国 6
+      - _EG_埃及
+      - _TW_台湾
+      - _IR_伊朗
+      - _US_美国 7
+      - _HK_香港 4
+      - _HK_香港 5
+      - _US_美国 8
+      - _JP_日本
+      - _US_美国 9
+      - _CN_中国
+      - _US_美国 10
+      - _IR_伊朗 2
       - _SG_新加坡->🇹🇼_TW_台湾 2
+      - _TR_土耳其
+      - _HK_香港 6
+      - _US_美国 11
+      - _CN_中国 2
+      - _HK_香港 7
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 12
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 13
+      - _HK_香港 8
+      - _TW_台湾 2
+      - _SG_新加坡 2
+      - _CN_中国 3
+      - _HK_香港 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新于:05-16 17:30 -by 自学志
+      - 更新于:05-17 8:00 -by 自学志
       - TW
       - US
       - 🇺🇸
@@ -477,53 +465,50 @@ proxy-groups:
       - 自学志 2
       - 自学志 3
       - _US_美国
-      - _JP_日本
-      - _KR_韩国
-      - _US_美国->🇲🇴_MO_澳门
-      - _SG_新加坡->🇱🇺_LU_卢森堡
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _NL_荷兰
-      - _US_美国 5
       - _HK_香港
-      - _TW_台湾
-      - _US_美国 6
-      - _HK_香港 2
-      - _KR_韩国->🇻🇳_VN_越南
-      - _IN_印度
-      - _US_美国 7
-      - _TR_土耳其
-      - _CN_中国
-      - _HK_香港 3
-      - _CA_加拿大->🇺🇸_US_美国
-      - _HK_香港->🇲🇾_MY_马来西亚
-      - _SG_新加坡
-      - _CA_加拿大
-      - _JP_日本 2
-      - _JP_日本->🇮🇱_IL_以色列
-      - _US_美国 8
-      - _SG_新加坡->🇺🇸_US_美国
-      - _SG_新加坡 2
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _HK_香港 4
-      - _NL_荷兰 2
-      - _NL_荷兰 3
-      - _KR_韩国->🇰🇭_KH_柬埔寨
-      - _ID_印度尼西亚
-      - _RU_俄罗斯联邦
-      - _US_美国 12
+      - _US_美国->🇱🇺_LU_卢森堡
+      - _US_美国 2
       - _SG_新加坡->🇹🇼_TW_台湾
+      - _US_美国 3
+      - _HK_香港 2
+      - _US_美国 4
+      - _US_美国 5
+      - _SG_新加坡
+      - _HK_香港 3
+      - _US_美国 6
+      - _EG_埃及
+      - _TW_台湾
+      - _IR_伊朗
+      - _US_美国 7
+      - _HK_香港 4
+      - _HK_香港 5
+      - _US_美国 8
+      - _JP_日本
+      - _US_美国 9
+      - _CN_中国
+      - _US_美国 10
+      - _IR_伊朗 2
       - _SG_新加坡->🇹🇼_TW_台湾 2
+      - _TR_土耳其
+      - _HK_香港 6
+      - _US_美国 11
+      - _CN_中国 2
+      - _HK_香港 7
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 12
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 13
+      - _HK_香港 8
+      - _TW_台湾 2
+      - _SG_新加坡 2
+      - _CN_中国 3
+      - _HK_香港 9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 更新于:05-16 17:30 -by 自学志
+      - 更新于:05-17 8:00 -by 自学志
       - TW
       - US
       - 🇺🇸
@@ -580,53 +565,50 @@ proxy-groups:
       - 自学志 2
       - 自学志 3
       - _US_美国
-      - _JP_日本
-      - _KR_韩国
-      - _US_美国->🇲🇴_MO_澳门
-      - _SG_新加坡->🇱🇺_LU_卢森堡
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _NL_荷兰
-      - _US_美国 5
       - _HK_香港
-      - _TW_台湾
-      - _US_美国 6
-      - _HK_香港 2
-      - _KR_韩国->🇻🇳_VN_越南
-      - _IN_印度
-      - _US_美国 7
-      - _TR_土耳其
-      - _CN_中国
-      - _HK_香港 3
-      - _CA_加拿大->🇺🇸_US_美国
-      - _HK_香港->🇲🇾_MY_马来西亚
-      - _SG_新加坡
-      - _CA_加拿大
-      - _JP_日本 2
-      - _JP_日本->🇮🇱_IL_以色列
-      - _US_美国 8
-      - _SG_新加坡->🇺🇸_US_美国
-      - _SG_新加坡 2
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _HK_香港 4
-      - _NL_荷兰 2
-      - _NL_荷兰 3
-      - _KR_韩国->🇰🇭_KH_柬埔寨
-      - _ID_印度尼西亚
-      - _RU_俄罗斯联邦
-      - _US_美国 12
+      - _US_美国->🇱🇺_LU_卢森堡
+      - _US_美国 2
       - _SG_新加坡->🇹🇼_TW_台湾
+      - _US_美国 3
+      - _HK_香港 2
+      - _US_美国 4
+      - _US_美国 5
+      - _SG_新加坡
+      - _HK_香港 3
+      - _US_美国 6
+      - _EG_埃及
+      - _TW_台湾
+      - _IR_伊朗
+      - _US_美国 7
+      - _HK_香港 4
+      - _HK_香港 5
+      - _US_美国 8
+      - _JP_日本
+      - _US_美国 9
+      - _CN_中国
+      - _US_美国 10
+      - _IR_伊朗 2
       - _SG_新加坡->🇹🇼_TW_台湾 2
+      - _TR_土耳其
+      - _HK_香港 6
+      - _US_美国 11
+      - _CN_中国 2
+      - _HK_香港 7
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 12
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 13
+      - _HK_香港 8
+      - _TW_台湾 2
+      - _SG_新加坡 2
+      - _CN_中国 3
+      - _HK_香港 9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新于:05-16 17:30 -by 自学志
+      - 更新于:05-17 8:00 -by 自学志
       - TW
       - US
       - 🇺🇸
@@ -683,54 +665,51 @@ proxy-groups:
       - 自学志 2
       - 自学志 3
       - _US_美国
-      - _JP_日本
-      - _KR_韩国
-      - _US_美国->🇲🇴_MO_澳门
-      - _SG_新加坡->🇱🇺_LU_卢森堡
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _NL_荷兰
-      - _US_美国 5
       - _HK_香港
-      - _TW_台湾
-      - _US_美国 6
-      - _HK_香港 2
-      - _KR_韩国->🇻🇳_VN_越南
-      - _IN_印度
-      - _US_美国 7
-      - _TR_土耳其
-      - _CN_中国
-      - _HK_香港 3
-      - _CA_加拿大->🇺🇸_US_美国
-      - _HK_香港->🇲🇾_MY_马来西亚
-      - _SG_新加坡
-      - _CA_加拿大
-      - _JP_日本 2
-      - _JP_日本->🇮🇱_IL_以色列
-      - _US_美国 8
-      - _SG_新加坡->🇺🇸_US_美国
-      - _SG_新加坡 2
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _HK_香港 4
-      - _NL_荷兰 2
-      - _NL_荷兰 3
-      - _KR_韩国->🇰🇭_KH_柬埔寨
-      - _ID_印度尼西亚
-      - _RU_俄罗斯联邦
-      - _US_美国 12
+      - _US_美国->🇱🇺_LU_卢森堡
+      - _US_美国 2
       - _SG_新加坡->🇹🇼_TW_台湾
+      - _US_美国 3
+      - _HK_香港 2
+      - _US_美国 4
+      - _US_美国 5
+      - _SG_新加坡
+      - _HK_香港 3
+      - _US_美国 6
+      - _EG_埃及
+      - _TW_台湾
+      - _IR_伊朗
+      - _US_美国 7
+      - _HK_香港 4
+      - _HK_香港 5
+      - _US_美国 8
+      - _JP_日本
+      - _US_美国 9
+      - _CN_中国
+      - _US_美国 10
+      - _IR_伊朗 2
       - _SG_新加坡->🇹🇼_TW_台湾 2
+      - _TR_土耳其
+      - _HK_香港 6
+      - _US_美国 11
+      - _CN_中国 2
+      - _HK_香港 7
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 12
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 13
+      - _HK_香港 8
+      - _TW_台湾 2
+      - _SG_新加坡 2
+      - _CN_中国 3
+      - _HK_香港 9
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:05-16 17:30 -by 自学志
+      - 更新于:05-17 8:00 -by 自学志
       - TW
       - US
       - 🇺🇸
@@ -787,47 +766,44 @@ proxy-groups:
       - 自学志 2
       - 自学志 3
       - _US_美国
-      - _JP_日本
-      - _KR_韩国
-      - _US_美国->🇲🇴_MO_澳门
-      - _SG_新加坡->🇱🇺_LU_卢森堡
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _NL_荷兰
-      - _US_美国 5
       - _HK_香港
-      - _TW_台湾
-      - _US_美国 6
-      - _HK_香港 2
-      - _KR_韩国->🇻🇳_VN_越南
-      - _IN_印度
-      - _US_美国 7
-      - _TR_土耳其
-      - _CN_中国
-      - _HK_香港 3
-      - _CA_加拿大->🇺🇸_US_美国
-      - _HK_香港->🇲🇾_MY_马来西亚
-      - _SG_新加坡
-      - _CA_加拿大
-      - _JP_日本 2
-      - _JP_日本->🇮🇱_IL_以色列
-      - _US_美国 8
-      - _SG_新加坡->🇺🇸_US_美国
-      - _SG_新加坡 2
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _HK_香港 4
-      - _NL_荷兰 2
-      - _NL_荷兰 3
-      - _KR_韩国->🇰🇭_KH_柬埔寨
-      - _ID_印度尼西亚
-      - _RU_俄罗斯联邦
-      - _US_美国 12
+      - _US_美国->🇱🇺_LU_卢森堡
+      - _US_美国 2
       - _SG_新加坡->🇹🇼_TW_台湾
+      - _US_美国 3
+      - _HK_香港 2
+      - _US_美国 4
+      - _US_美国 5
+      - _SG_新加坡
+      - _HK_香港 3
+      - _US_美国 6
+      - _EG_埃及
+      - _TW_台湾
+      - _IR_伊朗
+      - _US_美国 7
+      - _HK_香港 4
+      - _HK_香港 5
+      - _US_美国 8
+      - _JP_日本
+      - _US_美国 9
+      - _CN_中国
+      - _US_美国 10
+      - _IR_伊朗 2
       - _SG_新加坡->🇹🇼_TW_台湾 2
+      - _TR_土耳其
+      - _HK_香港 6
+      - _US_美国 11
+      - _CN_中国 2
+      - _HK_香港 7
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 12
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 13
+      - _HK_香港 8
+      - _TW_台湾 2
+      - _SG_新加坡 2
+      - _CN_中国 3
+      - _HK_香港 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -850,7 +826,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:05-16 17:30 -by 自学志
+      - 更新于:05-17 8:00 -by 自学志
       - TW
       - US
       - 🇺🇸
@@ -907,83 +883,45 @@ proxy-groups:
       - 自学志 2
       - 自学志 3
       - _US_美国
-      - _JP_日本
-      - _KR_韩国
-      - _US_美国->🇲🇴_MO_澳门
-      - _SG_新加坡->🇱🇺_LU_卢森堡
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _NL_荷兰
-      - _US_美国 5
       - _HK_香港
-      - _TW_台湾
-      - _US_美国 6
-      - _HK_香港 2
-      - _KR_韩国->🇻🇳_VN_越南
-      - _IN_印度
-      - _US_美国 7
-      - _TR_土耳其
-      - _CN_中国
-      - _HK_香港 3
-      - _CA_加拿大->🇺🇸_US_美国
-      - _HK_香港->🇲🇾_MY_马来西亚
-      - _SG_新加坡
-      - _CA_加拿大
-      - _JP_日本 2
-      - _JP_日本->🇮🇱_IL_以色列
-      - _US_美国 8
-      - _SG_新加坡->🇺🇸_US_美国
-      - _SG_新加坡 2
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _HK_香港 4
-      - _NL_荷兰 2
-      - _NL_荷兰 3
-      - _KR_韩国->🇰🇭_KH_柬埔寨
-      - _ID_印度尼西亚
-      - _RU_俄罗斯联邦
-      - _US_美国 12
+      - _US_美国->🇱🇺_LU_卢森堡
+      - _US_美国 2
       - _SG_新加坡->🇹🇼_TW_台湾
+      - _US_美国 3
+      - _HK_香港 2
+      - _US_美国 4
+      - _US_美国 5
+      - _SG_新加坡
+      - _HK_香港 3
+      - _US_美国 6
+      - _EG_埃及
+      - _TW_台湾
+      - _IR_伊朗
+      - _US_美国 7
+      - _HK_香港 4
+      - _HK_香港 5
+      - _US_美国 8
+      - _JP_日本
+      - _US_美国 9
+      - _CN_中国
+      - _US_美国 10
+      - _IR_伊朗 2
       - _SG_新加坡->🇹🇼_TW_台湾 2
+      - _TR_土耳其
+      - _HK_香港 6
+      - _US_美国 11
+      - _CN_中国 2
+      - _HK_香港 7
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 12
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 13
+      - _HK_香港 8
+      - _TW_台湾 2
+      - _SG_新加坡 2
+      - _CN_中国 3
+      - _HK_香港 9
 rules:
- - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
- - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
- - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
- - DOMAIN-SUFFIX,lan,🎯 全球直连
- - DOMAIN-SUFFIX,local,🎯 全球直连
- - DOMAIN-SUFFIX,localhost,🎯 全球直连
- - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
- - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
- - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
- - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
- - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
- - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
- - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
- - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
- - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
- - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
- - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
- - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
- - DOMAIN,instant.arubanetworks.com,🎯 全球直连
- - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
- - DOMAIN,router.asus.com,🎯 全球直连
- - DOMAIN,www.asusrouter.com,🎯 全球直连
- - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
- - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
- - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
- - DOMAIN-SUFFIX,my.router,🎯 全球直连
- - DOMAIN-SUFFIX,p.to,🎯 全球直连
- - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
- - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
- - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
- - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
- - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
- - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
- - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
