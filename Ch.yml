@@ -5,1069 +5,1005 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于:05-22 9:00 -by 自学志, server: 8.8.8.8, port: 443, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-  - {name: 公众号：自学志, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 2, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: _US_美国, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: 新加坡, server: ukjs.stablize.top, port: 443, type: trojan, password: 82a2d844-89b2-4ebd-aa18-0bd2feef9da2, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: 107.148.5.78, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 2, server: nljs.stablize.top, port: 443, type: trojan, password: 1a40cb7b-3ddc-447e-9a9c-943a6124e9ed, skip-cert-verify: true, udp: true}
-  - {name: 公众号：自学志 2, server: downloadvip.cfd, port: 443, type: vmess, uuid: a250f5a3-4147-41e7-8b36-a40466bf76f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.jsjc.sbs, network: ws, ws-opts: {path: /jsjc/us1, headers: {Host: us1.jsjc.sbs}}, udp: true}
-  - {name: 公众号：自学志 3, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇷🇺RU_06, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇱🇺_LU_卢森堡, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-  - {name: 公众号：自学志 4, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: 美国 3, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
-  - {name: _US_美国 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: 美国 4, server: 104.20.127.237, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer09, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 哥斯达黎加, server: 190.93.245.40, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}, udp: true}
-  - {name: _US_美国->🇱🇺_LU_卢森堡 2, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-  - {name: _US_美国 4, server: beenverified.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: _CR_哥斯达黎加->🇯🇵_JP_日本, server: 190.93.245.40, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}, udp: true}
-  - {name: 美国 5, server: 103.21.244.37, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: 加拿大, server: 23.227.60.184, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: _US_美国 5, server: 104.18.21.81, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: _RO_罗马尼亚->🇺🇸_US_美国, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: 美国 6, server: 104.18.21.81, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: 日本, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 7, server: 172.67.247.250, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: _US_美国 6, server: 163.123.192.153, port: 443, type: trojan, password: d69793f4-8379-41ab-91aa-e51371ca8d26, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 公众号：自学志 5, server: jp06-vm0.entry.jpojpoh.art, port: 28785, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_176, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_210, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_20, server: 139.99.245.165, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 公众号：自学志 6, server: 139.99.245.165, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: hz-dx.duaaoped.xyz, port: 41191, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116, udp: true}
-  - {name: 伊朗, server: de63.thugiping.cloud, port: 443, type: vmess, uuid: c9a22360-3f66-48c8-89ab-13799b05a730, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 2, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 公众号：自学志 7, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 公众号：自学志 8, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
-  - {name: _US_美国 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _JP_日本, server: jp3.d4995a2eb9b2.sanfen004.me, port: 443, type: vmess, uuid: 7262cf44-a587-401a-9cd3-a87e2ce8f04e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 更新于:05-22 14:30 -by 自学志, server: 8.8.8.8, port: 443, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _US_美国->🇸🇬_SG_新加坡, server: cdn-xjp4.cqjsl.xyz, port: 443, type: vmess, uuid: a5266489-b935-4fb8-8012-5ad4ad41234e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn-xjp4.cqjsl.xyz}}, udp: true}
-  - {name: _US_美国 8, server: 163.123.192.153, port: 443, type: trojan, password: d69793f4-8379-41ab-91aa-e51371ca8d26, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚, server: 139.99.245.165, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 9, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: _US_美国 10, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: v2-ca1.silverdragon.cn, port: 443, type: vmess, uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ca/v2wss, headers: {Host: v2-ca1.silverdragon.cn}}, udp: true}
-  - {name: _TW_台湾, server: CHT.MIFJUN.ORG, port: 80, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _RO_罗马尼亚->🇺🇸_US_美国 2, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: _US_美国 11, server: invideo.io, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 3, server: 16personalities.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _JP_日本 2, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vjp2.0bad.com}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: cdn.hehua99.xyz, port: 50019, type: vmess, uuid: 50fd13c0-9d29-4509-8837-5ba9a13ba127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 12, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 998fed0b-6958-4998-ae60-86ccf8d37447, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dallas.starsea.vip}}, udp: true}
-  - {name: _US_美国 13, server: 45.12.144.79, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇱🇺_LU_卢森堡 3, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-  - {name: _US_美国 14, server: 192.74.228.171, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾 2, server: stw3-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港, server: hk13.microsoft-orgwly.vip, port: 443, type: trojan, password: 8054b43e-9bd3-4f3e-9a39-89570dc35ddb, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡, server: sg4.microsoft-orgwly.vip, port: 80, type: trojan, password: ce58cab4-2675-47f7-b3e1-96f08839f86b, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 4, server: 104.17.24.1, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _US_美国 15, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾 3, server: bgptw5.cnamazon.sbs, port: 443, type: trojan, password: 4658738d-c3f1-4ebf-ad7a-ee603e3f9690, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 16, server: honeygain.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 5, server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _TW_台湾 4, server: 165.154.227.191, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 17, server: 142.4.108.24, port: 55102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 18, server: 137.175.18.87, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: cdn.hehua99.xyz, port: 50020, type: vmess, uuid: 50fd13c0-9d29-4509-8837-5ba9a13ba127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: hz-dx.duaaoped.xyz, port: 41191, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116, udp: true}
-  - {name: _US_美国 19, server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: _US_美国 20, server: downloadvip.cfd, port: 443, type: vmess, uuid: a250f5a3-4147-41e7-8b36-a40466bf76f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /jsjc/us1, headers: {Host: us1.jsjc.sbs}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 6, server: kontakt.az, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _US_美国 21, server: 45.88.176.27, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本 3, server: xuxu.ixx520.club, port: 34318, type: trojan, password: GKX2ZvhBma, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡 2, server: sg3.lianpi.xyz, port: 64578, type: ss, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, udp: true}
-  - {name: _US_美国 22, server: 192.74.239.28, port: 41288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}, udp: true}
-  - {name: "新加坡01{流媒体优化|GPT}{1x}", server: sg01.lovehjq.xyz, port: 27001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "美国03{流媒体优化}{1x}", server: us03.lovehjq.xyz, port: 28109, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "美国04{流媒体优化}{1x}", server: us04.lovehjq.xyz, port: 28111, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: 自学志, server: gonggao01.lovehjq.xyz, port: 29993, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "越南02{1x}", server: vn02.lovehjq.xyz, port: 41927, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: 自学志 2, server: gonggao01.lovehjq.xyz, port: 29993, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "荷兰02{1x}", server: nl02.lovehjq.xyz, port: 41931, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "日本03{流媒体优化|GPT}{1x}", server: jp03.lovehjq.xyz, port: 28117, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "印度01{1x}", server: ind01.lovehjq.xyz, port: 41905, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: 自学志 3, server: gonggao03.lovehjq.xyz, port: 29997, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "日本01{流媒体优化|GPT}{1x}", server: jp01.lovehjq.xyz, port: 27005, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡02{流媒体优化|GPT}{1x}", server: sg02.lovehjq.xyz, port: 27003, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "印度02{1x}", server: ind02.lovehjq.xyz, port: 41907, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡03{流媒体优化|GPT}{1x}", server: sg03.lovehjq.xyz, port: 28113, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "美国01{流媒体优化}{1x}", server: us01.lovehjq.xyz, port: 25001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "香港A{流媒体优化|GPT}{1x}", server: gonggao05.lovehjq.xyz, port: 30001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "泰国01{1x}", server: th01.lovehjq.xyz, port: 30013, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: 自学志 4, server: gonggao01.lovehjq.xyz, port: 29993, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: 自学志 5, server: gonggao01.lovehjq.xyz, port: 29993, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
   - {name: "韩国01{流媒体优化|GPT}{1x}", server: kr01.lovehjq.xyz, port: 21001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "香港03{流媒体优化|GPT}{1x}", server: hk03.lovehjq.xyz, port: 28101, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "澳大利亚01{1x}", server: au01.lovehjq.xyz, port: 41901, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "日本04{流媒体优化}{GPT}{1x}", server: jp04.lovehjq.xyz, port: 41521, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "泰国02{1x}", server: th02.lovehjq.xyz, port: 30015, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "加拿大02{1x}", server: ca02.lovehjq.xyz, port: 41923, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "加拿大01{1x}", server: ca01.lovehjq.xyz, port: 41921, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "香港B{流媒体优化|GPT}{1x}", server: gonggao06.lovehjq.xyz, port: 30003, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "澳大利亚02{1x}", server: au02.lovehjq.xyz, port: 41903, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "香港04{流媒体优化|GPT}{1x}", server: hk04.lovehjq.xyz, port: 28103, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "英国02{1x}", server: uk02.lovehjq.xyz, port: 30007, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "英国01{1x}", server: uk01.lovehjq.xyz, port: 30005, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "香港02{流媒体优化|GPT}{1x}", server: hk02.lovehjq.xyz, port: 22003, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "英国04{1x}", server: uk04.lovehjq.xyz, port: 30011, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "韩国04{流媒体优化|GPT}{1x}", server: kr04.lovehjq.xyz, port: 28107, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "日本02{流媒体优化|GPT}1x", server: jp02.lovehjq.xyz, port: 27007, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "英国03{1x}", server: uk03.lovehjq.xyz, port: 30009, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: 自学志 6, server: gonggao02.lovehjq.xyz, port: 29995, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "荷兰01{1x}", server: nl01.lovehjq.xyz, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: 自学志 7, server: gonggao04.lovehjq.xyz, port: 29999, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "法国02{1x}", server: fr02.lovehjq.xyz, port: 41917, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡04{流媒体优化|GPT}{1x}", server: sg04.lovehjq.xyz, port: 28115, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "韩国02{流媒体优化|GPT}{1x}", server: kr02.lovehjq.xyz, port: 21003, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "越南01{1x}", server: vn01.lovehjq.xyz, port: 41925, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "香港01{流媒体优化|GPT}{1x}", server: hk01.lovehjq.xyz, port: 22001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "巴西01{1x}", server: br01.lovehjq.xyz, port: 41911, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "韩国03{流媒体优化|GPT}{1x}", server: kr03.lovehjq.xyz, port: 28105, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
   - {name: "美国02{流媒体优化}{1x}", server: us02.lovehjq.xyz, port: 26001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "巴西02{1x}", server: br02.lovehjq.xyz, port: 41913, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
-  - {name: "法国01{1x}", server: fr01.lovehjq.xyz, port: 41915, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "新加坡03{流媒体优化|GPT}{1x}", server: sg03.lovehjq.xyz, port: 28113, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "韩国04{流媒体优化|GPT}{1x}", server: kr04.lovehjq.xyz, port: 28107, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "新加坡02{流媒体优化|GPT}{1x}", server: sg02.lovehjq.xyz, port: 27003, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "泰国02{1x}", server: th02.lovehjq.xyz, port: 30015, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: 自学志, server: gonggao02.lovehjq.xyz, port: 29995, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "韩国02{流媒体优化|GPT}{1x}", server: kr02.lovehjq.xyz, port: 21003, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "法国02{1x}", server: fr02.lovehjq.xyz, port: 41917, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "日本01{流媒体优化|GPT}{1x}", server: jp01.lovehjq.xyz, port: 27005, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "香港A{流媒体优化|GPT}{1x}", server: gonggao05.lovehjq.xyz, port: 30001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "香港03{流媒体优化|GPT}{1x}", server: hk03.lovehjq.xyz, port: 28101, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "荷兰02{1x}", server: nl02.lovehjq.xyz, port: 41931, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡, server: sg3.lianpi.xyz, port: 64578, type: ss, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, udp: true}
+  - {name: 日本, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "日本03{流媒体优化|GPT}{1x}", server: jp03.lovehjq.xyz, port: 28117, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "英国01{1x}", server: uk01.lovehjq.xyz, port: 30005, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: 104.18.21.81, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: "美国01{流媒体优化}{1x}", server: us01.lovehjq.xyz, port: 25001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: hz-dx.duaaoped.xyz, port: 41191, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116, udp: true}
+  - {name: 美国 2, server: 104.20.127.237, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer09, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 自学志 2, server: gonggao03.lovehjq.xyz, port: 29997, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: nljs.stablize.top, port: 443, type: trojan, password: 1a40cb7b-3ddc-447e-9a9c-943a6124e9ed, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: 103.21.244.37, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: 哥斯达黎加, server: 190.93.245.40, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}, udp: true}
+  - {name: _SG_新加坡 2, server: sg4.microsoft-orgwly.vip, port: 80, type: trojan, password: ce58cab4-2675-47f7-b3e1-96f08839f86b, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
+  - {name: "加拿大01{1x}", server: ca01.lovehjq.xyz, port: 41921, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰, server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: "巴西01{1x}", server: br01.lovehjq.xyz, port: 41911, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "越南01{1x}", server: vn01.lovehjq.xyz, port: 41925, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: invideo.io, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: "新加坡01{流媒体优化|GPT}{1x}", server: sg01.lovehjq.xyz, port: 27001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "英国04{1x}", server: uk04.lovehjq.xyz, port: 30011, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 163.123.192.153, port: 443, type: trojan, password: d69793f4-8379-41ab-91aa-e51371ca8d26, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 2, server: 16personalities.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: "香港04{流媒体优化|GPT}{1x}", server: hk04.lovehjq.xyz, port: 28103, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "泰国01{1x}", server: th01.lovehjq.xyz, port: 30013, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "香港01{流媒体优化|GPT}{1x}", server: hk01.lovehjq.xyz, port: 22001, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "香港02{流媒体优化|GPT}{1x}", server: hk02.lovehjq.xyz, port: 22003, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "美国04{流媒体优化}{1x}", server: us04.lovehjq.xyz, port: 28111, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "英国02{1x}", server: uk02.lovehjq.xyz, port: 30007, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "加拿大02{1x}", server: ca02.lovehjq.xyz, port: 41923, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "日本04{流媒体优化}{GPT}{1x}", server: jp04.lovehjq.xyz, port: 41521, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 3, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: "英国03{1x}", server: uk03.lovehjq.xyz, port: 30009, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "美国03{流媒体优化}{1x}", server: us03.lovehjq.xyz, port: 28109, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "澳大利亚02{1x}", server: au02.lovehjq.xyz, port: 41903, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "香港B{流媒体优化|GPT}{1x}", server: gonggao06.lovehjq.xyz, port: 30003, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇱🇺_LU_卢森堡, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
+  - {name: "澳大利亚01{1x}", server: au01.lovehjq.xyz, port: 41901, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 自学志 3, server: gonggao04.lovehjq.xyz, port: 29999, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "印度01{1x}", server: ind01.lovehjq.xyz, port: 41905, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: 加拿大, server: 23.227.60.184, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: 公众号：自学志, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 4, server: kontakt.az, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: 新加坡 2, server: ukjs.stablize.top, port: 443, type: trojan, password: 82a2d844-89b2-4ebd-aa18-0bd2feef9da2, skip-cert-verify: true, udp: true}
+  - {name: 自学志 4, server: gonggao01.lovehjq.xyz, port: 29993, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "印度02{1x}", server: ind02.lovehjq.xyz, port: 41907, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾, server: CHT.MIFJUN.ORG, port: 80, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_20, server: 139.99.245.165, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "新加坡04{流媒体优化|GPT}{1x}", server: sg04.lovehjq.xyz, port: 28115, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: "韩国03{流媒体优化|GPT}{1x}", server: kr03.lovehjq.xyz, port: 28105, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 4, server: 172.67.247.250, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: _US_美国 5, server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: 公众号：自学志 2, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
+  - {name: "荷兰01{1x}", server: nl01.lovehjq.xyz, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 5, server: 104.17.24.1, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: _US_美国 6, server: 107.148.5.78, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_176, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: "日本02{流媒体优化|GPT}1x", server: jp02.lovehjq.xyz, port: 27007, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: sh-dx.duaaoped.xyz, port: 43153, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116, udp: true}
+  - {name: _US_美国 8, server: beenverified.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: _US_美国 9, server: 192.74.249.152, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 120.226.50.68, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本, server: jp3.lianpi.xyz, port: 34234, type: ss, cipher: chacha20-ietf-poly1305, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, udp: true}
+  - {name: _SG_新加坡 3, server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 87283fe7-08e5-403b-a0aa-add7cd68a23e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3.twittei.me}}, udp: true}
+  - {name: _KR_韩国, server: ko1.lianpi.xyz, port: 51256, type: trojan, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, sni: ko1.lianpi.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 2, server: hnm.xiaohouzi.club, port: 19462, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: hk-tr03.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: 45.88.176.27, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: hn.xiaohouzi.club, port: 18725, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: aiyun05.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本, server: 162.159.152.153, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: csjp.iiio.wiki}}, udp: true}
+  - {name: _US_美国 11, server: 172.67.31.105, port: 443, type: vmess, uuid: 39304f36-8a9c-4692-9b31-d2997532f567, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}, udp: true}
+  - {name: _TW_台湾 2, server: scloudtw2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 3, server: hn.xiaohouzi.club, port: 19451, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: az-tr01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇻🇳_VN_越南, server: hn.xiaohouzi.club, port: 18823, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: tckr01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 12, server: digitalocean.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: _US_美国 13, server: 38.63.0.83, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _CN_中国->🇨🇦_CA_加拿大, server: hnm.xiaohouzi.club, port: 51051, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: canada02.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大->🇳🇱_NL_荷兰, server: mbt.ircf.space, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: _US_美国 14, server: 137.175.18.87, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _RO_罗马尼亚->🇺🇸_US_美国, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: siga04.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 2, server: 45.88.43.136, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: hnm.xiaohouzi.club, port: 18635, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: avas05.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _IR_伊朗, server: de63.thugiping.cloud, port: 443, type: vmess, uuid: c9a22360-3f66-48c8-89ab-13799b05a730, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 15, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 4, server: hnm.xiaohouzi.club, port: 19467, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: vultrau02.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 16, server: cheatsheet.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: _US_美国 17, server: 142.4.106.250, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大, server: v2-ca1.silverdragon.cn, port: 443, type: vmess, uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ca/v2wss, headers: {Host: v2-ca1.silverdragon.cn}}, udp: true}
+  - {name: _CN_中国->🇻🇳_VN_越南 2, server: vn02.lovehjq.xyz, port: 41927, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: hn.xiaohouzi.club, port: 18822, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: tcus01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: ca-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 8b0f471d-a520-4e1d-bcfc-d0a96bb97d69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡 2, server: gz-yd.crazyspeed.xyz, port: 45287, type: ss, cipher: chacha20-ietf-poly1305, password: adc570f1-d591-4a5a-93f0-0013bba3f116, udp: true}
+  - {name: _US_美国 18, server: fuck6.lianpi.xyz, port: 48057, type: trojan, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, sni: fuck6.lianpi.xyz, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国->🇺🇸_US_美国, server: 173.245.49.88, port: 80, type: vmess, uuid: c5c9844d-050e-44f1-cb6d-ec5166772631, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 5, server: hn.xiaohouzi.club, port: 19015, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: vutussite05.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 19, server: 104.233.129.82, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _IN_印度, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 20, server: 23.224.110.242, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: _US_美国 21, server: 104.22.22.237, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: _US_美国 22, server: honeygain.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: _US_美国 23, server: 45.12.112.114, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _ES_西班牙->🇳🇱_NL_荷兰, server: 185.18.250.80, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 更新于:05-22 9:00 -by 自学志
-      - 美国
-      - 公众号：自学志
-      - 美国 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - 新加坡
-      - _US_美国 2
-      - 新加坡 2
-      - 公众号：自学志 2
-      - 公众号：自学志 3
-      - Relay_-🇷🇺RU_06
-      - _US_美国->🇱🇺_LU_卢森堡
-      - 公众号：自学志 4
-      - 美国 3
-      - _US_美国 3
-      - 美国 4
-      - 哥斯达黎加
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 4
-      - _CR_哥斯达黎加->🇯🇵_JP_日本
-      - 美国 5
-      - 加拿大
-      - _US_美国 5
-      - _RO_罗马尼亚->🇺🇸_US_美国
-      - 美国 6
-      - 日本
-      - 美国 7
-      - _US_美国 6
-      - US-BuyVM4-HTTP
-      - 公众号：自学志 5
-      - Relay_🇺🇸US-🇺🇸US_176
-      - Relay_🇺🇸US-🇺🇸US_210
-      - Relay_🇦🇺AU-🇦🇺AU_20
-      - 公众号：自学志 6
-      - _CN_中国->🇭🇰_HK_香港
-      - 伊朗
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - 公众号：自学志 7
-      - 公众号：自学志 8
-      - _US_美国 7
-      - _JP_日本
+      - 更新于:05-22 14:30 -by 自学志
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国 8
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇨🇦_CA_加拿大
-      - _TW_台湾
-      - _RO_罗马尼亚->🇺🇸_US_美国 2
-      - _US_美国 11
+      - 韩国01{流媒体优化|GPT}{1x}
+      - 美国02{流媒体优化}{1x}
+      - 新加坡03{流媒体优化|GPT}{1x}
+      - 韩国04{流媒体优化|GPT}{1x}
+      - 新加坡02{流媒体优化|GPT}{1x}
+      - 泰国02{1x}
+      - 自学志
+      - 韩国02{流媒体优化|GPT}{1x}
+      - 法国02{1x}
+      - 日本01{流媒体优化|GPT}{1x}
+      - 香港A{流媒体优化|GPT}{1x}
+      - 香港03{流媒体优化|GPT}{1x}
+      - 荷兰02{1x}
+      - _SG_新加坡
+      - 日本
+      - 日本03{流媒体优化|GPT}{1x}
+      - 英国01{1x}
+      - 美国
+      - 美国01{流媒体优化}{1x}
+      - _US_美国
+      - _CN_中国->🇭🇰_HK_香港
+      - 美国 2
+      - 自学志 2
+      - 新加坡
+      - 美国 3
+      - 哥斯达黎加
+      - _SG_新加坡 2
+      - 加拿大01{1x}
+      - _US_美国->🇳🇱_NL_荷兰
+      - 巴西01{1x}
+      - 越南01{1x}
+      - _US_美国 2
+      - 新加坡01{流媒体优化|GPT}{1x}
+      - 英国04{1x}
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - 香港04{流媒体优化|GPT}{1x}
+      - 泰国01{1x}
+      - 香港01{流媒体优化|GPT}{1x}
+      - 香港02{流媒体优化|GPT}{1x}
+      - 美国04{流媒体优化}{1x}
+      - 英国02{1x}
+      - 加拿大02{1x}
+      - 日本04{流媒体优化}{GPT}{1x}
       - _US_美国->🇳🇱_NL_荷兰 3
-      - _JP_日本 2
+      - 英国03{1x}
+      - 美国03{流媒体优化}{1x}
+      - 澳大利亚02{1x}
+      - 香港B{流媒体优化|GPT}{1x}
+      - _US_美国->🇱🇺_LU_卢森堡
+      - 澳大利亚01{1x}
+      - _US_美国 4
+      - 自学志 3
+      - 印度01{1x}
+      - 加拿大
+      - 公众号：自学志
+      - _US_美国->🇳🇱_NL_荷兰 4
+      - 新加坡 2
+      - 自学志 4
+      - 印度02{1x}
+      - _TW_台湾
+      - Relay_🇦🇺AU-🇦🇺AU_20
+      - 新加坡04{流媒体优化|GPT}{1x}
+      - 韩国03{流媒体优化|GPT}{1x}
+      - 美国 4
+      - _US_美国 5
+      - 公众号：自学志 2
+      - 荷兰01{1x}
+      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 6
+      - Relay_🇺🇸US-🇺🇸US_176
+      - _US_美国 7
+      - 日本02{流媒体优化|GPT}1x
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本
+      - _SG_新加坡 3
+      - _KR_韩国
       - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国 10
+      - _CN_中国->🇺🇸_US_美国 2
+      - _RU_俄罗斯联邦
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 11
+      - _TW_台湾 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
       - _US_美国 12
       - _US_美国 13
-      - _US_美国->🇱🇺_LU_卢森堡 3
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CA_加拿大->🇳🇱_NL_荷兰
       - _US_美国 14
-      - _TW_台湾 2
-      - _HK_香港
-      - _SG_新加坡
-      - _US_美国->🇳🇱_NL_荷兰 4
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _IR_伊朗
       - _US_美国 15
-      - _TW_台湾 3
+      - _CN_中国->🇺🇸_US_美国 4
       - _US_美国 16
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _TW_台湾 4
       - _US_美国 17
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇻🇳_VN_越南 2
+      - _CN_中国
+      - _CA_加拿大
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - _US_美国 18
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - _FR_法国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 19
+      - _IN_印度
       - _US_美国 20
-      - _US_美国->🇳🇱_NL_荷兰 6
       - _US_美国 21
-      - _JP_日本 3
-      - _SG_新加坡 2
       - _US_美国 22
-      - _CA_加拿大->🇺🇸_US_美国
-      - 新加坡01{流媒体优化|GPT}{1x}
-      - 美国03{流媒体优化}{1x}
-      - 美国04{流媒体优化}{1x}
-      - 自学志
-      - 越南02{1x}
-      - 自学志 2
-      - 荷兰02{1x}
-      - 日本03{流媒体优化|GPT}{1x}
-      - 印度01{1x}
-      - 自学志 3
-      - 日本01{流媒体优化|GPT}{1x}
-      - 新加坡02{流媒体优化|GPT}{1x}
-      - 印度02{1x}
-      - 新加坡03{流媒体优化|GPT}{1x}
-      - 美国01{流媒体优化}{1x}
-      - 香港A{流媒体优化|GPT}{1x}
-      - 泰国01{1x}
-      - 自学志 4
-      - 自学志 5
-      - 韩国01{流媒体优化|GPT}{1x}
-      - 香港03{流媒体优化|GPT}{1x}
-      - 澳大利亚01{1x}
-      - 日本04{流媒体优化}{GPT}{1x}
-      - 泰国02{1x}
-      - 加拿大02{1x}
-      - 加拿大01{1x}
-      - 香港B{流媒体优化|GPT}{1x}
-      - 澳大利亚02{1x}
-      - 香港04{流媒体优化|GPT}{1x}
-      - 英国02{1x}
-      - 英国01{1x}
-      - 香港02{流媒体优化|GPT}{1x}
-      - 英国04{1x}
-      - 韩国04{流媒体优化|GPT}{1x}
-      - 日本02{流媒体优化|GPT}1x
-      - 英国03{1x}
-      - 自学志 6
-      - 荷兰01{1x}
-      - 自学志 7
-      - 法国02{1x}
-      - 新加坡04{流媒体优化|GPT}{1x}
-      - 韩国02{流媒体优化|GPT}{1x}
-      - 越南01{1x}
-      - 香港01{流媒体优化|GPT}{1x}
-      - 巴西01{1x}
-      - 韩国03{流媒体优化|GPT}{1x}
-      - 美国02{流媒体优化}{1x}
-      - 巴西02{1x}
-      - 法国01{1x}
+      - _US_美国 23
+      - _ES_西班牙->🇳🇱_NL_荷兰
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:05-22 9:00 -by 自学志
-      - 美国
-      - 公众号：自学志
-      - 美国 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - 新加坡
-      - _US_美国 2
-      - 新加坡 2
-      - 公众号：自学志 2
-      - 公众号：自学志 3
-      - Relay_-🇷🇺RU_06
-      - _US_美国->🇱🇺_LU_卢森堡
-      - 公众号：自学志 4
-      - 美国 3
-      - _US_美国 3
-      - 美国 4
-      - 哥斯达黎加
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 4
-      - _CR_哥斯达黎加->🇯🇵_JP_日本
-      - 美国 5
-      - 加拿大
-      - _US_美国 5
-      - _RO_罗马尼亚->🇺🇸_US_美国
-      - 美国 6
-      - 日本
-      - 美国 7
-      - _US_美国 6
-      - US-BuyVM4-HTTP
-      - 公众号：自学志 5
-      - Relay_🇺🇸US-🇺🇸US_176
-      - Relay_🇺🇸US-🇺🇸US_210
-      - Relay_🇦🇺AU-🇦🇺AU_20
-      - 公众号：自学志 6
-      - _CN_中国->🇭🇰_HK_香港
-      - 伊朗
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - 公众号：自学志 7
-      - 公众号：自学志 8
-      - _US_美国 7
-      - _JP_日本
+      - 更新于:05-22 14:30 -by 自学志
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国 8
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇨🇦_CA_加拿大
-      - _TW_台湾
-      - _RO_罗马尼亚->🇺🇸_US_美国 2
-      - _US_美国 11
+      - 韩国01{流媒体优化|GPT}{1x}
+      - 美国02{流媒体优化}{1x}
+      - 新加坡03{流媒体优化|GPT}{1x}
+      - 韩国04{流媒体优化|GPT}{1x}
+      - 新加坡02{流媒体优化|GPT}{1x}
+      - 泰国02{1x}
+      - 自学志
+      - 韩国02{流媒体优化|GPT}{1x}
+      - 法国02{1x}
+      - 日本01{流媒体优化|GPT}{1x}
+      - 香港A{流媒体优化|GPT}{1x}
+      - 香港03{流媒体优化|GPT}{1x}
+      - 荷兰02{1x}
+      - _SG_新加坡
+      - 日本
+      - 日本03{流媒体优化|GPT}{1x}
+      - 英国01{1x}
+      - 美国
+      - 美国01{流媒体优化}{1x}
+      - _US_美国
+      - _CN_中国->🇭🇰_HK_香港
+      - 美国 2
+      - 自学志 2
+      - 新加坡
+      - 美国 3
+      - 哥斯达黎加
+      - _SG_新加坡 2
+      - 加拿大01{1x}
+      - _US_美国->🇳🇱_NL_荷兰
+      - 巴西01{1x}
+      - 越南01{1x}
+      - _US_美国 2
+      - 新加坡01{流媒体优化|GPT}{1x}
+      - 英国04{1x}
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - 香港04{流媒体优化|GPT}{1x}
+      - 泰国01{1x}
+      - 香港01{流媒体优化|GPT}{1x}
+      - 香港02{流媒体优化|GPT}{1x}
+      - 美国04{流媒体优化}{1x}
+      - 英国02{1x}
+      - 加拿大02{1x}
+      - 日本04{流媒体优化}{GPT}{1x}
       - _US_美国->🇳🇱_NL_荷兰 3
-      - _JP_日本 2
+      - 英国03{1x}
+      - 美国03{流媒体优化}{1x}
+      - 澳大利亚02{1x}
+      - 香港B{流媒体优化|GPT}{1x}
+      - _US_美国->🇱🇺_LU_卢森堡
+      - 澳大利亚01{1x}
+      - _US_美国 4
+      - 自学志 3
+      - 印度01{1x}
+      - 加拿大
+      - 公众号：自学志
+      - _US_美国->🇳🇱_NL_荷兰 4
+      - 新加坡 2
+      - 自学志 4
+      - 印度02{1x}
+      - _TW_台湾
+      - Relay_🇦🇺AU-🇦🇺AU_20
+      - 新加坡04{流媒体优化|GPT}{1x}
+      - 韩国03{流媒体优化|GPT}{1x}
+      - 美国 4
+      - _US_美国 5
+      - 公众号：自学志 2
+      - 荷兰01{1x}
+      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 6
+      - Relay_🇺🇸US-🇺🇸US_176
+      - _US_美国 7
+      - 日本02{流媒体优化|GPT}1x
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本
+      - _SG_新加坡 3
+      - _KR_韩国
       - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国 10
+      - _CN_中国->🇺🇸_US_美国 2
+      - _RU_俄罗斯联邦
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 11
+      - _TW_台湾 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
       - _US_美国 12
       - _US_美国 13
-      - _US_美国->🇱🇺_LU_卢森堡 3
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CA_加拿大->🇳🇱_NL_荷兰
       - _US_美国 14
-      - _TW_台湾 2
-      - _HK_香港
-      - _SG_新加坡
-      - _US_美国->🇳🇱_NL_荷兰 4
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _IR_伊朗
       - _US_美国 15
-      - _TW_台湾 3
+      - _CN_中国->🇺🇸_US_美国 4
       - _US_美国 16
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _TW_台湾 4
       - _US_美国 17
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇻🇳_VN_越南 2
+      - _CN_中国
+      - _CA_加拿大
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - _US_美国 18
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - _FR_法国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 19
+      - _IN_印度
       - _US_美国 20
-      - _US_美国->🇳🇱_NL_荷兰 6
       - _US_美国 21
-      - _JP_日本 3
-      - _SG_新加坡 2
       - _US_美国 22
-      - _CA_加拿大->🇺🇸_US_美国
-      - 新加坡01{流媒体优化|GPT}{1x}
-      - 美国03{流媒体优化}{1x}
-      - 美国04{流媒体优化}{1x}
-      - 自学志
-      - 越南02{1x}
-      - 自学志 2
-      - 荷兰02{1x}
-      - 日本03{流媒体优化|GPT}{1x}
-      - 印度01{1x}
-      - 自学志 3
-      - 日本01{流媒体优化|GPT}{1x}
-      - 新加坡02{流媒体优化|GPT}{1x}
-      - 印度02{1x}
-      - 新加坡03{流媒体优化|GPT}{1x}
-      - 美国01{流媒体优化}{1x}
-      - 香港A{流媒体优化|GPT}{1x}
-      - 泰国01{1x}
-      - 自学志 4
-      - 自学志 5
-      - 韩国01{流媒体优化|GPT}{1x}
-      - 香港03{流媒体优化|GPT}{1x}
-      - 澳大利亚01{1x}
-      - 日本04{流媒体优化}{GPT}{1x}
-      - 泰国02{1x}
-      - 加拿大02{1x}
-      - 加拿大01{1x}
-      - 香港B{流媒体优化|GPT}{1x}
-      - 澳大利亚02{1x}
-      - 香港04{流媒体优化|GPT}{1x}
-      - 英国02{1x}
-      - 英国01{1x}
-      - 香港02{流媒体优化|GPT}{1x}
-      - 英国04{1x}
-      - 韩国04{流媒体优化|GPT}{1x}
-      - 日本02{流媒体优化|GPT}1x
-      - 英国03{1x}
-      - 自学志 6
-      - 荷兰01{1x}
-      - 自学志 7
-      - 法国02{1x}
-      - 新加坡04{流媒体优化|GPT}{1x}
-      - 韩国02{流媒体优化|GPT}{1x}
-      - 越南01{1x}
-      - 香港01{流媒体优化|GPT}{1x}
-      - 巴西01{1x}
-      - 韩国03{流媒体优化|GPT}{1x}
-      - 美国02{流媒体优化}{1x}
-      - 巴西02{1x}
-      - 法国01{1x}
+      - _US_美国 23
+      - _ES_西班牙->🇳🇱_NL_荷兰
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于:05-22 9:00 -by 自学志
-      - 美国
-      - 公众号：自学志
-      - 美国 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - 新加坡
-      - _US_美国 2
-      - 新加坡 2
-      - 公众号：自学志 2
-      - 公众号：自学志 3
-      - Relay_-🇷🇺RU_06
-      - _US_美国->🇱🇺_LU_卢森堡
-      - 公众号：自学志 4
-      - 美国 3
-      - _US_美国 3
-      - 美国 4
-      - 哥斯达黎加
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 4
-      - _CR_哥斯达黎加->🇯🇵_JP_日本
-      - 美国 5
-      - 加拿大
-      - _US_美国 5
-      - _RO_罗马尼亚->🇺🇸_US_美国
-      - 美国 6
-      - 日本
-      - 美国 7
-      - _US_美国 6
-      - US-BuyVM4-HTTP
-      - 公众号：自学志 5
-      - Relay_🇺🇸US-🇺🇸US_176
-      - Relay_🇺🇸US-🇺🇸US_210
-      - Relay_🇦🇺AU-🇦🇺AU_20
-      - 公众号：自学志 6
-      - _CN_中国->🇭🇰_HK_香港
-      - 伊朗
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - 公众号：自学志 7
-      - 公众号：自学志 8
-      - _US_美国 7
-      - _JP_日本
+      - 更新于:05-22 14:30 -by 自学志
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国 8
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇨🇦_CA_加拿大
-      - _TW_台湾
-      - _RO_罗马尼亚->🇺🇸_US_美国 2
-      - _US_美国 11
+      - 韩国01{流媒体优化|GPT}{1x}
+      - 美国02{流媒体优化}{1x}
+      - 新加坡03{流媒体优化|GPT}{1x}
+      - 韩国04{流媒体优化|GPT}{1x}
+      - 新加坡02{流媒体优化|GPT}{1x}
+      - 泰国02{1x}
+      - 自学志
+      - 韩国02{流媒体优化|GPT}{1x}
+      - 法国02{1x}
+      - 日本01{流媒体优化|GPT}{1x}
+      - 香港A{流媒体优化|GPT}{1x}
+      - 香港03{流媒体优化|GPT}{1x}
+      - 荷兰02{1x}
+      - _SG_新加坡
+      - 日本
+      - 日本03{流媒体优化|GPT}{1x}
+      - 英国01{1x}
+      - 美国
+      - 美国01{流媒体优化}{1x}
+      - _US_美国
+      - _CN_中国->🇭🇰_HK_香港
+      - 美国 2
+      - 自学志 2
+      - 新加坡
+      - 美国 3
+      - 哥斯达黎加
+      - _SG_新加坡 2
+      - 加拿大01{1x}
+      - _US_美国->🇳🇱_NL_荷兰
+      - 巴西01{1x}
+      - 越南01{1x}
+      - _US_美国 2
+      - 新加坡01{流媒体优化|GPT}{1x}
+      - 英国04{1x}
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - 香港04{流媒体优化|GPT}{1x}
+      - 泰国01{1x}
+      - 香港01{流媒体优化|GPT}{1x}
+      - 香港02{流媒体优化|GPT}{1x}
+      - 美国04{流媒体优化}{1x}
+      - 英国02{1x}
+      - 加拿大02{1x}
+      - 日本04{流媒体优化}{GPT}{1x}
       - _US_美国->🇳🇱_NL_荷兰 3
-      - _JP_日本 2
+      - 英国03{1x}
+      - 美国03{流媒体优化}{1x}
+      - 澳大利亚02{1x}
+      - 香港B{流媒体优化|GPT}{1x}
+      - _US_美国->🇱🇺_LU_卢森堡
+      - 澳大利亚01{1x}
+      - _US_美国 4
+      - 自学志 3
+      - 印度01{1x}
+      - 加拿大
+      - 公众号：自学志
+      - _US_美国->🇳🇱_NL_荷兰 4
+      - 新加坡 2
+      - 自学志 4
+      - 印度02{1x}
+      - _TW_台湾
+      - Relay_🇦🇺AU-🇦🇺AU_20
+      - 新加坡04{流媒体优化|GPT}{1x}
+      - 韩国03{流媒体优化|GPT}{1x}
+      - 美国 4
+      - _US_美国 5
+      - 公众号：自学志 2
+      - 荷兰01{1x}
+      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 6
+      - Relay_🇺🇸US-🇺🇸US_176
+      - _US_美国 7
+      - 日本02{流媒体优化|GPT}1x
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本
+      - _SG_新加坡 3
+      - _KR_韩国
       - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国 10
+      - _CN_中国->🇺🇸_US_美国 2
+      - _RU_俄罗斯联邦
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 11
+      - _TW_台湾 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
       - _US_美国 12
       - _US_美国 13
-      - _US_美国->🇱🇺_LU_卢森堡 3
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CA_加拿大->🇳🇱_NL_荷兰
       - _US_美国 14
-      - _TW_台湾 2
-      - _HK_香港
-      - _SG_新加坡
-      - _US_美国->🇳🇱_NL_荷兰 4
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _IR_伊朗
       - _US_美国 15
-      - _TW_台湾 3
+      - _CN_中国->🇺🇸_US_美国 4
       - _US_美国 16
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _TW_台湾 4
       - _US_美国 17
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇻🇳_VN_越南 2
+      - _CN_中国
+      - _CA_加拿大
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - _US_美国 18
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - _FR_法国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 19
+      - _IN_印度
       - _US_美国 20
-      - _US_美国->🇳🇱_NL_荷兰 6
       - _US_美国 21
-      - _JP_日本 3
-      - _SG_新加坡 2
       - _US_美国 22
-      - _CA_加拿大->🇺🇸_US_美国
-      - 新加坡01{流媒体优化|GPT}{1x}
-      - 美国03{流媒体优化}{1x}
-      - 美国04{流媒体优化}{1x}
-      - 自学志
-      - 越南02{1x}
-      - 自学志 2
-      - 荷兰02{1x}
-      - 日本03{流媒体优化|GPT}{1x}
-      - 印度01{1x}
-      - 自学志 3
-      - 日本01{流媒体优化|GPT}{1x}
-      - 新加坡02{流媒体优化|GPT}{1x}
-      - 印度02{1x}
-      - 新加坡03{流媒体优化|GPT}{1x}
-      - 美国01{流媒体优化}{1x}
-      - 香港A{流媒体优化|GPT}{1x}
-      - 泰国01{1x}
-      - 自学志 4
-      - 自学志 5
-      - 韩国01{流媒体优化|GPT}{1x}
-      - 香港03{流媒体优化|GPT}{1x}
-      - 澳大利亚01{1x}
-      - 日本04{流媒体优化}{GPT}{1x}
-      - 泰国02{1x}
-      - 加拿大02{1x}
-      - 加拿大01{1x}
-      - 香港B{流媒体优化|GPT}{1x}
-      - 澳大利亚02{1x}
-      - 香港04{流媒体优化|GPT}{1x}
-      - 英国02{1x}
-      - 英国01{1x}
-      - 香港02{流媒体优化|GPT}{1x}
-      - 英国04{1x}
-      - 韩国04{流媒体优化|GPT}{1x}
-      - 日本02{流媒体优化|GPT}1x
-      - 英国03{1x}
-      - 自学志 6
-      - 荷兰01{1x}
-      - 自学志 7
-      - 法国02{1x}
-      - 新加坡04{流媒体优化|GPT}{1x}
-      - 韩国02{流媒体优化|GPT}{1x}
-      - 越南01{1x}
-      - 香港01{流媒体优化|GPT}{1x}
-      - 巴西01{1x}
-      - 韩国03{流媒体优化|GPT}{1x}
-      - 美国02{流媒体优化}{1x}
-      - 巴西02{1x}
-      - 法国01{1x}
+      - _US_美国 23
+      - _ES_西班牙->🇳🇱_NL_荷兰
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新于:05-22 9:00 -by 自学志
-      - 美国
-      - 公众号：自学志
-      - 美国 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - 新加坡
-      - _US_美国 2
-      - 新加坡 2
-      - 公众号：自学志 2
-      - 公众号：自学志 3
-      - Relay_-🇷🇺RU_06
-      - _US_美国->🇱🇺_LU_卢森堡
-      - 公众号：自学志 4
-      - 美国 3
-      - _US_美国 3
-      - 美国 4
-      - 哥斯达黎加
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 4
-      - _CR_哥斯达黎加->🇯🇵_JP_日本
-      - 美国 5
-      - 加拿大
-      - _US_美国 5
-      - _RO_罗马尼亚->🇺🇸_US_美国
-      - 美国 6
-      - 日本
-      - 美国 7
-      - _US_美国 6
-      - US-BuyVM4-HTTP
-      - 公众号：自学志 5
-      - Relay_🇺🇸US-🇺🇸US_176
-      - Relay_🇺🇸US-🇺🇸US_210
-      - Relay_🇦🇺AU-🇦🇺AU_20
-      - 公众号：自学志 6
-      - _CN_中国->🇭🇰_HK_香港
-      - 伊朗
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - 公众号：自学志 7
-      - 公众号：自学志 8
-      - _US_美国 7
-      - _JP_日本
+      - 更新于:05-22 14:30 -by 自学志
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国 8
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇨🇦_CA_加拿大
-      - _TW_台湾
-      - _RO_罗马尼亚->🇺🇸_US_美国 2
-      - _US_美国 11
+      - 韩国01{流媒体优化|GPT}{1x}
+      - 美国02{流媒体优化}{1x}
+      - 新加坡03{流媒体优化|GPT}{1x}
+      - 韩国04{流媒体优化|GPT}{1x}
+      - 新加坡02{流媒体优化|GPT}{1x}
+      - 泰国02{1x}
+      - 自学志
+      - 韩国02{流媒体优化|GPT}{1x}
+      - 法国02{1x}
+      - 日本01{流媒体优化|GPT}{1x}
+      - 香港A{流媒体优化|GPT}{1x}
+      - 香港03{流媒体优化|GPT}{1x}
+      - 荷兰02{1x}
+      - _SG_新加坡
+      - 日本
+      - 日本03{流媒体优化|GPT}{1x}
+      - 英国01{1x}
+      - 美国
+      - 美国01{流媒体优化}{1x}
+      - _US_美国
+      - _CN_中国->🇭🇰_HK_香港
+      - 美国 2
+      - 自学志 2
+      - 新加坡
+      - 美国 3
+      - 哥斯达黎加
+      - _SG_新加坡 2
+      - 加拿大01{1x}
+      - _US_美国->🇳🇱_NL_荷兰
+      - 巴西01{1x}
+      - 越南01{1x}
+      - _US_美国 2
+      - 新加坡01{流媒体优化|GPT}{1x}
+      - 英国04{1x}
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - 香港04{流媒体优化|GPT}{1x}
+      - 泰国01{1x}
+      - 香港01{流媒体优化|GPT}{1x}
+      - 香港02{流媒体优化|GPT}{1x}
+      - 美国04{流媒体优化}{1x}
+      - 英国02{1x}
+      - 加拿大02{1x}
+      - 日本04{流媒体优化}{GPT}{1x}
       - _US_美国->🇳🇱_NL_荷兰 3
-      - _JP_日本 2
+      - 英国03{1x}
+      - 美国03{流媒体优化}{1x}
+      - 澳大利亚02{1x}
+      - 香港B{流媒体优化|GPT}{1x}
+      - _US_美国->🇱🇺_LU_卢森堡
+      - 澳大利亚01{1x}
+      - _US_美国 4
+      - 自学志 3
+      - 印度01{1x}
+      - 加拿大
+      - 公众号：自学志
+      - _US_美国->🇳🇱_NL_荷兰 4
+      - 新加坡 2
+      - 自学志 4
+      - 印度02{1x}
+      - _TW_台湾
+      - Relay_🇦🇺AU-🇦🇺AU_20
+      - 新加坡04{流媒体优化|GPT}{1x}
+      - 韩国03{流媒体优化|GPT}{1x}
+      - 美国 4
+      - _US_美国 5
+      - 公众号：自学志 2
+      - 荷兰01{1x}
+      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 6
+      - Relay_🇺🇸US-🇺🇸US_176
+      - _US_美国 7
+      - 日本02{流媒体优化|GPT}1x
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本
+      - _SG_新加坡 3
+      - _KR_韩国
       - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国 10
+      - _CN_中国->🇺🇸_US_美国 2
+      - _RU_俄罗斯联邦
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 11
+      - _TW_台湾 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
       - _US_美国 12
       - _US_美国 13
-      - _US_美国->🇱🇺_LU_卢森堡 3
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CA_加拿大->🇳🇱_NL_荷兰
       - _US_美国 14
-      - _TW_台湾 2
-      - _HK_香港
-      - _SG_新加坡
-      - _US_美国->🇳🇱_NL_荷兰 4
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _IR_伊朗
       - _US_美国 15
-      - _TW_台湾 3
+      - _CN_中国->🇺🇸_US_美国 4
       - _US_美国 16
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _TW_台湾 4
       - _US_美国 17
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇻🇳_VN_越南 2
+      - _CN_中国
+      - _CA_加拿大
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - _US_美国 18
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - _FR_法国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 19
+      - _IN_印度
       - _US_美国 20
-      - _US_美国->🇳🇱_NL_荷兰 6
       - _US_美国 21
-      - _JP_日本 3
-      - _SG_新加坡 2
       - _US_美国 22
-      - _CA_加拿大->🇺🇸_US_美国
-      - 新加坡01{流媒体优化|GPT}{1x}
-      - 美国03{流媒体优化}{1x}
-      - 美国04{流媒体优化}{1x}
-      - 自学志
-      - 越南02{1x}
-      - 自学志 2
-      - 荷兰02{1x}
-      - 日本03{流媒体优化|GPT}{1x}
-      - 印度01{1x}
-      - 自学志 3
-      - 日本01{流媒体优化|GPT}{1x}
-      - 新加坡02{流媒体优化|GPT}{1x}
-      - 印度02{1x}
-      - 新加坡03{流媒体优化|GPT}{1x}
-      - 美国01{流媒体优化}{1x}
-      - 香港A{流媒体优化|GPT}{1x}
-      - 泰国01{1x}
-      - 自学志 4
-      - 自学志 5
-      - 韩国01{流媒体优化|GPT}{1x}
-      - 香港03{流媒体优化|GPT}{1x}
-      - 澳大利亚01{1x}
-      - 日本04{流媒体优化}{GPT}{1x}
-      - 泰国02{1x}
-      - 加拿大02{1x}
-      - 加拿大01{1x}
-      - 香港B{流媒体优化|GPT}{1x}
-      - 澳大利亚02{1x}
-      - 香港04{流媒体优化|GPT}{1x}
-      - 英国02{1x}
-      - 英国01{1x}
-      - 香港02{流媒体优化|GPT}{1x}
-      - 英国04{1x}
-      - 韩国04{流媒体优化|GPT}{1x}
-      - 日本02{流媒体优化|GPT}1x
-      - 英国03{1x}
-      - 自学志 6
-      - 荷兰01{1x}
-      - 自学志 7
-      - 法国02{1x}
-      - 新加坡04{流媒体优化|GPT}{1x}
-      - 韩国02{流媒体优化|GPT}{1x}
-      - 越南01{1x}
-      - 香港01{流媒体优化|GPT}{1x}
-      - 巴西01{1x}
-      - 韩国03{流媒体优化|GPT}{1x}
-      - 美国02{流媒体优化}{1x}
-      - 巴西02{1x}
-      - 法国01{1x}
+      - _US_美国 23
+      - _ES_西班牙->🇳🇱_NL_荷兰
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 更新于:05-22 9:00 -by 自学志
-      - 美国
-      - 公众号：自学志
-      - 美国 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - 新加坡
-      - _US_美国 2
-      - 新加坡 2
-      - 公众号：自学志 2
-      - 公众号：自学志 3
-      - Relay_-🇷🇺RU_06
-      - _US_美国->🇱🇺_LU_卢森堡
-      - 公众号：自学志 4
-      - 美国 3
-      - _US_美国 3
-      - 美国 4
-      - 哥斯达黎加
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 4
-      - _CR_哥斯达黎加->🇯🇵_JP_日本
-      - 美国 5
-      - 加拿大
-      - _US_美国 5
-      - _RO_罗马尼亚->🇺🇸_US_美国
-      - 美国 6
-      - 日本
-      - 美国 7
-      - _US_美国 6
-      - US-BuyVM4-HTTP
-      - 公众号：自学志 5
-      - Relay_🇺🇸US-🇺🇸US_176
-      - Relay_🇺🇸US-🇺🇸US_210
-      - Relay_🇦🇺AU-🇦🇺AU_20
-      - 公众号：自学志 6
-      - _CN_中国->🇭🇰_HK_香港
-      - 伊朗
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - 公众号：自学志 7
-      - 公众号：自学志 8
-      - _US_美国 7
-      - _JP_日本
+      - 更新于:05-22 14:30 -by 自学志
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国 8
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇨🇦_CA_加拿大
-      - _TW_台湾
-      - _RO_罗马尼亚->🇺🇸_US_美国 2
-      - _US_美国 11
+      - 韩国01{流媒体优化|GPT}{1x}
+      - 美国02{流媒体优化}{1x}
+      - 新加坡03{流媒体优化|GPT}{1x}
+      - 韩国04{流媒体优化|GPT}{1x}
+      - 新加坡02{流媒体优化|GPT}{1x}
+      - 泰国02{1x}
+      - 自学志
+      - 韩国02{流媒体优化|GPT}{1x}
+      - 法国02{1x}
+      - 日本01{流媒体优化|GPT}{1x}
+      - 香港A{流媒体优化|GPT}{1x}
+      - 香港03{流媒体优化|GPT}{1x}
+      - 荷兰02{1x}
+      - _SG_新加坡
+      - 日本
+      - 日本03{流媒体优化|GPT}{1x}
+      - 英国01{1x}
+      - 美国
+      - 美国01{流媒体优化}{1x}
+      - _US_美国
+      - _CN_中国->🇭🇰_HK_香港
+      - 美国 2
+      - 自学志 2
+      - 新加坡
+      - 美国 3
+      - 哥斯达黎加
+      - _SG_新加坡 2
+      - 加拿大01{1x}
+      - _US_美国->🇳🇱_NL_荷兰
+      - 巴西01{1x}
+      - 越南01{1x}
+      - _US_美国 2
+      - 新加坡01{流媒体优化|GPT}{1x}
+      - 英国04{1x}
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - 香港04{流媒体优化|GPT}{1x}
+      - 泰国01{1x}
+      - 香港01{流媒体优化|GPT}{1x}
+      - 香港02{流媒体优化|GPT}{1x}
+      - 美国04{流媒体优化}{1x}
+      - 英国02{1x}
+      - 加拿大02{1x}
+      - 日本04{流媒体优化}{GPT}{1x}
       - _US_美国->🇳🇱_NL_荷兰 3
-      - _JP_日本 2
+      - 英国03{1x}
+      - 美国03{流媒体优化}{1x}
+      - 澳大利亚02{1x}
+      - 香港B{流媒体优化|GPT}{1x}
+      - _US_美国->🇱🇺_LU_卢森堡
+      - 澳大利亚01{1x}
+      - _US_美国 4
+      - 自学志 3
+      - 印度01{1x}
+      - 加拿大
+      - 公众号：自学志
+      - _US_美国->🇳🇱_NL_荷兰 4
+      - 新加坡 2
+      - 自学志 4
+      - 印度02{1x}
+      - _TW_台湾
+      - Relay_🇦🇺AU-🇦🇺AU_20
+      - 新加坡04{流媒体优化|GPT}{1x}
+      - 韩国03{流媒体优化|GPT}{1x}
+      - 美国 4
+      - _US_美国 5
+      - 公众号：自学志 2
+      - 荷兰01{1x}
+      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 6
+      - Relay_🇺🇸US-🇺🇸US_176
+      - _US_美国 7
+      - 日本02{流媒体优化|GPT}1x
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本
+      - _SG_新加坡 3
+      - _KR_韩国
       - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国 10
+      - _CN_中国->🇺🇸_US_美国 2
+      - _RU_俄罗斯联邦
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 11
+      - _TW_台湾 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
       - _US_美国 12
       - _US_美国 13
-      - _US_美国->🇱🇺_LU_卢森堡 3
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CA_加拿大->🇳🇱_NL_荷兰
       - _US_美国 14
-      - _TW_台湾 2
-      - _HK_香港
-      - _SG_新加坡
-      - _US_美国->🇳🇱_NL_荷兰 4
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _IR_伊朗
       - _US_美国 15
-      - _TW_台湾 3
+      - _CN_中国->🇺🇸_US_美国 4
       - _US_美国 16
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _TW_台湾 4
       - _US_美国 17
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇻🇳_VN_越南 2
+      - _CN_中国
+      - _CA_加拿大
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - _US_美国 18
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - _FR_法国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 19
+      - _IN_印度
       - _US_美国 20
-      - _US_美国->🇳🇱_NL_荷兰 6
       - _US_美国 21
-      - _JP_日本 3
-      - _SG_新加坡 2
       - _US_美国 22
-      - _CA_加拿大->🇺🇸_US_美国
-      - 新加坡01{流媒体优化|GPT}{1x}
-      - 美国03{流媒体优化}{1x}
-      - 美国04{流媒体优化}{1x}
-      - 自学志
-      - 越南02{1x}
-      - 自学志 2
-      - 荷兰02{1x}
-      - 日本03{流媒体优化|GPT}{1x}
-      - 印度01{1x}
-      - 自学志 3
-      - 日本01{流媒体优化|GPT}{1x}
-      - 新加坡02{流媒体优化|GPT}{1x}
-      - 印度02{1x}
-      - 新加坡03{流媒体优化|GPT}{1x}
-      - 美国01{流媒体优化}{1x}
-      - 香港A{流媒体优化|GPT}{1x}
-      - 泰国01{1x}
-      - 自学志 4
-      - 自学志 5
-      - 韩国01{流媒体优化|GPT}{1x}
-      - 香港03{流媒体优化|GPT}{1x}
-      - 澳大利亚01{1x}
-      - 日本04{流媒体优化}{GPT}{1x}
-      - 泰国02{1x}
-      - 加拿大02{1x}
-      - 加拿大01{1x}
-      - 香港B{流媒体优化|GPT}{1x}
-      - 澳大利亚02{1x}
-      - 香港04{流媒体优化|GPT}{1x}
-      - 英国02{1x}
-      - 英国01{1x}
-      - 香港02{流媒体优化|GPT}{1x}
-      - 英国04{1x}
-      - 韩国04{流媒体优化|GPT}{1x}
-      - 日本02{流媒体优化|GPT}1x
-      - 英国03{1x}
-      - 自学志 6
-      - 荷兰01{1x}
-      - 自学志 7
-      - 法国02{1x}
-      - 新加坡04{流媒体优化|GPT}{1x}
-      - 韩国02{流媒体优化|GPT}{1x}
-      - 越南01{1x}
-      - 香港01{流媒体优化|GPT}{1x}
-      - 巴西01{1x}
-      - 韩国03{流媒体优化|GPT}{1x}
-      - 美国02{流媒体优化}{1x}
-      - 巴西02{1x}
-      - 法国01{1x}
+      - _US_美国 23
+      - _ES_西班牙->🇳🇱_NL_荷兰
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新于:05-22 9:00 -by 自学志
-      - 美国
-      - 公众号：自学志
-      - 美国 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - 新加坡
-      - _US_美国 2
-      - 新加坡 2
-      - 公众号：自学志 2
-      - 公众号：自学志 3
-      - Relay_-🇷🇺RU_06
-      - _US_美国->🇱🇺_LU_卢森堡
-      - 公众号：自学志 4
-      - 美国 3
-      - _US_美国 3
-      - 美国 4
-      - 哥斯达黎加
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 4
-      - _CR_哥斯达黎加->🇯🇵_JP_日本
-      - 美国 5
-      - 加拿大
-      - _US_美国 5
-      - _RO_罗马尼亚->🇺🇸_US_美国
-      - 美国 6
-      - 日本
-      - 美国 7
-      - _US_美国 6
-      - US-BuyVM4-HTTP
-      - 公众号：自学志 5
-      - Relay_🇺🇸US-🇺🇸US_176
-      - Relay_🇺🇸US-🇺🇸US_210
-      - Relay_🇦🇺AU-🇦🇺AU_20
-      - 公众号：自学志 6
-      - _CN_中国->🇭🇰_HK_香港
-      - 伊朗
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - 公众号：自学志 7
-      - 公众号：自学志 8
-      - _US_美国 7
-      - _JP_日本
+      - 更新于:05-22 14:30 -by 自学志
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国 8
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇨🇦_CA_加拿大
-      - _TW_台湾
-      - _RO_罗马尼亚->🇺🇸_US_美国 2
-      - _US_美国 11
+      - 韩国01{流媒体优化|GPT}{1x}
+      - 美国02{流媒体优化}{1x}
+      - 新加坡03{流媒体优化|GPT}{1x}
+      - 韩国04{流媒体优化|GPT}{1x}
+      - 新加坡02{流媒体优化|GPT}{1x}
+      - 泰国02{1x}
+      - 自学志
+      - 韩国02{流媒体优化|GPT}{1x}
+      - 法国02{1x}
+      - 日本01{流媒体优化|GPT}{1x}
+      - 香港A{流媒体优化|GPT}{1x}
+      - 香港03{流媒体优化|GPT}{1x}
+      - 荷兰02{1x}
+      - _SG_新加坡
+      - 日本
+      - 日本03{流媒体优化|GPT}{1x}
+      - 英国01{1x}
+      - 美国
+      - 美国01{流媒体优化}{1x}
+      - _US_美国
+      - _CN_中国->🇭🇰_HK_香港
+      - 美国 2
+      - 自学志 2
+      - 新加坡
+      - 美国 3
+      - 哥斯达黎加
+      - _SG_新加坡 2
+      - 加拿大01{1x}
+      - _US_美国->🇳🇱_NL_荷兰
+      - 巴西01{1x}
+      - 越南01{1x}
+      - _US_美国 2
+      - 新加坡01{流媒体优化|GPT}{1x}
+      - 英国04{1x}
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - 香港04{流媒体优化|GPT}{1x}
+      - 泰国01{1x}
+      - 香港01{流媒体优化|GPT}{1x}
+      - 香港02{流媒体优化|GPT}{1x}
+      - 美国04{流媒体优化}{1x}
+      - 英国02{1x}
+      - 加拿大02{1x}
+      - 日本04{流媒体优化}{GPT}{1x}
       - _US_美国->🇳🇱_NL_荷兰 3
-      - _JP_日本 2
+      - 英国03{1x}
+      - 美国03{流媒体优化}{1x}
+      - 澳大利亚02{1x}
+      - 香港B{流媒体优化|GPT}{1x}
+      - _US_美国->🇱🇺_LU_卢森堡
+      - 澳大利亚01{1x}
+      - _US_美国 4
+      - 自学志 3
+      - 印度01{1x}
+      - 加拿大
+      - 公众号：自学志
+      - _US_美国->🇳🇱_NL_荷兰 4
+      - 新加坡 2
+      - 自学志 4
+      - 印度02{1x}
+      - _TW_台湾
+      - Relay_🇦🇺AU-🇦🇺AU_20
+      - 新加坡04{流媒体优化|GPT}{1x}
+      - 韩国03{流媒体优化|GPT}{1x}
+      - 美国 4
+      - _US_美国 5
+      - 公众号：自学志 2
+      - 荷兰01{1x}
+      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 6
+      - Relay_🇺🇸US-🇺🇸US_176
+      - _US_美国 7
+      - 日本02{流媒体优化|GPT}1x
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本
+      - _SG_新加坡 3
+      - _KR_韩国
       - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国 10
+      - _CN_中国->🇺🇸_US_美国 2
+      - _RU_俄罗斯联邦
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 11
+      - _TW_台湾 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
       - _US_美国 12
       - _US_美国 13
-      - _US_美国->🇱🇺_LU_卢森堡 3
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CA_加拿大->🇳🇱_NL_荷兰
       - _US_美国 14
-      - _TW_台湾 2
-      - _HK_香港
-      - _SG_新加坡
-      - _US_美国->🇳🇱_NL_荷兰 4
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _IR_伊朗
       - _US_美国 15
-      - _TW_台湾 3
+      - _CN_中国->🇺🇸_US_美国 4
       - _US_美国 16
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _TW_台湾 4
       - _US_美国 17
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇻🇳_VN_越南 2
+      - _CN_中国
+      - _CA_加拿大
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - _US_美国 18
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - _FR_法国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 19
+      - _IN_印度
       - _US_美国 20
-      - _US_美国->🇳🇱_NL_荷兰 6
       - _US_美国 21
-      - _JP_日本 3
-      - _SG_新加坡 2
       - _US_美国 22
-      - _CA_加拿大->🇺🇸_US_美国
-      - 新加坡01{流媒体优化|GPT}{1x}
-      - 美国03{流媒体优化}{1x}
-      - 美国04{流媒体优化}{1x}
-      - 自学志
-      - 越南02{1x}
-      - 自学志 2
-      - 荷兰02{1x}
-      - 日本03{流媒体优化|GPT}{1x}
-      - 印度01{1x}
-      - 自学志 3
-      - 日本01{流媒体优化|GPT}{1x}
-      - 新加坡02{流媒体优化|GPT}{1x}
-      - 印度02{1x}
-      - 新加坡03{流媒体优化|GPT}{1x}
-      - 美国01{流媒体优化}{1x}
-      - 香港A{流媒体优化|GPT}{1x}
-      - 泰国01{1x}
-      - 自学志 4
-      - 自学志 5
-      - 韩国01{流媒体优化|GPT}{1x}
-      - 香港03{流媒体优化|GPT}{1x}
-      - 澳大利亚01{1x}
-      - 日本04{流媒体优化}{GPT}{1x}
-      - 泰国02{1x}
-      - 加拿大02{1x}
-      - 加拿大01{1x}
-      - 香港B{流媒体优化|GPT}{1x}
-      - 澳大利亚02{1x}
-      - 香港04{流媒体优化|GPT}{1x}
-      - 英国02{1x}
-      - 英国01{1x}
-      - 香港02{流媒体优化|GPT}{1x}
-      - 英国04{1x}
-      - 韩国04{流媒体优化|GPT}{1x}
-      - 日本02{流媒体优化|GPT}1x
-      - 英国03{1x}
-      - 自学志 6
-      - 荷兰01{1x}
-      - 自学志 7
-      - 法国02{1x}
-      - 新加坡04{流媒体优化|GPT}{1x}
-      - 韩国02{流媒体优化|GPT}{1x}
-      - 越南01{1x}
-      - 香港01{流媒体优化|GPT}{1x}
-      - 巴西01{1x}
-      - 韩国03{流媒体优化|GPT}{1x}
-      - 美国02{流媒体优化}{1x}
-      - 巴西02{1x}
-      - 法国01{1x}
+      - _US_美国 23
+      - _ES_西班牙->🇳🇱_NL_荷兰
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:05-22 9:00 -by 自学志
-      - 美国
-      - 公众号：自学志
-      - 美国 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - 新加坡
-      - _US_美国 2
-      - 新加坡 2
-      - 公众号：自学志 2
-      - 公众号：自学志 3
-      - Relay_-🇷🇺RU_06
-      - _US_美国->🇱🇺_LU_卢森堡
-      - 公众号：自学志 4
-      - 美国 3
-      - _US_美国 3
-      - 美国 4
-      - 哥斯达黎加
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 4
-      - _CR_哥斯达黎加->🇯🇵_JP_日本
-      - 美国 5
-      - 加拿大
-      - _US_美国 5
-      - _RO_罗马尼亚->🇺🇸_US_美国
-      - 美国 6
-      - 日本
-      - 美国 7
-      - _US_美国 6
-      - US-BuyVM4-HTTP
-      - 公众号：自学志 5
-      - Relay_🇺🇸US-🇺🇸US_176
-      - Relay_🇺🇸US-🇺🇸US_210
-      - Relay_🇦🇺AU-🇦🇺AU_20
-      - 公众号：自学志 6
-      - _CN_中国->🇭🇰_HK_香港
-      - 伊朗
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - 公众号：自学志 7
-      - 公众号：自学志 8
-      - _US_美国 7
-      - _JP_日本
+      - 更新于:05-22 14:30 -by 自学志
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国 8
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇨🇦_CA_加拿大
-      - _TW_台湾
-      - _RO_罗马尼亚->🇺🇸_US_美国 2
-      - _US_美国 11
+      - 韩国01{流媒体优化|GPT}{1x}
+      - 美国02{流媒体优化}{1x}
+      - 新加坡03{流媒体优化|GPT}{1x}
+      - 韩国04{流媒体优化|GPT}{1x}
+      - 新加坡02{流媒体优化|GPT}{1x}
+      - 泰国02{1x}
+      - 自学志
+      - 韩国02{流媒体优化|GPT}{1x}
+      - 法国02{1x}
+      - 日本01{流媒体优化|GPT}{1x}
+      - 香港A{流媒体优化|GPT}{1x}
+      - 香港03{流媒体优化|GPT}{1x}
+      - 荷兰02{1x}
+      - _SG_新加坡
+      - 日本
+      - 日本03{流媒体优化|GPT}{1x}
+      - 英国01{1x}
+      - 美国
+      - 美国01{流媒体优化}{1x}
+      - _US_美国
+      - _CN_中国->🇭🇰_HK_香港
+      - 美国 2
+      - 自学志 2
+      - 新加坡
+      - 美国 3
+      - 哥斯达黎加
+      - _SG_新加坡 2
+      - 加拿大01{1x}
+      - _US_美国->🇳🇱_NL_荷兰
+      - 巴西01{1x}
+      - 越南01{1x}
+      - _US_美国 2
+      - 新加坡01{流媒体优化|GPT}{1x}
+      - 英国04{1x}
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - 香港04{流媒体优化|GPT}{1x}
+      - 泰国01{1x}
+      - 香港01{流媒体优化|GPT}{1x}
+      - 香港02{流媒体优化|GPT}{1x}
+      - 美国04{流媒体优化}{1x}
+      - 英国02{1x}
+      - 加拿大02{1x}
+      - 日本04{流媒体优化}{GPT}{1x}
       - _US_美国->🇳🇱_NL_荷兰 3
-      - _JP_日本 2
+      - 英国03{1x}
+      - 美国03{流媒体优化}{1x}
+      - 澳大利亚02{1x}
+      - 香港B{流媒体优化|GPT}{1x}
+      - _US_美国->🇱🇺_LU_卢森堡
+      - 澳大利亚01{1x}
+      - _US_美国 4
+      - 自学志 3
+      - 印度01{1x}
+      - 加拿大
+      - 公众号：自学志
+      - _US_美国->🇳🇱_NL_荷兰 4
+      - 新加坡 2
+      - 自学志 4
+      - 印度02{1x}
+      - _TW_台湾
+      - Relay_🇦🇺AU-🇦🇺AU_20
+      - 新加坡04{流媒体优化|GPT}{1x}
+      - 韩国03{流媒体优化|GPT}{1x}
+      - 美国 4
+      - _US_美国 5
+      - 公众号：自学志 2
+      - 荷兰01{1x}
+      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 6
+      - Relay_🇺🇸US-🇺🇸US_176
+      - _US_美国 7
+      - 日本02{流媒体优化|GPT}1x
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本
+      - _SG_新加坡 3
+      - _KR_韩国
       - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国 10
+      - _CN_中国->🇺🇸_US_美国 2
+      - _RU_俄罗斯联邦
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 11
+      - _TW_台湾 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
       - _US_美国 12
       - _US_美国 13
-      - _US_美国->🇱🇺_LU_卢森堡 3
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CA_加拿大->🇳🇱_NL_荷兰
       - _US_美国 14
-      - _TW_台湾 2
-      - _HK_香港
-      - _SG_新加坡
-      - _US_美国->🇳🇱_NL_荷兰 4
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _IR_伊朗
       - _US_美国 15
-      - _TW_台湾 3
+      - _CN_中国->🇺🇸_US_美国 4
       - _US_美国 16
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _TW_台湾 4
       - _US_美国 17
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇻🇳_VN_越南 2
+      - _CN_中国
+      - _CA_加拿大
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - _US_美国 18
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - _FR_法国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 19
+      - _IN_印度
       - _US_美国 20
-      - _US_美国->🇳🇱_NL_荷兰 6
       - _US_美国 21
-      - _JP_日本 3
-      - _SG_新加坡 2
       - _US_美国 22
-      - _CA_加拿大->🇺🇸_US_美国
-      - 新加坡01{流媒体优化|GPT}{1x}
-      - 美国03{流媒体优化}{1x}
-      - 美国04{流媒体优化}{1x}
-      - 自学志
-      - 越南02{1x}
-      - 自学志 2
-      - 荷兰02{1x}
-      - 日本03{流媒体优化|GPT}{1x}
-      - 印度01{1x}
-      - 自学志 3
-      - 日本01{流媒体优化|GPT}{1x}
-      - 新加坡02{流媒体优化|GPT}{1x}
-      - 印度02{1x}
-      - 新加坡03{流媒体优化|GPT}{1x}
-      - 美国01{流媒体优化}{1x}
-      - 香港A{流媒体优化|GPT}{1x}
-      - 泰国01{1x}
-      - 自学志 4
-      - 自学志 5
-      - 韩国01{流媒体优化|GPT}{1x}
-      - 香港03{流媒体优化|GPT}{1x}
-      - 澳大利亚01{1x}
-      - 日本04{流媒体优化}{GPT}{1x}
-      - 泰国02{1x}
-      - 加拿大02{1x}
-      - 加拿大01{1x}
-      - 香港B{流媒体优化|GPT}{1x}
-      - 澳大利亚02{1x}
-      - 香港04{流媒体优化|GPT}{1x}
-      - 英国02{1x}
-      - 英国01{1x}
-      - 香港02{流媒体优化|GPT}{1x}
-      - 英国04{1x}
-      - 韩国04{流媒体优化|GPT}{1x}
-      - 日本02{流媒体优化|GPT}1x
-      - 英国03{1x}
-      - 自学志 6
-      - 荷兰01{1x}
-      - 自学志 7
-      - 法国02{1x}
-      - 新加坡04{流媒体优化|GPT}{1x}
-      - 韩国02{流媒体优化|GPT}{1x}
-      - 越南01{1x}
-      - 香港01{流媒体优化|GPT}{1x}
-      - 巴西01{1x}
-      - 韩国03{流媒体优化|GPT}{1x}
-      - 美国02{流媒体优化}{1x}
-      - 巴西02{1x}
-      - 法国01{1x}
+      - _US_美国 23
+      - _ES_西班牙->🇳🇱_NL_荷兰
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1090,134 +1026,126 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:05-22 9:00 -by 自学志
-      - 美国
-      - 公众号：自学志
-      - 美国 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - 新加坡
-      - _US_美国 2
-      - 新加坡 2
-      - 公众号：自学志 2
-      - 公众号：自学志 3
-      - Relay_-🇷🇺RU_06
-      - _US_美国->🇱🇺_LU_卢森堡
-      - 公众号：自学志 4
-      - 美国 3
-      - _US_美国 3
-      - 美国 4
-      - 哥斯达黎加
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 4
-      - _CR_哥斯达黎加->🇯🇵_JP_日本
-      - 美国 5
-      - 加拿大
-      - _US_美国 5
-      - _RO_罗马尼亚->🇺🇸_US_美国
-      - 美国 6
-      - 日本
-      - 美国 7
-      - _US_美国 6
-      - US-BuyVM4-HTTP
-      - 公众号：自学志 5
-      - Relay_🇺🇸US-🇺🇸US_176
-      - Relay_🇺🇸US-🇺🇸US_210
-      - Relay_🇦🇺AU-🇦🇺AU_20
-      - 公众号：自学志 6
-      - _CN_中国->🇭🇰_HK_香港
-      - 伊朗
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - 公众号：自学志 7
-      - 公众号：自学志 8
-      - _US_美国 7
-      - _JP_日本
+      - 更新于:05-22 14:30 -by 自学志
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国 8
-      - _AU_澳大利亚
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国->🇨🇦_CA_加拿大
-      - _TW_台湾
-      - _RO_罗马尼亚->🇺🇸_US_美国 2
-      - _US_美国 11
+      - 韩国01{流媒体优化|GPT}{1x}
+      - 美国02{流媒体优化}{1x}
+      - 新加坡03{流媒体优化|GPT}{1x}
+      - 韩国04{流媒体优化|GPT}{1x}
+      - 新加坡02{流媒体优化|GPT}{1x}
+      - 泰国02{1x}
+      - 自学志
+      - 韩国02{流媒体优化|GPT}{1x}
+      - 法国02{1x}
+      - 日本01{流媒体优化|GPT}{1x}
+      - 香港A{流媒体优化|GPT}{1x}
+      - 香港03{流媒体优化|GPT}{1x}
+      - 荷兰02{1x}
+      - _SG_新加坡
+      - 日本
+      - 日本03{流媒体优化|GPT}{1x}
+      - 英国01{1x}
+      - 美国
+      - 美国01{流媒体优化}{1x}
+      - _US_美国
+      - _CN_中国->🇭🇰_HK_香港
+      - 美国 2
+      - 自学志 2
+      - 新加坡
+      - 美国 3
+      - 哥斯达黎加
+      - _SG_新加坡 2
+      - 加拿大01{1x}
+      - _US_美国->🇳🇱_NL_荷兰
+      - 巴西01{1x}
+      - 越南01{1x}
+      - _US_美国 2
+      - 新加坡01{流媒体优化|GPT}{1x}
+      - 英国04{1x}
+      - _US_美国 3
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - 香港04{流媒体优化|GPT}{1x}
+      - 泰国01{1x}
+      - 香港01{流媒体优化|GPT}{1x}
+      - 香港02{流媒体优化|GPT}{1x}
+      - 美国04{流媒体优化}{1x}
+      - 英国02{1x}
+      - 加拿大02{1x}
+      - 日本04{流媒体优化}{GPT}{1x}
       - _US_美国->🇳🇱_NL_荷兰 3
-      - _JP_日本 2
+      - 英国03{1x}
+      - 美国03{流媒体优化}{1x}
+      - 澳大利亚02{1x}
+      - 香港B{流媒体优化|GPT}{1x}
+      - _US_美国->🇱🇺_LU_卢森堡
+      - 澳大利亚01{1x}
+      - _US_美国 4
+      - 自学志 3
+      - 印度01{1x}
+      - 加拿大
+      - 公众号：自学志
+      - _US_美国->🇳🇱_NL_荷兰 4
+      - 新加坡 2
+      - 自学志 4
+      - 印度02{1x}
+      - _TW_台湾
+      - Relay_🇦🇺AU-🇦🇺AU_20
+      - 新加坡04{流媒体优化|GPT}{1x}
+      - 韩国03{流媒体优化|GPT}{1x}
+      - 美国 4
+      - _US_美国 5
+      - 公众号：自学志 2
+      - 荷兰01{1x}
+      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 6
+      - Relay_🇺🇸US-🇺🇸US_176
+      - _US_美国 7
+      - 日本02{流媒体优化|GPT}1x
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国->🇺🇸_US_美国
+      - _JP_日本
+      - _SG_新加坡 3
+      - _KR_韩国
       - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国 10
+      - _CN_中国->🇺🇸_US_美国 2
+      - _RU_俄罗斯联邦
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 11
+      - _TW_台湾 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇻🇳_VN_越南
       - _US_美国 12
       - _US_美国 13
-      - _US_美国->🇱🇺_LU_卢森堡 3
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CA_加拿大->🇳🇱_NL_荷兰
       - _US_美国 14
-      - _TW_台湾 2
-      - _HK_香港
-      - _SG_新加坡
-      - _US_美国->🇳🇱_NL_荷兰 4
+      - _RO_罗马尼亚->🇺🇸_US_美国
+      - _CN_中国->🇸🇬_SG_新加坡
+      - _JP_日本 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _IR_伊朗
       - _US_美国 15
-      - _TW_台湾 3
+      - _CN_中国->🇺🇸_US_美国 4
       - _US_美国 16
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _TW_台湾 4
       - _US_美国 17
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CN_中国->🇻🇳_VN_越南 2
+      - _CN_中国
+      - _CA_加拿大
+      - _CN_中国->🇸🇬_SG_新加坡 2
       - _US_美国 18
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇦🇺_AU_澳大利亚
+      - _FR_法国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 19
+      - _IN_印度
       - _US_美国 20
-      - _US_美国->🇳🇱_NL_荷兰 6
       - _US_美国 21
-      - _JP_日本 3
-      - _SG_新加坡 2
       - _US_美国 22
-      - _CA_加拿大->🇺🇸_US_美国
-      - 新加坡01{流媒体优化|GPT}{1x}
-      - 美国03{流媒体优化}{1x}
-      - 美国04{流媒体优化}{1x}
-      - 自学志
-      - 越南02{1x}
-      - 自学志 2
-      - 荷兰02{1x}
-      - 日本03{流媒体优化|GPT}{1x}
-      - 印度01{1x}
-      - 自学志 3
-      - 日本01{流媒体优化|GPT}{1x}
-      - 新加坡02{流媒体优化|GPT}{1x}
-      - 印度02{1x}
-      - 新加坡03{流媒体优化|GPT}{1x}
-      - 美国01{流媒体优化}{1x}
-      - 香港A{流媒体优化|GPT}{1x}
-      - 泰国01{1x}
-      - 自学志 4
-      - 自学志 5
-      - 韩国01{流媒体优化|GPT}{1x}
-      - 香港03{流媒体优化|GPT}{1x}
-      - 澳大利亚01{1x}
-      - 日本04{流媒体优化}{GPT}{1x}
-      - 泰国02{1x}
-      - 加拿大02{1x}
-      - 加拿大01{1x}
-      - 香港B{流媒体优化|GPT}{1x}
-      - 澳大利亚02{1x}
-      - 香港04{流媒体优化|GPT}{1x}
-      - 英国02{1x}
-      - 英国01{1x}
-      - 香港02{流媒体优化|GPT}{1x}
-      - 英国04{1x}
-      - 韩国04{流媒体优化|GPT}{1x}
-      - 日本02{流媒体优化|GPT}1x
-      - 英国03{1x}
-      - 自学志 6
-      - 荷兰01{1x}
-      - 自学志 7
-      - 法国02{1x}
-      - 新加坡04{流媒体优化|GPT}{1x}
-      - 韩国02{流媒体优化|GPT}{1x}
-      - 越南01{1x}
-      - 香港01{流媒体优化|GPT}{1x}
-      - 巴西01{1x}
-      - 韩国03{流媒体优化|GPT}{1x}
-      - 美国02{流媒体优化}{1x}
-      - 巴西02{1x}
-      - 法国01{1x}
+      - _US_美国 23
+      - _ES_西班牙->🇳🇱_NL_荷兰
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
