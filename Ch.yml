@@ -5,170 +5,58 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于:05-25 18:00 -by 自学志, server: 8.8.8.8, port: 443, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}, udp: true}
-  - {name: zxz, server: 199.188.110.114, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1684316790433, headers: {Host: www.54092415.xyz}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 104.21.238.21, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _US_美国, server: 163.123.192.154, port: 443, type: trojan, password: 997a9caa-5950-476f-8614-462fb2e0ed18, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇹🇼TW_27, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: delivery.cvs.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: _ES_西班牙, server: 185.18.250.217, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: _US_美国 3, server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: _US_美国 4, server: 198.2.234.101, port: 51322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: honeygain.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 2, server: downloadvip.cfd, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _US_美国 6, server: 1o2.ir, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.39, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: 更新于:05-27 15:30 -by 自学志, server: 8.8.8.8, port: 443, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_223, server: 107.167.12.24, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}, udp: true}
+  - {name: 新加坡, server: ukjs.stablize.top, port: 443, type: trojan, password: 82a2d844-89b2-4ebd-aa18-0bd2feef9da2, skip-cert-verify: true, udp: true}
+  - {name: 美国 2, server: cf-lt-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: 美国 3, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: 美国 4, server: 172.66.43.240, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}, udp: true}
+  - {name: 美国 5, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: zxz, server: m3u8.cm.xfltd.cc, port: 27759, type: ss, cipher: chacha20-ietf-poly1305, password: 3c7f350d-f1a8-48df-96fa-e3bc2d348433, udp: true}
+  - {name: zxz 2, server: t2.bestcloud.tk, port: 443, type: vmess, uuid: 539bc754-934e-431d-a7ae-96c71eb1830e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2, headers: {Host: er3.mybestjj.com}}, udp: true}
+  - {name: zxz 3, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: zxz 4, server: cdn.noice.id, port: 80, type: vmess, uuid: 69389ced-7239-488a-9927-1ff91a5a82b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: c5aagg.aioxyz.my.id}}, udp: true}
+  - {name: zxz 5, server: cn2-2-nc.go001.buzz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: b605e314-f6f8-481e-9c74-e8d5621e379d, udp: true}
+  - {name: zxz 6, server: cm1-nc.go001.buzz, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: b605e314-f6f8-481e-9c74-e8d5621e379d, udp: true}
+  - {name: zxz 7, server: bp.nidaye.eu.org, port: 443, type: vmess, uuid: c77d02e9-5738-46ac-9512-7b67746cad85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ndy58850, headers: {Host: bp.nidaye.eu.org}}, udp: true}
+  - {name: zxz 8, server: cm1-nc.go001.buzz, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: b605e314-f6f8-481e-9c74-e8d5621e379d, udp: true}
+  - {name: zxz 9, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
+  - {name: _VN_越南, server: vn2.microsoft-orgwly.vip, port: 443, type: trojan, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇧🇷_BR_巴西, server: 104.18.23.26, port: 8080, type: vmess, uuid: dcafb669-fefc-4994-e3a9-5f40ed6aa7cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshtproject, headers: {Host: v2free.sshtproect.shop}}, udp: true}
+  - {name: _GB_英国, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}, udp: true}
+  - {name: _US_美国, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡, server: sgp01.669990.xyz, port: 25566, type: ss, cipher: aes-256-gcm, password: 93RAWKLO4l0mfdD8, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: boqonqncuiq.fufucat.xyz, port: 55212, type: vmess, uuid: f814a436-d04c-47cd-895b-b022a07958d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: 104.27.62.243, port: 443, type: vmess, uuid: 49555a95-dc36-44dd-b613-98dc14ac6295, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wss48622, headers: {Host: freeservice.blanku.me}}, udp: true}
+  - {name: _HK_香港, server: awshk1.gsjc.cfd, port: 443, type: trojan, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: _US_美国->🇩🇪_DE_德国, server: 104.31.16.62, port: 443, type: vmess, uuid: 9aa6b5ad-c0fc-47f4-a837-f72179d7b662, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Lsv4s7nS0ErewnEN, headers: {Host: channel3.unlimiteddev.tk}}, udp: true}
-  - {name: _US_美国 7, server: beenverified.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 3, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 4, server: 104.17.24.1, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _US_美国 8, server: 104.18.1.110, port: 443, type: vmess, uuid: 1d8488a7-c784-4e66-ae92-1b22da9c9e68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/c3lZ7dp02p?ed=2048", headers: {Host: d2.pgypgykmoljklj.xyz}}, udp: true}
-  - {name: 公众号：自学志, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 309be091-54a4-4610-a71a-ccdef484aadf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.hnokkdf.top, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1.hnokkdf.top}}, udp: true}
-  - {name: _US_美国 9, server: irvless42.forsarinna.site, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: _US_美国 10, server: 140.99.94.42, port: 51338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本, server: 45.88.43.136, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CY_塞浦路斯, server: 203.22.223.204, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: 美国, server: ancestry.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: _US_美国 11, server: 107.148.5.78, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 12, server: x.leonard.eu.org, port: 443, type: vmess, uuid: 1441af41-5cee-497e-a47c-c26af169f9ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: x.leonard.eu.org}}, udp: true}
-  - {name: _US_美国 13, server: ziprecruiter.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: _CA_加拿大->🇳🇱_NL_荷兰, server: mbt.ircf.space, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: zxz 2, server: 107.148.5.160, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 5, server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 6, server: 16personalities.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _CY_塞浦路斯->🇳🇱_NL_荷兰, server: 203.17.126.203, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 7, server: www.argentina.gob.ar, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 120.240.163.119, port: 41273, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 14, server: 23.224.14.142, port: 55332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 15, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _TW_台湾, server: 165.154.227.239, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾 2, server: bgptw3.cnamazon.sbs, port: 443, type: trojan, password: 14fc8b10-6475-4649-b343-e12b7c3ee93f, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 16, server: 104.25.55.147, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer02, headers: {Host: uyaa.vtcss.top}}, udp: true}
-  - {name: _CN_中国, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇱🇺_LU_卢森堡, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-  - {name: _US_美国 17, server: 142.4.125.1, port: 54102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾 3, server: 165.154.243.40, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾 4, server: 165.154.246.49, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡, server: 112.118.195.16, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg2.freeiq.cf}}, udp: true}
-  - {name: _US_美国 18, server: 137.175.1.8, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡->🇹🇼_TW_台湾, server: stw4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _LT_立陶宛->🇳🇱_NL_荷兰, server: 89.116.250.218, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _TW_台湾 5, server: scloudtw2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国 2, server: hk2.downloadvip.cfd, port: 443, type: trojan, password: 6d16bd2d-b1e3-4cbc-b90e-dbc063dbe9d2, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾 6, server: 165.154.226.194, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
-  - {name: _IN_印度, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇱🇺_LU_卢森堡 2, server: cf-lt-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
-  - {name: _US_美国 19, server: 142.0.133.37, port: 51412, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰, server: 154.85.1.221, port: 49121, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 20, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 192.74.224.27, port: 54027, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 60454f67-7e28-4ddd-855f-e8216dfedf5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1.hnokkdf.top}}, udp: true}
+  - {name: _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: _JP_日本, server: 45.88.43.239, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: 163.123.192.153, port: 443, type: trojan, password: 194e456a-68d2-4f05-b554-c7282d32abae, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: _NL_荷兰, server: 154.85.1.128, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1684580752213, headers: {Host: www.42077230.xyz}}, udp: true}
   - {name: _US_美国->🇮🇳_IN_印度, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
-  - {name: _TW_台湾 7, server: 165.154.246.207, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 21, server: 108.186.116.172, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾 8, server: 165.154.246.194, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 8, server: 170.114.45.23, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: _US_美国 22, server: javatpoint.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: zxz 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
-  - {name: zxz 4, server: zendesk1.grab.com, port: 443, type: vmess, uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}, udp: true}
-  - {name: zxz 5, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: zxz 6, server: 104.17.20.55, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: zxz 7, server: ava.game.naver.com, port: 443, type: vmess, uuid: 04a64d18-2310-41e1-b6a8-78739e881e44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}, udp: true}
-  - {name: zxz 8, server: wasanbi.ga, port: 443, type: vmess, uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /94448b9f-7d5d-4f7a-9c68-d4978878d401, headers: {Host: wasanbi.ga}}, udp: true}
-  - {name: zxz 9, server: sogood.linefriends.com, port: 443, type: vmess, uuid: 04a64d18-2310-41e1-b6a8-78739e881e44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}, udp: true}
-  - {name: 美国 2, server: subscene.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: 美国 3, server: 141.193.213.20, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: 美国 4, server: 104.22.22.237, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: 美国 5, server: kontakt.az, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: 加拿大, server: 23.227.39.1, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: 塞浦路斯, server: hwb.ircf.space, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: 美国 6, server: cambridge.org, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: 塞浦路斯 2, server: 203.23.106.148, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: 美国 7, server: invideo.io, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: 美国 8, server: 104.16.15.109, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: 美国 9, server: wibmo.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: 美国 10, server: laroza.one, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: 美国 11, server: cheatsheet.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: 德国, server: 45.14.174.57, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: 美国 12, server: ydyx.heimaojiasu.cloud, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: 塞浦路斯 3, server: 203.22.223.51, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: 乌克兰, server: 195.137.167.29, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: 西班牙, server: 185.18.250.80, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: Relay_-🇷🇺RU_20, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🏁ZZ_229, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_200, server: 142.0.132.38, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_179, server: 198.2.205.74, port: 30406, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇺🇸US_189, server: 38.63.17.179, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_226, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 更新于:05-25 18:00 -by 自学志
-      - _CA_加拿大
-      - zxz
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - Relay_-🇹🇼TW_27
-      - _US_美国 2
-      - _ES_西班牙
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国 6
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _US_美国 8
-      - 公众号：自学志
-      - _US_美国 9
-      - _US_美国 10
-      - _JP_日本
-      - _CY_塞浦路斯
+      - 更新于:05-27 15:30 -by 自学志
+      - Relay_🇺🇸US-🇺🇸US_223
       - 美国
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _CA_加拿大->🇳🇱_NL_荷兰
+      - 新加坡
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - zxz
       - zxz 2
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _US_美国->🇳🇱_NL_荷兰 6
-      - _CY_塞浦路斯->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 7
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 14
-      - _US_美国 15
-      - _TW_台湾
-      - _TW_台湾 2
-      - _US_美国 16
-      - _CN_中国
-      - _US_美国->🇱🇺_LU_卢森堡
-      - _US_美国 17
-      - _TW_台湾 3
-      - _TW_台湾 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 18
-      - _SG_新加坡->🇹🇼_TW_台湾
-      - _LT_立陶宛->🇳🇱_NL_荷兰
-      - _TW_台湾 5
-      - _CN_中国 2
-      - _TW_台湾 6
-      - _IN_印度
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 19
-      - _NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇮🇳_IN_印度
-      - _TW_台湾 7
-      - _US_美国 21
-      - _TW_台湾 8
-      - _US_美国->🇳🇱_NL_荷兰 8
-      - _US_美国 22
       - zxz 3
       - zxz 4
       - zxz 5
@@ -176,100 +64,41 @@ proxy-groups:
       - zxz 7
       - zxz 8
       - zxz 9
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 加拿大
-      - 塞浦路斯
-      - 美国 6
-      - 塞浦路斯 2
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 德国
-      - 美国 12
-      - 塞浦路斯 3
-      - 乌克兰
-      - 西班牙
-      - HK-CF-HTTP
-      - Relay_-🇷🇺RU_20
-      - Relay_🇺🇸US-🏁ZZ_229
-      - Relay_🇺🇸US-🇺🇸US_200
-      - Relay_🇺🇸US-🇺🇸US_179
-      - Pool_🇺🇸US_189
-      - Relay_🇺🇸US-🇺🇸US_226
+      - _VN_越南
+      - _US_美国->🇧🇷_BR_巴西
+      - _GB_英国
+      - _US_美国
+      - _SG_新加坡
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国 3
+      - _US_美国->🇯🇵_JP_日本
+      - _CA_加拿大->🇺🇸_US_美国
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 4
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 6
+      - _NL_荷兰
+      - _US_美国->🇮🇳_IN_印度
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:05-25 18:00 -by 自学志
-      - _CA_加拿大
-      - zxz
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - Relay_-🇹🇼TW_27
-      - _US_美国 2
-      - _ES_西班牙
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国 6
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _US_美国 8
-      - 公众号：自学志
-      - _US_美国 9
-      - _US_美国 10
-      - _JP_日本
-      - _CY_塞浦路斯
+      - 更新于:05-27 15:30 -by 自学志
+      - Relay_🇺🇸US-🇺🇸US_223
       - 美国
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _CA_加拿大->🇳🇱_NL_荷兰
+      - 新加坡
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - zxz
       - zxz 2
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _US_美国->🇳🇱_NL_荷兰 6
-      - _CY_塞浦路斯->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 7
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 14
-      - _US_美国 15
-      - _TW_台湾
-      - _TW_台湾 2
-      - _US_美国 16
-      - _CN_中国
-      - _US_美国->🇱🇺_LU_卢森堡
-      - _US_美国 17
-      - _TW_台湾 3
-      - _TW_台湾 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 18
-      - _SG_新加坡->🇹🇼_TW_台湾
-      - _LT_立陶宛->🇳🇱_NL_荷兰
-      - _TW_台湾 5
-      - _CN_中国 2
-      - _TW_台湾 6
-      - _IN_印度
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 19
-      - _NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇮🇳_IN_印度
-      - _TW_台湾 7
-      - _US_美国 21
-      - _TW_台湾 8
-      - _US_美国->🇳🇱_NL_荷兰 8
-      - _US_美国 22
       - zxz 3
       - zxz 4
       - zxz 5
@@ -277,100 +106,41 @@ proxy-groups:
       - zxz 7
       - zxz 8
       - zxz 9
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 加拿大
-      - 塞浦路斯
-      - 美国 6
-      - 塞浦路斯 2
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 德国
-      - 美国 12
-      - 塞浦路斯 3
-      - 乌克兰
-      - 西班牙
-      - HK-CF-HTTP
-      - Relay_-🇷🇺RU_20
-      - Relay_🇺🇸US-🏁ZZ_229
-      - Relay_🇺🇸US-🇺🇸US_200
-      - Relay_🇺🇸US-🇺🇸US_179
-      - Pool_🇺🇸US_189
-      - Relay_🇺🇸US-🇺🇸US_226
+      - _VN_越南
+      - _US_美国->🇧🇷_BR_巴西
+      - _GB_英国
+      - _US_美国
+      - _SG_新加坡
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国 3
+      - _US_美国->🇯🇵_JP_日本
+      - _CA_加拿大->🇺🇸_US_美国
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 4
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 6
+      - _NL_荷兰
+      - _US_美国->🇮🇳_IN_印度
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于:05-25 18:00 -by 自学志
-      - _CA_加拿大
-      - zxz
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - Relay_-🇹🇼TW_27
-      - _US_美国 2
-      - _ES_西班牙
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国 6
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _US_美国 8
-      - 公众号：自学志
-      - _US_美国 9
-      - _US_美国 10
-      - _JP_日本
-      - _CY_塞浦路斯
+      - 更新于:05-27 15:30 -by 自学志
+      - Relay_🇺🇸US-🇺🇸US_223
       - 美国
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _CA_加拿大->🇳🇱_NL_荷兰
+      - 新加坡
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - zxz
       - zxz 2
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _US_美国->🇳🇱_NL_荷兰 6
-      - _CY_塞浦路斯->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 7
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 14
-      - _US_美国 15
-      - _TW_台湾
-      - _TW_台湾 2
-      - _US_美国 16
-      - _CN_中国
-      - _US_美国->🇱🇺_LU_卢森堡
-      - _US_美国 17
-      - _TW_台湾 3
-      - _TW_台湾 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 18
-      - _SG_新加坡->🇹🇼_TW_台湾
-      - _LT_立陶宛->🇳🇱_NL_荷兰
-      - _TW_台湾 5
-      - _CN_中国 2
-      - _TW_台湾 6
-      - _IN_印度
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 19
-      - _NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇮🇳_IN_印度
-      - _TW_台湾 7
-      - _US_美国 21
-      - _TW_台湾 8
-      - _US_美国->🇳🇱_NL_荷兰 8
-      - _US_美国 22
       - zxz 3
       - zxz 4
       - zxz 5
@@ -378,99 +148,40 @@ proxy-groups:
       - zxz 7
       - zxz 8
       - zxz 9
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 加拿大
-      - 塞浦路斯
-      - 美国 6
-      - 塞浦路斯 2
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 德国
-      - 美国 12
-      - 塞浦路斯 3
-      - 乌克兰
-      - 西班牙
-      - HK-CF-HTTP
-      - Relay_-🇷🇺RU_20
-      - Relay_🇺🇸US-🏁ZZ_229
-      - Relay_🇺🇸US-🇺🇸US_200
-      - Relay_🇺🇸US-🇺🇸US_179
-      - Pool_🇺🇸US_189
-      - Relay_🇺🇸US-🇺🇸US_226
+      - _VN_越南
+      - _US_美国->🇧🇷_BR_巴西
+      - _GB_英国
+      - _US_美国
+      - _SG_新加坡
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国 3
+      - _US_美国->🇯🇵_JP_日本
+      - _CA_加拿大->🇺🇸_US_美国
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 4
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 6
+      - _NL_荷兰
+      - _US_美国->🇮🇳_IN_印度
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新于:05-25 18:00 -by 自学志
-      - _CA_加拿大
-      - zxz
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - Relay_-🇹🇼TW_27
-      - _US_美国 2
-      - _ES_西班牙
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国 6
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _US_美国 8
-      - 公众号：自学志
-      - _US_美国 9
-      - _US_美国 10
-      - _JP_日本
-      - _CY_塞浦路斯
+      - 更新于:05-27 15:30 -by 自学志
+      - Relay_🇺🇸US-🇺🇸US_223
       - 美国
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _CA_加拿大->🇳🇱_NL_荷兰
+      - 新加坡
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - zxz
       - zxz 2
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _US_美国->🇳🇱_NL_荷兰 6
-      - _CY_塞浦路斯->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 7
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 14
-      - _US_美国 15
-      - _TW_台湾
-      - _TW_台湾 2
-      - _US_美国 16
-      - _CN_中国
-      - _US_美国->🇱🇺_LU_卢森堡
-      - _US_美国 17
-      - _TW_台湾 3
-      - _TW_台湾 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 18
-      - _SG_新加坡->🇹🇼_TW_台湾
-      - _LT_立陶宛->🇳🇱_NL_荷兰
-      - _TW_台湾 5
-      - _CN_中国 2
-      - _TW_台湾 6
-      - _IN_印度
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 19
-      - _NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇮🇳_IN_印度
-      - _TW_台湾 7
-      - _US_美国 21
-      - _TW_台湾 8
-      - _US_美国->🇳🇱_NL_荷兰 8
-      - _US_美国 22
       - zxz 3
       - zxz 4
       - zxz 5
@@ -478,99 +189,40 @@ proxy-groups:
       - zxz 7
       - zxz 8
       - zxz 9
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 加拿大
-      - 塞浦路斯
-      - 美国 6
-      - 塞浦路斯 2
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 德国
-      - 美国 12
-      - 塞浦路斯 3
-      - 乌克兰
-      - 西班牙
-      - HK-CF-HTTP
-      - Relay_-🇷🇺RU_20
-      - Relay_🇺🇸US-🏁ZZ_229
-      - Relay_🇺🇸US-🇺🇸US_200
-      - Relay_🇺🇸US-🇺🇸US_179
-      - Pool_🇺🇸US_189
-      - Relay_🇺🇸US-🇺🇸US_226
+      - _VN_越南
+      - _US_美国->🇧🇷_BR_巴西
+      - _GB_英国
+      - _US_美国
+      - _SG_新加坡
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国 3
+      - _US_美国->🇯🇵_JP_日本
+      - _CA_加拿大->🇺🇸_US_美国
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 4
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 6
+      - _NL_荷兰
+      - _US_美国->🇮🇳_IN_印度
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 更新于:05-25 18:00 -by 自学志
-      - _CA_加拿大
-      - zxz
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - Relay_-🇹🇼TW_27
-      - _US_美国 2
-      - _ES_西班牙
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国 6
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _US_美国 8
-      - 公众号：自学志
-      - _US_美国 9
-      - _US_美国 10
-      - _JP_日本
-      - _CY_塞浦路斯
+      - 更新于:05-27 15:30 -by 自学志
+      - Relay_🇺🇸US-🇺🇸US_223
       - 美国
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _CA_加拿大->🇳🇱_NL_荷兰
+      - 新加坡
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - zxz
       - zxz 2
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _US_美国->🇳🇱_NL_荷兰 6
-      - _CY_塞浦路斯->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 7
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 14
-      - _US_美国 15
-      - _TW_台湾
-      - _TW_台湾 2
-      - _US_美国 16
-      - _CN_中国
-      - _US_美国->🇱🇺_LU_卢森堡
-      - _US_美国 17
-      - _TW_台湾 3
-      - _TW_台湾 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 18
-      - _SG_新加坡->🇹🇼_TW_台湾
-      - _LT_立陶宛->🇳🇱_NL_荷兰
-      - _TW_台湾 5
-      - _CN_中国 2
-      - _TW_台湾 6
-      - _IN_印度
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 19
-      - _NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇮🇳_IN_印度
-      - _TW_台湾 7
-      - _US_美国 21
-      - _TW_台湾 8
-      - _US_美国->🇳🇱_NL_荷兰 8
-      - _US_美国 22
       - zxz 3
       - zxz 4
       - zxz 5
@@ -578,99 +230,40 @@ proxy-groups:
       - zxz 7
       - zxz 8
       - zxz 9
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 加拿大
-      - 塞浦路斯
-      - 美国 6
-      - 塞浦路斯 2
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 德国
-      - 美国 12
-      - 塞浦路斯 3
-      - 乌克兰
-      - 西班牙
-      - HK-CF-HTTP
-      - Relay_-🇷🇺RU_20
-      - Relay_🇺🇸US-🏁ZZ_229
-      - Relay_🇺🇸US-🇺🇸US_200
-      - Relay_🇺🇸US-🇺🇸US_179
-      - Pool_🇺🇸US_189
-      - Relay_🇺🇸US-🇺🇸US_226
+      - _VN_越南
+      - _US_美国->🇧🇷_BR_巴西
+      - _GB_英国
+      - _US_美国
+      - _SG_新加坡
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国 3
+      - _US_美国->🇯🇵_JP_日本
+      - _CA_加拿大->🇺🇸_US_美国
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 4
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 6
+      - _NL_荷兰
+      - _US_美国->🇮🇳_IN_印度
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新于:05-25 18:00 -by 自学志
-      - _CA_加拿大
-      - zxz
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - Relay_-🇹🇼TW_27
-      - _US_美国 2
-      - _ES_西班牙
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国 6
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _US_美国 8
-      - 公众号：自学志
-      - _US_美国 9
-      - _US_美国 10
-      - _JP_日本
-      - _CY_塞浦路斯
+      - 更新于:05-27 15:30 -by 自学志
+      - Relay_🇺🇸US-🇺🇸US_223
       - 美国
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _CA_加拿大->🇳🇱_NL_荷兰
+      - 新加坡
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - zxz
       - zxz 2
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _US_美国->🇳🇱_NL_荷兰 6
-      - _CY_塞浦路斯->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 7
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 14
-      - _US_美国 15
-      - _TW_台湾
-      - _TW_台湾 2
-      - _US_美国 16
-      - _CN_中国
-      - _US_美国->🇱🇺_LU_卢森堡
-      - _US_美国 17
-      - _TW_台湾 3
-      - _TW_台湾 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 18
-      - _SG_新加坡->🇹🇼_TW_台湾
-      - _LT_立陶宛->🇳🇱_NL_荷兰
-      - _TW_台湾 5
-      - _CN_中国 2
-      - _TW_台湾 6
-      - _IN_印度
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 19
-      - _NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇮🇳_IN_印度
-      - _TW_台湾 7
-      - _US_美国 21
-      - _TW_台湾 8
-      - _US_美国->🇳🇱_NL_荷兰 8
-      - _US_美国 22
       - zxz 3
       - zxz 4
       - zxz 5
@@ -678,100 +271,41 @@ proxy-groups:
       - zxz 7
       - zxz 8
       - zxz 9
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 加拿大
-      - 塞浦路斯
-      - 美国 6
-      - 塞浦路斯 2
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 德国
-      - 美国 12
-      - 塞浦路斯 3
-      - 乌克兰
-      - 西班牙
-      - HK-CF-HTTP
-      - Relay_-🇷🇺RU_20
-      - Relay_🇺🇸US-🏁ZZ_229
-      - Relay_🇺🇸US-🇺🇸US_200
-      - Relay_🇺🇸US-🇺🇸US_179
-      - Pool_🇺🇸US_189
-      - Relay_🇺🇸US-🇺🇸US_226
+      - _VN_越南
+      - _US_美国->🇧🇷_BR_巴西
+      - _GB_英国
+      - _US_美国
+      - _SG_新加坡
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国 3
+      - _US_美国->🇯🇵_JP_日本
+      - _CA_加拿大->🇺🇸_US_美国
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 4
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 6
+      - _NL_荷兰
+      - _US_美国->🇮🇳_IN_印度
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:05-25 18:00 -by 自学志
-      - _CA_加拿大
-      - zxz
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - Relay_-🇹🇼TW_27
-      - _US_美国 2
-      - _ES_西班牙
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国 6
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _US_美国 8
-      - 公众号：自学志
-      - _US_美国 9
-      - _US_美国 10
-      - _JP_日本
-      - _CY_塞浦路斯
+      - 更新于:05-27 15:30 -by 自学志
+      - Relay_🇺🇸US-🇺🇸US_223
       - 美国
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _CA_加拿大->🇳🇱_NL_荷兰
+      - 新加坡
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - zxz
       - zxz 2
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _US_美国->🇳🇱_NL_荷兰 6
-      - _CY_塞浦路斯->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 7
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 14
-      - _US_美国 15
-      - _TW_台湾
-      - _TW_台湾 2
-      - _US_美国 16
-      - _CN_中国
-      - _US_美国->🇱🇺_LU_卢森堡
-      - _US_美国 17
-      - _TW_台湾 3
-      - _TW_台湾 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 18
-      - _SG_新加坡->🇹🇼_TW_台湾
-      - _LT_立陶宛->🇳🇱_NL_荷兰
-      - _TW_台湾 5
-      - _CN_中国 2
-      - _TW_台湾 6
-      - _IN_印度
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 19
-      - _NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇮🇳_IN_印度
-      - _TW_台湾 7
-      - _US_美国 21
-      - _TW_台湾 8
-      - _US_美国->🇳🇱_NL_荷兰 8
-      - _US_美国 22
       - zxz 3
       - zxz 4
       - zxz 5
@@ -779,31 +313,25 @@ proxy-groups:
       - zxz 7
       - zxz 8
       - zxz 9
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 加拿大
-      - 塞浦路斯
-      - 美国 6
-      - 塞浦路斯 2
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 德国
-      - 美国 12
-      - 塞浦路斯 3
-      - 乌克兰
-      - 西班牙
-      - HK-CF-HTTP
-      - Relay_-🇷🇺RU_20
-      - Relay_🇺🇸US-🏁ZZ_229
-      - Relay_🇺🇸US-🇺🇸US_200
-      - Relay_🇺🇸US-🇺🇸US_179
-      - Pool_🇺🇸US_189
-      - Relay_🇺🇸US-🇺🇸US_226
+      - _VN_越南
+      - _US_美国->🇧🇷_BR_巴西
+      - _GB_英国
+      - _US_美国
+      - _SG_新加坡
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国 3
+      - _US_美国->🇯🇵_JP_日本
+      - _CA_加拿大->🇺🇸_US_美国
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 4
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 6
+      - _NL_荷兰
+      - _US_美国->🇮🇳_IN_印度
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -826,69 +354,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:05-25 18:00 -by 自学志
-      - _CA_加拿大
-      - zxz
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国
-      - Relay_-🇹🇼TW_27
-      - _US_美国 2
-      - _ES_西班牙
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国 6
-      - _CA_加拿大->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国 7
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _US_美国 8
-      - 公众号：自学志
-      - _US_美国 9
-      - _US_美国 10
-      - _JP_日本
-      - _CY_塞浦路斯
+      - 更新于:05-27 15:30 -by 自学志
+      - Relay_🇺🇸US-🇺🇸US_223
       - 美国
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _CA_加拿大->🇳🇱_NL_荷兰
+      - 新加坡
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - zxz
       - zxz 2
-      - _US_美国->🇳🇱_NL_荷兰 5
-      - _US_美国->🇳🇱_NL_荷兰 6
-      - _CY_塞浦路斯->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 7
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 14
-      - _US_美国 15
-      - _TW_台湾
-      - _TW_台湾 2
-      - _US_美国 16
-      - _CN_中国
-      - _US_美国->🇱🇺_LU_卢森堡
-      - _US_美国 17
-      - _TW_台湾 3
-      - _TW_台湾 4
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _US_美国 18
-      - _SG_新加坡->🇹🇼_TW_台湾
-      - _LT_立陶宛->🇳🇱_NL_荷兰
-      - _TW_台湾 5
-      - _CN_中国 2
-      - _TW_台湾 6
-      - _IN_印度
-      - _US_美国->🇱🇺_LU_卢森堡 2
-      - _US_美国 19
-      - _NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇮🇳_IN_印度
-      - _TW_台湾 7
-      - _US_美国 21
-      - _TW_台湾 8
-      - _US_美国->🇳🇱_NL_荷兰 8
-      - _US_美国 22
       - zxz 3
       - zxz 4
       - zxz 5
@@ -896,31 +371,25 @@ proxy-groups:
       - zxz 7
       - zxz 8
       - zxz 9
-      - 美国 2
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 加拿大
-      - 塞浦路斯
-      - 美国 6
-      - 塞浦路斯 2
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 德国
-      - 美国 12
-      - 塞浦路斯 3
-      - 乌克兰
-      - 西班牙
-      - HK-CF-HTTP
-      - Relay_-🇷🇺RU_20
-      - Relay_🇺🇸US-🏁ZZ_229
-      - Relay_🇺🇸US-🇺🇸US_200
-      - Relay_🇺🇸US-🇺🇸US_179
-      - Pool_🇺🇸US_189
-      - Relay_🇺🇸US-🇺🇸US_226
+      - _VN_越南
+      - _US_美国->🇧🇷_BR_巴西
+      - _GB_英国
+      - _US_美国
+      - _SG_新加坡
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国 3
+      - _US_美国->🇯🇵_JP_日本
+      - _CA_加拿大->🇺🇸_US_美国
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国 4
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 6
+      - _NL_荷兰
+      - _US_美国->🇮🇳_IN_印度
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
