@@ -5,565 +5,661 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新2023-6-19  15:00, server: 8.8.8.8, port: 8080, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 自学志提醒你：每次使用前，请更新一下！！！！, server: 8.8.8.8, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国->🇳🇱_NL_荷兰, server: aduibdfg.114514782.xyz, port: 2052, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /flkfhzz, headers: {Host: aduibdfg.114514782.xyz}}, udp: true}
-  - {name: zxz, server: 51.132.13.37, port: 36238, type: ss, cipher: chacha20-ietf-poly1305, password: 3Diipf4YghZG06rzdRO6SH, udp: true}
-  - {name: 美国, server: 148.59.74.52, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 2x-临时-台北-高级节点3, server: a7d4813550c2.sanfen004.me, port: 29033, type: vmess, uuid: 15cedb1e-b6e7-4dd8-ac65-422e1a322972, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 2, server: 162.159.243.235, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: dubawtgfnewi.76898102.xyz, port: 2052, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /flkfhzz, headers: {Host: dubawtgfnewi.76898102.xyz}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 202.108.15.135, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: 新加坡高速接入点-03, server: sg3.f163ab0f2c74.sanfen004.me, port: 443, type: vmess, uuid: 15cedb1e-b6e7-4dd8-ac65-422e1a322972, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg1.sanfen004.me, udp: true}
-  - {name: _US_美国, server: 173.245.59.119, port: 2086, type: vmess, uuid: 4d2ca583-7e2a-4ef4-ba15-ffc7d9147a32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ylks0, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: _US_美国 2, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: _JP_日本, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: true, udp: true}
-  - {name: _BZ_伯利兹->🇭🇰_HK_香港, server: sdttkza.76898102.xyz, port: 2082, type: vmess, uuid: 4896559c-c94e-342a-b208-6107ec292652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: sdttkz.76898102.xyz}}, udp: true}
-  - {name: zxz 2, server: 51.132.13.41, port: 52484, type: ss, cipher: chacha20-ietf-poly1305, password: G4h2X1AThBilGI1eUrXny6, udp: true}
-  - {name: _US_美国 3, server: 104.18.83.10, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: "日本04{流媒体优化|GPT}", server: j-p04.xingyunwu.top, port: 50050, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: xingyunwu.top, skip-cert-verify: true, udp: true}
-  - {name: 英国02, server: u-k02.xingyunwu.top, port: 50062, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: xingyunwu.top, skip-cert-verify: true, udp: true}
-  - {name: 英国01, server: u-k01.xingyunwu.top, port: 50060, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: xingyunwu.top, skip-cert-verify: true, udp: true}
-  - {name: "日本03{流媒体优化|GPT}", server: j-p03.xingyunwu.top, port: 50048, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: xingyunwu.top, skip-cert-verify: true, udp: true}
-  - {name: "日本02{流媒体优化|GPT}", server: j-p02.xingyunwu.top, port: 50046, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: xingyunwu.top, skip-cert-verify: true, udp: true}
-  - {name: "日本01{流媒体优化|GPT}", server: j-p01.xingyunwu.top, port: 50044, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: xingyunwu.top, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: free.themars.top, port: 32101, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
-  - {name: _US_美国 4, server: 198.200.32.25, port: 49988, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 162.159.243.235, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: _US_美国 6, server: 137.175.11.145, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国->🇬🇧_GB_英国, server: 51.195.35.147, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 7, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国 2, server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: ovhsdz.76898102.xyz}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国 3, server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14161, headers: {Host: ger.digires.shop}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: 2f36c18cfe76.sanfen004.me, port: 10775, type: vmess, uuid: 15cedb1e-b6e7-4dd8-ac65-422e1a322972, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇩🇪_DE_德国, server: de3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国 4, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}, udp: true}
-  - {name: _US_美国->🇫🇮_FI_芬兰, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}, udp: true}
-  - {name: _CA_加拿大, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}, udp: true}
-  - {name: _US_美国 8, server: smt.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}, udp: true}
-  - {name: _US_美国 9, server: 38.63.0.75, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 10, server: 137.175.1.13, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 11, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
-  - {name: _NL_荷兰, server: 188.114.96.37, port: 2052, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
-  - {name: _US_美国 12, server: 104.17.53.191, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: _US_美国 13, server: 198.2.203.57, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 14, server: 198.2.215.141, port: 46679, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡, server: 104.17.3.81, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: _US_美国->🇹🇼_TW_台湾, server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}, udp: true}
-  - {name: _US_美国 15, server: 107.148.195.2, port: 42014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大  13, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}, udp: true}
-  - {name: 美国DXC Technology 32, server: kr.stablize.top, port: 443, type: trojan, password: c8ad75e9-b071-446e-b2e3-ea93b8dd0324, skip-cert-verify: true, udp: true}
-  - {name: 美国CloudFlare公司CDN节点 11, server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
-  - {name: usCloudFlare公司CDN节点 18, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: a6457d28-e328-4202-99fe-0606d7ad69a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6rXqecLmchrWkX7cy1ilLjMBLUC, headers: {Host: de18.irteh.fun}}, udp: true}
-  - {name: 美国CloudFlare公司CDN节点 23, server: www.noice.id, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
-  - {name: IL-🇩🇪DE_78, server: de1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
+  - {name: 更新2023-6-20  8:18, server: 8.8.8.8, port: 8080, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: IL-🇫🇷FR_92, server: de2.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 162.159.243.235, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: US_237, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
+  - {name: zxz, server: 51.132.13.37, port: 36238, type: ss, cipher: chacha20-ietf-poly1305, password: 3Diipf4YghZG06rzdRO6SH, udp: true}
+  - {name: 美国, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 11, server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡, server: 104.17.3.81, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: _US_美国 2, server: 104.18.83.10, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14161, headers: {Host: ger.digires.shop}}, udp: true}
   - {name: IL-🇳🇱NL_80, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: IL-🇩🇪DE_78, server: de1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 202.108.15.135, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: zxz 2, server: 51.132.13.41, port: 52484, type: ss, cipher: chacha20-ietf-poly1305, password: G4h2X1AThBilGI1eUrXny6, udp: true}
   - {name: IL-🇬🇧GB_85, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
   - {name: US-🇯🇵JP_334, server: jp.stablize.top, port: 443, type: trojan, password: 40297165-0545-4f8f-abc4-3ee25e6cfb87, skip-cert-verify: true, udp: true}
-  - {name: CA-🇨🇦CA_30, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-newdday, skip-cert-verify: true, udp: true}
+  - {name: usCloudFlare公司CDN节点 18, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: a6457d28-e328-4202-99fe-0606d7ad69a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6rXqecLmchrWkX7cy1ilLjMBLUC, headers: {Host: de18.irteh.fun}}, udp: true}
+  - {name: 美国 2, server: 162.159.243.235, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: _US_美国->🇫🇮_FI_芬兰, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}, udp: true}
+  - {name: 美国 3, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: _US_美国 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
   - {name: JP-🇯🇵JP_98, server: trs22.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, skip-cert-verify: true, udp: true}
-  - {name: US_237, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
-  - {name: 美国 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国 4, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国 5, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 6, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 7, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 23, server: www.noice.id, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: _US_美国 4, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: _US_美国 5, server: 104.17.53.191, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
+  - {name: _US_美国->🇹🇼_TW_台湾, server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}, udp: true}
+  - {name: _US_美国 6, server: smt.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}, udp: true}
+  - {name: _JP_日本, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇩🇪_DE_德国, server: de3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
+  - {name: _US_美国 7, server: 140.99.57.40, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 8, server: 107.167.16.102, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: _DE_德国, server: 217.79.184.22, port: 443, type: trojan, password: 746b6774-e899-4205-a097-3da55c26f5b3, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _CY_塞浦路斯->🇺🇸_US_美国, server: sbn.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}, udp: true}
+  - {name: _US_美国 9, server: 104.27.17.155, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}, udp: true}
+  - {name: _JP_日本 2, server: trs22.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: 137.175.9.202, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 11, server: 137.175.9.181, port: 32890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 12, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: _US_美国 13, server: ger.digires.shop, port: 443, type: vmess, uuid: f988dd2c-0d1a-49d0-cabc-a1288d72d183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14161, headers: {Host: ger.digires.shop}}, udp: true}
+  - {name: _US_美国 14, server: 74.217.179.36, port: 443, type: trojan, password: 746b6774-e899-4205-a097-3da55c26f5b3, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 15, server: 148.59.74.52, port: 443, type: trojan, password: 746b6774-e899-4205-a097-3da55c26f5b3, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 3, server: trs21.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs21.bolab.net, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: 120.233.43.68, port: 51004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: 202.108.15.135, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: _DE_德国 2, server: 84.252.121.218, port: 443, type: trojan, password: 746b6774-e899-4205-a097-3da55c26f5b3, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 16, server: smt.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}, udp: true}
+  - {name: _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.206, port: 49823, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 17, server: www.digitalocean.com, port: 80, type: vmess, uuid: 25b280df-e990-4495-80e3-48ec3c83da77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: _JP_日本 4, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 746b6774-e899-4205-a097-3da55c26f5b3, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 18, server: 198.41.212.122, port: 8080, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}, udp: true}
+  - {name: _US_美国 19, server: 141.193.68.93, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 20, server: 140.99.49.52, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 21, server: 45.12.144.89, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇯🇵_JP_日本, server: 149.50.70.76, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 2, server: zf.heigouyunzf.xyz, port: 38801, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, sni: ads.rade.ir, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇦🇺_AU_澳大利亚, server: 149.50.83.120, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇺🇸_US_美国, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰 2, server: 149.50.89.108, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 22, server: 163.123.192.154, port: 443, type: trojan, password: 997a9caa-5950-476f-8614-462fb2e0ed18, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰 3, server: 149.50.75.105, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇬🇧_GB_英国, server: 149.50.77.97, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇯🇵_JP_日本 2, server: 149.50.70.72, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: zf.heigouyunzf.xyz, port: 38803, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇬🇧_GB_英国 2, server: 149.50.77.134, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰 4, server: 149.50.75.90, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 23, server: 163.123.192.57, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇺🇸_US_美国 2, server: 149.50.69.127, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰 5, server: 149.50.75.81, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇬🇧_GB_英国 3, server: 149.50.77.102, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇦🇺_AU_澳大利亚 2, server: 149.50.83.49, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: zxz 3, server: 120.233.43.68, port: 51004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 更新2023-6-19  15:00
       - 自学志提醒你：每次使用前，请更新一下！！！！
-      - _GB_英国->🇳🇱_NL_荷兰
+      - 更新2023-6-20  8:18
+      - IL-🇫🇷FR_92
+      - _US_美国
+      - US_237
       - zxz
       - 美国
-      - 2x-临时-台北-高级节点3
-      - 美国 2
-      - _US_美国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - 新加坡高速接入点-03
-      - _US_美国
+      - 美国CloudFlare公司CDN节点 11
+      - _US_美国->🇸🇬_SG_新加坡
       - _US_美国 2
-      - _JP_日本
-      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - IL-🇳🇱NL_80
+      - IL-🇩🇪DE_78
+      - _CN_中国->🇺🇸_US_美国
       - zxz 2
+      - IL-🇬🇧GB_85
+      - US-🇯🇵JP_334
+      - usCloudFlare公司CDN节点 18
+      - 美国 2
+      - _US_美国->🇫🇮_FI_芬兰
+      - 美国 3
       - _US_美国 3
-      - 日本04{流媒体优化|GPT}
-      - 英国02
-      - 英国01
-      - 日本03{流媒体优化|GPT}
-      - 日本02{流媒体优化|GPT}
-      - 日本01{流媒体优化|GPT}
-      - _CN_中国->🇯🇵_JP_日本
+      - JP-🇯🇵JP_98
+      - 美国CloudFlare公司CDN节点 23
       - _US_美国 4
       - _US_美国 5
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国->🇹🇼_TW_台湾
       - _US_美国 6
-      - _FR_法国->🇬🇧_GB_英国
-      - _US_美国 7
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本
       - _IL_以色列->🇩🇪_DE_德国
-      - _US_美国->🇩🇪_DE_德国 4
-      - _US_美国->🇫🇮_FI_芬兰
-      - _CA_加拿大
+      - _CN_中国
+      - _US_美国 7
       - _US_美国 8
+      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国->🇳🇱_NL_荷兰
+      - _DE_德国
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 9
+      - _JP_日本 2
       - _US_美国 10
       - _US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _NL_荷兰
       - _US_美国 12
       - _US_美国 13
       - _US_美国 14
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇹🇼_TW_台湾
+      - _IL_以色列->🇳🇱_NL_荷兰
       - _US_美国 15
-      - 加拿大  13
-      - 美国DXC Technology 32
-      - 美国CloudFlare公司CDN节点 11
-      - usCloudFlare公司CDN节点 18
-      - 美国CloudFlare公司CDN节点 23
-      - IL-🇩🇪DE_78
-      - IL-🇫🇷FR_92
-      - IL-🇳🇱NL_80
-      - IL-🇬🇧GB_85
-      - US-🇯🇵JP_334
-      - CA-🇨🇦CA_30
-      - JP-🇯🇵JP_98
-      - US_237
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
+      - _JP_日本 3
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇺🇸_US_美国 2
+      - _DE_德国 2
+      - _US_美国 16
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _US_美国 17
+      - _JP_日本 4
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _IL_以色列->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _IL_以色列->🇺🇸_US_美国
+      - _IL_以色列->🇳🇱_NL_荷兰 2
+      - _US_美国 22
+      - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇬🇧_GB_英国
+      - _IL_以色列->🇯🇵_JP_日本 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _IL_以色列->🇬🇧_GB_英国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _US_美国 23
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - zxz 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 更新2023-6-19  15:00
       - 自学志提醒你：每次使用前，请更新一下！！！！
-      - _GB_英国->🇳🇱_NL_荷兰
+      - 更新2023-6-20  8:18
+      - IL-🇫🇷FR_92
+      - _US_美国
+      - US_237
       - zxz
       - 美国
-      - 2x-临时-台北-高级节点3
-      - 美国 2
-      - _US_美国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - 新加坡高速接入点-03
-      - _US_美国
+      - 美国CloudFlare公司CDN节点 11
+      - _US_美国->🇸🇬_SG_新加坡
       - _US_美国 2
-      - _JP_日本
-      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - IL-🇳🇱NL_80
+      - IL-🇩🇪DE_78
+      - _CN_中国->🇺🇸_US_美国
       - zxz 2
+      - IL-🇬🇧GB_85
+      - US-🇯🇵JP_334
+      - usCloudFlare公司CDN节点 18
+      - 美国 2
+      - _US_美国->🇫🇮_FI_芬兰
+      - 美国 3
       - _US_美国 3
-      - 日本04{流媒体优化|GPT}
-      - 英国02
-      - 英国01
-      - 日本03{流媒体优化|GPT}
-      - 日本02{流媒体优化|GPT}
-      - 日本01{流媒体优化|GPT}
-      - _CN_中国->🇯🇵_JP_日本
+      - JP-🇯🇵JP_98
+      - 美国CloudFlare公司CDN节点 23
       - _US_美国 4
       - _US_美国 5
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国->🇹🇼_TW_台湾
       - _US_美国 6
-      - _FR_法国->🇬🇧_GB_英国
-      - _US_美国 7
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本
       - _IL_以色列->🇩🇪_DE_德国
-      - _US_美国->🇩🇪_DE_德国 4
-      - _US_美国->🇫🇮_FI_芬兰
-      - _CA_加拿大
+      - _CN_中国
+      - _US_美国 7
       - _US_美国 8
+      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国->🇳🇱_NL_荷兰
+      - _DE_德国
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 9
+      - _JP_日本 2
       - _US_美国 10
       - _US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _NL_荷兰
       - _US_美国 12
       - _US_美国 13
       - _US_美国 14
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇹🇼_TW_台湾
+      - _IL_以色列->🇳🇱_NL_荷兰
       - _US_美国 15
-      - 加拿大  13
-      - 美国DXC Technology 32
-      - 美国CloudFlare公司CDN节点 11
-      - usCloudFlare公司CDN节点 18
-      - 美国CloudFlare公司CDN节点 23
-      - IL-🇩🇪DE_78
-      - IL-🇫🇷FR_92
-      - IL-🇳🇱NL_80
-      - IL-🇬🇧GB_85
-      - US-🇯🇵JP_334
-      - CA-🇨🇦CA_30
-      - JP-🇯🇵JP_98
-      - US_237
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
+      - _JP_日本 3
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇺🇸_US_美国 2
+      - _DE_德国 2
+      - _US_美国 16
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _US_美国 17
+      - _JP_日本 4
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _IL_以色列->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _IL_以色列->🇺🇸_US_美国
+      - _IL_以色列->🇳🇱_NL_荷兰 2
+      - _US_美国 22
+      - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇬🇧_GB_英国
+      - _IL_以色列->🇯🇵_JP_日本 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _IL_以色列->🇬🇧_GB_英国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _US_美国 23
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - zxz 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新2023-6-19  15:00
       - 自学志提醒你：每次使用前，请更新一下！！！！
-      - _GB_英国->🇳🇱_NL_荷兰
+      - 更新2023-6-20  8:18
+      - IL-🇫🇷FR_92
+      - _US_美国
+      - US_237
       - zxz
       - 美国
-      - 2x-临时-台北-高级节点3
-      - 美国 2
-      - _US_美国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - 新加坡高速接入点-03
-      - _US_美国
+      - 美国CloudFlare公司CDN节点 11
+      - _US_美国->🇸🇬_SG_新加坡
       - _US_美国 2
-      - _JP_日本
-      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - IL-🇳🇱NL_80
+      - IL-🇩🇪DE_78
+      - _CN_中国->🇺🇸_US_美国
       - zxz 2
+      - IL-🇬🇧GB_85
+      - US-🇯🇵JP_334
+      - usCloudFlare公司CDN节点 18
+      - 美国 2
+      - _US_美国->🇫🇮_FI_芬兰
+      - 美国 3
       - _US_美国 3
-      - 日本04{流媒体优化|GPT}
-      - 英国02
-      - 英国01
-      - 日本03{流媒体优化|GPT}
-      - 日本02{流媒体优化|GPT}
-      - 日本01{流媒体优化|GPT}
-      - _CN_中国->🇯🇵_JP_日本
+      - JP-🇯🇵JP_98
+      - 美国CloudFlare公司CDN节点 23
       - _US_美国 4
       - _US_美国 5
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国->🇹🇼_TW_台湾
       - _US_美国 6
-      - _FR_法国->🇬🇧_GB_英国
-      - _US_美国 7
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本
       - _IL_以色列->🇩🇪_DE_德国
-      - _US_美国->🇩🇪_DE_德国 4
-      - _US_美国->🇫🇮_FI_芬兰
-      - _CA_加拿大
+      - _CN_中国
+      - _US_美国 7
       - _US_美国 8
+      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国->🇳🇱_NL_荷兰
+      - _DE_德国
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 9
+      - _JP_日本 2
       - _US_美国 10
       - _US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _NL_荷兰
       - _US_美国 12
       - _US_美国 13
       - _US_美国 14
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇹🇼_TW_台湾
+      - _IL_以色列->🇳🇱_NL_荷兰
       - _US_美国 15
-      - 加拿大  13
-      - 美国DXC Technology 32
-      - 美国CloudFlare公司CDN节点 11
-      - usCloudFlare公司CDN节点 18
-      - 美国CloudFlare公司CDN节点 23
-      - IL-🇩🇪DE_78
-      - IL-🇫🇷FR_92
-      - IL-🇳🇱NL_80
-      - IL-🇬🇧GB_85
-      - US-🇯🇵JP_334
-      - CA-🇨🇦CA_30
-      - JP-🇯🇵JP_98
-      - US_237
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
+      - _JP_日本 3
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇺🇸_US_美国 2
+      - _DE_德国 2
+      - _US_美国 16
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _US_美国 17
+      - _JP_日本 4
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _IL_以色列->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _IL_以色列->🇺🇸_US_美国
+      - _IL_以色列->🇳🇱_NL_荷兰 2
+      - _US_美国 22
+      - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇬🇧_GB_英国
+      - _IL_以色列->🇯🇵_JP_日本 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _IL_以色列->🇬🇧_GB_英国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _US_美国 23
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - zxz 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新2023-6-19  15:00
       - 自学志提醒你：每次使用前，请更新一下！！！！
-      - _GB_英国->🇳🇱_NL_荷兰
+      - 更新2023-6-20  8:18
+      - IL-🇫🇷FR_92
+      - _US_美国
+      - US_237
       - zxz
       - 美国
-      - 2x-临时-台北-高级节点3
-      - 美国 2
-      - _US_美国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - 新加坡高速接入点-03
-      - _US_美国
+      - 美国CloudFlare公司CDN节点 11
+      - _US_美国->🇸🇬_SG_新加坡
       - _US_美国 2
-      - _JP_日本
-      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - IL-🇳🇱NL_80
+      - IL-🇩🇪DE_78
+      - _CN_中国->🇺🇸_US_美国
       - zxz 2
+      - IL-🇬🇧GB_85
+      - US-🇯🇵JP_334
+      - usCloudFlare公司CDN节点 18
+      - 美国 2
+      - _US_美国->🇫🇮_FI_芬兰
+      - 美国 3
       - _US_美国 3
-      - 日本04{流媒体优化|GPT}
-      - 英国02
-      - 英国01
-      - 日本03{流媒体优化|GPT}
-      - 日本02{流媒体优化|GPT}
-      - 日本01{流媒体优化|GPT}
-      - _CN_中国->🇯🇵_JP_日本
+      - JP-🇯🇵JP_98
+      - 美国CloudFlare公司CDN节点 23
       - _US_美国 4
       - _US_美国 5
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国->🇹🇼_TW_台湾
       - _US_美国 6
-      - _FR_法国->🇬🇧_GB_英国
-      - _US_美国 7
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本
       - _IL_以色列->🇩🇪_DE_德国
-      - _US_美国->🇩🇪_DE_德国 4
-      - _US_美国->🇫🇮_FI_芬兰
-      - _CA_加拿大
+      - _CN_中国
+      - _US_美国 7
       - _US_美国 8
+      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国->🇳🇱_NL_荷兰
+      - _DE_德国
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 9
+      - _JP_日本 2
       - _US_美国 10
       - _US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _NL_荷兰
       - _US_美国 12
       - _US_美国 13
       - _US_美国 14
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇹🇼_TW_台湾
+      - _IL_以色列->🇳🇱_NL_荷兰
       - _US_美国 15
-      - 加拿大  13
-      - 美国DXC Technology 32
-      - 美国CloudFlare公司CDN节点 11
-      - usCloudFlare公司CDN节点 18
-      - 美国CloudFlare公司CDN节点 23
-      - IL-🇩🇪DE_78
-      - IL-🇫🇷FR_92
-      - IL-🇳🇱NL_80
-      - IL-🇬🇧GB_85
-      - US-🇯🇵JP_334
-      - CA-🇨🇦CA_30
-      - JP-🇯🇵JP_98
-      - US_237
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
+      - _JP_日本 3
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇺🇸_US_美国 2
+      - _DE_德国 2
+      - _US_美国 16
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _US_美国 17
+      - _JP_日本 4
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _IL_以色列->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _IL_以色列->🇺🇸_US_美国
+      - _IL_以色列->🇳🇱_NL_荷兰 2
+      - _US_美国 22
+      - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇬🇧_GB_英国
+      - _IL_以色列->🇯🇵_JP_日本 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _IL_以色列->🇬🇧_GB_英国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _US_美国 23
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - zxz 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 更新2023-6-19  15:00
       - 自学志提醒你：每次使用前，请更新一下！！！！
-      - _GB_英国->🇳🇱_NL_荷兰
+      - 更新2023-6-20  8:18
+      - IL-🇫🇷FR_92
+      - _US_美国
+      - US_237
       - zxz
       - 美国
-      - 2x-临时-台北-高级节点3
-      - 美国 2
-      - _US_美国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - 新加坡高速接入点-03
-      - _US_美国
+      - 美国CloudFlare公司CDN节点 11
+      - _US_美国->🇸🇬_SG_新加坡
       - _US_美国 2
-      - _JP_日本
-      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - IL-🇳🇱NL_80
+      - IL-🇩🇪DE_78
+      - _CN_中国->🇺🇸_US_美国
       - zxz 2
+      - IL-🇬🇧GB_85
+      - US-🇯🇵JP_334
+      - usCloudFlare公司CDN节点 18
+      - 美国 2
+      - _US_美国->🇫🇮_FI_芬兰
+      - 美国 3
       - _US_美国 3
-      - 日本04{流媒体优化|GPT}
-      - 英国02
-      - 英国01
-      - 日本03{流媒体优化|GPT}
-      - 日本02{流媒体优化|GPT}
-      - 日本01{流媒体优化|GPT}
-      - _CN_中国->🇯🇵_JP_日本
+      - JP-🇯🇵JP_98
+      - 美国CloudFlare公司CDN节点 23
       - _US_美国 4
       - _US_美国 5
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国->🇹🇼_TW_台湾
       - _US_美国 6
-      - _FR_法国->🇬🇧_GB_英国
-      - _US_美国 7
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本
       - _IL_以色列->🇩🇪_DE_德国
-      - _US_美国->🇩🇪_DE_德国 4
-      - _US_美国->🇫🇮_FI_芬兰
-      - _CA_加拿大
+      - _CN_中国
+      - _US_美国 7
       - _US_美国 8
+      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国->🇳🇱_NL_荷兰
+      - _DE_德国
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 9
+      - _JP_日本 2
       - _US_美国 10
       - _US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _NL_荷兰
       - _US_美国 12
       - _US_美国 13
       - _US_美国 14
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇹🇼_TW_台湾
+      - _IL_以色列->🇳🇱_NL_荷兰
       - _US_美国 15
-      - 加拿大  13
-      - 美国DXC Technology 32
-      - 美国CloudFlare公司CDN节点 11
-      - usCloudFlare公司CDN节点 18
-      - 美国CloudFlare公司CDN节点 23
-      - IL-🇩🇪DE_78
-      - IL-🇫🇷FR_92
-      - IL-🇳🇱NL_80
-      - IL-🇬🇧GB_85
-      - US-🇯🇵JP_334
-      - CA-🇨🇦CA_30
-      - JP-🇯🇵JP_98
-      - US_237
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
+      - _JP_日本 3
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇺🇸_US_美国 2
+      - _DE_德国 2
+      - _US_美国 16
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _US_美国 17
+      - _JP_日本 4
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _IL_以色列->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _IL_以色列->🇺🇸_US_美国
+      - _IL_以色列->🇳🇱_NL_荷兰 2
+      - _US_美国 22
+      - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇬🇧_GB_英国
+      - _IL_以色列->🇯🇵_JP_日本 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _IL_以色列->🇬🇧_GB_英国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _US_美国 23
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - zxz 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 更新2023-6-19  15:00
       - 自学志提醒你：每次使用前，请更新一下！！！！
-      - _GB_英国->🇳🇱_NL_荷兰
+      - 更新2023-6-20  8:18
+      - IL-🇫🇷FR_92
+      - _US_美国
+      - US_237
       - zxz
       - 美国
-      - 2x-临时-台北-高级节点3
-      - 美国 2
-      - _US_美国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - 新加坡高速接入点-03
-      - _US_美国
+      - 美国CloudFlare公司CDN节点 11
+      - _US_美国->🇸🇬_SG_新加坡
       - _US_美国 2
-      - _JP_日本
-      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - IL-🇳🇱NL_80
+      - IL-🇩🇪DE_78
+      - _CN_中国->🇺🇸_US_美国
       - zxz 2
+      - IL-🇬🇧GB_85
+      - US-🇯🇵JP_334
+      - usCloudFlare公司CDN节点 18
+      - 美国 2
+      - _US_美国->🇫🇮_FI_芬兰
+      - 美国 3
       - _US_美国 3
-      - 日本04{流媒体优化|GPT}
-      - 英国02
-      - 英国01
-      - 日本03{流媒体优化|GPT}
-      - 日本02{流媒体优化|GPT}
-      - 日本01{流媒体优化|GPT}
-      - _CN_中国->🇯🇵_JP_日本
+      - JP-🇯🇵JP_98
+      - 美国CloudFlare公司CDN节点 23
       - _US_美国 4
       - _US_美国 5
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国->🇹🇼_TW_台湾
       - _US_美国 6
-      - _FR_法国->🇬🇧_GB_英国
-      - _US_美国 7
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本
       - _IL_以色列->🇩🇪_DE_德国
-      - _US_美国->🇩🇪_DE_德国 4
-      - _US_美国->🇫🇮_FI_芬兰
-      - _CA_加拿大
+      - _CN_中国
+      - _US_美国 7
       - _US_美国 8
+      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国->🇳🇱_NL_荷兰
+      - _DE_德国
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 9
+      - _JP_日本 2
       - _US_美国 10
       - _US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _NL_荷兰
       - _US_美国 12
       - _US_美国 13
       - _US_美国 14
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇹🇼_TW_台湾
+      - _IL_以色列->🇳🇱_NL_荷兰
       - _US_美国 15
-      - 加拿大  13
-      - 美国DXC Technology 32
-      - 美国CloudFlare公司CDN节点 11
-      - usCloudFlare公司CDN节点 18
-      - 美国CloudFlare公司CDN节点 23
-      - IL-🇩🇪DE_78
-      - IL-🇫🇷FR_92
-      - IL-🇳🇱NL_80
-      - IL-🇬🇧GB_85
-      - US-🇯🇵JP_334
-      - CA-🇨🇦CA_30
-      - JP-🇯🇵JP_98
-      - US_237
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
+      - _JP_日本 3
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇺🇸_US_美国 2
+      - _DE_德国 2
+      - _US_美国 16
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _US_美国 17
+      - _JP_日本 4
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _IL_以色列->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _IL_以色列->🇺🇸_US_美国
+      - _IL_以色列->🇳🇱_NL_荷兰 2
+      - _US_美国 22
+      - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇬🇧_GB_英国
+      - _IL_以色列->🇯🇵_JP_日本 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _IL_以色列->🇬🇧_GB_英国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _US_美国 23
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - zxz 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新2023-6-19  15:00
       - 自学志提醒你：每次使用前，请更新一下！！！！
-      - _GB_英国->🇳🇱_NL_荷兰
+      - 更新2023-6-20  8:18
+      - IL-🇫🇷FR_92
+      - _US_美国
+      - US_237
       - zxz
       - 美国
-      - 2x-临时-台北-高级节点3
-      - 美国 2
-      - _US_美国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - 新加坡高速接入点-03
-      - _US_美国
+      - 美国CloudFlare公司CDN节点 11
+      - _US_美国->🇸🇬_SG_新加坡
       - _US_美国 2
-      - _JP_日本
-      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - IL-🇳🇱NL_80
+      - IL-🇩🇪DE_78
+      - _CN_中国->🇺🇸_US_美国
       - zxz 2
+      - IL-🇬🇧GB_85
+      - US-🇯🇵JP_334
+      - usCloudFlare公司CDN节点 18
+      - 美国 2
+      - _US_美国->🇫🇮_FI_芬兰
+      - 美国 3
       - _US_美国 3
-      - 日本04{流媒体优化|GPT}
-      - 英国02
-      - 英国01
-      - 日本03{流媒体优化|GPT}
-      - 日本02{流媒体优化|GPT}
-      - 日本01{流媒体优化|GPT}
-      - _CN_中国->🇯🇵_JP_日本
+      - JP-🇯🇵JP_98
+      - 美国CloudFlare公司CDN节点 23
       - _US_美国 4
       - _US_美国 5
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国->🇹🇼_TW_台湾
       - _US_美国 6
-      - _FR_法国->🇬🇧_GB_英国
-      - _US_美国 7
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本
       - _IL_以色列->🇩🇪_DE_德国
-      - _US_美国->🇩🇪_DE_德国 4
-      - _US_美国->🇫🇮_FI_芬兰
-      - _CA_加拿大
+      - _CN_中国
+      - _US_美国 7
       - _US_美国 8
+      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国->🇳🇱_NL_荷兰
+      - _DE_德国
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 9
+      - _JP_日本 2
       - _US_美国 10
       - _US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _NL_荷兰
       - _US_美国 12
       - _US_美国 13
       - _US_美国 14
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇹🇼_TW_台湾
+      - _IL_以色列->🇳🇱_NL_荷兰
       - _US_美国 15
-      - 加拿大  13
-      - 美国DXC Technology 32
-      - 美国CloudFlare公司CDN节点 11
-      - usCloudFlare公司CDN节点 18
-      - 美国CloudFlare公司CDN节点 23
-      - IL-🇩🇪DE_78
-      - IL-🇫🇷FR_92
-      - IL-🇳🇱NL_80
-      - IL-🇬🇧GB_85
-      - US-🇯🇵JP_334
-      - CA-🇨🇦CA_30
-      - JP-🇯🇵JP_98
-      - US_237
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
+      - _JP_日本 3
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇺🇸_US_美国 2
+      - _DE_德国 2
+      - _US_美国 16
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _US_美国 17
+      - _JP_日本 4
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _IL_以色列->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _IL_以色列->🇺🇸_US_美国
+      - _IL_以色列->🇳🇱_NL_荷兰 2
+      - _US_美国 22
+      - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇬🇧_GB_英国
+      - _IL_以色列->🇯🇵_JP_日本 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _IL_以色列->🇬🇧_GB_英国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _US_美国 23
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - zxz 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -586,71 +682,83 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新2023-6-19  15:00
       - 自学志提醒你：每次使用前，请更新一下！！！！
-      - _GB_英国->🇳🇱_NL_荷兰
+      - 更新2023-6-20  8:18
+      - IL-🇫🇷FR_92
+      - _US_美国
+      - US_237
       - zxz
       - 美国
-      - 2x-临时-台北-高级节点3
-      - 美国 2
-      - _US_美国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - 新加坡高速接入点-03
-      - _US_美国
+      - 美国CloudFlare公司CDN节点 11
+      - _US_美国->🇸🇬_SG_新加坡
       - _US_美国 2
-      - _JP_日本
-      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _US_美国->🇩🇪_DE_德国
+      - IL-🇳🇱NL_80
+      - IL-🇩🇪DE_78
+      - _CN_中国->🇺🇸_US_美国
       - zxz 2
+      - IL-🇬🇧GB_85
+      - US-🇯🇵JP_334
+      - usCloudFlare公司CDN节点 18
+      - 美国 2
+      - _US_美国->🇫🇮_FI_芬兰
+      - 美国 3
       - _US_美国 3
-      - 日本04{流媒体优化|GPT}
-      - 英国02
-      - 英国01
-      - 日本03{流媒体优化|GPT}
-      - 日本02{流媒体优化|GPT}
-      - 日本01{流媒体优化|GPT}
-      - _CN_中国->🇯🇵_JP_日本
+      - JP-🇯🇵JP_98
+      - 美国CloudFlare公司CDN节点 23
       - _US_美国 4
       - _US_美国 5
+      - _CN_中国->🇯🇵_JP_日本
+      - _US_美国->🇹🇼_TW_台湾
       - _US_美国 6
-      - _FR_法国->🇬🇧_GB_英国
-      - _US_美国 7
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _CN_中国->🇭🇰_HK_香港
+      - _JP_日本
       - _IL_以色列->🇩🇪_DE_德国
-      - _US_美国->🇩🇪_DE_德国 4
-      - _US_美国->🇫🇮_FI_芬兰
-      - _CA_加拿大
+      - _CN_中国
+      - _US_美国 7
       - _US_美国 8
+      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国->🇳🇱_NL_荷兰
+      - _DE_德国
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 9
+      - _JP_日本 2
       - _US_美国 10
       - _US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _NL_荷兰
       - _US_美国 12
       - _US_美国 13
       - _US_美国 14
-      - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇹🇼_TW_台湾
+      - _IL_以色列->🇳🇱_NL_荷兰
       - _US_美国 15
-      - 加拿大  13
-      - 美国DXC Technology 32
-      - 美国CloudFlare公司CDN节点 11
-      - usCloudFlare公司CDN节点 18
-      - 美国CloudFlare公司CDN节点 23
-      - IL-🇩🇪DE_78
-      - IL-🇫🇷FR_92
-      - IL-🇳🇱NL_80
-      - IL-🇬🇧GB_85
-      - US-🇯🇵JP_334
-      - CA-🇨🇦CA_30
-      - JP-🇯🇵JP_98
-      - US_237
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 美国 6
-      - 美国 7
+      - _JP_日本 3
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇺🇸_US_美国 2
+      - _DE_德国 2
+      - _US_美国 16
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _US_美国 17
+      - _JP_日本 4
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
+      - _IL_以色列->🇯🇵_JP_日本
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _IL_以色列->🇦🇺_AU_澳大利亚
+      - _IL_以色列->🇺🇸_US_美国
+      - _IL_以色列->🇳🇱_NL_荷兰 2
+      - _US_美国 22
+      - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇬🇧_GB_英国
+      - _IL_以色列->🇯🇵_JP_日本 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _IL_以色列->🇬🇧_GB_英国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _US_美国 23
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇦🇺_AU_澳大利亚 2
+      - zxz 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
