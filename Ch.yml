@@ -5,263 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于:07-19 8:20, server: 使用前记得更新订阅, port: 80, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NL2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl2.sharecentrepro.com}}, udp: true}
-  - {name: NL-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 日本高速接入点-01, server: cfcdn2.sanfencdn.net, port: 80, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp1.sanfencdn2.com}}, udp: true}
-  - {name: 美国高速接入点-08, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us8.sanfencdn2.com}}, udp: true}
-  - {name: 日本高速接入点-02, server: cfcdn2.sanfencdn.net, port: 80, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp2.sanfencdn2.com}}, udp: true}
-  - {name: 美国高速接入点-04, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us4.sanfencdn1.com}}, udp: true}
-  - {name: 美国高速接入点-06, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us6.sanfencdn2.com}}, udp: true}
-  - {name: 美国高速接入点-01, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn1.com}}, udp: true}
-  - {name: 美国高速接入点-02, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn1.com}}, udp: true}
-  - {name: 美国高速接入点-03, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us3.sanfencdn1.com}}, udp: true}
-  - {name: 日本高速接入点-06, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp6.sanfencdn2.com}}, udp: true}
-  - {name: 日本高速接入点-03, server: cfcdn2.sanfencdn.net, port: 80, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp3.sanfencdn2.com}}, udp: true}
-  - {name: US-🇺🇸US_180, server: cdn.ikuan.dev, port: 2052, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}, udp: true}
-  - {name: US-🇺🇸US_174, server: 104.20.18.54, port: 2095, type: vmess, uuid: 8c4e5e83-8be2-4638-e3f6-a098ee484193, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: hk.wyhkaa0.tk}}, udp: true}
-  - {name: US-🇺🇸US_182, server: 192.74.231.186, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-🇺🇸US_181, server: 192.74.231.188, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-🇺🇸US_179, server: 170.178.167.142, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 更新于:07-20 9:50, server: 使用前记得更新订阅, port: 80, type: vmess, uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _自学志, server: 172.247.148.88, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _自学志 2, server: 198.2.203.54, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _自学志 3, server: 137.175.18.86, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _自学志 4, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _自学志 5, server: 137.175.18.90, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US-🇳🇱NL_121, server: 45.199.138.136, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_156, server: 64.32.4.46, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-🇺🇸US_159, server: 45.92.160.20, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_07, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-🇺🇸US_130, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us3.sanfencdn1.com}}, udp: true}
+  - {name: _自学志 6, server: 156.251.135.14, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _自学志 7, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US-🇺🇸US_169, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志, server: 198.2.203.54, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 2, server: 142.4.99.67, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 3, server: 137.175.18.90, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 4, server: 172.247.148.88, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 5, server: 156.251.135.14, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 6, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 7, server: 142.4.112.1, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 8, server: digitalocean.com, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}, udp: true}
-  - {name: _自学志 9, server: 137.175.18.86, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 10, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 11, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 12, server: bluehost.com, port: 443, type: vmess, uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /16575, headers: {Host: cdnca1.digisport.shop}}, udp: true}
-  - {name: _自学志 13, server: 156.225.67.103, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 14, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 15, server: 45.92.160.20, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _自学志 16, server: btbu996.icu, port: 443, type: vmess, uuid: 16702ec2-3808-46e6-a7b5-582c062be13d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpnat1.doinb.tk}}, udp: true}
-  - {name: 法国, server: 173.245.49.115, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国, server: 104.19.97.1, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国 2, server: 104.20.18.54, port: 2095, type: vmess, uuid: 8c4e5e83-8be2-4638-e3f6-a098ee484193, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: hk.wyhkaa0.tk}}, udp: true}
-  - {name: 英国, server: 51.105.39.37, port: 39630, type: ss, cipher: chacha20-ietf-poly1305, password: Qiz9xWRGKG1Lz11yu6D3nm, udp: true}
-  - {name: 美国 3, server: 104.18.136.57, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国 4, server: 104.20.184.232, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国 5, server: 104.20.224.54, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 荷兰, server: 188.114.96.2, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国 6, server: 104.17.129.231, port: 2082, type: vmess, uuid: f4c2c162-0fc4-4455-d862-2b24aebce347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.wang66.homes}}, udp: true}
-  - {name: 美国 7, server: 172.67.193.203, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国 8, server: 173.245.58.237, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国 9, server: 104.18.102.198, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国 10, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme100.fun}}, udp: true}
-  - {name: 加拿大, server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: 美国 11, server: 104.18.110.194, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
+  - {name: US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: US-🇺🇸US_174, server: 104.20.18.54, port: 2095, type: vmess, uuid: 8c4e5e83-8be2-4638-e3f6-a098ee484193, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: hk.wyhkaa0.tk}}, udp: true}
+  - {name: US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: _自学志 8, server: 156.225.67.103, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl2.sharecentrepro.com}}, udp: true}
+  - {name: US-🇺🇸US_180, server: cdn.ikuan.dev, port: 2052, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}, udp: true}
+  - {name: _自学志 9, server: digitalocean.com, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}, udp: true}
+  - {name: _自学志 10, server: bluehost.com, port: 443, type: vmess, uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /16575, headers: {Host: cdnca1.digisport.shop}}, udp: true}
+  - {name: _自学志 11, server: btbu996.icu, port: 443, type: vmess, uuid: 16702ec2-3808-46e6-a7b5-582c062be13d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpnat1.doinb.tk}}, udp: true}
+  - {name: NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _自学志 12, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme100.fun}}, udp: true}
+  - {name: UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: NL-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 美国 05 | 专线, server: us5.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 03 | 专线, server: us3.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 日本 02 | 专线, server: jp2.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 01 | 专线, server: sg1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 06 | 专线, server: us6.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 01 | 专线, server: hk1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 01 | 专线, server: us1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 06 | 专线, server: sg6.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 日本 01 | 专线, server: jp1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线, server: us4.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 07 | 专线, server: us7.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 07 | 专线, server: hk7.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 日本 03 | 专线, server: jp3.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 06 | 专线, server: hk6.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 04 | 专线, server: hk4.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 02 | 专线, server: hk2.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 04 | 专线, server: sg4.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 05 | 专线, server: hk5.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 03 | 专线, server: hk3.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 日本 04 | 专线, server: jp4.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 02 | 专线, server: us2.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 02 | 专线, server: sg2.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 08 | 专线, server: sg8.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, port: 443, type: trojan, password: a059fc53-76b9-4723-8462-55b9004a0b7c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于:07-19 8:20
-      - NL2-CF-HTTP
-      - NL-CF-HTTP
-      - US-DP3-HTTP
-      - UK-CF-HTTP
-      - HK-CF-HTTP
-      - US-BuyVM4-HTTP
-      - NNC-CF-HTTP
-      - 日本高速接入点-01
-      - 美国高速接入点-08
-      - 日本高速接入点-02
-      - 美国高速接入点-04
-      - 美国高速接入点-06
-      - 美国高速接入点-01
-      - 美国高速接入点-02
-      - 美国高速接入点-03
-      - 日本高速接入点-06
-      - 日本高速接入点-03
-      - US-🇺🇸US_180
-      - US-🇺🇸US_174
-      - US-🇺🇸US_182
-      - US-🇺🇸US_181
-      - US-🇺🇸US_179
-      - US-🇳🇱NL_121
-      - US_156
-      - US-🇺🇸US_159
-      - US_07
-      - US-🇺🇸US_130
-      - US-🇺🇸US_169
+      - 更新于:07-20 9:50
       - _自学志
       - _自学志 2
       - _自学志 3
       - _自学志 4
       - _自学志 5
+      - US-🇳🇱NL_121
       - _自学志 6
       - _自学志 7
+      - US-🇺🇸US_169
+      - US-BuyVM4-HTTP
+      - US-🇺🇸US_174
+      - US-DP3-HTTP
       - _自学志 8
+      - NL2-CF-HTTP
+      - US-🇺🇸US_180
       - _自学志 9
       - _自学志 10
       - _自学志 11
+      - NNC-CF-HTTP
       - _自学志 12
-      - _自学志 13
-      - _自学志 14
-      - _自学志 15
-      - _自学志 16
-      - 法国
       - 美国
-      - 美国 2
-      - 英国
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 荷兰
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 加拿大
-      - 美国 11
+      - UK-CF-HTTP
+      - NL-CF-HTTP
+      - HK-CF-HTTP
+      - 美国 05 | 专线
+      - 美国 03 | 专线
+      - 日本 02 | 专线
+      - 新加坡 01 | 专线
+      - 美国 06 | 专线
+      - 香港 01 | 专线
+      - 美国 01 | 专线
+      - 新加坡 06 | 专线
+      - 日本 01 | 专线
+      - 美国 04 | 专线
+      - 美国 07 | 专线
+      - 香港 07 | 专线
+      - 日本 03 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 新加坡 04 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
+      - 日本 04 | 专线
+      - 美国 02 | 专线
+      - 新加坡 02 | 专线
+      - 新加坡 08 | 专线
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 更新于:07-19 8:20
-      - NL2-CF-HTTP
-      - NL-CF-HTTP
-      - US-DP3-HTTP
-      - UK-CF-HTTP
-      - HK-CF-HTTP
-      - US-BuyVM4-HTTP
-      - NNC-CF-HTTP
-      - 日本高速接入点-01
-      - 美国高速接入点-08
-      - 日本高速接入点-02
-      - 美国高速接入点-04
-      - 美国高速接入点-06
-      - 美国高速接入点-01
-      - 美国高速接入点-02
-      - 美国高速接入点-03
-      - 日本高速接入点-06
-      - 日本高速接入点-03
-      - US-🇺🇸US_180
-      - US-🇺🇸US_174
-      - US-🇺🇸US_182
-      - US-🇺🇸US_181
-      - US-🇺🇸US_179
-      - US-🇳🇱NL_121
-      - US_156
-      - US-🇺🇸US_159
-      - US_07
-      - US-🇺🇸US_130
-      - US-🇺🇸US_169
+      - 更新于:07-20 9:50
       - _自学志
       - _自学志 2
       - _自学志 3
       - _自学志 4
       - _自学志 5
+      - US-🇳🇱NL_121
       - _自学志 6
       - _自学志 7
+      - US-🇺🇸US_169
+      - US-BuyVM4-HTTP
+      - US-🇺🇸US_174
+      - US-DP3-HTTP
       - _自学志 8
+      - NL2-CF-HTTP
+      - US-🇺🇸US_180
       - _自学志 9
       - _自学志 10
       - _自学志 11
+      - NNC-CF-HTTP
       - _自学志 12
-      - _自学志 13
-      - _自学志 14
-      - _自学志 15
-      - _自学志 16
-      - 法国
       - 美国
-      - 美国 2
-      - 英国
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 荷兰
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 加拿大
-      - 美国 11
+      - UK-CF-HTTP
+      - NL-CF-HTTP
+      - HK-CF-HTTP
+      - 美国 05 | 专线
+      - 美国 03 | 专线
+      - 日本 02 | 专线
+      - 新加坡 01 | 专线
+      - 美国 06 | 专线
+      - 香港 01 | 专线
+      - 美国 01 | 专线
+      - 新加坡 06 | 专线
+      - 日本 01 | 专线
+      - 美国 04 | 专线
+      - 美国 07 | 专线
+      - 香港 07 | 专线
+      - 日本 03 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 新加坡 04 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
+      - 日本 04 | 专线
+      - 美国 02 | 专线
+      - 新加坡 02 | 专线
+      - 新加坡 08 | 专线
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于:07-19 8:20
-      - NL2-CF-HTTP
-      - NL-CF-HTTP
-      - US-DP3-HTTP
-      - UK-CF-HTTP
-      - HK-CF-HTTP
-      - US-BuyVM4-HTTP
-      - NNC-CF-HTTP
-      - 日本高速接入点-01
-      - 美国高速接入点-08
-      - 日本高速接入点-02
-      - 美国高速接入点-04
-      - 美国高速接入点-06
-      - 美国高速接入点-01
-      - 美国高速接入点-02
-      - 美国高速接入点-03
-      - 日本高速接入点-06
-      - 日本高速接入点-03
-      - US-🇺🇸US_180
-      - US-🇺🇸US_174
-      - US-🇺🇸US_182
-      - US-🇺🇸US_181
-      - US-🇺🇸US_179
-      - US-🇳🇱NL_121
-      - US_156
-      - US-🇺🇸US_159
-      - US_07
-      - US-🇺🇸US_130
-      - US-🇺🇸US_169
+      - 更新于:07-20 9:50
       - _自学志
       - _自学志 2
       - _自学志 3
       - _自学志 4
       - _自学志 5
+      - US-🇳🇱NL_121
       - _自学志 6
       - _自学志 7
+      - US-🇺🇸US_169
+      - US-BuyVM4-HTTP
+      - US-🇺🇸US_174
+      - US-DP3-HTTP
       - _自学志 8
+      - NL2-CF-HTTP
+      - US-🇺🇸US_180
       - _自学志 9
       - _自学志 10
       - _自学志 11
+      - NNC-CF-HTTP
       - _自学志 12
-      - _自学志 13
-      - _自学志 14
-      - _自学志 15
-      - _自学志 16
-      - 法国
       - 美国
-      - 美国 2
-      - 英国
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 荷兰
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 加拿大
-      - 美国 11
+      - UK-CF-HTTP
+      - NL-CF-HTTP
+      - HK-CF-HTTP
+      - 美国 05 | 专线
+      - 美国 03 | 专线
+      - 日本 02 | 专线
+      - 新加坡 01 | 专线
+      - 美国 06 | 专线
+      - 香港 01 | 专线
+      - 美国 01 | 专线
+      - 新加坡 06 | 专线
+      - 日本 01 | 专线
+      - 美国 04 | 专线
+      - 美国 07 | 专线
+      - 香港 07 | 专线
+      - 日本 03 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 新加坡 04 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
+      - 日本 04 | 专线
+      - 美国 02 | 专线
+      - 新加坡 02 | 专线
+      - 新加坡 08 | 专线
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -280,267 +232,226 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于:07-19 8:20
-      - NL2-CF-HTTP
-      - NL-CF-HTTP
-      - US-DP3-HTTP
-      - UK-CF-HTTP
-      - HK-CF-HTTP
-      - US-BuyVM4-HTTP
-      - NNC-CF-HTTP
-      - 日本高速接入点-01
-      - 美国高速接入点-08
-      - 日本高速接入点-02
-      - 美国高速接入点-04
-      - 美国高速接入点-06
-      - 美国高速接入点-01
-      - 美国高速接入点-02
-      - 美国高速接入点-03
-      - 日本高速接入点-06
-      - 日本高速接入点-03
-      - US-🇺🇸US_180
-      - US-🇺🇸US_174
-      - US-🇺🇸US_182
-      - US-🇺🇸US_181
-      - US-🇺🇸US_179
-      - US-🇳🇱NL_121
-      - US_156
-      - US-🇺🇸US_159
-      - US_07
-      - US-🇺🇸US_130
-      - US-🇺🇸US_169
+      - 更新于:07-20 9:50
       - _自学志
       - _自学志 2
       - _自学志 3
       - _自学志 4
       - _自学志 5
+      - US-🇳🇱NL_121
       - _自学志 6
       - _自学志 7
+      - US-🇺🇸US_169
+      - US-BuyVM4-HTTP
+      - US-🇺🇸US_174
+      - US-DP3-HTTP
       - _自学志 8
+      - NL2-CF-HTTP
+      - US-🇺🇸US_180
       - _自学志 9
       - _自学志 10
       - _自学志 11
+      - NNC-CF-HTTP
       - _自学志 12
-      - _自学志 13
-      - _自学志 14
-      - _自学志 15
-      - _自学志 16
-      - 法国
       - 美国
-      - 美国 2
-      - 英国
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 荷兰
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 加拿大
-      - 美国 11
+      - UK-CF-HTTP
+      - NL-CF-HTTP
+      - HK-CF-HTTP
+      - 美国 05 | 专线
+      - 美国 03 | 专线
+      - 日本 02 | 专线
+      - 新加坡 01 | 专线
+      - 美国 06 | 专线
+      - 香港 01 | 专线
+      - 美国 01 | 专线
+      - 新加坡 06 | 专线
+      - 日本 01 | 专线
+      - 美国 04 | 专线
+      - 美国 07 | 专线
+      - 香港 07 | 专线
+      - 日本 03 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 新加坡 04 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
+      - 日本 04 | 专线
+      - 美国 02 | 专线
+      - 新加坡 02 | 专线
+      - 新加坡 08 | 专线
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港 01 | 专线
+      - 香港 07 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 更新于:07-19 8:20
-      - NL2-CF-HTTP
-      - NL-CF-HTTP
-      - US-DP3-HTTP
-      - UK-CF-HTTP
-      - HK-CF-HTTP
-      - US-BuyVM4-HTTP
-      - NNC-CF-HTTP
-      - 日本高速接入点-01
-      - 美国高速接入点-08
-      - 日本高速接入点-02
-      - 美国高速接入点-04
-      - 美国高速接入点-06
-      - 美国高速接入点-01
-      - 美国高速接入点-02
-      - 美国高速接入点-03
-      - 日本高速接入点-06
-      - 日本高速接入点-03
-      - US-🇺🇸US_180
-      - US-🇺🇸US_174
-      - US-🇺🇸US_182
-      - US-🇺🇸US_181
-      - US-🇺🇸US_179
-      - US-🇳🇱NL_121
-      - US_156
-      - US-🇺🇸US_159
-      - US_07
-      - US-🇺🇸US_130
-      - US-🇺🇸US_169
+      - 更新于:07-20 9:50
       - _自学志
       - _自学志 2
       - _自学志 3
       - _自学志 4
       - _自学志 5
+      - US-🇳🇱NL_121
       - _自学志 6
       - _自学志 7
+      - US-🇺🇸US_169
+      - US-BuyVM4-HTTP
+      - US-🇺🇸US_174
+      - US-DP3-HTTP
       - _自学志 8
+      - NL2-CF-HTTP
+      - US-🇺🇸US_180
       - _自学志 9
       - _自学志 10
       - _自学志 11
+      - NNC-CF-HTTP
       - _自学志 12
-      - _自学志 13
-      - _自学志 14
-      - _自学志 15
-      - _自学志 16
-      - 法国
       - 美国
-      - 美国 2
-      - 英国
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 荷兰
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 加拿大
-      - 美国 11
+      - UK-CF-HTTP
+      - NL-CF-HTTP
+      - HK-CF-HTTP
+      - 美国 05 | 专线
+      - 美国 03 | 专线
+      - 日本 02 | 专线
+      - 新加坡 01 | 专线
+      - 美国 06 | 专线
+      - 香港 01 | 专线
+      - 美国 01 | 专线
+      - 新加坡 06 | 专线
+      - 日本 01 | 专线
+      - 美国 04 | 专线
+      - 美国 07 | 专线
+      - 香港 07 | 专线
+      - 日本 03 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 新加坡 04 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
+      - 日本 04 | 专线
+      - 美国 02 | 专线
+      - 新加坡 02 | 专线
+      - 新加坡 08 | 专线
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 更新于:07-19 8:20
-      - NL2-CF-HTTP
-      - NL-CF-HTTP
-      - US-DP3-HTTP
-      - UK-CF-HTTP
-      - HK-CF-HTTP
-      - US-BuyVM4-HTTP
-      - NNC-CF-HTTP
-      - 日本高速接入点-01
-      - 美国高速接入点-08
-      - 日本高速接入点-02
-      - 美国高速接入点-04
-      - 美国高速接入点-06
-      - 美国高速接入点-01
-      - 美国高速接入点-02
-      - 美国高速接入点-03
-      - 日本高速接入点-06
-      - 日本高速接入点-03
-      - US-🇺🇸US_180
-      - US-🇺🇸US_174
-      - US-🇺🇸US_182
-      - US-🇺🇸US_181
-      - US-🇺🇸US_179
-      - US-🇳🇱NL_121
-      - US_156
-      - US-🇺🇸US_159
-      - US_07
-      - US-🇺🇸US_130
-      - US-🇺🇸US_169
+      - 更新于:07-20 9:50
       - _自学志
       - _自学志 2
       - _自学志 3
       - _自学志 4
       - _自学志 5
+      - US-🇳🇱NL_121
       - _自学志 6
       - _自学志 7
+      - US-🇺🇸US_169
+      - US-BuyVM4-HTTP
+      - US-🇺🇸US_174
+      - US-DP3-HTTP
       - _自学志 8
+      - NL2-CF-HTTP
+      - US-🇺🇸US_180
       - _自学志 9
       - _自学志 10
       - _自学志 11
+      - NNC-CF-HTTP
       - _自学志 12
-      - _自学志 13
-      - _自学志 14
-      - _自学志 15
-      - _自学志 16
-      - 法国
       - 美国
-      - 美国 2
-      - 英国
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 荷兰
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 加拿大
-      - 美国 11
+      - UK-CF-HTTP
+      - NL-CF-HTTP
+      - HK-CF-HTTP
+      - 美国 05 | 专线
+      - 美国 03 | 专线
+      - 日本 02 | 专线
+      - 新加坡 01 | 专线
+      - 美国 06 | 专线
+      - 香港 01 | 专线
+      - 美国 01 | 专线
+      - 新加坡 06 | 专线
+      - 日本 01 | 专线
+      - 美国 04 | 专线
+      - 美国 07 | 专线
+      - 香港 07 | 专线
+      - 日本 03 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 新加坡 04 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
+      - 日本 04 | 专线
+      - 美国 02 | 专线
+      - 新加坡 02 | 专线
+      - 新加坡 08 | 专线
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:07-19 8:20
-      - NL2-CF-HTTP
-      - NL-CF-HTTP
-      - US-DP3-HTTP
-      - UK-CF-HTTP
-      - HK-CF-HTTP
-      - US-BuyVM4-HTTP
-      - NNC-CF-HTTP
-      - 日本高速接入点-01
-      - 美国高速接入点-08
-      - 日本高速接入点-02
-      - 美国高速接入点-04
-      - 美国高速接入点-06
-      - 美国高速接入点-01
-      - 美国高速接入点-02
-      - 美国高速接入点-03
-      - 日本高速接入点-06
-      - 日本高速接入点-03
-      - US-🇺🇸US_180
-      - US-🇺🇸US_174
-      - US-🇺🇸US_182
-      - US-🇺🇸US_181
-      - US-🇺🇸US_179
-      - US-🇳🇱NL_121
-      - US_156
-      - US-🇺🇸US_159
-      - US_07
-      - US-🇺🇸US_130
-      - US-🇺🇸US_169
+      - 更新于:07-20 9:50
       - _自学志
       - _自学志 2
       - _自学志 3
       - _自学志 4
       - _自学志 5
+      - US-🇳🇱NL_121
       - _自学志 6
       - _自学志 7
+      - US-🇺🇸US_169
+      - US-BuyVM4-HTTP
+      - US-🇺🇸US_174
+      - US-DP3-HTTP
       - _自学志 8
+      - NL2-CF-HTTP
+      - US-🇺🇸US_180
       - _自学志 9
       - _自学志 10
       - _自学志 11
+      - NNC-CF-HTTP
       - _自学志 12
-      - _自学志 13
-      - _自学志 14
-      - _自学志 15
-      - _自学志 16
-      - 法国
       - 美国
-      - 美国 2
-      - 英国
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 荷兰
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 加拿大
-      - 美国 11
+      - UK-CF-HTTP
+      - NL-CF-HTTP
+      - HK-CF-HTTP
+      - 美国 05 | 专线
+      - 美国 03 | 专线
+      - 日本 02 | 专线
+      - 新加坡 01 | 专线
+      - 美国 06 | 专线
+      - 香港 01 | 专线
+      - 美国 01 | 专线
+      - 新加坡 06 | 专线
+      - 日本 01 | 专线
+      - 美国 04 | 专线
+      - 美国 07 | 专线
+      - 香港 07 | 专线
+      - 日本 03 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 新加坡 04 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
+      - 日本 04 | 专线
+      - 美国 02 | 专线
+      - 新加坡 02 | 专线
+      - 新加坡 08 | 专线
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -556,66 +467,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于:07-19 8:20
-      - NL2-CF-HTTP
-      - NL-CF-HTTP
-      - US-DP3-HTTP
-      - UK-CF-HTTP
-      - HK-CF-HTTP
-      - US-BuyVM4-HTTP
-      - NNC-CF-HTTP
-      - 日本高速接入点-01
-      - 美国高速接入点-08
-      - 日本高速接入点-02
-      - 美国高速接入点-04
-      - 美国高速接入点-06
-      - 美国高速接入点-01
-      - 美国高速接入点-02
-      - 美国高速接入点-03
-      - 日本高速接入点-06
-      - 日本高速接入点-03
-      - US-🇺🇸US_180
-      - US-🇺🇸US_174
-      - US-🇺🇸US_182
-      - US-🇺🇸US_181
-      - US-🇺🇸US_179
-      - US-🇳🇱NL_121
-      - US_156
-      - US-🇺🇸US_159
-      - US_07
-      - US-🇺🇸US_130
-      - US-🇺🇸US_169
+      - 更新于:07-20 9:50
       - _自学志
       - _自学志 2
       - _自学志 3
       - _自学志 4
       - _自学志 5
+      - US-🇳🇱NL_121
       - _自学志 6
       - _自学志 7
+      - US-🇺🇸US_169
+      - US-BuyVM4-HTTP
+      - US-🇺🇸US_174
+      - US-DP3-HTTP
       - _自学志 8
+      - NL2-CF-HTTP
+      - US-🇺🇸US_180
       - _自学志 9
       - _自学志 10
       - _自学志 11
+      - NNC-CF-HTTP
       - _自学志 12
-      - _自学志 13
-      - _自学志 14
-      - _自学志 15
-      - _自学志 16
-      - 法国
       - 美国
-      - 美国 2
-      - 英国
-      - 美国 3
-      - 美国 4
-      - 美国 5
-      - 荷兰
-      - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 加拿大
-      - 美国 11
+      - UK-CF-HTTP
+      - NL-CF-HTTP
+      - HK-CF-HTTP
+      - 美国 05 | 专线
+      - 美国 03 | 专线
+      - 日本 02 | 专线
+      - 新加坡 01 | 专线
+      - 美国 06 | 专线
+      - 香港 01 | 专线
+      - 美国 01 | 专线
+      - 新加坡 06 | 专线
+      - 日本 01 | 专线
+      - 美国 04 | 专线
+      - 美国 07 | 专线
+      - 香港 07 | 专线
+      - 日本 03 | 专线
+      - 香港 06 | 专线
+      - 香港 04 | 专线
+      - 香港 02 | 专线
+      - 新加坡 04 | 专线
+      - 香港 05 | 专线
+      - 香港 03 | 专线
+      - 日本 04 | 专线
+      - 美国 02 | 专线
+      - 新加坡 02 | 专线
+      - 新加坡 08 | 专线
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
