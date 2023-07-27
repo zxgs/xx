@@ -1,10 +1,10 @@
 ####################################
 # 创建者：自学志
 # 客户端：Clash
-# 创建时间：2023-07-27 22:11:55
+# 创建时间：2023-07-28 07:44:38
 # 使用模版：自学志
-# 节点数量：87
-# 节点类型：vmess, ss, trojan
+# 节点数量：30
+# 节点类型：vmess, ss
 ####################################
 port: 7890
 socks-port: 7891
@@ -14,49 +14,8 @@ log-level: info
 external-controller: ':9090'
 
 proxies:
-  - {"name":"更新于:07-27 22:11","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"更新于:07-28 7:42","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇬🇧 _英国_7","type":"vmess","server":"51.89.74.241","port":51102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国高速接入点-01","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sanfencdn1.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfencdn1.com"}}}
-  - {"name":"🇺🇸美国高速接入点-02","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sanfencdn1.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us2.sanfencdn1.com"}}}
-  - {"name":"🇺🇸美国高速接入点-03","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sanfencdn1.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us3.sanfencdn1.com"}}}
-  - {"name":"🇺🇸美国高速接入点-04","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sanfencdn1.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us4.sanfencdn1.com"}}}
-  - {"name":"🇺🇸美国高速接入点-05","type":"vmess","server":"cfcdn2.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us5.sanfencdn2.com"}}}
-  - {"name":"🇺🇸美国高速接入点-06","type":"vmess","server":"cfcdn2.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us6.sanfencdn2.com"}}}
-  - {"name":"🇺🇸美国高速接入点-07","type":"vmess","server":"cfcdn2.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us7.sanfencdn2.com"}}}
-  - {"name":"🇺🇸美国高速接入点-08","type":"vmess","server":"cfcdn2.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us8.sanfencdn2.com"}}}
-  - {"name":"🇯🇵日本-临时节点-30Mbps","type":"vmess","server":"2f36c18cfe76.sanfen004.me","port":14454,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰香港高速接入点-01","type":"vmess","server":"hk1.c.e8bb3fc45ae9.sanfen006.xyz","port":443,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk1.sanfen006.xyz","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇭🇰香港高速接入点-02","type":"vmess","server":"hk2.c3bfe79372bi.sanfen006.xyz","port":443,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk1.sanfen006.xyz","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇭🇰香港高速接入点-03","type":"vmess","server":"hk3.af49c4e4c2ei.sanfen006.xyz","port":443,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk1.sanfen006.xyz","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇸🇬新加坡高速接入点-01","type":"vmess","server":"cfcdn3.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"sg1.sanfencdn2.com"}}}
-  - {"name":"🇸🇬新加坡高速接入点-02","type":"vmess","server":"cfcdn3.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"sg2.sanfencdn2.com"}}}
-  - {"name":"🇸🇬新加坡高速接入点-03","type":"vmess","server":"cfcdn3.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"sg3.sanfencdn2.com"}}}
-  - {"name":"🇸🇬新加坡高速接入点-04","type":"vmess","server":"cfcdn3.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"sg4.sanfencdn2.com"}}}
-  - {"name":"🇯🇵日本高速接入点-01","type":"vmess","server":"cfcdn5.sanfencdn.net","port":80,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp1.sanfencdn2.com"}}}
-  - {"name":"🇯🇵日本高速接入点-02","type":"vmess","server":"cfcdn5.sanfencdn.net","port":80,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp2.sanfencdn2.com"}}}
-  - {"name":"🇯🇵日本高速接入点-03","type":"vmess","server":"cfcdn5.sanfencdn.net","port":80,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp3.sanfencdn2.com"}}}
-  - {"name":"🇯🇵日本高速接入点-04","type":"vmess","server":"cfcdn5.sanfencdn.net","port":80,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp4.sanfencdn2.com"}}}
-  - {"name":"🇯🇵日本高速接入点-05","type":"vmess","server":"cfcdn5.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp5.sanfencdn2.com"}}}
-  - {"name":"🇯🇵日本高速接入点-06","type":"vmess","server":"cfcdn5.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp6.sanfencdn2.com"}}}
-  - {"name":"zxz 4\r","type":"ss","server":"gzdx.acgyt.com","port":18994,"password":"6e143268-1847-4998-a9ec-72a3640bbf16","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"zxz 9\r","type":"ss","server":"gzdx.acgyt.com","port":28258,"password":"3b5db99f-118b-41f1-b04f-8e4fc9453d12","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"zxz 10\r","type":"ss","server":"gzdx.acgyt.com","port":18994,"password":"3b5db99f-118b-41f1-b04f-8e4fc9453d12","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"zxz 26","type":"vmess","server":"120.233.27.129","port":10002,"cipher":"auto","uuid":"17ec6088-2f95-4a35-8a94-91b90d36bc65","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz 27","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"b30c1ad1-5a44-4934-8f25-c62056e94124","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz 28","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"c7053595-11a3-4f7e-bfb5-ffd21edeb2a3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz 29","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"27ff7e60-8bd8-4e20-8046-8b8f4b2df596","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz 30","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"7e50c969-04db-40aa-94ae-32cf00a91e0f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz 31","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"25d6e8ec-75a1-47fb-bb49-0d894d64acf1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz 34","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"17ec6088-2f95-4a35-8a94-91b90d36bc65","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz 35","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"631b42a0-0afb-49be-96a6-415ad554480d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"b30c1ad1-5a44-4934-8f25-c62056e94124","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志 2","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"c7053595-11a3-4f7e-bfb5-ffd21edeb2a3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志 3","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"27ff7e60-8bd8-4e20-8046-8b8f4b2df596","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志 4","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"7e50c969-04db-40aa-94ae-32cf00a91e0f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志 5","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"25d6e8ec-75a1-47fb-bb49-0d894d64acf1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志 8","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"17ec6088-2f95-4a35-8a94-91b90d36bc65","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志 9","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"631b42a0-0afb-49be-96a6-415ad554480d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志 10","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"ba05ad14-134c-4139-b750-b7fe17ac116d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇸🇬 新加坡中转02\r","type":"ss","server":"newapisg.landscapeitaly.xyz","port":34421,"password":"42ee7786-020a-4b7e-9d12-02ef111fd3b6","cipher":"aes-128-gcm"}
   - {"name":"🇸🇬 新加坡中转01\r","type":"ss","server":"newapisg.landscapeitaly.xyz","port":34421,"password":"dd0c31bb-2da8-414a-855a-2554c428d680","cipher":"aes-128-gcm"}
   - {"name":"🇯🇵 日本中转01\r","type":"ss","server":"newapisg.landscapeitaly.xyz","port":34421,"password":"93d46554-eacb-438b-91cc-05402b9fc433","cipher":"aes-128-gcm"}
@@ -65,42 +24,26 @@ proxies:
   - {"name":"zxz_2","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"d.freeh1.xyz","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
   - {"name":"zxz_3","type":"vmess","server":"23.225.211.21","port":42941,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"zxz_4","type":"vmess","server":"142.4.126.69","port":52212,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"日本 - 01 1x","type":"vmess","server":"162.159.142.206","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"日本 - 02 1x","type":"vmess","server":"162.159.142.207","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"日本 - 03 1x","type":"vmess","server":"162.159.142.208","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"日本 - 04 1x","type":"vmess","server":"162.159.142.209","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"日本 - 05 1x","type":"vmess","server":"162.159.142.210","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"日本 - 06 1x","type":"vmess","server":"162.159.142.211","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"日本 - 07 1x","type":"vmess","server":"162.159.142.212","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"日本 - 08 1x","type":"vmess","server":"162.159.142.213","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"日本 - 09 1x","type":"vmess","server":"162.159.142.213","port":80,"cipher":"auto","uuid":"41cb8b6f-e2b9-486a-88b0-6ad57c8b905d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videos","headers":{"host":"tesdtjp.apcloudcdn.com"}}}
-  - {"name":"🇭🇰 香港01","type":"vmess","server":"hk01.internetsmartrouting.asia","port":10221,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 香港02","type":"vmess","server":"hk01.internetsmartrouting.asia","port":10221,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 香港03","type":"vmess","server":"hk02.internetsmartrouting.asia","port":10267,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵 日本01","type":"vmess","server":"jp01.internetsmartrouting.asia","port":10446,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵 日本02","type":"vmess","server":"jp03.internetsmartrouting.asia","port":42008,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵 日本03","type":"vmess","server":"jp02.internetsmartrouting.asia","port":10323,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬 新加坡01","type":"vmess","server":"sgp02.internetsmartrouting.asia","port":10184,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬 新加坡02","type":"vmess","server":"sgp03.internetsmartrouting.asia","port":14691,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬 新加坡03","type":"vmess","server":"sgp01.internetsmartrouting.asia","port":36985,"cipher":"auto","uuid":"697cc5b9-ac6f-4208-b470-0dd3080939cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 Hong Kong 01\r","type":"trojan","server":"525jo1.xyzsa.top","port":443,"udp":true,"password":"4d354b88-afb2-4c9c-8f69-594344ead67e","sni":"525jo1.xyzsa.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 Hong Kong 02\r","type":"trojan","server":"525jo1.xyzsa.top","port":443,"udp":true,"password":"70d3fcf9-177e-46d7-8dbe-3110c5d1438f","sni":"525jo1.xyzsa.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 Hong Kong 03\r","type":"trojan","server":"525jo1.xyzsa.top","port":443,"udp":true,"password":"197f4573-d883-4c68-9d7e-666fe1796ed0","sni":"525jo1.xyzsa.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 Hong Kong 04\r","type":"trojan","server":"525jo1.xyzsa.top","port":443,"udp":true,"password":"e8df56bc-a77c-490d-8bb4-73a8a58cd5e6","sni":"525jo1.xyzsa.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 Hong Kong 05\r","type":"ss","server":"js.xzyunjiasu.icu","port":24873,"password":"c05f79bc-7b31-483d-a206-b0134d60ec87","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 Japan 04\r","type":"ss","server":"js.xzyunjiasu.icu","port":24873,"password":"d9d4243a-4c09-40b7-b025-378b64b7db53","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_zxz_1","type":"vmess","server":"cfcdn5.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp5.sanfencdn2.com"}}}
   - {"name":"🇨🇦_zxz_1","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}}}
-  - {"name":"🇫🇷_zxz","type":"vmess","server":"156.249.18.36","port":48222,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸_zxz_2","type":"vmess","server":"cdn.narutos.top","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/GdtYWlsLmNvbSJ9LCJjb3V","headers":{"host":"newyork.yj2022.gq"}}}
   - {"name":"🇺🇸_zxz_3","type":"vmess","server":"23.225.211.21","port":42941,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_zxz_4","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us2.sanfencdn1.com"}}}
-  - {"name":"🇺🇸_zxz_5","type":"vmess","server":"23.225.211.20","port":42941,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_zxz_6","type":"vmess","server":"142.4.126.69","port":52212,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_zxz_7","type":"vmess","server":"23.224.190.226","port":58022,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇦_zxz_2","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
-  - {"name":"🇺🇸_zxz_8","type":"vmess","server":"cfcdn3.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"sg2.sanfencdn2.com"}}}
-  - {"name":"🇺🇸_zxz_9","type":"vmess","server":"cfcdn5.sanfencdn.net","port":2052,"cipher":"auto","uuid":"85c359bc-2247-4d83-a294-5d7752db567f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp6.sanfencdn2.com"}}}
+  - {"name":"us_1","type":"vmess","server":"156.249.18.36","port":48222,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"us_2","type":"vmess","server":"23.224.15.181","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_自学志_1","type":"vmess","server":"140.99.127.222","port":54774,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_自学志","type":"vmess","server":"120.233.43.74","port":41273,"cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰_自学志_1","type":"vmess","server":"103.160.204.12","port":443,"cipher":"auto","uuid":"a2284cc1-20d8-4c78-a622-3e3cca767a70","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"a2284cc1","headers":{"host":"dedi2.1808.cf"}}}
+  - {"name":"🇺🇸_自学志_2","type":"vmess","server":"amszxc.66666654.xyz","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
+  - {"name":"🇺🇸_自学志_3","type":"vmess","server":"173.82.55.92","port":34412,"cipher":"auto","uuid":"82620a6e-dbfd-4d57-8a59-9004a4bb9e92","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰_自学志_2","type":"vmess","server":"103.160.204.17","port":443,"cipher":"auto","uuid":"a2284cc1-20d8-4c78-a622-3e3cca767a70","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"a2284cc1","headers":{"host":"dedi2.1808.cf"}}}
+  - {"name":"🇺🇸_自学志_4","type":"vmess","server":"142.4.126.69","port":52212,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰_自学志_3","type":"vmess","server":"103.160.204.30","port":443,"cipher":"auto","uuid":"a2284cc1-20d8-4c78-a622-3e3cca767a70","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"a2284cc1","headers":{"host":"dedi2.1808.cf"}}}
+  - {"name":"🇺🇸_自学志_6","type":"vmess","server":"137.175.18.90","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_自学志_7","type":"vmess","server":"23.234.198.83","port":34888,"cipher":"auto","uuid":"a9abf3e7-87f4-473d-8d03-2f26ca4b3583","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_自学志_8","type":"vmess","server":"107.167.29.235","port":46321,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_自学志_9","type":"vmess","server":"104.25.167.88","port":443,"cipher":"auto","uuid":"a2284cc1-20d8-4c78-a622-3e3cca767a70","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"a2284cc1","headers":{"host":"dedi2.1808.cf"}}}
+  - {"name":"🇺🇸_自学志_10","type":"vmess","server":"23.224.190.226","port":58022,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_自学志_11","type":"vmess","server":"104.31.16.86","port":443,"cipher":"auto","uuid":"a2284cc1-20d8-4c78-a622-3e3cca767a70","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"a2284cc1","headers":{"host":"dedi2.1808.cf"}}}
+  - {"name":"UK-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"nl.sharecentrepro.com"}}}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -111,49 +54,8 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 更新于:07-27 22:11
+      - 更新于:07-28 7:42
       - 🇬🇧 _英国_7
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-05
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇯🇵日本-临时节点-30Mbps
-      - 🇭🇰香港高速接入点-01
-      - 🇭🇰香港高速接入点-02
-      - 🇭🇰香港高速接入点-03
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇸🇬新加坡高速接入点-04
-      - 🇯🇵日本高速接入点-01
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
-      - "zxz 4\r"
-      - "zxz 9\r"
-      - "zxz 10\r"
-      - zxz 26
-      - zxz 27
-      - zxz 28
-      - zxz 29
-      - zxz 30
-      - zxz 31
-      - zxz 34
-      - zxz 35
-      - 自学志
-      - 自学志 2
-      - 自学志 3
-      - 自学志 4
-      - 自学志 5
-      - 自学志 8
-      - 自学志 9
-      - 自学志 10
       - "🇸🇬 新加坡中转02\r"
       - "🇸🇬 新加坡中转01\r"
       - "🇯🇵 日本中转01\r"
@@ -162,91 +64,34 @@ proxy-groups:
       - zxz_2
       - zxz_3
       - zxz_4
-      - 日本 - 01 1x
-      - 日本 - 02 1x
-      - 日本 - 03 1x
-      - 日本 - 04 1x
-      - 日本 - 05 1x
-      - 日本 - 06 1x
-      - 日本 - 07 1x
-      - 日本 - 08 1x
-      - 日本 - 09 1x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - "🇭🇰 Hong Kong 01\r"
-      - "🇭🇰 Hong Kong 02\r"
-      - "🇭🇰 Hong Kong 03\r"
-      - "🇭🇰 Hong Kong 04\r"
-      - "🇭🇰 Hong Kong 05\r"
-      - "🇯🇵 Japan 04\r"
-      - 🇺🇸_zxz_1
       - 🇨🇦_zxz_1
-      - 🇫🇷_zxz
       - 🇺🇸_zxz_2
       - 🇺🇸_zxz_3
-      - 🇺🇸_zxz_4
-      - 🇺🇸_zxz_5
-      - 🇺🇸_zxz_6
-      - 🇺🇸_zxz_7
-      - 🇨🇦_zxz_2
-      - 🇺🇸_zxz_8
-      - 🇺🇸_zxz_9
+      - us_1
+      - us_2
+      - 🇺🇸_自学志_1
+      - 🇨🇳_自学志
+      - 🇭🇰_自学志_1
+      - 🇺🇸_自学志_2
+      - 🇺🇸_自学志_3
+      - 🇭🇰_自学志_2
+      - 🇺🇸_自学志_4
+      - 🇭🇰_自学志_3
+      - 🇺🇸_自学志_6
+      - 🇺🇸_自学志_7
+      - 🇺🇸_自学志_8
+      - 🇺🇸_自学志_9
+      - 🇺🇸_自学志_10
+      - 🇺🇸_自学志_11
+      - UK-CF
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:07-27 22:11
+      - 更新于:07-28 7:42
       - 🇬🇧 _英国_7
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-05
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇯🇵日本-临时节点-30Mbps
-      - 🇭🇰香港高速接入点-01
-      - 🇭🇰香港高速接入点-02
-      - 🇭🇰香港高速接入点-03
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇸🇬新加坡高速接入点-04
-      - 🇯🇵日本高速接入点-01
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
-      - "zxz 4\r"
-      - "zxz 9\r"
-      - "zxz 10\r"
-      - zxz 26
-      - zxz 27
-      - zxz 28
-      - zxz 29
-      - zxz 30
-      - zxz 31
-      - zxz 34
-      - zxz 35
-      - 自学志
-      - 自学志 2
-      - 自学志 3
-      - 自学志 4
-      - 自学志 5
-      - 自学志 8
-      - 自学志 9
-      - 自学志 10
       - "🇸🇬 新加坡中转02\r"
       - "🇸🇬 新加坡中转01\r"
       - "🇯🇵 日本中转01\r"
@@ -255,42 +100,26 @@ proxy-groups:
       - zxz_2
       - zxz_3
       - zxz_4
-      - 日本 - 01 1x
-      - 日本 - 02 1x
-      - 日本 - 03 1x
-      - 日本 - 04 1x
-      - 日本 - 05 1x
-      - 日本 - 06 1x
-      - 日本 - 07 1x
-      - 日本 - 08 1x
-      - 日本 - 09 1x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - "🇭🇰 Hong Kong 01\r"
-      - "🇭🇰 Hong Kong 02\r"
-      - "🇭🇰 Hong Kong 03\r"
-      - "🇭🇰 Hong Kong 04\r"
-      - "🇭🇰 Hong Kong 05\r"
-      - "🇯🇵 Japan 04\r"
-      - 🇺🇸_zxz_1
       - 🇨🇦_zxz_1
-      - 🇫🇷_zxz
       - 🇺🇸_zxz_2
       - 🇺🇸_zxz_3
-      - 🇺🇸_zxz_4
-      - 🇺🇸_zxz_5
-      - 🇺🇸_zxz_6
-      - 🇺🇸_zxz_7
-      - 🇨🇦_zxz_2
-      - 🇺🇸_zxz_8
-      - 🇺🇸_zxz_9
+      - us_1
+      - us_2
+      - 🇺🇸_自学志_1
+      - 🇨🇳_自学志
+      - 🇭🇰_自学志_1
+      - 🇺🇸_自学志_2
+      - 🇺🇸_自学志_3
+      - 🇭🇰_自学志_2
+      - 🇺🇸_自学志_4
+      - 🇭🇰_自学志_3
+      - 🇺🇸_自学志_6
+      - 🇺🇸_自学志_7
+      - 🇺🇸_自学志_8
+      - 🇺🇸_自学志_9
+      - 🇺🇸_自学志_10
+      - 🇺🇸_自学志_11
+      - UK-CF
 
 rules:
   - DST-PORT,22,DIRECT
