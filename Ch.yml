@@ -1,11 +1,3 @@
-####################################
-# 创建者：自学志
-# 客户端：Clash
-# 创建时间：2023-08-03 08:52:50
-# 使用模版：自学志
-# 节点数量：28
-# 节点类型：vmess, ss
-####################################
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -14,35 +6,129 @@ log-level: info
 external-controller: ':9090'
 
 proxies:
-  - {"name":"更新于:08-03 8:30","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz 36\r","type":"ss","server":"ftransfer.top","port":19174,"password":"f20b9e0b-4dbb-408e-bf2a-573b295a4d2f","cipher":"aes-128-gcm"}
-  - {"name":"zxz 37\r","type":"ss","server":"ftransfer.top","port":13556,"password":"f20b9e0b-4dbb-408e-bf2a-573b295a4d2f","cipher":"aes-128-gcm"}
-  - {"name":"zxz 40\r","type":"ss","server":"ftransfer.top","port":59092,"password":"f20b9e0b-4dbb-408e-bf2a-573b295a4d2f","cipher":"aes-128-gcm"}
-  - {"name":"zxz 101\r","type":"ss","server":"newapisg.landscapeitaly.xyz","port":34421,"password":"527d1b8f-4cc6-47fc-b0d8-ebca1127eb66","cipher":"aes-128-gcm"}
-  - {"name":"zxz 39\r","type":"ss","server":"ftransfer.top","port":54121,"password":"f20b9e0b-4dbb-408e-bf2a-573b295a4d2f","cipher":"aes-128-gcm"}
-  - {"name":"德国3号机_1","type":"vmess","server":"cf3.992688.xyz","port":8080,"cipher":"auto","uuid":"d3ded505-f89d-4070-dafa-8288ffbabd32","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vceu3.vpn66.eu.org"}}}
-  - {"name":"德国3号机_2","type":"vmess","server":"cf2.992688.xyz","port":8080,"cipher":"auto","uuid":"d3ded505-f89d-4070-dafa-8288ffbabd32","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vceu3.vpn66.eu.org"}}}
-  - {"name":"美国3号机","type":"vmess","server":"cf2.992688.xyz","port":8080,"cipher":"auto","uuid":"0ea60ebb-632d-4226-893a-cccc2053dbf5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"haxus3.vpn66.eu.org"}}}
-  - {"name":"🇺🇸zxz1","type":"vmess","server":"ns1.v2-vip.fun","port":80,"cipher":"auto","uuid":"8abe9496-5e24-4e49-b566-dcf86116017d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/i99LgvSaslbsPLLQQ7j6Z","headers":{"host":"de5.irteh.fun"}}}
-  - {"name":"🇺🇸zxz2","type":"vmess","server":"cdn.narutos.top","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/RpT6kZjkw45EenmTcDYWs","headers":{"host":"eu.jh.yj2022.gq"}}}
-  - {"name":"🇨🇳zxz1","type":"vmess","server":"103.184.44.127","port":80,"cipher":"auto","uuid":"dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ecc.vtcss.top"}}}
-  - {"name":"🇨🇳zxz3","type":"vmess","server":"qzcn2-01.dajuzi.cc","port":15598,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳zxz5","type":"vmess","server":"103.184.44.65","port":80,"cipher":"auto","uuid":"dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ecc.vtcss.top"}}}
-  - {"name":"🇭🇰zxz","type":"vmess","server":"154.92.9.208","port":80,"cipher":"auto","uuid":"dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ecc.vtcss.top"}}}
-  - {"name":"🇨🇳zxz6","type":"vmess","server":"183.232.249.189","port":59902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳zxz7","type":"vmess","server":"qzcn2-01.dajuzi.cc","port":15596,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸zxz3","type":"vmess","server":"162.159.133.188","port":2082,"cipher":"auto","uuid":"0afb8b2c-149a-49a8-e90f-d77884ac922f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ecc.vtcss.top"}}}
-  - {"name":"自学志_1","type":"vmess","server":"104.21.239.41","port":2082,"cipher":"auto","uuid":"0afb8b2c-149a-49a8-e90f-d77884ac922f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ecc.vtcss.top"}}}
-  - {"name":"自学志_2","type":"vmess","server":"162.159.135.251","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
-  - {"name":"自学志_3","type":"vmess","server":"104.18.134.125","port":80,"cipher":"auto","uuid":"6dcadb4f-5fda-4fa9-89dc-ce4564ec1fc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"dz.20021124.xyz"}}}
-  - {"name":"自学志_4","type":"vmess","server":"crownv2.ddns.net","port":443,"cipher":"auto","uuid":"35C256AA-357E-4965-BCB9-20427E52A319","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
-  - {"name":"自学志_5","type":"vmess","server":"172.64.142.32","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
-  - {"name":"自学志_6","type":"vmess","server":"172.67.221.17","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
-  - {"name":"自学志_7","type":"vmess","server":"104.31.16.46","port":2082,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca5.tehme100.fun"}}}
-  - {"name":"自学志_8","type":"vmess","server":"141.101.122.233","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
-  - {"name":"自学志_9","type":"vmess","server":"172.64.129.7","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
-  - {"name":"自学志_10","type":"vmess","server":"162.159.242.211","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
-proxy-groups:
+  - {"name":"更新于:08-03 13:40","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+- {name: 自学志, server: pinsg.cu.edu.kg, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 2, server: pinhk.cu.edu.kg, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 3, server: pinhk.cu.edu.kg, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 4, server: pinhk.cu.edu.kg, port: 10113, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 5, server: pinhk.cu.edu.kg, port: 10114, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 6, server: pinhk.cu.edu.kg, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 7, server: pinhk.cu.edu.kg, port: 10116, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 8, server: pinhk.cu.edu.kg, port: 10117, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 9, server: pinhk.cu.edu.kg, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 10, server: pinhk.cu.edu.kg, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 11, server: pinsg.cu.edu.kg, port: 10122, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 12, server: pinsg.cu.edu.kg, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 13, server: pinsg.cu.edu.kg, port: 10124, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 14, server: pinsg.cu.edu.kg, port: 10125, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 15, server: pinsg.cu.edu.kg, port: 10126, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 16, server: pinsg.cu.edu.kg, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 17, server: pinjp.cu.edu.kg, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 18, server: pinjp.cu.edu.kg, port: 10142, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 19, server: pinjp.cu.edu.kg, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 20, server: pinjp.cu.edu.kg, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 21, server: pinjp.cu.edu.kg, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 22, server: pinjp.cu.edu.kg, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 23, server: pinjp.cu.edu.kg, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 24, server: pinjp.cu.edu.kg, port: 10153, type: ss, cipher: chacha20-ietf-poly1305, password: d20959f2-eb0c-4d9b-9fae-b5ca363167d8}
+  - {name: 自学志 25, server: pinsg.cu.edu.kg, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 26, server: pinhk.cu.edu.kg, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 27, server: pinhk.cu.edu.kg, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 28, server: pinhk.cu.edu.kg, port: 10113, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 29, server: pinhk.cu.edu.kg, port: 10114, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 30, server: pinhk.cu.edu.kg, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 31, server: pinhk.cu.edu.kg, port: 10116, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 32, server: pinhk.cu.edu.kg, port: 10117, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 33, server: pinhk.cu.edu.kg, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 34, server: pinhk.cu.edu.kg, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 35, server: pinsg.cu.edu.kg, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 36, server: pinsg.cu.edu.kg, port: 10122, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 37, server: pinsg.cu.edu.kg, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 38, server: pinsg.cu.edu.kg, port: 10124, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 39, server: pinsg.cu.edu.kg, port: 10125, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 40, server: pinsg.cu.edu.kg, port: 10126, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 41, server: pinjp.cu.edu.kg, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 42, server: pinjp.cu.edu.kg, port: 10142, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 43, server: pinjp.cu.edu.kg, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 44, server: pinjp.cu.edu.kg, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 45, server: pinjp.cu.edu.kg, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 46, server: pinjp.cu.edu.kg, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 47, server: pinjp.cu.edu.kg, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 48, server: pinjp.cu.edu.kg, port: 10153, type: ss, cipher: chacha20-ietf-poly1305, password: 0acdccbe-cb04-4057-82b2-70a2a521d4a0}
+  - {name: 自学志 49, server: yd-07.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 50, server: yd-04.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 51, server: yd-03.paofunlink.com, port: 1097, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 52, server: yd-06.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 53, server: yd-05.paofunlink.com, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 54, server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 55, server: yd-01.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 56, server: yd-02.paofunlink.com, port: 1094, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 57, server: yd-04.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 58, server: yd-04.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 59, server: yd-04.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 60, server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 61, server: yd-07.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 62, server: yd-05.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 63, server: yd-04.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 64, server: yd-06.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 65, server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 66, server: yd-05.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 67, server: yd-06.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 68, server: yd-05.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 69, server: yd-07.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 70, server: yd-04.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 71, server: yd-04.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 263429:VZjh4y, obfs-param: 2c03f263429.microsoft.com}
+  - {name: 自学志 72, server: 13.213.44.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 自学志 73, server: 221.150.109.5, port: 9555, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 74, server: 18.179.118.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 自学志 75, server: 43.207.83.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 自学志 76, server: 210.56.60.70, port: 16612, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 77, server: 221.150.109.67, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 78, server: 221.150.109.67, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 79, server: 27.255.82.49, port: 5731, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 80, server: 221.150.109.7, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 81, server: 54.254.129.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 自学志 82, server: 125.141.26.5, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 83, server: 13.250.35.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 自学志 84, server: 221.168.44.84, port: 53333, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 85, server: 61.220.130.70, port: 50701, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 86, server: 222.112.15.132, port: 21145, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 87, server: 112.213.102.153, port: 4707, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 自学志 88, server: webdav.flareai.site, port: 13543, type: trojan, password: 3ea4a34a-0928-4269-bc39-5ab6f4f1e89e, sni: 106-110-192-225.d.cjjd20.co, skip-cert-verify: true}
+  - {name: 自学志 89, server: gzyddx.newbluecloud.top, port: 37471, type: ss, cipher: chacha20-ietf-poly1305, password: 06576a7c-015c-4398-8f2d-57cc438113bc}
+  - {name: 自学志 90, server: gzyddx.newbluecloud.top, port: 56312, type: ss, cipher: chacha20-ietf-poly1305, password: b05d0f3a-0755-4a30-83bf-c798bc9dad67}
+  - {name: 自学志 91, server: gzyddx.newbluecloud.top, port: 37471, type: ss, cipher: chacha20-ietf-poly1305, password: b33844e1-4c9d-42df-a4f3-2a3799cba3d2}
+  - {name: 自学志 92, server: webdav.flareai.site, port: 13543, type: trojan, password: d7ede83e-1355-4fd3-97ed-618bdb80c76e, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: true}
+  - {name: 自学志 93, server: ajin.flareai.science, port: 13543, type: trojan, password: a081900c-a50f-441e-8701-4c2842dc63c1, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: true}
+  - {name: 自学志 94, server: webdav.flareai.site, port: 13543, type: trojan, password: 44ba8f02-78bb-4bf6-9077-94878fbbc6db, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: true}
+  - {name: 自学志 95, server: gzv6.batiex.xyz, port: 10002, type: trojan, password: 700d57ff-35e3-443b-861a-c0f6c580bf11, sni: batiex.link, skip-cert-verify: true}
+  - {"name":"zxz_1","type":"vmess","server":"162.159.255.119","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
+  - {"name":"zxz_2","type":"vmess","server":"crownv2.ddns.net","port":443,"cipher":"auto","uuid":"35C256AA-357E-4965-BCB9-20427E52A319","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
+  - {"name":"zxz_3","type":"vmess","server":"198.41.193.110","port":2082,"cipher":"auto","uuid":"0afb8b2c-149a-49a8-e90f-d77884ac922f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ecc.vtcss.top"}}}
+  - {"name":"zxz_4","type":"vmess","server":"shm.ircf.space","port":443,"cipher":"auto","uuid":"79770a32-9607-4919-9483-0f1794559390","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/juYLyvNBpY0LBOAommy2aJE","headers":{"host":"hiddis2.freelines.net"}}}
+  - {"name":"zxz_5","type":"vmess","server":"104.18.134.125","port":80,"cipher":"auto","uuid":"6dcadb4f-5fda-4fa9-89dc-ce4564ec1fc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"dz.20021124.xyz"}}}
+  - {"name":"zxz_6","type":"vmess","server":"us53.encrypted.my.id","port":80,"cipher":"auto","uuid":"203b2ab2-4994-4193-8193-6631a575edb0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/GSoTl9ZoYG5V2R0k4tUTGI8k","headers":{"host":"us53.encrypted.my.id"}}}
+    - {"name":"🇺🇸_zxzw_1","type":"vmess","server":"162.159.240.218","port":80,"cipher":"aes-128-gcm","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇨🇳_zxzw","type":"vmess","server":"qzcn2-01.dajuzi.cc","port":15596,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_zxzw_2","type":"vmess","server":"172.67.237.73","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
+  - {"name":"🇺🇸_zxzw_3","type":"vmess","server":"172.64.164.47","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_4","type":"vmess","server":"172.64.172.109","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_5","type":"vmess","server":"162.159.253.25","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_6","type":"vmess","server":"162.159.136.241","port":80,"cipher":"aes-128-gcm","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_7","type":"vmess","server":"141.101.115.89","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_8","type":"vmess","server":"172.64.142.32","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇪🇸_zxzw","type":"vmess","server":"185.18.250.70","port":443,"cipher":"auto","uuid":"79770a32-9607-4919-9483-0f1794559390","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/juYLyvNBpY0LBOAommy2aJE","headers":{"host":"hiddis2.freelines.net"}}}
+  - {"name":"🇺🇸_zxzw_9","type":"vmess","server":"172.64.142.32","port":80,"cipher":"aes-128-gcm","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_10","type":"vmess","server":"172.64.85.189","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_11","type":"vmess","server":"cdn.narutos.top","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/RpT6kZjkw45EenmTcDYWs","headers":{"host":"eu.jh.yj2022.gq"}}}
+  - {"name":"🇺🇸_zxzw_12","type":"vmess","server":"172.64.109.54","port":80,"cipher":"aes-128-gcm","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_13","type":"vmess","server":"162.159.133.130","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
+  - {"name":"🇺🇸_zxzw_14","type":"vmess","server":"162.159.133.233","port":80,"cipher":"aes-128-gcm","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
+  - {"name":"🇺🇸_zxzw_15","type":"vmess","server":"107.167.29.93","port":45585,"cipher":"auto","uuid":"465dec1a-e09b-4bb6-9905-70f75d6035c8","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_zxzw_16","type":"vmess","server":"192.74.229.210","port":51533,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_zxzw_17","type":"vmess","server":"104.31.16.46","port":2082,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca5.tehme100.fun"}}}
+  - {"name":"🇨🇦_zxzw","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"🇺🇸_zxzw_18","type":"vmess","server":"172.64.229.116","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/XQ2WCa29jfDMGBcbnQ","headers":{"host":"netherlands.yj2022.gq"}}}
   - name: 🚀 全局设置
     type: select
     proxies:
@@ -52,71 +138,259 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-
-      - 更新于:08-03 8:30
-      - "zxz 36\r"
-      - "zxz 37\r"
-      - "zxz 40\r"
-      - "zxz 101\r"
-      - "zxz 39\r"
-      - 德国3号机_1
-      - 德国3号机_2
-      - 美国3号机
-      - 🇺🇸zxz1
-      - 🇺🇸zxz2
-      - 🇨🇳zxz1
-      - 🇨🇳zxz3
-      - 🇨🇳zxz5
-      - 🇭🇰zxz
-      - 🇨🇳zxz6
-      - 🇨🇳zxz7
-      - 🇺🇸zxz3
-      - 自学志_1
-      - 自学志_2
-      - 自学志_3
-      - 自学志_4
-      - 自学志_5
-      - 自学志_6
-      - 自学志_7
-      - 自学志_8
-      - 自学志_9
-      - 自学志_10
+      - 更新于:08-03 13:40
+ - 自学志
+      - 自学志 2
+      - 自学志 3
+      - 自学志 4
+      - 自学志 5
+      - 自学志 6
+      - 自学志 7
+      - 自学志 8
+      - 自学志 9
+      - 自学志 10
+      - 自学志 11
+      - 自学志 12
+      - 自学志 13
+      - 自学志 14
+      - 自学志 15
+      - 自学志 16
+      - 自学志 17
+      - 自学志 18
+      - 自学志 19
+      - 自学志 20
+      - 自学志 21
+      - 自学志 22
+      - 自学志 23
+      - 自学志 24
+      - 自学志 25
+      - 自学志 26
+      - 自学志 27
+      - 自学志 28
+      - 自学志 29
+      - 自学志 30
+      - 自学志 31
+      - 自学志 32
+      - 自学志 33
+      - 自学志 34
+      - 自学志 35
+      - 自学志 36
+      - 自学志 37
+      - 自学志 38
+      - 自学志 39
+      - 自学志 40
+      - 自学志 41
+      - 自学志 42
+      - 自学志 43
+      - 自学志 44
+      - 自学志 45
+      - 自学志 46
+      - 自学志 47
+      - 自学志 48
+      - 自学志 49
+      - 自学志 50
+      - 自学志 51
+      - 自学志 52
+      - 自学志 53
+      - 自学志 54
+      - 自学志 55
+      - 自学志 56
+      - 自学志 57
+      - 自学志 58
+      - 自学志 59
+      - 自学志 60
+      - 自学志 61
+      - 自学志 62
+      - 自学志 63
+      - 自学志 64
+      - 自学志 65
+      - 自学志 66
+      - 自学志 67
+      - 自学志 68
+      - 自学志 69
+      - 自学志 70
+      - 自学志 71
+      - 自学志 72
+      - 自学志 73
+      - 自学志 74
+      - 自学志 75
+      - 自学志 76
+      - 自学志 77
+      - 自学志 78
+      - 自学志 79
+      - 自学志 80
+      - 自学志 81
+      - 自学志 82
+      - 自学志 83
+      - 自学志 84
+      - 自学志 85
+      - 自学志 86
+      - 自学志 87
+      - 自学志 88
+      - 自学志 89
+      - 自学志 90
+      - 自学志 91
+      - 自学志 92
+      - 自学志 93
+      - 自学志 94
+      - 自学志 95
+      - zxz_1
+      - zxz_2
+      - zxz_3
+      - zxz_4
+      - zxz_5
+      - zxz_6
+      - 🇺🇸_zxzw_1
+      - 🇨🇳_zxzw
+      - 🇺🇸_zxzw_2
+      - 🇺🇸_zxzw_3
+      - 🇺🇸_zxzw_4
+      - 🇺🇸_zxzw_5
+      - 🇺🇸_zxzw_6
+      - 🇺🇸_zxzw_7
+      - 🇺🇸_zxzw_8
+      - 🇪🇸_zxzw
+      - 🇺🇸_zxzw_9
+      - 🇺🇸_zxzw_10
+      - 🇺🇸_zxzw_11
+      - 🇺🇸_zxzw_12
+      - 🇺🇸_zxzw_13
+      - 🇺🇸_zxzw_14
+      - 🇺🇸_zxzw_15
+      - 🇺🇸_zxzw_16
+      - 🇺🇸_zxzw_17
+      - 🇨🇦_zxzw
+      - 🇺🇸_zxzw_18
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 300
     tolerance: 50
     proxies:
-
-      - 更新于:08-03 8:30
-      - "zxz 36\r"
-      - "zxz 37\r"
-      - "zxz 40\r"
-      - "zxz 101\r"
-      - "zxz 39\r"
-      - 德国3号机_1
-      - 德国3号机_2
-      - 美国3号机
-      - 🇺🇸zxz1
-      - 🇺🇸zxz2
-      - 🇨🇳zxz1
-      - 🇨🇳zxz3
-      - 🇨🇳zxz5
-      - 🇭🇰zxz
-      - 🇨🇳zxz6
-      - 🇨🇳zxz7
-      - 🇺🇸zxz3
-      - 自学志_1
-      - 自学志_2
-      - 自学志_3
-      - 自学志_4
-      - 自学志_5
-      - 自学志_6
-      - 自学志_7
-      - 自学志_8
-      - 自学志_9
-      - 自学志_10
-
+      - 更新于:08-03 13:40
+     - 自学志
+      - 自学志 2
+      - 自学志 3
+      - 自学志 4
+      - 自学志 5
+      - 自学志 6
+      - 自学志 7
+      - 自学志 8
+      - 自学志 9
+      - 自学志 10
+      - 自学志 11
+      - 自学志 12
+      - 自学志 13
+      - 自学志 14
+      - 自学志 15
+      - 自学志 16
+      - 自学志 17
+      - 自学志 18
+      - 自学志 19
+      - 自学志 20
+      - 自学志 21
+      - 自学志 22
+      - 自学志 23
+      - 自学志 24
+      - 自学志 25
+      - 自学志 26
+      - 自学志 27
+      - 自学志 28
+      - 自学志 29
+      - 自学志 30
+      - 自学志 31
+      - 自学志 32
+      - 自学志 33
+      - 自学志 34
+      - 自学志 35
+      - 自学志 36
+      - 自学志 37
+      - 自学志 38
+      - 自学志 39
+      - 自学志 40
+      - 自学志 41
+      - 自学志 42
+      - 自学志 43
+      - 自学志 44
+      - 自学志 45
+      - 自学志 46
+      - 自学志 47
+      - 自学志 48
+      - 自学志 49
+      - 自学志 50
+      - 自学志 51
+      - 自学志 52
+      - 自学志 53
+      - 自学志 54
+      - 自学志 55
+      - 自学志 56
+      - 自学志 57
+      - 自学志 58
+      - 自学志 59
+      - 自学志 60
+      - 自学志 61
+      - 自学志 62
+      - 自学志 63
+      - 自学志 64
+      - 自学志 65
+      - 自学志 66
+      - 自学志 67
+      - 自学志 68
+      - 自学志 69
+      - 自学志 70
+      - 自学志 71
+      - 自学志 72
+      - 自学志 73
+      - 自学志 74
+      - 自学志 75
+      - 自学志 76
+      - 自学志 77
+      - 自学志 78
+      - 自学志 79
+      - 自学志 80
+      - 自学志 81
+      - 自学志 82
+      - 自学志 83
+      - 自学志 84
+      - 自学志 85
+      - 自学志 86
+      - 自学志 87
+      - 自学志 88
+      - 自学志 89
+      - 自学志 90
+      - 自学志 91
+      - 自学志 92
+      - 自学志 93
+      - 自学志 94
+      - 自学志 95
+      - zxz_1
+      - zxz_2
+      - zxz_3
+      - zxz_4
+      - zxz_5
+      - zxz_6
+     - 🇺🇸_zxzw_1
+      - 🇨🇳_zxzw
+      - 🇺🇸_zxzw_2
+      - 🇺🇸_zxzw_3
+      - 🇺🇸_zxzw_4
+      - 🇺🇸_zxzw_5
+      - 🇺🇸_zxzw_6
+      - 🇺🇸_zxzw_7
+      - 🇺🇸_zxzw_8
+      - 🇪🇸_zxzw
+      - 🇺🇸_zxzw_9
+      - 🇺🇸_zxzw_10
+      - 🇺🇸_zxzw_11
+      - 🇺🇸_zxzw_12
+      - 🇺🇸_zxzw_13
+      - 🇺🇸_zxzw_14
+      - 🇺🇸_zxzw_15
+      - 🇺🇸_zxzw_16
+      - 🇺🇸_zxzw_17
+      - 🇨🇦_zxzw
+      - 🇺🇸_zxzw_18
+      
 rules:
   - DST-PORT,22,DIRECT
   - DOMAIN,time-ios.apple.com,DIRECT,DIRECT
