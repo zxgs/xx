@@ -1,10 +1,10 @@
 ####################################
 # 创建者：自学志
 # 客户端：Clash
-# 创建时间：2023-08-05 21:44:50
+# 创建时间：2023-08-06 13:31:08
 # 使用模版：自学志22
-# 节点数量：82
-# 节点类型：vmess, trojan, ss
+# 节点数量：85
+# 节点类型：vmess, ss
 ####################################
 port: 7890
 socks-port: 7891
@@ -14,88 +14,91 @@ log-level: info
 external-controller: ':9090'
 
 proxies:
-  - {"name":"更新于:08-05 21:44","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"HK 1\r","type":"trojan","server":"s.steamdownload.top","port":36614,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datahk.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"HK 2\r","type":"trojan","server":"e.steamdownload.top","port":36615,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datahk.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"HK 3\r","type":"trojan","server":"e.steamdownload.top","port":36616,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datahk.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"HK 4\r","type":"trojan","server":"s.steamdownload.top","port":36611,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datahk.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TW 1\r","type":"trojan","server":"s.steamdownload.top","port":36621,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datatw.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"SG 1\r","type":"trojan","server":"s.steamdownload.top","port":36641,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datasg.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"SG 2\r","type":"trojan","server":"s.steamdownload.top","port":36642,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datasg.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JP 1\r","type":"trojan","server":"e.steamdownload.top","port":36631,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datajp.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JP 2\r","type":"trojan","server":"e.steamdownload.top","port":36632,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"datajp.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US 1\r","type":"trojan","server":"e.steamdownload.top","port":36651,"udp":true,"password":"c59d5670-ec6a-4d0e-91cb-65acdfbe9a02","sni":"dataus.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"自学志_1","type":"vmess","server":"162.159.240.218","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
-  - {"name":"自学志_2","type":"vmess","server":"156.249.18.38","port":48222,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志_3","type":"vmess","server":"140.99.59.242","port":55100,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志_4","type":"vmess","server":"142.4.126.20","port":51115,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"自学志_5","type":"vmess","server":"162.159.130.198","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.scproxy.top"}}}
-  - {"name":"🇫🇷_自学志","type":"vmess","server":"173.245.49.236","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
-  - {"name":"🇿🇦_自学志\r","type":"ss","server":"129.232.129.156","port":444,"password":"DiPietyory","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_自学志_1","type":"vmess","server":"series-v1.samanehha.co","port":443,"cipher":"chacha20-poly1305","uuid":"0b65bb06-6b28-487a-8e3c-820dda51e977","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dT9s3HqgZeD3eApzDAfhOHq","headers":{"host":"series-v1.samanehha.co"}}}
-  - {"name":"🇫🇷_自学志\r","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"Kq3iQqtVlyPJBPcD6QpnGE","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_自学志_2","type":"vmess","server":"172.67.65.210","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
-  - {"name":"自学志\r_1","type":"ss","server":"92.243.27.51","port":9802,"password":"Kq3iQqtVlyPJBPcD6QpnGE","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志_6","type":"vmess","server":"172.64.142.32","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
-  - {"name":"自学志_7","type":"vmess","server":"172.64.175.26","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
-  - {"name":"自学志_8","type":"vmess","server":"162.159.133.233","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
-  - {"name":"自学志\r_2","type":"ss","server":"91.207.183.63","port":15720,"password":"mX1q8sv17wA5LGDHIHD6Jo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志_9","type":"vmess","server":"172.67.244.14","port":80,"cipher":"auto","uuid":"4a47e680-d860-4e63-9fa6-813857fb0f42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"4a47e680","headers":{"host":"ddp2.1808.cf"}}}
-  - {"name":"自学志网\r","type":"ss","server":"zxpfgo.ssplane.cn","port":28038,"password":"f80b576a-66a0-4bd8-9d34-34e34a78339a","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 2\r","type":"ss","server":"zxpfgo.ssplane.cn","port":28038,"password":"fdb091f1-3c2d-4770-bdee-4c38bf12edb1","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 3\r","type":"ss","server":"3.112.225.4","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"自学志网 4\r","type":"ss","server":"125.141.26.3","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"自学志网 5\r","type":"ss","server":"54.64.230.155","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"自学志网 6\r","type":"ss","server":"35.77.99.119","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"自学志网 7\r","type":"ss","server":"18.179.118.255","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"自学志网 8\r","type":"ss","server":"27.255.82.49","port":5731,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"自学志网 9\r","type":"ss","server":"125.141.26.5","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"自学志网 10\r","type":"ss","server":"zzjp01.buffcloud.icu","port":19498,"password":"2876b651-1176-4261-8a24-60801511d561","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 11\r","type":"ss","server":"zzsg01.buffcloud.icu","port":42459,"password":"b9eeada4-9de6-4870-b244-a183a7950edc","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 12\r","type":"ss","server":"zzdfsg02.buffcloud.icu","port":46433,"password":"c5e306d3-f74f-4f04-9cf5-c87551619eee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 13\r","type":"ss","server":"zzsg01.buffcloud.icu","port":42459,"password":"0daf8080-8d73-4683-b45f-8d4505fc7fb0","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 14\r","type":"ss","server":"zxpfgo.ssplane.cn","port":28038,"password":"4abcafb6-cc69-4f4d-8638-84f9048bb7c9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 15\r","type":"ss","server":"zxpfgo.ssplane.cn","port":28038,"password":"15b684f0-647e-494e-83b0-bc79a8b572d9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 16\r","type":"ss","server":"pinhk.cu.edu.kg","port":10112,"password":"acd96241-d767-4c5f-9c1d-00e49df462c2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 17\r","type":"ss","server":"pinhk.cu.edu.kg","port":10116,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 18\r","type":"ss","server":"pinjp.cu.edu.kg","port":10151,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 19\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 20\r","type":"ss","server":"pinhk.cu.edu.kg","port":10115,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 21\r","type":"ss","server":"pinjp.cu.edu.kg","port":10151,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 22\r","type":"ss","server":"pinjp.cu.edu.kg","port":10153,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 23\r","type":"ss","server":"pinjp.cu.edu.kg","port":10152,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 24\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"acd96241-d767-4c5f-9c1d-00e49df462c2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 25\r","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 26\r","type":"ss","server":"pinhk.cu.edu.kg","port":10113,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 27\r","type":"ss","server":"pinhk.cu.edu.kg","port":10111,"password":"acd96241-d767-4c5f-9c1d-00e49df462c2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 28\r","type":"ss","server":"pinhk.cu.edu.kg","port":10114,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 29\r","type":"ss","server":"pinhk.cu.edu.kg","port":10112,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 30\r","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 31\r","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 32\r","type":"ss","server":"pinjp.cu.edu.kg","port":10152,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 33\r","type":"ss","server":"pinhk.cu.edu.kg","port":10111,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 34\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 35\r","type":"ss","server":"pinhk.cu.edu.kg","port":10114,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 36\r","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 37\r","type":"ss","server":"pinhk.cu.edu.kg","port":10116,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 38\r","type":"ss","server":"pinhk.cu.edu.kg","port":10114,"password":"acd96241-d767-4c5f-9c1d-00e49df462c2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 39\r","type":"ss","server":"pinhk.cu.edu.kg","port":10117,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 40\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 41\r","type":"ss","server":"pinhk.cu.edu.kg","port":10118,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 42\r","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"acd96241-d767-4c5f-9c1d-00e49df462c2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 43\r","type":"ss","server":"pinhk.cu.edu.kg","port":10113,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 44\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 45\r","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 46\r","type":"ss","server":"pinhk.cu.edu.kg","port":10112,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 47\r","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"acd96241-d767-4c5f-9c1d-00e49df462c2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 48\r","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"778dabed-2c57-4159-8d5a-b66ad56be6fa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 49\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 50\r","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"4f136a1e-d492-4362-83b7-f4bb0cb10758","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 51\r","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 52\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"5bfcee1d-cb90-4c09-9189-e3e3f88a53b2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 53\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"acd96241-d767-4c5f-9c1d-00e49df462c2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 54\r","type":"ss","server":"ydyh.nanbei.info","port":26906,"password":"7e08e139-7357-4908-85cd-1028ee76f545","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"自学志网 55\r","type":"ss","server":"ydyh.nanbei.info","port":26906,"password":"7e08e139-7357-4908-85cd-1028ee76f545","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"更新于:08-06 13：25","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"自学志网 2\r","type":"ss","server":"pinhk.cu.edu.kg","port":10114,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 6\r","type":"ss","server":"pinhk.cu.edu.kg","port":10114,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 77\r","type":"ss","server":"pinsg.cu.edu.kg","port":10126,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 89\r","type":"ss","server":"pinhk.cu.edu.kg","port":10120,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 85\r","type":"ss","server":"pinhk.cu.edu.kg","port":10113,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 82\r","type":"ss","server":"pinhk.cu.edu.kg","port":10112,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 83\r","type":"ss","server":"pinhk.cu.edu.kg","port":10113,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 84\r","type":"ss","server":"pinhk.cu.edu.kg","port":10120,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 93\r","type":"ss","server":"pinhk.cu.edu.kg","port":10116,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 26\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 99\r","type":"ss","server":"pinsg.cu.edu.kg","port":10124,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 69\r","type":"ss","server":"pinsg.cu.edu.kg","port":10125,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 104\r","type":"ss","server":"pinhk.cu.edu.kg","port":10115,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 63\r","type":"ss","server":"pinjp.cu.edu.kg","port":10152,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 101\r","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网\r","type":"ss","server":"pinsg.cu.edu.kg","port":10122,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 5\r","type":"ss","server":"pinsg.cu.edu.kg","port":10125,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 17\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 7\r","type":"ss","server":"pinhk.cu.edu.kg","port":10112,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 107\r","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 102\r","type":"ss","server":"pinhk.cu.edu.kg","port":10116,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 54\r","type":"ss","server":"pinsg.cu.edu.kg","port":10121,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 3\r","type":"ss","server":"pinsg.cu.edu.kg","port":10123,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 106\r","type":"ss","server":"pinsg.cu.edu.kg","port":10125,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 86\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 68\r","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 94\r","type":"ss","server":"pinhk.cu.edu.kg","port":10115,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 103\r","type":"ss","server":"pinhk.cu.edu.kg","port":10117,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 98\r","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 20\r","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 59\r","type":"ss","server":"pinhk.cu.edu.kg","port":10113,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 92\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 78\r","type":"ss","server":"pinhk.cu.edu.kg","port":10114,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 12\r","type":"ss","server":"pinsg.cu.edu.kg","port":10123,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 66\r","type":"ss","server":"pinsg.cu.edu.kg","port":10121,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 21\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 80\r","type":"ss","server":"pinsg.cu.edu.kg","port":10126,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 44\r","type":"ss","server":"pinsg.cu.edu.kg","port":10122,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 64\r","type":"ss","server":"pinjp.cu.edu.kg","port":10151,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 10\r","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 50\r","type":"ss","server":"pinjp.cu.edu.kg","port":10151,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 14\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 48\r","type":"ss","server":"pinjp.cu.edu.kg","port":10153,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 46\r","type":"ss","server":"pinjp.cu.edu.kg","port":10153,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 74\r","type":"ss","server":"pinhk.cu.edu.kg","port":10117,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 53\r","type":"ss","server":"pinjp.cu.edu.kg","port":10152,"password":"cd1ef6e5-c47f-4882-84f4-50b177092506","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 72\r","type":"ss","server":"pinsg.cu.edu.kg","port":10124,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 16\r","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 56\r","type":"ss","server":"pinjp.cu.edu.kg","port":10152,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 71\r","type":"ss","server":"pinhk.cu.edu.kg","port":10117,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 47\r","type":"ss","server":"pinjp.cu.edu.kg","port":10153,"password":"c31498f4-94c4-425a-80de-0106cfd74ef2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 51\r","type":"ss","server":"pinjp.cu.edu.kg","port":10151,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 22\r","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"a6aed0a1-f568-41c8-8ac8-c2d8415d1bf7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 4\r","type":"ss","server":"pinsg.cu.edu.kg","port":10123,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 8\r","type":"ss","server":"pinsg.cu.edu.kg","port":10125,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 9\r","type":"ss","server":"pinsg.cu.edu.kg","port":10126,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 11\r","type":"ss","server":"pinsg.cu.edu.kg","port":10124,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 13\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 15\r","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 18\r","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 19\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 23\r","type":"ss","server":"pinsg.cu.edu.kg","port":10123,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 24\r","type":"ss","server":"pinjp.cu.edu.kg","port":10143,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 25\r","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 27\r","type":"ss","server":"ydyh.nanbei.info","port":26906,"password":"7e08e139-7357-4908-85cd-1028ee76f545","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 28\r","type":"ss","server":"ydyh.nanbei.info","port":26906,"password":"7e08e139-7357-4908-85cd-1028ee76f545","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 29\r","type":"ss","server":"nb.juechenyun.top","port":13984,"password":"7c45ed1c-db42-4d10-b3f7-670605bc4cf1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 97\r","type":"ss","server":"pinhk.cu.edu.kg","port":10113,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 100\r","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 105\r","type":"ss","server":"pinsg.cu.edu.kg","port":10123,"password":"e202cd7e-da6b-4e68-aca7-fdd6b1272edb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"自学志网 108\r","type":"ss","server":"54.64.230.155","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"自学志网 109\r","type":"ss","server":"221.168.44.84","port":53333,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"自学志网 110\r","type":"ss","server":"222.112.15.132","port":21145,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"自学志网 111\r","type":"ss","server":"3.0.182.218","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"自学志网 112","type":"vmess","server":"tw001.landiannet.link","port":10002,"cipher":"auto","uuid":"b5e04ca8-249b-4f0c-8afa-afd3620862ee","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/landian"}}
+  - {"name":"自学志网 113","type":"vmess","server":"hk001.landiannet.link","port":10001,"cipher":"auto","uuid":"b5e04ca8-249b-4f0c-8afa-afd3620862ee","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/landian"}}
+  - {"name":"zxz_1","type":"vmess","server":"107.167.30.132","port":43900,"cipher":"auto","uuid":"58e560b4-bba6-4843-be5f-83321022fa0d","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz_2","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}}}
+  - {"name":"zxz_3","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"zxz_4","type":"vmess","server":"23.227.39.111","port":443,"cipher":"auto","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}}}
+  - {"name":"zxz\r_1","type":"ss","server":"arm.gougouvpn.xyz","port":7712,"password":"8d8d716e-a60f-4a8b-85c5-4ccf6d68ce18","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"zxz\r_2","type":"ss","server":"92.243.27.51","port":9802,"password":"Kq3iQqtVlyPJBPcD6QpnGE","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"zxz\r_3","type":"ss","server":"129.232.129.156","port":444,"password":"DiPietyory","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"zxz_5","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}}}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -106,176 +109,182 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 更新于:08-05 21:44
-      - "HK 1\r"
-      - "HK 2\r"
-      - "HK 3\r"
-      - "HK 4\r"
-      - "TW 1\r"
-      - "SG 1\r"
-      - "SG 2\r"
-      - "JP 1\r"
-      - "JP 2\r"
-      - "US 1\r"
-      - 自学志_1
-      - 自学志_2
-      - 自学志_3
-      - 自学志_4
-      - 自学志_5
-      - 🇫🇷_自学志
-      - "🇿🇦_自学志\r"
-      - 🇺🇸_自学志_1
-      - "🇫🇷_自学志\r"
-      - 🇺🇸_自学志_2
-      - "自学志\r_1"
-      - 自学志_6
-      - 自学志_7
-      - 自学志_8
-      - "自学志\r_2"
-      - 自学志_9
-      - "自学志网\r"
+      - 更新于:08-06 13：25
       - "自学志网 2\r"
-      - "自学志网 3\r"
-      - "自学志网 4\r"
-      - "自学志网 5\r"
       - "自学志网 6\r"
+      - "自学志网 77\r"
+      - "自学志网 89\r"
+      - "自学志网 85\r"
+      - "自学志网 82\r"
+      - "自学志网 83\r"
+      - "自学志网 84\r"
+      - "自学志网 93\r"
+      - "自学志网 26\r"
+      - "自学志网 99\r"
+      - "自学志网 69\r"
+      - "自学志网 104\r"
+      - "自学志网 63\r"
+      - "自学志网 101\r"
+      - "自学志网\r"
+      - "自学志网 5\r"
+      - "自学志网 17\r"
       - "自学志网 7\r"
+      - "自学志网 107\r"
+      - "自学志网 102\r"
+      - "自学志网 54\r"
+      - "自学志网 3\r"
+      - "自学志网 106\r"
+      - "自学志网 86\r"
+      - "自学志网 68\r"
+      - "自学志网 94\r"
+      - "自学志网 103\r"
+      - "自学志网 98\r"
+      - "自学志网 20\r"
+      - "自学志网 59\r"
+      - "自学志网 92\r"
+      - "自学志网 78\r"
+      - "自学志网 12\r"
+      - "自学志网 66\r"
+      - "自学志网 21\r"
+      - "自学志网 80\r"
+      - "自学志网 44\r"
+      - "自学志网 64\r"
+      - "自学志网 10\r"
+      - "自学志网 50\r"
+      - "自学志网 14\r"
+      - "自学志网 48\r"
+      - "自学志网 46\r"
+      - "自学志网 74\r"
+      - "自学志网 53\r"
+      - "自学志网 72\r"
+      - "自学志网 16\r"
+      - "自学志网 56\r"
+      - "自学志网 71\r"
+      - "自学志网 47\r"
+      - "自学志网 51\r"
+      - "自学志网 22\r"
+      - "自学志网 4\r"
       - "自学志网 8\r"
       - "自学志网 9\r"
-      - "自学志网 10\r"
       - "自学志网 11\r"
-      - "自学志网 12\r"
       - "自学志网 13\r"
-      - "自学志网 14\r"
       - "自学志网 15\r"
-      - "自学志网 16\r"
-      - "自学志网 17\r"
       - "自学志网 18\r"
       - "自学志网 19\r"
-      - "自学志网 20\r"
-      - "自学志网 21\r"
-      - "自学志网 22\r"
       - "自学志网 23\r"
       - "自学志网 24\r"
       - "自学志网 25\r"
-      - "自学志网 26\r"
       - "自学志网 27\r"
       - "自学志网 28\r"
       - "自学志网 29\r"
-      - "自学志网 30\r"
-      - "自学志网 31\r"
-      - "自学志网 32\r"
-      - "自学志网 33\r"
-      - "自学志网 34\r"
-      - "自学志网 35\r"
-      - "自学志网 36\r"
-      - "自学志网 37\r"
-      - "自学志网 38\r"
-      - "自学志网 39\r"
-      - "自学志网 40\r"
-      - "自学志网 41\r"
-      - "自学志网 42\r"
-      - "自学志网 43\r"
-      - "自学志网 44\r"
-      - "自学志网 45\r"
-      - "自学志网 46\r"
-      - "自学志网 47\r"
-      - "自学志网 48\r"
-      - "自学志网 49\r"
-      - "自学志网 50\r"
-      - "自学志网 51\r"
-      - "自学志网 52\r"
-      - "自学志网 53\r"
-      - "自学志网 54\r"
-      - "自学志网 55\r"
+      - "自学志网 97\r"
+      - "自学志网 100\r"
+      - "自学志网 105\r"
+      - "自学志网 108\r"
+      - "自学志网 109\r"
+      - "自学志网 110\r"
+      - "自学志网 111\r"
+      - 自学志网 112
+      - 自学志网 113
+      - zxz_1
+      - zxz_2
+      - zxz_3
+      - zxz_4
+      - "zxz\r_1"
+      - "zxz\r_2"
+      - "zxz\r_3"
+      - zxz_5
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:08-05 21:44
-      - "HK 1\r"
-      - "HK 2\r"
-      - "HK 3\r"
-      - "HK 4\r"
-      - "TW 1\r"
-      - "SG 1\r"
-      - "SG 2\r"
-      - "JP 1\r"
-      - "JP 2\r"
-      - "US 1\r"
-      - 自学志_1
-      - 自学志_2
-      - 自学志_3
-      - 自学志_4
-      - 自学志_5
-      - 🇫🇷_自学志
-      - "🇿🇦_自学志\r"
-      - 🇺🇸_自学志_1
-      - "🇫🇷_自学志\r"
-      - 🇺🇸_自学志_2
-      - "自学志\r_1"
-      - 自学志_6
-      - 自学志_7
-      - 自学志_8
-      - "自学志\r_2"
-      - 自学志_9
-      - "自学志网\r"
+      - 更新于:08-06 13：25
       - "自学志网 2\r"
-      - "自学志网 3\r"
-      - "自学志网 4\r"
-      - "自学志网 5\r"
       - "自学志网 6\r"
+      - "自学志网 77\r"
+      - "自学志网 89\r"
+      - "自学志网 85\r"
+      - "自学志网 82\r"
+      - "自学志网 83\r"
+      - "自学志网 84\r"
+      - "自学志网 93\r"
+      - "自学志网 26\r"
+      - "自学志网 99\r"
+      - "自学志网 69\r"
+      - "自学志网 104\r"
+      - "自学志网 63\r"
+      - "自学志网 101\r"
+      - "自学志网\r"
+      - "自学志网 5\r"
+      - "自学志网 17\r"
       - "自学志网 7\r"
+      - "自学志网 107\r"
+      - "自学志网 102\r"
+      - "自学志网 54\r"
+      - "自学志网 3\r"
+      - "自学志网 106\r"
+      - "自学志网 86\r"
+      - "自学志网 68\r"
+      - "自学志网 94\r"
+      - "自学志网 103\r"
+      - "自学志网 98\r"
+      - "自学志网 20\r"
+      - "自学志网 59\r"
+      - "自学志网 92\r"
+      - "自学志网 78\r"
+      - "自学志网 12\r"
+      - "自学志网 66\r"
+      - "自学志网 21\r"
+      - "自学志网 80\r"
+      - "自学志网 44\r"
+      - "自学志网 64\r"
+      - "自学志网 10\r"
+      - "自学志网 50\r"
+      - "自学志网 14\r"
+      - "自学志网 48\r"
+      - "自学志网 46\r"
+      - "自学志网 74\r"
+      - "自学志网 53\r"
+      - "自学志网 72\r"
+      - "自学志网 16\r"
+      - "自学志网 56\r"
+      - "自学志网 71\r"
+      - "自学志网 47\r"
+      - "自学志网 51\r"
+      - "自学志网 22\r"
+      - "自学志网 4\r"
       - "自学志网 8\r"
       - "自学志网 9\r"
-      - "自学志网 10\r"
       - "自学志网 11\r"
-      - "自学志网 12\r"
       - "自学志网 13\r"
-      - "自学志网 14\r"
       - "自学志网 15\r"
-      - "自学志网 16\r"
-      - "自学志网 17\r"
       - "自学志网 18\r"
       - "自学志网 19\r"
-      - "自学志网 20\r"
-      - "自学志网 21\r"
-      - "自学志网 22\r"
       - "自学志网 23\r"
       - "自学志网 24\r"
       - "自学志网 25\r"
-      - "自学志网 26\r"
       - "自学志网 27\r"
       - "自学志网 28\r"
       - "自学志网 29\r"
-      - "自学志网 30\r"
-      - "自学志网 31\r"
-      - "自学志网 32\r"
-      - "自学志网 33\r"
-      - "自学志网 34\r"
-      - "自学志网 35\r"
-      - "自学志网 36\r"
-      - "自学志网 37\r"
-      - "自学志网 38\r"
-      - "自学志网 39\r"
-      - "自学志网 40\r"
-      - "自学志网 41\r"
-      - "自学志网 42\r"
-      - "自学志网 43\r"
-      - "自学志网 44\r"
-      - "自学志网 45\r"
-      - "自学志网 46\r"
-      - "自学志网 47\r"
-      - "自学志网 48\r"
-      - "自学志网 49\r"
-      - "自学志网 50\r"
-      - "自学志网 51\r"
-      - "自学志网 52\r"
-      - "自学志网 53\r"
-      - "自学志网 54\r"
-      - "自学志网 55\r"
+      - "自学志网 97\r"
+      - "自学志网 100\r"
+      - "自学志网 105\r"
+      - "自学志网 108\r"
+      - "自学志网 109\r"
+      - "自学志网 110\r"
+      - "自学志网 111\r"
+      - 自学志网 112
+      - 自学志网 113
+      - zxz_1
+      - zxz_2
+      - zxz_3
+      - zxz_4
+      - "zxz\r_1"
+      - "zxz\r_2"
+      - "zxz\r_3"
+      - zxz_5
 
 rules:
   - DST-PORT,22,DIRECT
