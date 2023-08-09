@@ -1,12 +1,11 @@
 ####################################
 # 创建者：自学志
-# 客户端：Clash.Meta
-# 创建时间：2023-08-09 16:07:20
+# 客户端：Clash
+# 创建时间：2023-08-09 16:14:28
 # 使用模版：自学志22
-# 节点数量：128
-# 节点类型：vmess, trojan, vless, ss, ssr
+# 节点数量：123
+# 节点类型：vmess, trojan, ss, ssr
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -20,14 +19,9 @@ proxies:
   - {"name":"zxz\r_1","type":"trojan","server":"t-wn03.xingyunwu.top","port":50056,"udp":true,"password":"fad6dff0-9437-4ff1-ab9f-f96c48efc928","sni":"xingyunwu.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"zxz_2","type":"vmess","server":"172.64.96.134","port":80,"cipher":"aes-128-gcm","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}}}
   - {"name":"zxz\r_2","type":"trojan","server":"k-r03.xingyunwu.top","port":50024,"udp":true,"password":"fad6dff0-9437-4ff1-ab9f-f96c48efc928","sni":"xingyunwu.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"zxz\r_3","type":"vless","server":"154.92.9.254","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
-  - {"name":"zxz\r_4","type":"vless","server":"154.92.9.62","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
-  - {"name":"zxz\r_5","type":"vless","server":"154.92.9.13","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
   - {"name":"zxz_3","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}}}
-  - {"name":"zxz\r_6","type":"vless","server":"154.92.9.20","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
-  - {"name":"zxz\r_7","type":"vless","server":"154.92.9.5","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
   - {"name":"zxz_4","type":"vmess","server":"172.67.196.199","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
-  - {"name":"zxz\r_8","type":"ss","server":"183.232.170.32","port":20005,"password":"g12sQi#ss#&1","cipher":"aes-128-gcm"}
+  - {"name":"zxz\r_3","type":"ss","server":"183.232.170.32","port":20005,"password":"g12sQi#ss#&1","cipher":"aes-128-gcm"}
   - {"name":"zxz_5","type":"vmess","server":"173.245.49.236","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
   - {"name":"🇺🇸美国高速接入点-05","type":"vmess","server":"cfcdn2.sanfencdn.net","port":2052,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us5.sanfencdn2.com"}}}
   - {"name":"🇺🇸美国高速接入点-03","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sanfencdn1.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us3.sanfencdn1.com"}}}
@@ -158,14 +152,9 @@ proxy-groups:
       - "zxz\r_1"
       - zxz_2
       - "zxz\r_2"
-      - "zxz\r_3"
-      - "zxz\r_4"
-      - "zxz\r_5"
       - zxz_3
-      - "zxz\r_6"
-      - "zxz\r_7"
       - zxz_4
-      - "zxz\r_8"
+      - "zxz\r_3"
       - zxz_5
       - 🇺🇸美国高速接入点-05
       - 🇺🇸美国高速接入点-03
@@ -292,14 +281,9 @@ proxy-groups:
       - "zxz\r_1"
       - zxz_2
       - "zxz\r_2"
-      - "zxz\r_3"
-      - "zxz\r_4"
-      - "zxz\r_5"
       - zxz_3
-      - "zxz\r_6"
-      - "zxz\r_7"
       - zxz_4
-      - "zxz\r_8"
+      - "zxz\r_3"
       - zxz_5
       - 🇺🇸美国高速接入点-05
       - 🇺🇸美国高速接入点-03
