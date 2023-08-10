@@ -1,12 +1,11 @@
 ####################################
 # 创建者：自学志
-# 客户端：Clash.Meta
-# 创建时间：2023-08-09 23:30:58
+# 客户端：Clash
+# 创建时间：2023-08-10 10:25:26
 # 使用模版：自学志22
-# 节点数量：127
-# 节点类型：vmess, vless, ssr, ss, trojan
+# 节点数量：128
+# 节点类型：vmess, ssr, ss, trojan
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -15,7 +14,7 @@ log-level: info
 external-controller: ':9090'
 
 proxies:
-  - {"name":"更新于:08-09 23:30","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"更新于:08-10 10:25","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸美国高速接入点-05","type":"vmess","server":"cfcdn2.sanfencdn.net","port":2052,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us5.sanfencdn2.com"}}}
   - {"name":"🇺🇸美国高速接入点-03","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sanfencdn1.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us3.sanfencdn1.com"}}}
   - {"name":"🇺🇸美国高速接入点-07","type":"vmess","server":"cfcdn2.sanfencdn.net","port":2052,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us7.sanfencdn2.com"}}}
@@ -29,34 +28,35 @@ proxies:
   - {"name":"🇯🇵日本高速接入点-05","type":"vmess","server":"cfcdn5.sanfencdn.net","port":2052,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp5.sanfencdn2.com"}}}
   - {"name":"🇺🇸美国高速接入点-04","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sanfencdn1.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us4.sanfencdn1.com"}}}
   - {"name":"🇺🇸美国高速接入点-01","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"bbb8d21c-44f2-4d21-b588-b50de8b7e830","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sanfencdn1.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfencdn1.com"}}}
-  - {"name":"zxz_1","type":"vmess","server":"mci.bamarambash.monster","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/b8767a6a-1c30-11ee-ba76-9ee097a90b8b","headers":{"host":"b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster"}}}
-  - {"name":"zxz_2","type":"vmess","server":"mtn.bamarambash.monster","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/d84ee332-1284-11ee-a5c8-8213fd3be4b9","headers":{"host":"d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster"}}}
-  - {"name":"zxz\r_1","type":"vless","server":"154.92.9.62","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
-  - {"name":"zxz\r_2","type":"vless","server":"154.92.9.102","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
-  - {"name":"zxz\r_3","type":"vless","server":"154.92.9.13","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
-  - {"name":"zxz\r_4","type":"vless","server":"154.92.9.5","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bv01.wang66.homes"}}}
-  - {"name":"免费节点","type":"ssr","server":"mysql.accessconnect.cc","port":6011,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 2","type":"ssr","server":"mysql.accessconnect.cc","port":6010,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 3","type":"ssr","server":"sql.accessconnect.cc","port":2002,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 4","type":"ssr","server":"sql.accessconnect.cc","port":2003,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 5","type":"ssr","server":"sql.accessconnect.cc","port":2109,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 6","type":"ssr","server":"sql.accessconnect.cc","port":2108,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 7","type":"ssr","server":"sql.accessconnect.cc","port":2103,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 8","type":"ssr","server":"sql.accessconnect.cc","port":2107,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 9","type":"ssr","server":"sql.accessconnect.cc","port":2110,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 10","type":"ssr","server":"sql.accessconnect.cc","port":2105,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 11","type":"ssr","server":"sql.accessconnect.cc","port":2111,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 12","type":"ssr","server":"sql.accessconnect.cc","port":2101,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 13","type":"ssr","server":"sql.accessconnect.cc","port":2106,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 14","type":"ssr","server":"sql.accessconnect.cc","port":2104,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 15","type":"ssr","server":"sql.accessconnect.cc","port":2112,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 16","type":"ssr","server":"sql.accessconnect.cc","port":2102,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 17","type":"ssr","server":"oracle.accessconnect.cc","port":520,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 18","type":"ssr","server":"mysql.accessconnect.cc","port":6017,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"zxz_1","type":"vmess","server":"0000:0000:0000:0000:0000:ffff:2d85:f76a","port":443,"cipher":"auto","uuid":"9F86B5F1-AEFD-4FCB-A751-FBF09BB5C330","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
+  - {"name":"zxz_2","type":"vmess","server":"104.31.16.46","port":2082,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca5.tehme100.fun"}}}
+  - {"name":"zxz_3","type":"vmess","server":"ns1.v2-vip.fun","port":8880,"cipher":"auto","uuid":"617c9bc4-4116-41c6-99e0-ace49a38fcdb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Jnv8ViZOUVgijjOh0p5uGjHnXIiY","headers":{"host":"fr7.tehme100.fun"}}}
+  - {"name":"zxz_4","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"zxz_5","type":"vmess","server":"v3.gitvpn.eu.org","port":443,"cipher":"auto","uuid":"b63e998f-7fc8-48f4-a7d8-35dad9cf5778","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v3.gitvpn.eu.org"}}}
+  - {"name":"zxz_6","type":"vmess","server":"172.67.65.210","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
+  - {"name":"zxz_7","type":"vmess","server":"ns1.v2-vip.fun","port":80,"cipher":"auto","uuid":"8abe9496-5e24-4e49-b566-dcf86116017d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/i99LgvSaslbsPLLQQ7j6Z","headers":{"host":"de5.irteh.fun"}}}
+  - {"name":"免费节点","type":"ssr","server":"mysql.accessconnect.cc","port":6011,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 2","type":"ssr","server":"mysql.accessconnect.cc","port":6010,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 3","type":"ssr","server":"sql.accessconnect.cc","port":2002,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 4","type":"ssr","server":"sql.accessconnect.cc","port":2003,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 5","type":"ssr","server":"sql.accessconnect.cc","port":2109,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 6","type":"ssr","server":"sql.accessconnect.cc","port":2108,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 7","type":"ssr","server":"sql.accessconnect.cc","port":2103,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 8","type":"ssr","server":"sql.accessconnect.cc","port":2107,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 9","type":"ssr","server":"sql.accessconnect.cc","port":2110,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 10","type":"ssr","server":"sql.accessconnect.cc","port":2105,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 11","type":"ssr","server":"sql.accessconnect.cc","port":2111,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 12","type":"ssr","server":"sql.accessconnect.cc","port":2101,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 13","type":"ssr","server":"sql.accessconnect.cc","port":2106,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 14","type":"ssr","server":"sql.accessconnect.cc","port":2104,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 15","type":"ssr","server":"sql.accessconnect.cc","port":2112,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 16","type":"ssr","server":"sql.accessconnect.cc","port":2102,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 17","type":"ssr","server":"oracle.accessconnect.cc","port":520,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 18","type":"ssr","server":"mysql.accessconnect.cc","port":6017,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
   - {"name":"免费节点 19\r","type":"ss","server":"pinjp.cu.edu.kg","port":10151,"password":"8e7e984a-7754-4043-893d-75520b29cbf9","cipher":"chacha20-ietf-poly1305"}
   - {"name":"免费节点 20\r","type":"ss","server":"pinsg.cu.edu.kg","port":10123,"password":"8e7e984a-7754-4043-893d-75520b29cbf9","cipher":"chacha20-ietf-poly1305"}
   - {"name":"免费节点 21\r","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"8e7e984a-7754-4043-893d-75520b29cbf9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 22\r","type":"trojan","server":"124.64.206.11","port":443,"udp":true,"password":"9d1bb718-f429-40eb-9373-3e6d588ff78c","sni":"www.baidu.com","skip-cert-verify":true}
+  - {"name":"免费节点 22\r","type":"trojan","server":"124.64.206.11","port":443,"udp":true,"password":"9d1bb718-f429-40eb-9373-3e6d588ff78c","sni":"www.baidu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"免费节点 23\r","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"8e7e984a-7754-4043-893d-75520b29cbf9","cipher":"chacha20-ietf-poly1305"}
   - {"name":"免费节点 24\r","type":"ss","server":"pinhk.cu.edu.kg","port":10115,"password":"8e7e984a-7754-4043-893d-75520b29cbf9","cipher":"chacha20-ietf-poly1305"}
   - {"name":"免费节点 25\r","type":"ss","server":"pinsg.cu.edu.kg","port":10124,"password":"8e7e984a-7754-4043-893d-75520b29cbf9","cipher":"chacha20-ietf-poly1305"}
@@ -96,50 +96,50 @@ proxies:
   - {"name":"免费节点 59\r","type":"ss","server":"aca-ct-gz-2g-1.cfprefer1.xyz","port":43934,"password":"0f6f824c-ff62-4713-884e-301d5a8e802a","cipher":"aes-256-gcm"}
   - {"name":"免费节点 60\r","type":"ss","server":"aca-ct-gz-2g-1.cfprefer1.xyz","port":45611,"password":"0f6f824c-ff62-4713-884e-301d5a8e802a","cipher":"aes-256-gcm"}
   - {"name":"免费节点 61\r","type":"ss","server":"aca-ct-gz-2g-1.cfprefer1.xyz","port":10004,"password":"0f6f824c-ff62-4713-884e-301d5a8e802a","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 62","type":"ssr","server":"sql.accessconnect.cc","port":2602,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 63","type":"ssr","server":"sql.accessconnect.cc","port":2605,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 64","type":"ssr","server":"sql.accessconnect.cc","port":2604,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 65","type":"ssr","server":"sql.accessconnect.cc","port":1097,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 66","type":"ssr","server":"mysql.accessconnect.cc","port":3203,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 67","type":"ssr","server":"mysql.accessconnect.cc","port":3211,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 68","type":"ssr","server":"mysql.accessconnect.cc","port":3210,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 69","type":"ssr","server":"mysql.accessconnect.cc","port":3204,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 70","type":"ssr","server":"sql.accessconnect.cc","port":2601,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 71","type":"ssr","server":"mysql.accessconnect.cc","port":3212,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 72","type":"ssr","server":"mysql.accessconnect.cc","port":3209,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 73","type":"ssr","server":"mysql.accessconnect.cc","port":6007,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 74","type":"ssr","server":"mysql.accessconnect.cc","port":6002,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 75","type":"ssr","server":"sql.accessconnect.cc","port":2202,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 76","type":"ssr","server":"sql.accessconnect.cc","port":1112,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 77","type":"ssr","server":"sql.accessconnect.cc","port":2203,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 78","type":"ssr","server":"sql.accessconnect.cc","port":1113,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 79","type":"ssr","server":"oracle.accessconnect.cc","port":11130,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 80","type":"ssr","server":"sql.accessconnect.cc","port":1114,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 81","type":"ssr","server":"sql.accessconnect.cc","port":1115,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 82","type":"ssr","server":"sql.accessconnect.cc","port":2201,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 83","type":"ssr","server":"sql.accessconnect.cc","port":1116,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 84","type":"ssr","server":"sql.accessconnect.cc","port":1111,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 85","type":"ssr","server":"mysql.accessconnect.cc","port":6018,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 86","type":"ssr","server":"mysql.accessconnect.cc","port":6005,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 87","type":"ssr","server":"mysql.accessconnect.cc","port":6001,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 88","type":"ssr","server":"mysql.accessconnect.cc","port":6019,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 89","type":"ssr","server":"mysql.accessconnect.cc","port":3202,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 90","type":"ssr","server":"mysql.accessconnect.cc","port":6021,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 91","type":"ssr","server":"mysql.accessconnect.cc","port":6009,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 92","type":"ssr","server":"mysql.accessconnect.cc","port":3726,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 93","type":"ssr","server":"mysql.accessconnect.cc","port":3725,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 94","type":"ssr","server":"mysql.accessconnect.cc","port":6004,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 95","type":"ssr","server":"mysql.accessconnect.cc","port":6016,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 96","type":"ssr","server":"mysql.accessconnect.cc","port":6008,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 97","type":"ssr","server":"mysql.accessconnect.cc","port":3201,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 98","type":"ssr","server":"mysql.accessconnect.cc","port":6015,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 99","type":"ssr","server":"mysql.accessconnect.cc","port":6013,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 100","type":"ssr","server":"mysql.accessconnect.cc","port":6012,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 101","type":"ssr","server":"mysql.accessconnect.cc","port":6003,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 102","type":"ssr","server":"mysql.accessconnect.cc","port":6014,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 103","type":"ssr","server":"mysql.accessconnect.cc","port":6022,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 104","type":"ssr","server":"mysql.accessconnect.cc","port":6020,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
-  - {"name":"免费节点 105","type":"ssr","server":"mysql.accessconnect.cc","port":6006,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5"}
+  - {"name":"免费节点 62","type":"ssr","server":"sql.accessconnect.cc","port":2602,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 63","type":"ssr","server":"sql.accessconnect.cc","port":2605,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 64","type":"ssr","server":"sql.accessconnect.cc","port":2604,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 65","type":"ssr","server":"sql.accessconnect.cc","port":1097,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 66","type":"ssr","server":"mysql.accessconnect.cc","port":3203,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 67","type":"ssr","server":"mysql.accessconnect.cc","port":3211,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 68","type":"ssr","server":"mysql.accessconnect.cc","port":3210,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 69","type":"ssr","server":"mysql.accessconnect.cc","port":3204,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 70","type":"ssr","server":"sql.accessconnect.cc","port":2601,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 71","type":"ssr","server":"mysql.accessconnect.cc","port":3212,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 72","type":"ssr","server":"mysql.accessconnect.cc","port":3209,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 73","type":"ssr","server":"mysql.accessconnect.cc","port":6007,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 74","type":"ssr","server":"mysql.accessconnect.cc","port":6002,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 75","type":"ssr","server":"sql.accessconnect.cc","port":2202,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 76","type":"ssr","server":"sql.accessconnect.cc","port":1112,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 77","type":"ssr","server":"sql.accessconnect.cc","port":2203,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 78","type":"ssr","server":"sql.accessconnect.cc","port":1113,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 79","type":"ssr","server":"oracle.accessconnect.cc","port":11130,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 80","type":"ssr","server":"sql.accessconnect.cc","port":1114,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 81","type":"ssr","server":"sql.accessconnect.cc","port":1115,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 82","type":"ssr","server":"sql.accessconnect.cc","port":2201,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 83","type":"ssr","server":"sql.accessconnect.cc","port":1116,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 84","type":"ssr","server":"sql.accessconnect.cc","port":1111,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 85","type":"ssr","server":"mysql.accessconnect.cc","port":6018,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 86","type":"ssr","server":"mysql.accessconnect.cc","port":6005,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 87","type":"ssr","server":"mysql.accessconnect.cc","port":6001,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 88","type":"ssr","server":"mysql.accessconnect.cc","port":6019,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 89","type":"ssr","server":"mysql.accessconnect.cc","port":3202,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 90","type":"ssr","server":"mysql.accessconnect.cc","port":6021,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 91","type":"ssr","server":"mysql.accessconnect.cc","port":6009,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 92","type":"ssr","server":"mysql.accessconnect.cc","port":3726,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 93","type":"ssr","server":"mysql.accessconnect.cc","port":3725,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 94","type":"ssr","server":"mysql.accessconnect.cc","port":6004,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 95","type":"ssr","server":"mysql.accessconnect.cc","port":6016,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 96","type":"ssr","server":"mysql.accessconnect.cc","port":6008,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 97","type":"ssr","server":"mysql.accessconnect.cc","port":3201,"password":"di15PV","cipher":"rc4-md5","obfs":"plain","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 98","type":"ssr","server":"mysql.accessconnect.cc","port":6015,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 99","type":"ssr","server":"mysql.accessconnect.cc","port":6013,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 100","type":"ssr","server":"mysql.accessconnect.cc","port":6012,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 101","type":"ssr","server":"mysql.accessconnect.cc","port":6003,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 102","type":"ssr","server":"mysql.accessconnect.cc","port":6014,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 103","type":"ssr","server":"mysql.accessconnect.cc","port":6022,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 104","type":"ssr","server":"mysql.accessconnect.cc","port":6020,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
+  - {"name":"免费节点 105","type":"ssr","server":"mysql.accessconnect.cc","port":6006,"password":"di15PV","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","protocol-param":"279714:WFNzot"}
   - {"name":"免费节点 106\r","type":"ss","server":"zrpfgo.ssplane.cn","port":18629,"password":"87a58786-33ad-40a3-b708-ba910f309bff","cipher":"chacha20-ietf-poly1305"}
   - {"name":"免费节点 107","type":"ss","server":"zrpfgo.ssplane.cn","port":18629,"password":"1b29e1e7-823e-425e-bcc3-c70bde77163f","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -152,7 +152,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 更新于:08-09 23:30
+      - 更新于:08-10 10:25
       - 🇺🇸美国高速接入点-05
       - 🇺🇸美国高速接入点-03
       - 🇺🇸美国高速接入点-07
@@ -168,10 +168,11 @@ proxy-groups:
       - 🇺🇸美国高速接入点-01
       - zxz_1
       - zxz_2
-      - "zxz\r_1"
-      - "zxz\r_2"
-      - "zxz\r_3"
-      - "zxz\r_4"
+      - zxz_3
+      - zxz_4
+      - zxz_5
+      - zxz_6
+      - zxz_7
       - 免费节点
       - 免费节点 2
       - 免费节点 3
@@ -285,7 +286,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:08-09 23:30
+      - 更新于:08-10 10:25
       - 🇺🇸美国高速接入点-05
       - 🇺🇸美国高速接入点-03
       - 🇺🇸美国高速接入点-07
@@ -301,10 +302,11 @@ proxy-groups:
       - 🇺🇸美国高速接入点-01
       - zxz_1
       - zxz_2
-      - "zxz\r_1"
-      - "zxz\r_2"
-      - "zxz\r_3"
-      - "zxz\r_4"
+      - zxz_3
+      - zxz_4
+      - zxz_5
+      - zxz_6
+      - zxz_7
       - 免费节点
       - 免费节点 2
       - 免费节点 3
