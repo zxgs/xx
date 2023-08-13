@@ -1,10 +1,10 @@
 ####################################
 # 创建者：自学志
 # 客户端：Clash
-# 创建时间：2023-08-12 14:08:17
+# 创建时间：2023-08-13 13:24:02
 # 使用模版：自学志22
-# 节点数量：41
-# 节点类型：vmess, ss, trojan
+# 节点数量：19
+# 节点类型：vmess, ss
 ####################################
 port: 7890
 socks-port: 7891
@@ -14,47 +14,25 @@ log-level: info
 external-controller: ':9090'
 
 proxies:
-  - {"name":"更新于:08-12 14:07","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"免费节点\r","type":"ss","server":"shanghai3.xn--iiq222b6igvp5c.com","port":18723,"password":"73c839d7-cb73-4283-9062-2da92ce0f759","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 2\r","type":"ss","server":"port-hk-01.etcjichang.top","port":45074,"password":"dfb72c41-b0cc-4b89-9726-57af2fd91bc9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 3\r","type":"trojan","server":"home-hk-6.strongpipe.live","port":29444,"udp":true,"password":"bba4237e-52c9-4534-93e9-0c4ca1389482","sni":"106-110-192-225.d.cjjd20.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 4\r","type":"ss","server":"zrpfgo.ssplane.cn","port":18629,"password":"63fe4424-c9f3-48da-8330-c55f782698da","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 5\r","type":"ss","server":"shanghai3.xn--iiq222b6igvp5c.com","port":18723,"password":"514df529-19e4-48e6-9402-468a56ba9f6b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 6\r","type":"ss","server":"port-hk-03.etcjichang.top","port":17505,"password":"dc23d8e4-ed5d-4833-b250-fc6ba3703184","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 7\r","type":"trojan","server":"dva.flareai.science","port":13543,"udp":true,"password":"ad7bcaad-5275-490c-be7f-b84af4929da6","sni":"106-110-192-225.d.cjjd20.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 8\r","type":"ss","server":"183.240.222.80","port":2001,"password":"9f4e1b56-b6d8-498f-8452-1a9fc9951431","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 9\r","type":"ss","server":"183.240.222.80","port":2001,"password":"9f4e1b56-b6d8-498f-8452-1a9fc9951431","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 10\r","type":"ss","server":"183.240.222.80","port":2001,"password":"9f4e1b56-b6d8-498f-8452-1a9fc9951431","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 11\r","type":"trojan","server":"gzv6.batiex.xyz","port":10002,"udp":true,"password":"50ba3b64-15d2-43f4-b1e8-e045ae927ff9","sni":"batiex.link","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 12\r","type":"trojan","server":"gzv6.batiex.xyz","port":10002,"udp":true,"password":"6690b681-d075-41c1-9fcd-a3255ba235cd","sni":"batiex.link","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 13\r","type":"ss","server":"zrpfgo.ssplane.cn","port":18629,"password":"cc33fe2d-23aa-4617-be10-8701b8e3742b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 14\r","type":"ss","server":"zrpfgo.ssplane.cn","port":18629,"password":"caa38b6a-4f2d-4b48-b895-5bb41082d2e0","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 15\r","type":"ss","server":"zrpfgo.ssplane.cn","port":18629,"password":"86532702-6036-4f04-bb1e-89fd5ec60044","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 16\r","type":"ss","server":"zrpfgo.ssplane.cn","port":18629,"password":"e8a8b5c0-43b4-4351-9e8e-9f1cf3fcb3d8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 17\r","type":"ss","server":"tjcu.artehr.org","port":32004,"password":"7ef04235-e546-457d-af14-55aedabab53b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 18\r","type":"ss","server":"54.251.2.151","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"免费节点 19\r","type":"ss","server":"3.112.221.100","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"免费节点 20\r","type":"ss","server":"3.112.204.180","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"免费节点 21\r","type":"ss","server":"3.112.239.169","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"免费节点 22\r","type":"ss","server":"43.201.110.252","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"免费节点 23\r","type":"trojan","server":"dttw1.bnnodeservice.com","port":33003,"udp":true,"password":"0826a283-a7fa-4076-a85c-e053f649550c","sni":"cert.bitbyte.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 24\r","type":"ss","server":"pinhk.cu.edu.kg","port":10120,"password":"e7f13da6-0447-4692-aa3c-824264cdbb5f","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 25\r","type":"trojan","server":"trahk1.bnnodeservice.com","port":32443,"udp":true,"password":"0826a283-a7fa-4076-a85c-e053f649550c","sni":"cert.bitbyte.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 26\r","type":"trojan","server":"tratw1.bnnodeservice.com","port":32003,"udp":true,"password":"0826a283-a7fa-4076-a85c-e053f649550c","sni":"cert.bitbyte.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 27\r","type":"ss","server":"yd.ktmwan.top","port":27250,"password":"604518b2-48ec-4741-9f14-c5cce89de80f","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 28\r","type":"ss","server":"yd.ktmwan.top","port":27250,"password":"902d1aed-3c53-4638-9974-f25e6d363f68","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 29\r","type":"ss","server":"dx.ktmwan.top","port":27250,"password":"f945d857-b27e-4c51-b633-1f5329afe0a7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 30\r","type":"ss","server":"yd.ktmwan.top","port":27250,"password":"093f757c-0095-45a1-ad39-6d5cb8add033","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 31\r","type":"ss","server":"yd.ktmwan.top","port":27250,"password":"d52635f3-512e-4143-ac80-419f8a9bc62b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 32\r","type":"ss","server":"free.themars.top","port":32103,"password":"be883cbb-b146-4692-a699-26aa5b2ab231","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 33\r","type":"ss","server":"free.themars.top","port":32103,"password":"dafd9ada-093a-4e57-b26a-22e2d52bd984","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 34\r","type":"ss","server":"free.themars.top","port":32103,"password":"9def4060-91d0-4449-80d6-d0d43dfa56f5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 35\r","type":"ss","server":"free.themars.top","port":32103,"password":"29fddc1f-c4a6-4aa0-924b-9c3dc02d0b82","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 36\r","type":"ss","server":"ydyh.nanbei.info","port":26906,"password":"c122d90a-1833-42ef-8393-cf881d820b98","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"zxz_1","type":"vmess","server":"mci.saintink.eu.org","port":443,"cipher":"auto","uuid":"c226d9fa-b5a7-4f6e-9532-50137c89311d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"nl1.v2rayserv.com/vmess","headers":{"host":"4.saintink.eu.org"}}}
-  - {"name":"zxz_2","type":"vmess","server":"45.199.138.161","port":46735,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"zxz_3","type":"vmess","server":"47.88.89.251","port":80,"cipher":"auto","uuid":"dd92e2b3-03f3-4899-a34e-797ff6a0cea8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/MqINN7CF6UeFSASP4LNTFNn"}}
-  - {"name":"zxz\r","type":"ss","server":"89.163.157.4","port":1443,"password":"NGJjN","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"更新于:08-13 13:23","type":"vmess","server":"使用前记得更新订阅","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz_1","type":"vmess","server":"45.199.138.161","port":46735,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz_2","type":"vmess","server":"64.32.4.53","port":43556,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz\r_1","type":"ss","server":"54.36.174.181","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"zxz_3","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"6abfe33a-1894-4f62-8879-83b71a35e5fd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.tk"}}}
+  - {"name":"zxz_4","type":"vmess","server":"108.166.203.183","port":44945,"cipher":"auto","uuid":"268a491b-764c-44d1-81a4-30de16130867","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz_5","type":"vmess","server":"45.199.138.161","port":46735,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz_6","type":"vmess","server":"172.64.104.38","port":8080,"cipher":"auto","uuid":"e6e14e13-359d-4f07-d60a-92533c5c025a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
+  - {"name":"zxz_7","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"zxz_8","type":"vmess","server":"45.199.138.161","port":46735,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz_9","type":"vmess","server":"45.199.138.161","port":46735,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz_10","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
+  - {"name":"zxz_11","type":"vmess","server":"139.99.245.164","port":49921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz_12","type":"vmess","server":"139.99.245.164","port":49921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"zxz\r_2","type":"ss","server":"54.36.174.181","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"zxz_13","type":"vmess","server":"mtn.bamarambash.monster","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/d84ee332-1284-11ee-a5c8-8213fd3be4b9","headers":{"host":"d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster"}}}
+  - {"name":"zxz_14","type":"vmess","server":"cf3.992688.xyz","port":8080,"cipher":"auto","uuid":"f467f4da-2226-448d-a30d-463ef10548ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus2.vpn66.eu.org"}}}
+  - {"name":"zxz_15","type":"vmess","server":"23.227.39.111","port":443,"cipher":"auto","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}}}
+  - {"name":"zxz_16","type":"vmess","server":"cf1.992688.xyz","port":8080,"cipher":"auto","uuid":"f467f4da-2226-448d-a30d-463ef10548ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus2.vpn66.eu.org"}}}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -65,94 +43,50 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 更新于:08-12 14:07
-      - "免费节点\r"
-      - "免费节点 2\r"
-      - "免费节点 3\r"
-      - "免费节点 4\r"
-      - "免费节点 5\r"
-      - "免费节点 6\r"
-      - "免费节点 7\r"
-      - "免费节点 8\r"
-      - "免费节点 9\r"
-      - "免费节点 10\r"
-      - "免费节点 11\r"
-      - "免费节点 12\r"
-      - "免费节点 13\r"
-      - "免费节点 14\r"
-      - "免费节点 15\r"
-      - "免费节点 16\r"
-      - "免费节点 17\r"
-      - "免费节点 18\r"
-      - "免费节点 19\r"
-      - "免费节点 20\r"
-      - "免费节点 21\r"
-      - "免费节点 22\r"
-      - "免费节点 23\r"
-      - "免费节点 24\r"
-      - "免费节点 25\r"
-      - "免费节点 26\r"
-      - "免费节点 27\r"
-      - "免费节点 28\r"
-      - "免费节点 29\r"
-      - "免费节点 30\r"
-      - "免费节点 31\r"
-      - "免费节点 32\r"
-      - "免费节点 33\r"
-      - "免费节点 34\r"
-      - "免费节点 35\r"
-      - "免费节点 36\r"
+      - 更新于:08-13 13:23
       - zxz_1
       - zxz_2
+      - "zxz\r_1"
       - zxz_3
-      - "zxz\r"
+      - zxz_4
+      - zxz_5
+      - zxz_6
+      - zxz_7
+      - zxz_8
+      - zxz_9
+      - zxz_10
+      - zxz_11
+      - zxz_12
+      - "zxz\r_2"
+      - zxz_13
+      - zxz_14
+      - zxz_15
+      - zxz_16
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:08-12 14:07
-      - "免费节点\r"
-      - "免费节点 2\r"
-      - "免费节点 3\r"
-      - "免费节点 4\r"
-      - "免费节点 5\r"
-      - "免费节点 6\r"
-      - "免费节点 7\r"
-      - "免费节点 8\r"
-      - "免费节点 9\r"
-      - "免费节点 10\r"
-      - "免费节点 11\r"
-      - "免费节点 12\r"
-      - "免费节点 13\r"
-      - "免费节点 14\r"
-      - "免费节点 15\r"
-      - "免费节点 16\r"
-      - "免费节点 17\r"
-      - "免费节点 18\r"
-      - "免费节点 19\r"
-      - "免费节点 20\r"
-      - "免费节点 21\r"
-      - "免费节点 22\r"
-      - "免费节点 23\r"
-      - "免费节点 24\r"
-      - "免费节点 25\r"
-      - "免费节点 26\r"
-      - "免费节点 27\r"
-      - "免费节点 28\r"
-      - "免费节点 29\r"
-      - "免费节点 30\r"
-      - "免费节点 31\r"
-      - "免费节点 32\r"
-      - "免费节点 33\r"
-      - "免费节点 34\r"
-      - "免费节点 35\r"
-      - "免费节点 36\r"
+      - 更新于:08-13 13:23
       - zxz_1
       - zxz_2
+      - "zxz\r_1"
       - zxz_3
-      - "zxz\r"
+      - zxz_4
+      - zxz_5
+      - zxz_6
+      - zxz_7
+      - zxz_8
+      - zxz_9
+      - zxz_10
+      - zxz_11
+      - zxz_12
+      - "zxz\r_2"
+      - zxz_13
+      - zxz_14
+      - zxz_15
+      - zxz_16
 
 rules:
   - DST-PORT,22,DIRECT
