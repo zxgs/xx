@@ -1,9 +1,9 @@
 ####################################
 # 创建者：自学志
 # 客户端：Clash.Meta
-# 创建时间：2023-08-05 09:52:34
+# 创建时间：2023-08-14 09:06:24
 # 使用模版：自学志22
-# 节点数量：10
+# 节点数量：9
 # 节点类型：vless
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
@@ -15,16 +15,15 @@ log-level: info
 external-controller: ':9090'
 
 proxies:
-  - {"name":"自学志\r_1","type":"vless","server":"162.159.133.149","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_2","type":"vless","server":"162.159.142.136","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_3","type":"vless","server":"162.159.136.152","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_4","type":"vless","server":"162.159.152.68","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_5","type":"vless","server":"162.159.129.54","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_6","type":"vless","server":"162.159.137.47","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_7","type":"vless","server":"162.159.135.221","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_8","type":"vless","server":"162.159.140.234","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_9","type":"vless","server":"162.159.130.112","port":2052,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"自学志\r_10","type":"vless","server":"162.159.130.112","port":80,"uuid":"1c0ff918-3a7e-430c-95a7-c31120c18d4a","tls":false,"servername":"zxzw.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxzw.jczxgs.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"zxz\r_1","type":"vless","server":"104.17.195.54","port":80,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
+  - {"name":"zxz\r_2","type":"vless","server":"104.16.114.107","port":2052,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
+  - {"name":"zxz\r_3","type":"vless","server":"172.67.254.42","port":8880,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
+  - {"name":"zxz\r_4","type":"vless","server":"104.16.119.107","port":8880,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
+  - {"name":"zxz\r_5","type":"vless","server":"104.17.212.81","port":8880,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
+  - {"name":"zxz\r_6","type":"vless","server":"104.16.130.108","port":8880,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
+  - {"name":"zxz\r_7","type":"vless","server":"104.24.68.71","port":8880,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
+  - {"name":"zxz\r_8","type":"vless","server":"172.67.69.74","port":2052,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
+  - {"name":"zxz\r_9","type":"vless","server":"172.67.75.46","port":8880,"uuid":"aa8804c6-62bf-4305-b5ac-5a87b6e3e6d2","tls":false,"servername":"zxz.jczxgs.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"zxz.jczxgs.workers.dev"}}}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -35,32 +34,30 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "自学志\r_1"
-      - "自学志\r_2"
-      - "自学志\r_3"
-      - "自学志\r_4"
-      - "自学志\r_5"
-      - "自学志\r_6"
-      - "自学志\r_7"
-      - "自学志\r_8"
-      - "自学志\r_9"
-      - "自学志\r_10"
+      - "zxz\r_1"
+      - "zxz\r_2"
+      - "zxz\r_3"
+      - "zxz\r_4"
+      - "zxz\r_5"
+      - "zxz\r_6"
+      - "zxz\r_7"
+      - "zxz\r_8"
+      - "zxz\r_9"
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 300
     tolerance: 50
     proxies:
-      - "自学志\r_1"
-      - "自学志\r_2"
-      - "自学志\r_3"
-      - "自学志\r_4"
-      - "自学志\r_5"
-      - "自学志\r_6"
-      - "自学志\r_7"
-      - "自学志\r_8"
-      - "自学志\r_9"
-      - "自学志\r_10"
+      - "zxz\r_1"
+      - "zxz\r_2"
+      - "zxz\r_3"
+      - "zxz\r_4"
+      - "zxz\r_5"
+      - "zxz\r_6"
+      - "zxz\r_7"
+      - "zxz\r_8"
+      - "zxz\r_9"
 
 rules:
   - DST-PORT,22,DIRECT
