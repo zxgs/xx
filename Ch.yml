@@ -1,10 +1,10 @@
 ####################################
 # 创建者：自学志
 # 客户端：Clash
-# 创建时间：2023-08-24 15:48:44
+# 创建时间：2023-08-25 18:18:13
 # 使用模版：自学志22
-# 节点数量：85
-# 节点类型：vmess, ss, trojan
+# 节点数量：125
+# 节点类型：vmess, ss, ssr, trojan
 ####################################
 port: 7890
 socks-port: 7891
@@ -14,91 +14,131 @@ log-level: info
 external-controller: ':9090'
 
 proxies:
-  - {"name":"更新于:08-24 15:48","type":"vmess","server":"127.0.0.1","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"更新于:08-25 18:18","type":"vmess","server":"127.0.0.1","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"使用前记得更新订阅","type":"vmess","server":"127.0.0.1","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点\r","type":"ss","server":"krbgp01.relay-idc.top","port":21939,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 2\r","type":"ss","server":"kr02.relay-idc.top","port":43663,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 3\r","type":"ss","server":"hgc01.relay-idc.top","port":18017,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 4\r","type":"ss","server":"hk02.relay-idc.top","port":35802,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 5\r","type":"ss","server":"hgc03.relay-idc.top","port":18017,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 6\r","type":"ss","server":"hk01.relay-idc.top","port":35802,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 7\r","type":"ss","server":"sg03.relay-idc.top","port":19350,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 8\r","type":"ss","server":"hk03.relay-idc.top","port":35802,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 9\r","type":"ss","server":"hinet01.relay-idc.top","port":34304,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 10\r","type":"ss","server":"sg01.relay-idc.top","port":19350,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 11\r","type":"ss","server":"sg02.relay-idc.top","port":19350,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 12\r","type":"ss","server":"icable01.relay-idc.top","port":17546,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 13\r","type":"ss","server":"hinet03.relay-idc.top","port":34304,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 14\r","type":"ss","server":"hinet02.relay-idc.top","port":34304,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 15\r","type":"ss","server":"hkbn02.relay-idc.top","port":24537,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 16\r","type":"ss","server":"icable03.relay-idc.top","port":17546,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 17\r","type":"ss","server":"icable02.relay-idc.top","port":17546,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 18\r","type":"ss","server":"hkbgp01.relay-idc.top","port":22533,"password":"4d65193b-9ac3-4a0f-81b6-558ac8acd54e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 19\r","type":"trojan","server":"iplc-enter-hk-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","sni":"hk-xe.fib-sys.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 20\r","type":"ss","server":"sg3.lianpi.xyz","port":64578,"password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 21\r","type":"ss","server":"api-wx-3.rancho.gay","port":50007,"password":"7912320f-f324-48c8-9323-53fd8ce7bc61","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 22\r","type":"ss","server":"sg3.lianpi.xyz","port":64578,"password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 23\r","type":"ss","server":"sg3.lianpi.xyz","port":64578,"password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 24\r","type":"trojan","server":"iplc-enter-hk-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","sni":"hk-xe.fib-sys.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 25\r","type":"ss","server":"sg3.lianpi.xyz","port":64578,"password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 26\r","type":"trojan","server":"106.75.168.10","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","sni":"telewebion.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 27","type":"vmess","server":"123.249.101.15","port":19709,"cipher":"auto","uuid":"2f278a45-940a-46c1-c886-77f3b2d33987","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸免费节点 28","type":"vmess","server":"cn-guangzhou.applebench.tech","port":56268,"cipher":"auto","uuid":"7e319f7a-4c47-4606-8008-ce6c92634dd8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 29","type":"vmess","server":"hinettw1.applebench.tech","port":56568,"cipher":"auto","uuid":"1f3d67b4-6929-4598-90ca-84a841bf02e4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 46\r","type":"ss","server":"sg3.lianpi.xyz","port":64578,"password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 47\r","type":"trojan","server":"gzyd.jcnode.top","port":38624,"udp":true,"password":"e28cea26-fa28-41dc-982c-5eb77daace9a","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 48\r","type":"trojan","server":"gzyd.jcnode.top","port":22174,"udp":true,"password":"a2a2a6d6-f2a3-4737-b71d-f6dcb97386c5","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 49\r","type":"ss","server":"43.201.29.156","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸免费节点 50\r","type":"trojan","server":"gzdx.jcnode.top","port":41063,"udp":true,"password":"e28cea26-fa28-41dc-982c-5eb77daace9a","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 51\r","type":"ss","server":"api-wx-3.rancho.gay","port":50007,"password":"7912320f-f324-48c8-9323-53fd8ce7bc61","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 52\r","type":"trojan","server":"gzdx01.jcnode.top","port":62525,"udp":true,"password":"e28cea26-fa28-41dc-982c-5eb77daace9a","sni":"hk03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 54\r","type":"trojan","server":"gzyd.jcnode.top","port":13734,"udp":true,"password":"e28cea26-fa28-41dc-982c-5eb77daace9a","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 55\r","type":"ss","server":"video.tiktokuu.xyz","port":12013,"password":"c3fb8ad7-2dd6-4985-8249-92e479a78eab","cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸免费节点 56\r","type":"ss","server":"43.201.49.246","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸免费节点 57\r","type":"ss","server":"chinamobile.cu.edu.kg","port":10111,"password":"3e3b99a0-6786-46f0-9e4d-04588ae3069f","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 58\r","type":"ss","server":"pinhk.cu.edu.kg","port":10111,"password":"6077c680-6254-4ff6-a771-ad38ef052528","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 59\r","type":"trojan","server":"lbgd.bnnodeservice.com","port":32029,"udp":true,"password":"1b172360-ced4-4c69-9dc3-c4fb24e88dba","sni":"cert.bitbyte.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点 60\r","type":"ss","server":"g01.tw01-ae5.entry.hsrtd.club","port":20005,"password":"e25b539f-5801-3ff7-b45c-96f27b3542bb","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸免费节点 61\r","type":"ss","server":"183.240.222.80","port":2001,"password":"4ca7c2b3-5667-44b0-8ab2-b21a6f887b32","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 62\r","type":"ss","server":"183.240.222.80","port":2001,"password":"4ca7c2b3-5667-44b0-8ab2-b21a6f887b32","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 63\r","type":"ss","server":"183.240.222.80","port":2001,"password":"4ca7c2b3-5667-44b0-8ab2-b21a6f887b32","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点 64","type":"vmess","server":"zjxc.pmxu.link","port":12318,"cipher":"chacha20-poly1305","uuid":"a1a85124-6a4d-3a42-a6be-0183fa2df4a4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 65","type":"vmess","server":"zjxc.pmxu.link","port":36988,"cipher":"chacha20-poly1305","uuid":"a1a85124-6a4d-3a42-a6be-0183fa2df4a4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 66","type":"vmess","server":"zjxc.pmxu.link","port":34322,"cipher":"chacha20-poly1305","uuid":"a1a85124-6a4d-3a42-a6be-0183fa2df4a4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 67","type":"vmess","server":"zjxc.pmxu.link","port":19278,"cipher":"chacha20-poly1305","uuid":"a1a85124-6a4d-3a42-a6be-0183fa2df4a4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 68","type":"vmess","server":"zjxc.pmxu.link","port":39037,"cipher":"chacha20-poly1305","uuid":"a1a85124-6a4d-3a42-a6be-0183fa2df4a4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 69","type":"vmess","server":"zjxc.pmxu.link","port":40270,"cipher":"chacha20-poly1305","uuid":"a1a85124-6a4d-3a42-a6be-0183fa2df4a4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 70","type":"vmess","server":"zjxc.pmxu.link","port":44207,"cipher":"chacha20-poly1305","uuid":"a1a85124-6a4d-3a42-a6be-0183fa2df4a4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸免费节点 71","type":"vmess","server":"zjxc.pmxu.link","port":25153,"cipher":"chacha20-poly1305","uuid":"a1a85124-6a4d-3a42-a6be-0183fa2df4a4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国_1","type":"vmess","server":"156.225.67.73","port":48909,"cipher":"auto","uuid":"21155efd-8e29-43d2-95bc-fe3190ecb1c6","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国_2","type":"vmess","server":"172.67.166.238","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
-  - {"name":"🇺🇸美国_3","type":"vmess","server":"172.67.211.253","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
-  - {"name":"🇺🇸美国_4","type":"vmess","server":"172.67.244.14","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
-  - {"name":"🇺🇸美国1号机","type":"vmess","server":"lt1.992688.xyz","port":8880,"cipher":"auto","uuid":"67a341a7-5ae7-4d92-edad-9e8db87ce165","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
-  - {"name":"🇩🇪德鸡1号机","type":"vmess","server":"yd1.992688.xyz","port":8080,"cipher":"auto","uuid":"369ea2ab-8446-4142-d8b6-5a7dd9ddffdc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eu2.992688.xyz"}}}
-  - {"name":"🇩🇪德鸡2号机","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"782e0824-df3e-4c32-de48-beb41c0dadcf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"euserv2.vpn66.eu.org"}}}
-  - {"name":"🇺🇸免费节点池_1","type":"vmess","server":"172.64.101.91","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
-  - {"name":"🇺🇸免费节点池\r_1","type":"ss","server":"free.node.kk-proxy.pro","port":31659,"password":"00551f42-7e0e-4d7f-88db-07297ff921c9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点池_2","type":"vmess","server":"162.159.247.47","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
-  - {"name":"🇺🇸免费节点池_3","type":"vmess","server":"103.160.204.98","port":80,"cipher":"auto","uuid":"dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue06","headers":{"host":"ecc.vtcss.top"}}}
-  - {"name":"🇺🇸免费节点池\r_2","type":"ss","server":"free.node.kk-proxy.pro","port":55928,"password":"00551f42-7e0e-4d7f-88db-07297ff921c9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸免费节点池\r_3","type":"trojan","server":"24.199.120.179","port":443,"udp":true,"password":"0764ad38-acde-43cd-bdb1-6811a3f5d9f4","sni":"us-04.sanxi-us-v2boardsanxijichang.sanxi.cyou","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点池_4","type":"vmess","server":"relay.ecydns.com","port":45271,"cipher":"auto","uuid":"5466063d-0862-3051-843e-147891cc57d1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ecy","headers":{"host":"relay.ecydns.com"}}}
-  - {"name":"🇺🇸免费节点池\r_4","type":"trojan","server":"146.190.149.28","port":443,"udp":true,"password":"0764ad38-acde-43cd-bdb1-6811a3f5d9f4","sni":"us-01.sanxi-us-v2boardsanxijichang.sanxi.cyou","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点池\r_5","type":"trojan","server":"163.123.192.34","port":443,"udp":true,"password":"ef6a3ba0-6ec1-4c76-b5be-0a99d0c89b43","sni":"16-163-218-240.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸免费节点池_5","type":"vmess","server":"156.225.67.243","port":43582,"cipher":"auto","uuid":"990006bd-cb20-482f-9c97-f5fc65359605","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇧🇷巴西圣保罗","type":"vmess","server":"188.114.97.152","port":80,"cipher":"auto","uuid":"185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"tui.vtcss.top"}}}
-  - {"name":"🇨🇳_节点\r_1","type":"ss","server":"ah-cmi-1000m.ikun666.club","port":64847,"password":"bad5fba5-a7bc-4709-882b-e15edad16cef","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇳_节点\r_2","type":"ss","server":"ah-cmi-1000m.ikun666.club","port":18878,"password":"bad5fba5-a7bc-4709-882b-e15edad16cef","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_节点_1","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"2fc248d5-7c81-471d-c2cf-a14e7f5aed2d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vceu3.vpn66.eu.org"}}}
-  - {"name":"🇺🇸_节点_2","type":"vmess","server":"156.225.67.243","port":43582,"cipher":"auto","uuid":"990006bd-cb20-482f-9c97-f5fc65359605","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇿🇦_节点","type":"vmess","server":"vm.af.serverfast.pw","port":80,"cipher":"auto","uuid":"c2836421-3063-4fdd-b9b8-d54d36333232","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v2ray-vmess/ntls","headers":{"host":"af.serverfast.pw"}}}
-  - {"name":"🇨🇳CN-🇸🇬SG_40\r","type":"ss","server":"free.node.kk-proxy.pro","port":54087,"password":"00551f42-7e0e-4d7f-88db-07297ff921c9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE_311\r","type":"trojan","server":"3.78.104.84","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_149","type":"vmess","server":"www.zhongxin1.xyz","port":11131,"cipher":"auto","uuid":"c474529d-f452-388d-b0e2-ed77b4ebef42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳CN-🇺🇸US_42\r","type":"ss","server":"free.node.kk-proxy.pro","port":55928,"password":"00551f42-7e0e-4d7f-88db-07297ff921c9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳CN-🇸🇬SG_150","type":"vmess","server":"www.zhongxin1.xyz","port":11233,"cipher":"auto","uuid":"c474529d-f452-388d-b0e2-ed77b4ebef42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳CN-🇸🇬SG_146","type":"vmess","server":"www.zhongxin1.xyz","port":11130,"cipher":"auto","uuid":"c474529d-f452-388d-b0e2-ed77b4ebef42","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷法国_\r","type":"ss","server":"54.36.174.181","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸美国__1\r","type":"ss","server":"140.99.6.194","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸美国__2\r","type":"ss","server":"140.99.6.42","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸美国__1","type":"vmess","server":"172.67.92.119","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"🇺🇸美国__2","type":"vmess","server":"45.199.138.92","port":45886,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca4690dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸美国__3","type":"vmess","server":"45.199.138.188","port":32138,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰香港__1","type":"vmess","server":"103.160.204.103","port":2052,"cipher":"auto","uuid":"0afb8b2c-149a-49a8-e90f-d77884ac922f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/blue99","headers":{"host":"ecc.vtcss.top"}}}
+  - {"name":"🇺🇸美国__4","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"aes-128-gcm","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
+  - {"name":"🇺🇸美国__5","type":"vmess","server":"172.67.49.8","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
+  - {"name":"🇺🇸美国__6","type":"vmess","server":"172.67.134.209","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
+  - {"name":"🇺🇸美国__3\r","type":"ss","server":"140.99.202.42","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇭🇰香港__2","type":"vmess","server":"120.226.50.91","port":47009,"cipher":"auto","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇦加拿大_\r","type":"ss","server":"www.dongtaiwang4.com","port":55002,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸美国__7","type":"vmess","server":"172.64.207.79","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
+  - {"name":"🇺🇸美国__8","type":"vmess","server":"172.67.59.39","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"🇨🇦加拿大_","type":"vmess","server":"23.227.38.81","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"🇺🇸美国2号机_1","type":"vmess","server":"dx1.992688.xyz","port":8880,"cipher":"auto","uuid":"e5f9073b-a23c-487f-b2a8-e5eb6abad21d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus2.vpn66.eu.org"}}}
+  - {"name":"🇩🇪德鸡2号机_1","type":"vmess","server":"lt1.992688.xyz","port":8880,"cipher":"auto","uuid":"782e0824-df3e-4c32-de48-beb41c0dadcf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"euserv2.vpn66.eu.org"}}}
+  - {"name":"🇺🇸美国1号机_1","type":"vmess","server":"dx1.992688.xyz","port":8880,"cipher":"auto","uuid":"67a341a7-5ae7-4d92-edad-9e8db87ce165","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
+  - {"name":"🇺🇸美国2号机_2","type":"vmess","server":"lt1.992688.xyz","port":8880,"cipher":"auto","uuid":"e5f9073b-a23c-487f-b2a8-e5eb6abad21d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus2.vpn66.eu.org"}}}
+  - {"name":"🇺🇸美国2号机_3","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"e5f9073b-a23c-487f-b2a8-e5eb6abad21d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus2.vpn66.eu.org"}}}
+  - {"name":"🇺🇸美国1号机_2","type":"vmess","server":"lt1.992688.xyz","port":8880,"cipher":"auto","uuid":"67a341a7-5ae7-4d92-edad-9e8db87ce165","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
+  - {"name":"🇺🇸美国1号机_3","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"67a341a7-5ae7-4d92-edad-9e8db87ce165","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
+  - {"name":"🇩🇪德鸡1号机_1","type":"vmess","server":"dx1.992688.xyz","port":8080,"cipher":"auto","uuid":"369ea2ab-8446-4142-d8b6-5a7dd9ddffdc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eu2.992688.xyz"}}}
+  - {"name":"🇺🇸美国3号机_1","type":"vmess","server":"lt1.992688.xyz","port":8880,"cipher":"auto","uuid":"27998387-fc3b-4237-9ac9-aba5d00bbd6e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"haxus3.vpn66.eu.org"}}}
+  - {"name":"🇺🇸美国3号机_2","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"27998387-fc3b-4237-9ac9-aba5d00bbd6e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"haxus3.vpn66.eu.org"}}}
+  - {"name":"🇩🇪德鸡2号机_2","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"782e0824-df3e-4c32-de48-beb41c0dadcf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"euserv2.vpn66.eu.org"}}}
+  - {"name":"🇩🇪德鸡1号机_2","type":"vmess","server":"yd1.992688.xyz","port":8080,"cipher":"auto","uuid":"369ea2ab-8446-4142-d8b6-5a7dd9ddffdc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eu2.992688.xyz"}}}
+  - {"name":"🇫🇷FR_569\r","type":"ss","server":"54.36.174.181","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇯🇵JP_924","type":"vmess","server":"167.179.114.245","port":443,"cipher":"auto","uuid":"bdfe2ab8-7055-4b37-bc1d-7b93fad98734","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇳CN-🇬🇧GB_88","type":"vmess","server":"120.226.50.91","port":47009,"cipher":"auto","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR_122\r","type":"ss","server":"54.36.174.181","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳CN-🇬🇧GB_76","type":"vmess","server":"120.226.50.91","port":47009,"cipher":"auto","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR_101\r","type":"ss","server":"54.36.174.181","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_382\r","type":"ss","server":"54.36.174.181","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_46\r","type":"ss","server":"54.36.174.181","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇸🇬SG_1327\r","type":"ss","server":"195.123.238.229","port":444,"password":"TrikwegTed","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR_49\r","type":"ss","server":"54.36.174.181","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR_36\r","type":"ss","server":"54.36.174.181","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇸🇬SG_251\r","type":"ss","server":"195.123.238.229","port":444,"password":"TrikwegTed","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR_533\r","type":"ss","server":"54.36.174.181","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸免费节点","type":"vmess","server":"gzdx.jcnode.top","port":44885,"cipher":"auto","uuid":"e74ff2e5-3ccd-4177-aff4-899a75167c56","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸免费节点 2","type":"vmess","server":"gzdx.jcnode.top","port":44885,"cipher":"auto","uuid":"64a60ea0-0e20-4e34-8f61-4906cd4533fd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸免费节点 3","type":"vmess","server":"123.202.233.79","port":40001,"cipher":"auto","uuid":"dc99eede-d0f9-40b2-aaa5-180cae8f7c0e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwe123321ewq"}}
+  - {"name":"defaultName_1","type":"ssr","server":"ieplszhk-03.telescopes.work","port":50802,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_2","type":"ssr","server":"ieplszhk-03.telescopes.work","port":50312,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_3","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11554,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_4","type":"ssr","server":"iepl-hn.cctelescope.xyz","port":21293,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_5","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11899,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_6","type":"ssr","server":"ieplszhk-03.telescopes.work","port":50899,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_7","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11600,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_8","type":"ssr","server":"ieplszhk-03.telescopes.work","port":50805,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_9","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11803,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_10","type":"ssr","server":"iepl-hn.cctelescope.xyz","port":21738,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_11","type":"ssr","server":"ieplszhk-03.telescopes.work","port":50306,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_12","type":"ssr","server":"ieplszhk-03.telescopes.work","port":49036,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_13","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11804,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_14","type":"ssr","server":"ieplszhk-03.telescopes.work","port":50803,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_15","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11801,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"defaultName_16","type":"ssr","server":"iepl-hn.cctelescope.xyz","port":21702,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com"}
+  - {"name":"🇺🇸免费节点 20\r","type":"ss","server":"43.201.116.22","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸免费节点 21\r","type":"ss","server":"b5d28a9.sd.gladns.com","port":8474,"password":"a501c82c72d790b8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 22\r","type":"ss","server":"223.111.157.62","port":50103,"password":"95c5f847-3ccd-4957-a3a8-ad6b298bf758","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸免费节点 23\r","type":"ss","server":"223.111.157.62","port":50101,"password":"95c5f847-3ccd-4957-a3a8-ad6b298bf758","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸免费节点 24\r","type":"ss","server":"36.156.198.43","port":50102,"password":"95c5f847-3ccd-4957-a3a8-ad6b298bf758","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸免费节点 25\r","type":"trojan","server":"iplc-enter-tw-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","skip-cert-verify":true}
+  - {"name":"defaultName_17","type":"ssr","server":"cdn-p1-us.baibianxiaoying.top","port":15080,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_18","type":"ssr","server":"cdn-p1-lm.baibianxiaoying.top","port":15097,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_19","type":"ssr","server":"cdn-p1-lm.baibianxiaoying.top","port":15174,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 29\r","type":"ss","server":"s400l.ddns1.pw","port":20002,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_20","type":"ssr","server":"cdn-p1-us.baibianxiaoying.top","port":15170,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_21","type":"ssr","server":"cdn-p1-kr.baibianxiaoying.top","port":15179,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_22","type":"ssr","server":"cdn-p1-us.baibianxiaoying.top","port":15185,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 33\r","type":"ss","server":"b5d28a9.sd.gladns.com","port":8474,"password":"a501c82c72d790b8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 34\r","type":"ss","server":"s400l.ddns1.pw","port":21402,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_23","type":"ssr","server":"cdn-p1-jp.baibianxiaoying.top","port":15095,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 36\r","type":"ss","server":"s400l.ddns1.pw","port":12401,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 37\r","type":"ss","server":"s400l.ddns1.pw","port":24384,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_24","type":"ssr","server":"cdn-p1-hk.baibianxiaoying.top","port":15131,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 39\r","type":"ss","server":"s400l.ddns1.pw","port":17401,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_25","type":"ssr","server":"cdn-p1-lm.baibianxiaoying.top","port":15189,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 41\r","type":"ss","server":"s400l.ddns1.pw","port":24386,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_26","type":"ssr","server":"cdn-p1-lm.baibianxiaoying.top","port":15120,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 43\r","type":"ss","server":"south.iepl.in.rfsconfig.xyz","port":15080,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_27","type":"ssr","server":"cdn-p1-hk2.baibianxiaoying.top","port":15194,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 45\r","type":"ss","server":"s400l.ddns1.pw","port":17401,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 46\r","type":"ss","server":"sdyd.ygdyf.com","port":30787,"password":"40ae1010-f4a3-4080-b41c-82324c3f6c57","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 47\r","type":"ss","server":"s400l.ddns1.pw","port":12397,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 48\r","type":"ss","server":"s400l.ddns1.pw","port":12399,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_28","type":"ssr","server":"cdn-p1-hk.baibianxiaoying.top","port":15150,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_29","type":"ssr","server":"cdn-p1-sg.baibianxiaoying.top","port":15007,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_30","type":"ssr","server":"cdn-p1-sg.baibianxiaoying.top","port":15163,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_31","type":"ssr","server":"cdn-p1-hk.baibianxiaoying.top","port":15177,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 53\r","type":"ss","server":"s400l.ddns1.pw","port":22350,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 54\r","type":"ss","server":"s400l.ddns1.pw","port":21403,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 55\r","type":"ss","server":"s400l.ddns1.pw","port":24388,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 56\r","type":"ss","server":"sdyd.ygdyf.com","port":57215,"password":"40ae1010-f4a3-4080-b41c-82324c3f6c57","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 57\r","type":"ss","server":"south.iepl.in.rfsconfig.xyz","port":10015,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_32","type":"ssr","server":"cdn-p1-sg.baibianxiaoying.top","port":15011,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_33","type":"ssr","server":"cdn-p1-sg.baibianxiaoying.top","port":15162,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 60\r","type":"ss","server":"s400l.ddns1.pw","port":10015,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_34","type":"ssr","server":"cdn-p1-sg.baibianxiaoying.top","port":15176,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_35","type":"ssr","server":"ieplqz.baibianxiaoying.top","port":27102,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 63\r","type":"ss","server":"sdyd.ygdyf.com","port":16983,"password":"40ae1010-f4a3-4080-b41c-82324c3f6c57","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_36","type":"ssr","server":"ieplqz.baibianxiaoying.top","port":15190,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 65\r","type":"ss","server":"s400l.ddns1.pw","port":21401,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 66\r","type":"ss","server":"sdyd.ygdyf.com","port":56338,"password":"40ae1010-f4a3-4080-b41c-82324c3f6c57","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸免费节点 67\r","type":"ss","server":"sdyd.ygdyf.com","port":55470,"password":"40ae1010-f4a3-4080-b41c-82324c3f6c57","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_37","type":"ssr","server":"cdn-p1-tw.baibianxiaoying.top","port":15051,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 69\r","type":"ss","server":"s400l.ddns1.pw","port":10014,"password":"37c1fe21-f0e8-4b8d-baf7-d7b8329b07b9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_38","type":"ssr","server":"ieplqz.baibianxiaoying.top","port":27000,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_39","type":"ssr","server":"cdn-p1-jp.baibianxiaoying.top","port":15171,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"defaultName_40","type":"ssr","server":"ieplqz.baibianxiaoying.top","port":27103,"password":"MkneJaoFZXZr","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸免费节点 73","type":"vmess","server":"zjxc.pmxu.link","port":36988,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 74","type":"vmess","server":"zjxc.pmxu.link","port":40270,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 75","type":"vmess","server":"zjxc.pmxu.link","port":39037,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 76","type":"vmess","server":"zjxc.pmxu.link","port":19278,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 77","type":"vmess","server":"zjxc.pmxu.link","port":34322,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 78","type":"vmess","server":"zjxc.pmxu.link","port":12318,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 79","type":"vmess","server":"zjxc.pmxu.link","port":25153,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 80","type":"vmess","server":"zjxc.pmxu.link","port":44207,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 81","type":"vmess","server":"zjxc.pmxu.link","port":40334,"cipher":"auto","uuid":"ae288f4f-316b-3c10-b666-eb9bbe3e2876","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸免费节点 82","type":"ss","server":"free.node.kk-proxy.pro","port":54087,"password":"45cdaeb3-7fce-49ae-a12c-3879d9cab756","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -109,182 +149,262 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 更新于:08-24 15:48
+      - 更新于:08-25 18:18
       - 使用前记得更新订阅
-      - "🇺🇸免费节点\r"
-      - "🇺🇸免费节点 2\r"
-      - "🇺🇸免费节点 3\r"
-      - "🇺🇸免费节点 4\r"
-      - "🇺🇸免费节点 5\r"
-      - "🇺🇸免费节点 6\r"
-      - "🇺🇸免费节点 7\r"
-      - "🇺🇸免费节点 8\r"
-      - "🇺🇸免费节点 9\r"
-      - "🇺🇸免费节点 10\r"
-      - "🇺🇸免费节点 11\r"
-      - "🇺🇸免费节点 12\r"
-      - "🇺🇸免费节点 13\r"
-      - "🇺🇸免费节点 14\r"
-      - "🇺🇸免费节点 15\r"
-      - "🇺🇸免费节点 16\r"
-      - "🇺🇸免费节点 17\r"
-      - "🇺🇸免费节点 18\r"
-      - "🇺🇸免费节点 19\r"
+      - "🇫🇷法国_\r"
+      - "🇺🇸美国__1\r"
+      - "🇺🇸美国__2\r"
+      - 🇺🇸美国__1
+      - 🇺🇸美国__2
+      - 🇺🇸美国__3
+      - 🇭🇰香港__1
+      - 🇺🇸美国__4
+      - 🇺🇸美国__5
+      - 🇺🇸美国__6
+      - "🇺🇸美国__3\r"
+      - 🇭🇰香港__2
+      - "🇨🇦加拿大_\r"
+      - 🇺🇸美国__7
+      - 🇺🇸美国__8
+      - 🇨🇦加拿大_
+      - 🇺🇸美国2号机_1
+      - 🇩🇪德鸡2号机_1
+      - 🇺🇸美国1号机_1
+      - 🇺🇸美国2号机_2
+      - 🇺🇸美国2号机_3
+      - 🇺🇸美国1号机_2
+      - 🇺🇸美国1号机_3
+      - 🇩🇪德鸡1号机_1
+      - 🇺🇸美国3号机_1
+      - 🇺🇸美国3号机_2
+      - 🇩🇪德鸡2号机_2
+      - 🇩🇪德鸡1号机_2
+      - "🇫🇷FR_569\r"
+      - 🇯🇵JP_924
+      - 🇨🇳CN-🇬🇧GB_88
+      - "🇫🇷FR_122\r"
+      - 🇨🇳CN-🇬🇧GB_76
+      - "🇫🇷FR_101\r"
+      - "🇫🇷FR_382\r"
+      - "🇫🇷FR_46\r"
+      - "🇸🇬SG_1327\r"
+      - "🇫🇷FR_49\r"
+      - "🇫🇷FR_36\r"
+      - "🇸🇬SG_251\r"
+      - "🇫🇷FR_533\r"
+      - 🇺🇸免费节点
+      - 🇺🇸免费节点 2
+      - 🇺🇸免费节点 3
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
       - "🇺🇸免费节点 20\r"
       - "🇺🇸免费节点 21\r"
       - "🇺🇸免费节点 22\r"
       - "🇺🇸免费节点 23\r"
       - "🇺🇸免费节点 24\r"
       - "🇺🇸免费节点 25\r"
-      - "🇺🇸免费节点 26\r"
-      - 🇺🇸免费节点 27
-      - 🇺🇸免费节点 28
-      - 🇺🇸免费节点 29
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - "🇺🇸免费节点 29\r"
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - "🇺🇸免费节点 33\r"
+      - "🇺🇸免费节点 34\r"
+      - defaultName_23
+      - "🇺🇸免费节点 36\r"
+      - "🇺🇸免费节点 37\r"
+      - defaultName_24
+      - "🇺🇸免费节点 39\r"
+      - defaultName_25
+      - "🇺🇸免费节点 41\r"
+      - defaultName_26
+      - "🇺🇸免费节点 43\r"
+      - defaultName_27
+      - "🇺🇸免费节点 45\r"
       - "🇺🇸免费节点 46\r"
       - "🇺🇸免费节点 47\r"
       - "🇺🇸免费节点 48\r"
-      - "🇺🇸免费节点 49\r"
-      - "🇺🇸免费节点 50\r"
-      - "🇺🇸免费节点 51\r"
-      - "🇺🇸免费节点 52\r"
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - "🇺🇸免费节点 53\r"
       - "🇺🇸免费节点 54\r"
       - "🇺🇸免费节点 55\r"
       - "🇺🇸免费节点 56\r"
       - "🇺🇸免费节点 57\r"
-      - "🇺🇸免费节点 58\r"
-      - "🇺🇸免费节点 59\r"
+      - defaultName_32
+      - defaultName_33
       - "🇺🇸免费节点 60\r"
-      - "🇺🇸免费节点 61\r"
-      - "🇺🇸免费节点 62\r"
+      - defaultName_34
+      - defaultName_35
       - "🇺🇸免费节点 63\r"
-      - 🇺🇸免费节点 64
-      - 🇺🇸免费节点 65
-      - 🇺🇸免费节点 66
-      - 🇺🇸免费节点 67
-      - 🇺🇸免费节点 68
-      - 🇺🇸免费节点 69
-      - 🇺🇸免费节点 70
-      - 🇺🇸免费节点 71
-      - 🇺🇸美国_1
-      - 🇺🇸美国_2
-      - 🇺🇸美国_3
-      - 🇺🇸美国_4
-      - 🇺🇸美国1号机
-      - 🇩🇪德鸡1号机
-      - 🇩🇪德鸡2号机
-      - 🇺🇸免费节点池_1
-      - "🇺🇸免费节点池\r_1"
-      - 🇺🇸免费节点池_2
-      - 🇺🇸免费节点池_3
-      - "🇺🇸免费节点池\r_2"
-      - "🇺🇸免费节点池\r_3"
-      - 🇺🇸免费节点池_4
-      - "🇺🇸免费节点池\r_4"
-      - "🇺🇸免费节点池\r_5"
-      - 🇺🇸免费节点池_5
-      - 🇧🇷巴西圣保罗
-      - "🇨🇳_节点\r_1"
-      - "🇨🇳_节点\r_2"
-      - 🇺🇸_节点_1
-      - 🇺🇸_节点_2
-      - 🇿🇦_节点
-      - "🇨🇳CN-🇸🇬SG_40\r"
-      - "🇩🇪DE_311\r"
-      - 🇨🇳CN-🇸🇬SG_149
-      - "🇨🇳CN-🇺🇸US_42\r"
-      - 🇨🇳CN-🇸🇬SG_150
-      - 🇨🇳CN-🇸🇬SG_146
+      - defaultName_36
+      - "🇺🇸免费节点 65\r"
+      - "🇺🇸免费节点 66\r"
+      - "🇺🇸免费节点 67\r"
+      - defaultName_37
+      - "🇺🇸免费节点 69\r"
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - 🇺🇸免费节点 73
+      - 🇺🇸免费节点 74
+      - 🇺🇸免费节点 75
+      - 🇺🇸免费节点 76
+      - 🇺🇸免费节点 77
+      - 🇺🇸免费节点 78
+      - 🇺🇸免费节点 79
+      - 🇺🇸免费节点 80
+      - 🇺🇸免费节点 81
+      - 🇺🇸免费节点 82
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
     interval: 300
     tolerance: 50
     proxies:
-      - 更新于:08-24 15:48
+      - 更新于:08-25 18:18
       - 使用前记得更新订阅
-      - "🇺🇸免费节点\r"
-      - "🇺🇸免费节点 2\r"
-      - "🇺🇸免费节点 3\r"
-      - "🇺🇸免费节点 4\r"
-      - "🇺🇸免费节点 5\r"
-      - "🇺🇸免费节点 6\r"
-      - "🇺🇸免费节点 7\r"
-      - "🇺🇸免费节点 8\r"
-      - "🇺🇸免费节点 9\r"
-      - "🇺🇸免费节点 10\r"
-      - "🇺🇸免费节点 11\r"
-      - "🇺🇸免费节点 12\r"
-      - "🇺🇸免费节点 13\r"
-      - "🇺🇸免费节点 14\r"
-      - "🇺🇸免费节点 15\r"
-      - "🇺🇸免费节点 16\r"
-      - "🇺🇸免费节点 17\r"
-      - "🇺🇸免费节点 18\r"
-      - "🇺🇸免费节点 19\r"
+      - "🇫🇷法国_\r"
+      - "🇺🇸美国__1\r"
+      - "🇺🇸美国__2\r"
+      - 🇺🇸美国__1
+      - 🇺🇸美国__2
+      - 🇺🇸美国__3
+      - 🇭🇰香港__1
+      - 🇺🇸美国__4
+      - 🇺🇸美国__5
+      - 🇺🇸美国__6
+      - "🇺🇸美国__3\r"
+      - 🇭🇰香港__2
+      - "🇨🇦加拿大_\r"
+      - 🇺🇸美国__7
+      - 🇺🇸美国__8
+      - 🇨🇦加拿大_
+      - 🇺🇸美国2号机_1
+      - 🇩🇪德鸡2号机_1
+      - 🇺🇸美国1号机_1
+      - 🇺🇸美国2号机_2
+      - 🇺🇸美国2号机_3
+      - 🇺🇸美国1号机_2
+      - 🇺🇸美国1号机_3
+      - 🇩🇪德鸡1号机_1
+      - 🇺🇸美国3号机_1
+      - 🇺🇸美国3号机_2
+      - 🇩🇪德鸡2号机_2
+      - 🇩🇪德鸡1号机_2
+      - "🇫🇷FR_569\r"
+      - 🇯🇵JP_924
+      - 🇨🇳CN-🇬🇧GB_88
+      - "🇫🇷FR_122\r"
+      - 🇨🇳CN-🇬🇧GB_76
+      - "🇫🇷FR_101\r"
+      - "🇫🇷FR_382\r"
+      - "🇫🇷FR_46\r"
+      - "🇸🇬SG_1327\r"
+      - "🇫🇷FR_49\r"
+      - "🇫🇷FR_36\r"
+      - "🇸🇬SG_251\r"
+      - "🇫🇷FR_533\r"
+      - 🇺🇸免费节点
+      - 🇺🇸免费节点 2
+      - 🇺🇸免费节点 3
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
       - "🇺🇸免费节点 20\r"
       - "🇺🇸免费节点 21\r"
       - "🇺🇸免费节点 22\r"
       - "🇺🇸免费节点 23\r"
       - "🇺🇸免费节点 24\r"
       - "🇺🇸免费节点 25\r"
-      - "🇺🇸免费节点 26\r"
-      - 🇺🇸免费节点 27
-      - 🇺🇸免费节点 28
-      - 🇺🇸免费节点 29
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - "🇺🇸免费节点 29\r"
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - "🇺🇸免费节点 33\r"
+      - "🇺🇸免费节点 34\r"
+      - defaultName_23
+      - "🇺🇸免费节点 36\r"
+      - "🇺🇸免费节点 37\r"
+      - defaultName_24
+      - "🇺🇸免费节点 39\r"
+      - defaultName_25
+      - "🇺🇸免费节点 41\r"
+      - defaultName_26
+      - "🇺🇸免费节点 43\r"
+      - defaultName_27
+      - "🇺🇸免费节点 45\r"
       - "🇺🇸免费节点 46\r"
       - "🇺🇸免费节点 47\r"
       - "🇺🇸免费节点 48\r"
-      - "🇺🇸免费节点 49\r"
-      - "🇺🇸免费节点 50\r"
-      - "🇺🇸免费节点 51\r"
-      - "🇺🇸免费节点 52\r"
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - "🇺🇸免费节点 53\r"
       - "🇺🇸免费节点 54\r"
       - "🇺🇸免费节点 55\r"
       - "🇺🇸免费节点 56\r"
       - "🇺🇸免费节点 57\r"
-      - "🇺🇸免费节点 58\r"
-      - "🇺🇸免费节点 59\r"
+      - defaultName_32
+      - defaultName_33
       - "🇺🇸免费节点 60\r"
-      - "🇺🇸免费节点 61\r"
-      - "🇺🇸免费节点 62\r"
+      - defaultName_34
+      - defaultName_35
       - "🇺🇸免费节点 63\r"
-      - 🇺🇸免费节点 64
-      - 🇺🇸免费节点 65
-      - 🇺🇸免费节点 66
-      - 🇺🇸免费节点 67
-      - 🇺🇸免费节点 68
-      - 🇺🇸免费节点 69
-      - 🇺🇸免费节点 70
-      - 🇺🇸免费节点 71
-      - 🇺🇸美国_1
-      - 🇺🇸美国_2
-      - 🇺🇸美国_3
-      - 🇺🇸美国_4
-      - 🇺🇸美国1号机
-      - 🇩🇪德鸡1号机
-      - 🇩🇪德鸡2号机
-      - 🇺🇸免费节点池_1
-      - "🇺🇸免费节点池\r_1"
-      - 🇺🇸免费节点池_2
-      - 🇺🇸免费节点池_3
-      - "🇺🇸免费节点池\r_2"
-      - "🇺🇸免费节点池\r_3"
-      - 🇺🇸免费节点池_4
-      - "🇺🇸免费节点池\r_4"
-      - "🇺🇸免费节点池\r_5"
-      - 🇺🇸免费节点池_5
-      - 🇧🇷巴西圣保罗
-      - "🇨🇳_节点\r_1"
-      - "🇨🇳_节点\r_2"
-      - 🇺🇸_节点_1
-      - 🇺🇸_节点_2
-      - 🇿🇦_节点
-      - "🇨🇳CN-🇸🇬SG_40\r"
-      - "🇩🇪DE_311\r"
-      - 🇨🇳CN-🇸🇬SG_149
-      - "🇨🇳CN-🇺🇸US_42\r"
-      - 🇨🇳CN-🇸🇬SG_150
-      - 🇨🇳CN-🇸🇬SG_146
+      - defaultName_36
+      - "🇺🇸免费节点 65\r"
+      - "🇺🇸免费节点 66\r"
+      - "🇺🇸免费节点 67\r"
+      - defaultName_37
+      - "🇺🇸免费节点 69\r"
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - 🇺🇸免费节点 73
+      - 🇺🇸免费节点 74
+      - 🇺🇸免费节点 75
+      - 🇺🇸免费节点 76
+      - 🇺🇸免费节点 77
+      - 🇺🇸免费节点 78
+      - 🇺🇸免费节点 79
+      - 🇺🇸免费节点 80
+      - 🇺🇸免费节点 81
+      - 🇺🇸免费节点 82
 
 rules:
   - DST-PORT,22,DIRECT
