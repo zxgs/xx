@@ -1,7 +1,7 @@
 ####################################
 # 创建者：自学志
 # 客户端：Clash
-# 创建时间：2023-09-24 08:27:39
+# 创建时间：2023-09-24 08:29:07
 # 使用模版：自学志22
 # 节点数量：80
 # 节点类型：vmess, trojan, ss
@@ -21,36 +21,36 @@ proxies:
   - {"name":"🇺🇸美国_3","type":"vmess","server":"137.175.18.84","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.66273264.xyz","network":"ws","ws-opts":{"path":"/path/1695380351751","headers":{"host":"www.66273264.xyz"}}}
   - {"name":"🇺🇸美国_4","type":"vmess","server":"142.0.129.249","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.64830206.xyz","network":"ws","ws-opts":{"path":"/path/1695380351751","headers":{"host":"www.64830206.xyz"}}}
   - {"name":"🇺🇸美国_5","type":"vmess","server":"137.175.0.148","port":48813,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇮🇪爱尔兰\r","type":"trojan","server":"52.211.94.17","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸美国免费节点\r_1","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"52467c6b-28e1-4248-9a18-b2139452e434","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_2","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"160a5fb5-427c-4b81-8a0c-4c1224d42381","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_3","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"c34a3c64-6a9f-404d-b5ba-a818b6de0346","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_4","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"b4d960c2-6684-4d02-a348-cf05ff082441","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_5","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"4f39e951-2470-497b-b8af-fadbb93925f9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_6","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"6ee93b1b-5fa1-4cb5-b079-2a9801e2a102","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_7","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"d8b3c7df-fefd-4ec9-9e2a-aba94b08b1a6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_8","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"29cff10b-c18e-4b84-ace3-d4e334fbfa4f","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_9","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"39370182-8940-4d33-b82a-58ca45700cc8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_10","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"39370182-8940-4d33-b82a-58ca45700cc8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_11","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"29cff10b-c18e-4b84-ace3-d4e334fbfa4f","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_12","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"d8b3c7df-fefd-4ec9-9e2a-aba94b08b1a6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_13","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":13408,"password":"6ee93b1b-5fa1-4cb5-b079-2a9801e2a102","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_14","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"6ee93b1b-5fa1-4cb5-b079-2a9801e2a102","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_15","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"4f39e951-2470-497b-b8af-fadbb93925f9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_16","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"b4d960c2-6684-4d02-a348-cf05ff082441","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_17","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"c34a3c64-6a9f-404d-b5ba-a818b6de0346","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国免费节点\r_18","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"160a5fb5-427c-4b81-8a0c-4c1224d42381","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦加拿大\r_1","type":"trojan","server":"108.181.23.71","port":443,"udp":true,"password":"89ce124f-42d1-4c90-b9d2-bde2861ae615","sni":"4-193-163-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦加拿大\r_2","type":"trojan","server":"163.123.192.80","port":443,"udp":true,"password":"89ce124f-42d1-4c90-b9d2-bde2861ae615","sni":"4-193-163-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳中国\r_1","type":"trojan","server":"zjpvc-1083-tr-0.r-kcd-b.tuil.xyz","port":29969,"udp":true,"password":"LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY","sni":"cdn.cjhh.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳中国\r_2","type":"trojan","server":"ufxeq-1080-tr-9.d-kcd.tuil.xyz","port":39929,"udp":true,"password":"LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY","sni":"edge.cjhh.mom","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪爱尔兰","type":"trojan","server":"52.211.94.17","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国免费节点_1","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"52467c6b-28e1-4248-9a18-b2139452e434","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_2","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"160a5fb5-427c-4b81-8a0c-4c1224d42381","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_3","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"c34a3c64-6a9f-404d-b5ba-a818b6de0346","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_4","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"b4d960c2-6684-4d02-a348-cf05ff082441","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_5","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"4f39e951-2470-497b-b8af-fadbb93925f9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_6","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"6ee93b1b-5fa1-4cb5-b079-2a9801e2a102","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_7","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"d8b3c7df-fefd-4ec9-9e2a-aba94b08b1a6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_8","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"29cff10b-c18e-4b84-ace3-d4e334fbfa4f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_9","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"39370182-8940-4d33-b82a-58ca45700cc8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_10","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"39370182-8940-4d33-b82a-58ca45700cc8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_11","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"29cff10b-c18e-4b84-ace3-d4e334fbfa4f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_12","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"d8b3c7df-fefd-4ec9-9e2a-aba94b08b1a6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_13","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":13408,"password":"6ee93b1b-5fa1-4cb5-b079-2a9801e2a102","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_14","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":59966,"password":"6ee93b1b-5fa1-4cb5-b079-2a9801e2a102","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_15","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"4f39e951-2470-497b-b8af-fadbb93925f9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_16","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"b4d960c2-6684-4d02-a348-cf05ff082441","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_17","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"c34a3c64-6a9f-404d-b5ba-a818b6de0346","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国免费节点_18","type":"ss","server":"chu.xn--fiqr9egvchy8d.com","port":33719,"password":"160a5fb5-427c-4b81-8a0c-4c1224d42381","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦加拿大_1","type":"trojan","server":"108.181.23.71","port":443,"udp":true,"password":"89ce124f-42d1-4c90-b9d2-bde2861ae615","sni":"4-193-163-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦加拿大_2","type":"trojan","server":"163.123.192.80","port":443,"udp":true,"password":"89ce124f-42d1-4c90-b9d2-bde2861ae615","sni":"4-193-163-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳中国_1","type":"trojan","server":"zjpvc-1083-tr-0.r-kcd-b.tuil.xyz","port":29969,"udp":true,"password":"LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY","sni":"cdn.cjhh.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳中国_2","type":"trojan","server":"ufxeq-1080-tr-9.d-kcd.tuil.xyz","port":39929,"udp":true,"password":"LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY","sni":"edge.cjhh.mom","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳中国_1","type":"vmess","server":"183.233.187.233","port":49553,"cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇨🇳中国_2","type":"vmess","server":"120.226.50.94","port":53300,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸美国_6","type":"vmess","server":"156.225.67.102","port":52792,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸美国_7","type":"vmess","server":"xn.shabijichang.com","port":80,"cipher":"auto","uuid":"53701585-591f-48a3-9515-8831ed0524ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"xn.shabijichang.com"}}}
   - {"name":"🇺🇸美国_8","type":"vmess","server":"hdlb.shabijichang.com","port":80,"cipher":"auto","uuid":"53701585-591f-48a3-9515-8831ed0524ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hdlb.shabijichang.com"}}}
   - {"name":"🇺🇸美国_9","type":"vmess","server":"156.225.67.48","port":45493,"cipher":"auto","uuid":"3ca912da-6ac2-418f-b9cf-45b6f694579b","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国\r","type":"trojan","server":"209.216.77.26","port":443,"udp":true,"password":"3550ce3dec","sni":"usa3.connecton.surf","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国","type":"trojan","server":"209.216.77.26","port":443,"udp":true,"password":"3550ce3dec","sni":"usa3.connecton.surf","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸美国_10","type":"vmess","server":"45.199.138.180","port":54885,"cipher":"auto","uuid":"d3133484-f2bf-4b0c-8d38-f8e645b65687","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇫🇷法国","type":"vmess","server":"hdfy1d1.cpi2hidd.eu.org","port":443,"cipher":"auto","uuid":"b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"grpc","grpc-opts":{"grpc-service-name":"kWNsYSByc82sNvvsPqovsnh","grpc-mode":"none"}}
   - {"name":"🇺🇸美国免费节点池_1","type":"vmess","server":"cf.yx.alue.link","port":2052,"cipher":"auto","uuid":"fe5edf04-c2af-4ac5-84ee-16d43024decb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"lu.wx.alue.link"}}}
@@ -111,36 +111,36 @@ proxy-groups:
       - 🇺🇸美国_3
       - 🇺🇸美国_4
       - 🇺🇸美国_5
-      - "🇮🇪爱尔兰\r"
-      - "🇺🇸美国免费节点\r_1"
-      - "🇺🇸美国免费节点\r_2"
-      - "🇺🇸美国免费节点\r_3"
-      - "🇺🇸美国免费节点\r_4"
-      - "🇺🇸美国免费节点\r_5"
-      - "🇺🇸美国免费节点\r_6"
-      - "🇺🇸美国免费节点\r_7"
-      - "🇺🇸美国免费节点\r_8"
-      - "🇺🇸美国免费节点\r_9"
-      - "🇺🇸美国免费节点\r_10"
-      - "🇺🇸美国免费节点\r_11"
-      - "🇺🇸美国免费节点\r_12"
-      - "🇺🇸美国免费节点\r_13"
-      - "🇺🇸美国免费节点\r_14"
-      - "🇺🇸美国免费节点\r_15"
-      - "🇺🇸美国免费节点\r_16"
-      - "🇺🇸美国免费节点\r_17"
-      - "🇺🇸美国免费节点\r_18"
-      - "🇨🇦加拿大\r_1"
-      - "🇨🇦加拿大\r_2"
-      - "🇨🇳中国\r_1"
-      - "🇨🇳中国\r_2"
+      - "🇮🇪爱尔兰"
+      - "🇺🇸美国免费节点_1"
+      - "🇺🇸美国免费节点_2"
+      - "🇺🇸美国免费节点_3"
+      - "🇺🇸美国免费节点_4"
+      - "🇺🇸美国免费节点_5"
+      - "🇺🇸美国免费节点_6"
+      - "🇺🇸美国免费节点_7"
+      - "🇺🇸美国免费节点_8"
+      - "🇺🇸美国免费节点_9"
+      - "🇺🇸美国免费节点_10"
+      - "🇺🇸美国免费节点_11"
+      - "🇺🇸美国免费节点_12"
+      - "🇺🇸美国免费节点_13"
+      - "🇺🇸美国免费节点_14"
+      - "🇺🇸美国免费节点_15"
+      - "🇺🇸美国免费节点_16"
+      - "🇺🇸美国免费节点_17"
+      - "🇺🇸美国免费节点_18"
+      - "🇨🇦加拿大_1"
+      - "🇨🇦加拿大_2"
+      - "🇨🇳中国_1"
+      - "🇨🇳中国_2"
       - 🇨🇳中国_1
       - 🇨🇳中国_2
       - 🇺🇸美国_6
       - 🇺🇸美国_7
       - 🇺🇸美国_8
       - 🇺🇸美国_9
-      - "🇺🇸美国\r"
+      - "🇺🇸美国"
       - 🇺🇸美国_10
       - 🇫🇷法国
       - 🇺🇸美国免费节点池_1
@@ -197,36 +197,36 @@ proxy-groups:
       - 🇺🇸美国_3
       - 🇺🇸美国_4
       - 🇺🇸美国_5
-      - "🇮🇪爱尔兰\r"
-      - "🇺🇸美国免费节点\r_1"
-      - "🇺🇸美国免费节点\r_2"
-      - "🇺🇸美国免费节点\r_3"
-      - "🇺🇸美国免费节点\r_4"
-      - "🇺🇸美国免费节点\r_5"
-      - "🇺🇸美国免费节点\r_6"
-      - "🇺🇸美国免费节点\r_7"
-      - "🇺🇸美国免费节点\r_8"
-      - "🇺🇸美国免费节点\r_9"
-      - "🇺🇸美国免费节点\r_10"
-      - "🇺🇸美国免费节点\r_11"
-      - "🇺🇸美国免费节点\r_12"
-      - "🇺🇸美国免费节点\r_13"
-      - "🇺🇸美国免费节点\r_14"
-      - "🇺🇸美国免费节点\r_15"
-      - "🇺🇸美国免费节点\r_16"
-      - "🇺🇸美国免费节点\r_17"
-      - "🇺🇸美国免费节点\r_18"
-      - "🇨🇦加拿大\r_1"
-      - "🇨🇦加拿大\r_2"
-      - "🇨🇳中国\r_1"
-      - "🇨🇳中国\r_2"
+      - "🇮🇪爱尔兰"
+      - "🇺🇸美国免费节点_1"
+      - "🇺🇸美国免费节点_2"
+      - "🇺🇸美国免费节点_3"
+      - "🇺🇸美国免费节点_4"
+      - "🇺🇸美国免费节点_5"
+      - "🇺🇸美国免费节点_6"
+      - "🇺🇸美国免费节点_7"
+      - "🇺🇸美国免费节点_8"
+      - "🇺🇸美国免费节点_9"
+      - "🇺🇸美国免费节点_10"
+      - "🇺🇸美国免费节点_11"
+      - "🇺🇸美国免费节点_12"
+      - "🇺🇸美国免费节点_13"
+      - "🇺🇸美国免费节点_14"
+      - "🇺🇸美国免费节点_15"
+      - "🇺🇸美国免费节点_16"
+      - "🇺🇸美国免费节点_17"
+      - "🇺🇸美国免费节点_18"
+      - "🇨🇦加拿大_1"
+      - "🇨🇦加拿大_2"
+      - "🇨🇳中国_1"
+      - "🇨🇳中国_2"
       - 🇨🇳中国_1
       - 🇨🇳中国_2
       - 🇺🇸美国_6
       - 🇺🇸美国_7
       - 🇺🇸美国_8
       - 🇺🇸美国_9
-      - "🇺🇸美国\r"
+      - "🇺🇸美国"
       - 🇺🇸美国_10
       - 🇫🇷法国
       - 🇺🇸美国免费节点池_1
