@@ -1,9 +1,9 @@
 ####################################
 # 创建者：自学志
 # 客户端：Clash
-# 创建时间：2023-10-05 07:35:18
+# 创建时间：2023-10-05 18:04:52
 # 使用模版：自学志22
-# 节点数量：10
+# 节点数量：17
 # 节点类型：vmess
 ####################################
 port: 7890
@@ -15,15 +15,22 @@ external-controller: ':9090'
 
 proxies:
   - {"name":"🇺🇸美国_1","type":"vmess","server":"162.159.137.204","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"🇺🇸美国_2","type":"vmess","server":"162.159.128.6","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"🇺🇸美国_3","type":"vmess","server":"162.159.129.77","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"🇺🇸美国_4","type":"vmess","server":"162.159.142.231","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"🇺🇸美国_5","type":"vmess","server":"162.159.143.206","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"🇺🇸美国_6","type":"vmess","server":"162.159.134.18","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_2","type":"vmess","server":"162.159.129.77","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_3","type":"vmess","server":"162.159.128.6","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_4","type":"vmess","server":"162.159.141.214","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_5","type":"vmess","server":"cloudflare.binghe.design","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_6","type":"vmess","server":"162.159.153.250","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
   - {"name":"🇺🇸美国_7","type":"vmess","server":"162.159.130.100","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"🇺🇸美国_8","type":"vmess","server":"162.159.133.222","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"🇺🇸美国_9","type":"vmess","server":"162.159.153.250","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"🇺🇸美国_10","type":"vmess","server":"162.159.141.214","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_8","type":"vmess","server":"162.159.143.206","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_9","type":"vmess","server":"162.159.133.222","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_10","type":"vmess","server":"162.159.142.231","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_11","type":"vmess","server":"162.159.134.18","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_12","type":"vmess","server":"104.16.130.108","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_13","type":"vmess","server":"104.17.195.54","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_14","type":"vmess","server":"104.16.119.107","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_15","type":"vmess","server":"104.17.212.81","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_16","type":"vmess","server":"162.159.128.70","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
+  - {"name":"🇺🇸美国_17","type":"vmess","server":"162.159.133.10","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -44,6 +51,13 @@ proxy-groups:
       - 🇺🇸美国_8
       - 🇺🇸美国_9
       - 🇺🇸美国_10
+      - 🇺🇸美国_11
+      - 🇺🇸美国_12
+      - 🇺🇸美国_13
+      - 🇺🇸美国_14
+      - 🇺🇸美国_15
+      - 🇺🇸美国_16
+      - 🇺🇸美国_17
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
@@ -60,6 +74,13 @@ proxy-groups:
       - 🇺🇸美国_8
       - 🇺🇸美国_9
       - 🇺🇸美国_10
+      - 🇺🇸美国_11
+      - 🇺🇸美国_12
+      - 🇺🇸美国_13
+      - 🇺🇸美国_14
+      - 🇺🇸美国_15
+      - 🇺🇸美国_16
+      - 🇺🇸美国_17
 
 rules:
   - DST-PORT,22,DIRECT
