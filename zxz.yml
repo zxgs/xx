@@ -1,10 +1,10 @@
 ####################################
 # 创建者：自学志
 # 客户端：Clash
-# 创建时间：2023-10-11 13:33:42
+# 创建时间：2023-10-12 17:55:44
 # 使用模版：自学志22
-# 节点数量：148
-# 节点类型：vmess, ss, trojan
+# 节点数量：93
+# 节点类型：vmess, ss
 ####################################
 port: 7890
 socks-port: 7891
@@ -16,7 +16,7 @@ external-controller: ':9090'
 proxies:
   - {"name":"请每次使用前，先更新一下！！！！","type":"vmess","server":"0.0.0.0","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"仅供学术研究，请勿违法用途","type":"vmess","server":"0.0.0.0","port":443,"cipher":"auto","uuid":"5750e2bf-db87-4c33-829b-45d4608babbb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk1.sanfen001.pics","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"更新于:10-11   13:33","type":"vmess","server":"0.0.0.0","port":8080,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"更新于:10-12   17:55","type":"vmess","server":"0.0.0.0","port":8080,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"hk","type":"ss","server":"hk.shawbrothersstudio.com","port":19921,"password":"r1Rivb0NOPyab8gI828uG7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"us01","type":"ss","server":"us01.shawbrothersstudio.com","port":19922,"password":"Lam6mgI0ZnIqT459CTTOJR","cipher":"chacha20-ietf-poly1305"}
   - {"name":"us02","type":"ss","server":"us02.shawbrothersstudio.com","port":43642,"password":"hg9h5KpMmJLli6W6Qjd2yi","cipher":"chacha20-ietf-poly1305"}
@@ -53,115 +53,60 @@ proxies:
   - {"name":"🇺🇸美国_15","type":"vmess","server":"162.159.143.206","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
   - {"name":"🇺🇸美国_16","type":"vmess","server":"162.159.142.231","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
   - {"name":"🇺🇸美国_17","type":"vmess","server":"104.16.119.107","port":443,"cipher":"auto","uuid":"4548b8dd-c6f5-41f2-8cb6-723c8db8ed03","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.binghe.design"}}}
-  - {"name":"香港01","type":"trojan","server":"hk.kunlun-ppg.com","port":10801,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港02","type":"trojan","server":"hk.kunlun-ppg.com","port":10802,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港03","type":"trojan","server":"hk.kunlun-ppg.com","port":10803,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港04","type":"trojan","server":"hk.kunlun-ppg.com","port":10804,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港05","type":"trojan","server":"hk.kunlun-ppg.com","port":10805,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港06","type":"trojan","server":"hk.kunlun-ppg.com","port":10806,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港07","type":"trojan","server":"hk.kunlun-ppg.com","port":10807,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港08","type":"trojan","server":"hk.kunlun-ppg.com","port":10808,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港09家宽","type":"trojan","server":"hk.kunlun-ppg.com","port":10809,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港10家宽","type":"trojan","server":"hk.kunlun-ppg.com","port":10810,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本01","type":"trojan","server":"jp.kunlun-ppg.com","port":10811,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本02","type":"trojan","server":"jp.kunlun-ppg.com","port":10812,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本03","type":"trojan","server":"jp.kunlun-ppg.com","port":10813,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本04","type":"trojan","server":"jp.kunlun-ppg.com","port":10814,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本05","type":"trojan","server":"jp.kunlun-ppg.com","port":10815,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本06","type":"trojan","server":"jp.kunlun-ppg.com","port":10816,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本07","type":"trojan","server":"jp.kunlun-ppg.com","port":10817,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本08","type":"trojan","server":"jp.kunlun-ppg.com","port":10818,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国01","type":"trojan","server":"us.kunlun-ppg.com","port":10819,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国02","type":"trojan","server":"us.kunlun-ppg.com","port":10820,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国03","type":"trojan","server":"us.kunlun-ppg.com","port":10821,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国04","type":"trojan","server":"us.kunlun-ppg.com","port":10822,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国05","type":"trojan","server":"us.kunlun-ppg.com","port":10823,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国06","type":"trojan","server":"us.kunlun-ppg.com","port":10824,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国07","type":"trojan","server":"us.kunlun-ppg.com","port":10825,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国08","type":"trojan","server":"us.kunlun-ppg.com","port":10826,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡01","type":"trojan","server":"sg.kunlun-ppg.com","port":10827,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡02","type":"trojan","server":"sg.kunlun-ppg.com","port":10828,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡03","type":"trojan","server":"sg.kunlun-ppg.com","port":10829,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡04","type":"trojan","server":"sg.kunlun-ppg.com","port":10830,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡05","type":"trojan","server":"sg.kunlun-ppg.com","port":10831,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡06","type":"trojan","server":"sg.kunlun-ppg.com","port":10832,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡07","type":"trojan","server":"sg.kunlun-ppg.com","port":10833,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡08","type":"trojan","server":"sg.kunlun-ppg.com","port":10834,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾01","type":"trojan","server":"other.kunlun-ppg.com","port":10835,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国01","type":"trojan","server":"other.kunlun-ppg.com","port":10836,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"英国01","type":"trojan","server":"other.kunlun-ppg.com","port":10837,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"法国01","type":"trojan","server":"other.kunlun-ppg.com","port":10838,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"德国01","type":"trojan","server":"other.kunlun-ppg.com","port":10839,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"印度01","type":"trojan","server":"other.kunlun-ppg.com","port":10840,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"迪拜01","type":"trojan","server":"other.kunlun-ppg.com","port":10841,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"巴西01","type":"trojan","server":"other.kunlun-ppg.com","port":10842,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"南非01","type":"trojan","server":"other.kunlun-ppg.com","port":10843,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"俄罗斯01","type":"trojan","server":"other.kunlun-ppg.com","port":10844,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"乌克兰01","type":"trojan","server":"other.kunlun-ppg.com","port":10845,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"土耳其01","type":"trojan","server":"other.kunlun-ppg.com","port":10846,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"阿根廷01","type":"trojan","server":"other.kunlun-ppg.com","port":10847,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"奥地利01","type":"trojan","server":"other.kunlun-ppg.com","port":10848,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"意大利01","type":"trojan","server":"other.kunlun-ppg.com","port":10849,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"爱尔兰01","type":"trojan","server":"other.kunlun-ppg.com","port":10850,"udp":true,"password":"6bb00e47-7a70-43c7-a2e0-32582d015767","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点","type":"ss","server":"183.240.222.80","port":2001,"password":"a5e72a01-3b03-464d-b75e-f02d4c66895b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 2","type":"ss","server":"free.themars.top","port":32103,"password":"19f46c42-49aa-4eff-ac1d-6511dbfd8d51","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 3","type":"ss","server":"free.themars.top","port":32103,"password":"19f46c42-49aa-4eff-ac1d-6511dbfd8d51","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 4","type":"ss","server":"free.themars.top","port":32103,"password":"19f46c42-49aa-4eff-ac1d-6511dbfd8d51","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 5","type":"ss","server":"free.themars.top","port":32103,"password":"acd75f62-3a5d-401f-9a33-1462b3aac173","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 6","type":"ss","server":"free.themars.top","port":32103,"password":"acd75f62-3a5d-401f-9a33-1462b3aac173","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 7","type":"ss","server":"free.themars.top","port":32103,"password":"acd75f62-3a5d-401f-9a33-1462b3aac173","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 8","type":"ss","server":"183.240.222.80","port":2001,"password":"e885d31a-1038-4733-8691-767f93f0585d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 9","type":"ss","server":"183.240.222.80","port":2001,"password":"6e6a22e3-2452-4010-b871-40d7d152f967","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 10","type":"ss","server":"free.themars.top","port":32103,"password":"4142933b-0bca-44ee-bcf9-3569e643371e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 11","type":"ss","server":"free.themars.top","port":32103,"password":"4142933b-0bca-44ee-bcf9-3569e643371e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 12","type":"ss","server":"free.themars.top","port":32103,"password":"4142933b-0bca-44ee-bcf9-3569e643371e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 13","type":"ss","server":"183.240.117.62","port":42191,"password":"31637d22-a380-4617-ad62-ba9b140ce53e","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 14","type":"ss","server":"183.240.117.62","port":4219,"password":"31637d22-a380-4617-ad62-ba9b140ce53e","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 15","type":"ss","server":"183.240.117.62","port":4220,"password":"31637d22-a380-4617-ad62-ba9b140ce53e","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 16","type":"ss","server":"183.240.117.62","port":4219,"password":"c0ece071-4c6d-4ed4-8bd3-b7291c2830f9","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 17","type":"ss","server":"183.240.117.62","port":4220,"password":"c0ece071-4c6d-4ed4-8bd3-b7291c2830f9","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 18","type":"ss","server":"183.240.117.62","port":42191,"password":"c0ece071-4c6d-4ed4-8bd3-b7291c2830f9","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 19","type":"ss","server":"dagebeidale.donghui.tech","port":11566,"password":"b883cd19-b6a7-42d6-8e4b-98a75531ee46","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 20","type":"ss","server":"hdcmb.skrspc.com","port":29114,"password":"d9485005-6a84-452e-bbdf-492eab2a8342","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 21","type":"ss","server":"hzyd.donghui.tech","port":20978,"password":"b883cd19-b6a7-42d6-8e4b-98a75531ee46","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 22","type":"ss","server":"hdcmb.skrspc.com","port":29101,"password":"d9485005-6a84-452e-bbdf-492eab2a8342","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 23","type":"ss","server":"hdcmb.skrspc.com","port":29120,"password":"d9485005-6a84-452e-bbdf-492eab2a8342","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 24","type":"ss","server":"hzyd.donghui.tech","port":12239,"password":"b883cd19-b6a7-42d6-8e4b-98a75531ee46","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 25","type":"ss","server":"dagebeidale.donghui.tech","port":15330,"password":"b883cd19-b6a7-42d6-8e4b-98a75531ee46","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 26","type":"ss","server":"hdcmb.skrspc.com","port":29118,"password":"d9485005-6a84-452e-bbdf-492eab2a8342","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 27","type":"trojan","server":"south.steamdownload.top","port":11004,"udp":true,"password":"33447323-2778-4655-b0c1-c8fd48280a5e","sni":"south.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 28","type":"trojan","server":"east.steamdownload.top","port":13006,"udp":true,"password":"33447323-2778-4655-b0c1-c8fd48280a5e","sni":"east.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 29","type":"ss","server":"hncub.donghui.tech","port":25442,"password":"b883cd19-b6a7-42d6-8e4b-98a75531ee46","cipher":"aes-256-gcm"}
-  - {"name":"免费节点 30","type":"trojan","server":"south.steamdownload.top","port":14006,"udp":true,"password":"33447323-2778-4655-b0c1-c8fd48280a5e","sni":"south.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 31","type":"ss","server":"183.240.117.62","port":4220,"password":"f626020d-5911-4379-b10b-35c4edbd73b9","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 32","type":"ss","server":"183.240.117.62","port":4219,"password":"f626020d-5911-4379-b10b-35c4edbd73b9","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 33","type":"ss","server":"183.240.117.62","port":42191,"password":"f626020d-5911-4379-b10b-35c4edbd73b9","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 34","type":"ss","server":"183.240.117.62","port":4220,"password":"f2059fe2-7627-4580-a541-c5358a0a4047","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 35","type":"ss","server":"183.240.117.62","port":4219,"password":"f2059fe2-7627-4580-a541-c5358a0a4047","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 36","type":"ss","server":"183.240.117.62","port":42191,"password":"f2059fe2-7627-4580-a541-c5358a0a4047","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 37","type":"ss","server":"183.240.117.62","port":42191,"password":"8478fb9f-de1f-4754-92f9-f3c64f0c7313","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 38","type":"ss","server":"183.240.117.62","port":4220,"password":"8478fb9f-de1f-4754-92f9-f3c64f0c7313","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 39","type":"ss","server":"183.240.117.62","port":4219,"password":"8478fb9f-de1f-4754-92f9-f3c64f0c7313","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 40","type":"ss","server":"183.240.117.62","port":42191,"password":"364a1cdd-397d-45bc-b5fe-bf2b5c34a939","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 41","type":"ss","server":"183.240.117.62","port":4219,"password":"364a1cdd-397d-45bc-b5fe-bf2b5c34a939","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 42","type":"ss","server":"183.240.117.62","port":4220,"password":"364a1cdd-397d-45bc-b5fe-bf2b5c34a939","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 43","type":"ss","server":"183.240.117.62","port":42191,"password":"eb328710-a580-402d-8e70-7cb3c75b0bbb","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 44","type":"ss","server":"183.240.117.62","port":4220,"password":"eb328710-a580-402d-8e70-7cb3c75b0bbb","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 45","type":"ss","server":"183.240.117.62","port":4219,"password":"eb328710-a580-402d-8e70-7cb3c75b0bbb","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 46","type":"ss","server":"free.themars.top","port":32103,"password":"e6d130b1-1989-450a-a1d5-eb409d8fe3c6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 47","type":"ss","server":"free.themars.top","port":32103,"password":"e6d130b1-1989-450a-a1d5-eb409d8fe3c6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 48","type":"ss","server":"free.themars.top","port":32103,"password":"ba93b08e-3409-4135-92c4-bebdb7e0aff2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 49","type":"ss","server":"free.themars.top","port":32103,"password":"ba93b08e-3409-4135-92c4-bebdb7e0aff2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 50","type":"ss","server":"free.themars.top","port":32103,"password":"7998d6b1-f85e-43a4-99e0-ebe85d8aa6ab","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 51","type":"ss","server":"free.themars.top","port":32103,"password":"7998d6b1-f85e-43a4-99e0-ebe85d8aa6ab","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 52","type":"ss","server":"47.243.182.168","port":443,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 53","type":"ss","server":"shdx.85413.xyz","port":34501,"password":"9e4426ef-db75-4370-bb70-0deb491a46c1","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 54","type":"trojan","server":"103.15.217.182","port":33058,"udp":true,"password":"QHhbhwe6lj","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 55","type":"ss","server":"shdx.85413.xyz","port":34501,"password":"9e4426ef-db75-4370-bb70-0deb491a46c1","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 56","type":"ss","server":"hzct.85413.xyz","port":34503,"password":"9e4426ef-db75-4370-bb70-0deb491a46c1","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 57","type":"ss","server":"shdx.85413.xyz","port":34501,"password":"9e4426ef-db75-4370-bb70-0deb491a46c1","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 58","type":"ss","server":"hzct.85413.xyz","port":34503,"password":"9e4426ef-db75-4370-bb70-0deb491a46c1","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 59","type":"ss","server":"hzct.85413.xyz","port":34503,"password":"9e4426ef-db75-4370-bb70-0deb491a46c1","cipher":"aes-128-gcm"}
+  - {"name":"免费节点1_1","type":"ss","server":"47.243.182.168","port":443,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm"}
+  - {"name":"免费节点1_2","type":"ss","server":"43.202.60.174","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"免费节点1_3","type":"ss","server":"52.78.181.72","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"免费节点_1","type":"vmess","server":"YXV0bzplZTQ4NGQzNy0zMTY4LTRhNjMtYTBjMy03MmU5NmVhMDI1MDhAaGt0ZGRucy5haWt1bi5vbmxpbmU6ODA?remarks=%E9%A6%99%E6%B8%AFB%7C@ripaojiedian&obfsParam=sanmao17.hkbn.n.optage.moe&path=/hkbn&obfs=websocket&alterId=0","port":0,"cipher":"auto","uuid":"ripaojiedian&obfsParam=sanmao17.hkbn.n.optage.moe&path=/hkbn&obfs=websocket&alterId=0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"免费节点_2","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_3","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_4","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_5","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_6","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_7","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_8","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_9","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_10","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_11","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_12","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_13","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_14","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_15","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_16","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"09e77291-25b0-4290-945b-573f2a91690d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_17","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_18","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_19","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_20","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_21","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_22","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_23","type":"vmess","server":"mofaxueyuanjp.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_24","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_25","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_26","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_27","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_28","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_29","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_30","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_31","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_32","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_33","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_34","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_35","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_36","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_37","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_38","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点_39","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"fe7e765d-834c-4bd3-b262-2ad01db6e25f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"免费节点1_4","type":"ss","server":"free.themars.top","port":32102,"password":"adbab4c7-27cc-4d7f-82d8-2826ec808a48","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_5","type":"ss","server":"free.themars.top","port":32102,"password":"adbab4c7-27cc-4d7f-82d8-2826ec808a48","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_6","type":"ss","server":"free.themars.top","port":32103,"password":"adbab4c7-27cc-4d7f-82d8-2826ec808a48","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_7","type":"ss","server":"183.240.222.80","port":2001,"password":"47a9b326-bdff-4d26-b7a1-828229e73d35","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_8","type":"ss","server":"183.240.222.80","port":2001,"password":"25b4690a-1458-45cf-81cc-ba6dd956cabc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_9","type":"ss","server":"free.themars.top","port":32103,"password":"30896bcc-df78-4bb8-9829-a3d6c7776a67","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_10","type":"ss","server":"free.themars.top","port":32103,"password":"30896bcc-df78-4bb8-9829-a3d6c7776a67","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_11","type":"ss","server":"free.themars.top","port":32103,"password":"30896bcc-df78-4bb8-9829-a3d6c7776a67","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_12","type":"ss","server":"free.themars.top","port":32103,"password":"aadd6f2f-e35e-42d7-a284-da7a9f0280bc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_13","type":"ss","server":"free.themars.top","port":32103,"password":"aadd6f2f-e35e-42d7-a284-da7a9f0280bc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_14","type":"ss","server":"free.themars.top","port":32103,"password":"aadd6f2f-e35e-42d7-a284-da7a9f0280bc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点1_15","type":"ss","server":"183.240.222.80","port":2001,"password":"1b984c6d-5b1c-435a-94b0-a83f88c9ecb1","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -174,7 +119,7 @@ proxy-groups:
     proxies:
       - 请每次使用前，先更新一下！！！！
       - 仅供学术研究，请勿违法用途
-      - 更新于:10-11   13:33
+      - 更新于:10-12   17:55
       - "hk"
       - "us01"
       - "us02"
@@ -211,115 +156,60 @@ proxy-groups:
       - 🇺🇸美国_15
       - 🇺🇸美国_16
       - 🇺🇸美国_17
-      - "香港01"
-      - "香港02"
-      - "香港03"
-      - "香港04"
-      - "香港05"
-      - "香港06"
-      - "香港07"
-      - "香港08"
-      - "香港09家宽"
-      - "香港10家宽"
-      - "日本01"
-      - "日本02"
-      - "日本03"
-      - "日本04"
-      - "日本05"
-      - "日本06"
-      - "日本07"
-      - "日本08"
-      - "美国01"
-      - "美国02"
-      - "美国03"
-      - "美国04"
-      - "美国05"
-      - "美国06"
-      - "美国07"
-      - "美国08"
-      - "新加坡01"
-      - "新加坡02"
-      - "新加坡03"
-      - "新加坡04"
-      - "新加坡05"
-      - "新加坡06"
-      - "新加坡07"
-      - "新加坡08"
-      - "台湾01"
-      - "韩国01"
-      - "英国01"
-      - "法国01"
-      - "德国01"
-      - "印度01"
-      - "迪拜01"
-      - "巴西01"
-      - "南非01"
-      - "俄罗斯01"
-      - "乌克兰01"
-      - "土耳其01"
-      - "阿根廷01"
-      - "奥地利01"
-      - "意大利01"
-      - "爱尔兰01"
-      - "免费节点"
-      - "免费节点 2"
-      - "免费节点 3"
-      - "免费节点 4"
-      - "免费节点 5"
-      - "免费节点 6"
-      - "免费节点 7"
-      - "免费节点 8"
-      - "免费节点 9"
-      - "免费节点 10"
-      - "免费节点 11"
-      - "免费节点 12"
-      - "免费节点 13"
-      - "免费节点 14"
-      - "免费节点 15"
-      - "免费节点 16"
-      - "免费节点 17"
-      - "免费节点 18"
-      - "免费节点 19"
-      - "免费节点 20"
-      - "免费节点 21"
-      - "免费节点 22"
-      - "免费节点 23"
-      - "免费节点 24"
-      - "免费节点 25"
-      - "免费节点 26"
-      - "免费节点 27"
-      - "免费节点 28"
-      - "免费节点 29"
-      - "免费节点 30"
-      - "免费节点 31"
-      - "免费节点 32"
-      - "免费节点 33"
-      - "免费节点 34"
-      - "免费节点 35"
-      - "免费节点 36"
-      - "免费节点 37"
-      - "免费节点 38"
-      - "免费节点 39"
-      - "免费节点 40"
-      - "免费节点 41"
-      - "免费节点 42"
-      - "免费节点 43"
-      - "免费节点 44"
-      - "免费节点 45"
-      - "免费节点 46"
-      - "免费节点 47"
-      - "免费节点 48"
-      - "免费节点 49"
-      - "免费节点 50"
-      - "免费节点 51"
-      - "免费节点 52"
-      - "免费节点 53"
-      - "免费节点 54"
-      - "免费节点 55"
-      - "免费节点 56"
-      - "免费节点 57"
-      - "免费节点 58"
-      - "免费节点 59"
+      - "免费节点1_1"
+      - "免费节点1_2"
+      - "免费节点1_3"
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - "免费节点1_4"
+      - "免费节点1_5"
+      - "免费节点1_6"
+      - "免费节点1_7"
+      - "免费节点1_8"
+      - "免费节点1_9"
+      - "免费节点1_10"
+      - "免费节点1_11"
+      - "免费节点1_12"
+      - "免费节点1_13"
+      - "免费节点1_14"
+      - "免费节点1_15"
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
@@ -328,7 +218,7 @@ proxy-groups:
     proxies:
       - 请每次使用前，先更新一下！！！！
       - 仅供学术研究，请勿违法用途
-      - 更新于:10-11   13:33
+      - 更新于:10-12   17:55
       - "hk"
       - "us01"
       - "us02"
@@ -365,115 +255,60 @@ proxy-groups:
       - 🇺🇸美国_15
       - 🇺🇸美国_16
       - 🇺🇸美国_17
-      - "香港01"
-      - "香港02"
-      - "香港03"
-      - "香港04"
-      - "香港05"
-      - "香港06"
-      - "香港07"
-      - "香港08"
-      - "香港09家宽"
-      - "香港10家宽"
-      - "日本01"
-      - "日本02"
-      - "日本03"
-      - "日本04"
-      - "日本05"
-      - "日本06"
-      - "日本07"
-      - "日本08"
-      - "美国01"
-      - "美国02"
-      - "美国03"
-      - "美国04"
-      - "美国05"
-      - "美国06"
-      - "美国07"
-      - "美国08"
-      - "新加坡01"
-      - "新加坡02"
-      - "新加坡03"
-      - "新加坡04"
-      - "新加坡05"
-      - "新加坡06"
-      - "新加坡07"
-      - "新加坡08"
-      - "台湾01"
-      - "韩国01"
-      - "英国01"
-      - "法国01"
-      - "德国01"
-      - "印度01"
-      - "迪拜01"
-      - "巴西01"
-      - "南非01"
-      - "俄罗斯01"
-      - "乌克兰01"
-      - "土耳其01"
-      - "阿根廷01"
-      - "奥地利01"
-      - "意大利01"
-      - "爱尔兰01"
-      - "免费节点"
-      - "免费节点 2"
-      - "免费节点 3"
-      - "免费节点 4"
-      - "免费节点 5"
-      - "免费节点 6"
-      - "免费节点 7"
-      - "免费节点 8"
-      - "免费节点 9"
-      - "免费节点 10"
-      - "免费节点 11"
-      - "免费节点 12"
-      - "免费节点 13"
-      - "免费节点 14"
-      - "免费节点 15"
-      - "免费节点 16"
-      - "免费节点 17"
-      - "免费节点 18"
-      - "免费节点 19"
-      - "免费节点 20"
-      - "免费节点 21"
-      - "免费节点 22"
-      - "免费节点 23"
-      - "免费节点 24"
-      - "免费节点 25"
-      - "免费节点 26"
-      - "免费节点 27"
-      - "免费节点 28"
-      - "免费节点 29"
-      - "免费节点 30"
-      - "免费节点 31"
-      - "免费节点 32"
-      - "免费节点 33"
-      - "免费节点 34"
-      - "免费节点 35"
-      - "免费节点 36"
-      - "免费节点 37"
-      - "免费节点 38"
-      - "免费节点 39"
-      - "免费节点 40"
-      - "免费节点 41"
-      - "免费节点 42"
-      - "免费节点 43"
-      - "免费节点 44"
-      - "免费节点 45"
-      - "免费节点 46"
-      - "免费节点 47"
-      - "免费节点 48"
-      - "免费节点 49"
-      - "免费节点 50"
-      - "免费节点 51"
-      - "免费节点 52"
-      - "免费节点 53"
-      - "免费节点 54"
-      - "免费节点 55"
-      - "免费节点 56"
-      - "免费节点 57"
-      - "免费节点 58"
-      - "免费节点 59"
+      - "免费节点1_1"
+      - "免费节点1_2"
+      - "免费节点1_3"
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - "免费节点1_4"
+      - "免费节点1_5"
+      - "免费节点1_6"
+      - "免费节点1_7"
+      - "免费节点1_8"
+      - "免费节点1_9"
+      - "免费节点1_10"
+      - "免费节点1_11"
+      - "免费节点1_12"
+      - "免费节点1_13"
+      - "免费节点1_14"
+      - "免费节点1_15"
 
 rules:
   - DST-PORT,22,DIRECT
