@@ -17,40 +17,40 @@ proxies:
   - {"name":"请每次使用前，先更新一下！！！！","type":"vmess","server":"0.0.0.0","port":80,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"仅供学术研究，请勿违法用途","type":"vmess","server":"0.0.0.0","port":443,"cipher":"auto","uuid":"5750e2bf-db87-4c33-829b-45d4608babbb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk1.sanfen001.pics","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
   - {"name":"更新于:10-17   17:49","type":"vmess","server":"0.0.0.0","port":8080,"cipher":"auto","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"us02\r","type":"ss","server":"us02.shawbrothersstudio.com","port":43642,"password":"hg9h5KpMmJLli6W6Qjd2yi","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"us01\r","type":"ss","server":"us01.shawbrothersstudio.com","port":19922,"password":"Lam6mgI0ZnIqT459CTTOJR","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰\r","type":"ss","server":"hk.shawbrothersstudio.com","port":19921,"password":"r1Rivb0NOPyab8gI828uG7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点\r","type":"ss","server":"183.240.222.80","port":2001,"password":"016e5a3a-4c01-4da7-9b4c-3a3826d21811","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 2\r","type":"ss","server":"free.themars.top","port":32103,"password":"d4bb7851-4969-400b-9c3f-6a72de971faf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 3\r","type":"ss","server":"free.themars.top","port":32102,"password":"d4bb7851-4969-400b-9c3f-6a72de971faf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 4\r","type":"ss","server":"free.themars.top","port":32102,"password":"d4bb7851-4969-400b-9c3f-6a72de971faf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 5\r","type":"trojan","server":"gzv6.batiex.xyz","port":10002,"udp":true,"password":"695951e0-6bbf-4ecb-be23-51f705b39431","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 6\r","type":"trojan","server":"120.241.47.131","port":10001,"udp":true,"password":"695951e0-6bbf-4ecb-be23-51f705b39431","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 7\r","type":"trojan","server":"gzv6.batiex.xyz","port":10006,"udp":true,"password":"695951e0-6bbf-4ecb-be23-51f705b39431","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 8\r","type":"trojan","server":"120.241.47.131","port":10005,"udp":true,"password":"695951e0-6bbf-4ecb-be23-51f705b39431","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 9\r","type":"trojan","server":"120.241.47.131","port":10001,"udp":true,"password":"595c70e1-1094-49c5-9ba5-b0ba2009fda2","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 10\r","type":"trojan","server":"gzv6.batiex.xyz","port":10002,"udp":true,"password":"595c70e1-1094-49c5-9ba5-b0ba2009fda2","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 11\r","type":"trojan","server":"120.241.47.131","port":10003,"udp":true,"password":"595c70e1-1094-49c5-9ba5-b0ba2009fda2","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 12\r","type":"trojan","server":"gzv6.batiex.xyz","port":10004,"udp":true,"password":"595c70e1-1094-49c5-9ba5-b0ba2009fda2","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 13\r","type":"ss","server":"free.themars.top","port":32103,"password":"279a52bf-08e3-4540-8404-bc9e38e745cc","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 14\r","type":"ss","server":"free.themars.top","port":32103,"password":"279a52bf-08e3-4540-8404-bc9e38e745cc","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 15\r","type":"ss","server":"free.themars.top","port":32103,"password":"279a52bf-08e3-4540-8404-bc9e38e745cc","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 16\r","type":"ss","server":"183.240.222.80","port":2001,"password":"8e4c0924-1e81-41f2-983f-d20dc9557631","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 17\r","type":"trojan","server":"gzv6.batiex.xyz","port":10002,"udp":true,"password":"da811d47-f1c5-4f25-8b4d-b8082e6ce9f6","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 18\r","type":"trojan","server":"120.241.47.131","port":10001,"udp":true,"password":"da811d47-f1c5-4f25-8b4d-b8082e6ce9f6","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 19\r","type":"trojan","server":"120.241.47.131","port":10005,"udp":true,"password":"da811d47-f1c5-4f25-8b4d-b8082e6ce9f6","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 20\r","type":"trojan","server":"120.241.47.131","port":10003,"udp":true,"password":"da811d47-f1c5-4f25-8b4d-b8082e6ce9f6","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 21\r","type":"ss","server":"free.themars.top","port":32103,"password":"ce721be2-434f-4db4-b004-bf6cda6bd389","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 22\r","type":"ss","server":"free.themars.top","port":32103,"password":"ce721be2-434f-4db4-b004-bf6cda6bd389","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 23\r","type":"ss","server":"free.themars.top","port":32103,"password":"ce721be2-434f-4db4-b004-bf6cda6bd389","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 24\r","type":"ss","server":"183.240.222.80","port":2001,"password":"72b70a34-8261-4042-9f18-d60f1cade5e3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费节点 25\r","type":"trojan","server":"hk.kunlun-ppg.com","port":10803,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 26\r","type":"trojan","server":"hk.kunlun-ppg.com","port":10807,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 27\r","type":"trojan","server":"hk.kunlun-ppg.com","port":10808,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 28\r","type":"trojan","server":"hk.kunlun-ppg.com","port":10805,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 29\r","type":"trojan","server":"hk.kunlun-ppg.com","port":10804,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 30\r","type":"trojan","server":"hk.kunlun-ppg.com","port":10802,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"免费节点 31\r","type":"trojan","server":"hk.kunlun-ppg.com","port":10801,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"us02","type":"ss","server":"us02.shawbrothersstudio.com","port":43642,"password":"hg9h5KpMmJLli6W6Qjd2yi","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"us01","type":"ss","server":"us01.shawbrothersstudio.com","port":19922,"password":"Lam6mgI0ZnIqT459CTTOJR","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰","type":"ss","server":"hk.shawbrothersstudio.com","port":19921,"password":"r1Rivb0NOPyab8gI828uG7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点","type":"ss","server":"183.240.222.80","port":2001,"password":"016e5a3a-4c01-4da7-9b4c-3a3826d21811","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 2","type":"ss","server":"free.themars.top","port":32103,"password":"d4bb7851-4969-400b-9c3f-6a72de971faf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 3","type":"ss","server":"free.themars.top","port":32102,"password":"d4bb7851-4969-400b-9c3f-6a72de971faf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 4","type":"ss","server":"free.themars.top","port":32102,"password":"d4bb7851-4969-400b-9c3f-6a72de971faf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 5","type":"trojan","server":"gzv6.batiex.xyz","port":10002,"udp":true,"password":"695951e0-6bbf-4ecb-be23-51f705b39431","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 6","type":"trojan","server":"120.241.47.131","port":10001,"udp":true,"password":"695951e0-6bbf-4ecb-be23-51f705b39431","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 7","type":"trojan","server":"gzv6.batiex.xyz","port":10006,"udp":true,"password":"695951e0-6bbf-4ecb-be23-51f705b39431","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 8","type":"trojan","server":"120.241.47.131","port":10005,"udp":true,"password":"695951e0-6bbf-4ecb-be23-51f705b39431","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 9","type":"trojan","server":"120.241.47.131","port":10001,"udp":true,"password":"595c70e1-1094-49c5-9ba5-b0ba2009fda2","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 10","type":"trojan","server":"gzv6.batiex.xyz","port":10002,"udp":true,"password":"595c70e1-1094-49c5-9ba5-b0ba2009fda2","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 11","type":"trojan","server":"120.241.47.131","port":10003,"udp":true,"password":"595c70e1-1094-49c5-9ba5-b0ba2009fda2","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 12","type":"trojan","server":"gzv6.batiex.xyz","port":10004,"udp":true,"password":"595c70e1-1094-49c5-9ba5-b0ba2009fda2","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 13","type":"ss","server":"free.themars.top","port":32103,"password":"279a52bf-08e3-4540-8404-bc9e38e745cc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 14","type":"ss","server":"free.themars.top","port":32103,"password":"279a52bf-08e3-4540-8404-bc9e38e745cc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 15","type":"ss","server":"free.themars.top","port":32103,"password":"279a52bf-08e3-4540-8404-bc9e38e745cc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 16","type":"ss","server":"183.240.222.80","port":2001,"password":"8e4c0924-1e81-41f2-983f-d20dc9557631","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 17","type":"trojan","server":"gzv6.batiex.xyz","port":10002,"udp":true,"password":"da811d47-f1c5-4f25-8b4d-b8082e6ce9f6","sni":"gzv6.batiex.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 18","type":"trojan","server":"120.241.47.131","port":10001,"udp":true,"password":"da811d47-f1c5-4f25-8b4d-b8082e6ce9f6","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 19","type":"trojan","server":"120.241.47.131","port":10005,"udp":true,"password":"da811d47-f1c5-4f25-8b4d-b8082e6ce9f6","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 20","type":"trojan","server":"120.241.47.131","port":10003,"udp":true,"password":"da811d47-f1c5-4f25-8b4d-b8082e6ce9f6","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 21","type":"ss","server":"free.themars.top","port":32103,"password":"ce721be2-434f-4db4-b004-bf6cda6bd389","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 22","type":"ss","server":"free.themars.top","port":32103,"password":"ce721be2-434f-4db4-b004-bf6cda6bd389","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 23","type":"ss","server":"free.themars.top","port":32103,"password":"ce721be2-434f-4db4-b004-bf6cda6bd389","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 24","type":"ss","server":"183.240.222.80","port":2001,"password":"72b70a34-8261-4042-9f18-d60f1cade5e3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 25","type":"trojan","server":"hk.kunlun-ppg.com","port":10803,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 26","type":"trojan","server":"hk.kunlun-ppg.com","port":10807,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 27","type":"trojan","server":"hk.kunlun-ppg.com","port":10808,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 28","type":"trojan","server":"hk.kunlun-ppg.com","port":10805,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 29","type":"trojan","server":"hk.kunlun-ppg.com","port":10804,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 30","type":"trojan","server":"hk.kunlun-ppg.com","port":10802,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"免费节点 31","type":"trojan","server":"hk.kunlun-ppg.com","port":10801,"udp":true,"password":"b72097b7-1d93-49c4-a45b-0b8e4c8ca73d","sni":"hk.kunlun-ppg.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"免费节点 32","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"9e632fd2-b3e2-40f0-9243-d364796d7307","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
   - {"name":"免费节点 33","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"9e632fd2-b3e2-40f0-9243-d364796d7307","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
   - {"name":"免费节点 34","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"9e632fd2-b3e2-40f0-9243-d364796d7307","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
@@ -65,9 +65,9 @@ proxies:
   - {"name":"免费节点 43","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"9e632fd2-b3e2-40f0-9243-d364796d7307","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
   - {"name":"免费节点 44","type":"vmess","server":"mofaxueyuansg.360ddns.online","port":80,"cipher":"auto","uuid":"9e632fd2-b3e2-40f0-9243-d364796d7307","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
   - {"name":"免费节点 45","type":"vmess","server":"mofaxueyuanhongkong.360ddns.online","port":80,"cipher":"auto","uuid":"9e632fd2-b3e2-40f0-9243-d364796d7307","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"免费节点 46\r","type":"ss","server":"47.243.182.168","port":443,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm"}
-  - {"name":"免费节点 47\r","type":"ss","server":"54.251.4.65","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"免费节点 58\r","type":"ss","server":"gzcm01.celerlink.one","port":41035,"password":"3525588ee14ea924","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"免费节点 46","type":"ss","server":"47.243.182.168","port":443,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm"}
+  - {"name":"免费节点 47","type":"ss","server":"54.251.4.65","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"免费节点 58","type":"ss","server":"gzcm01.celerlink.one","port":41035,"password":"3525588ee14ea924","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸美国高速接入点-04","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"3537e8de-912f-42fd-bb69-cb3fb678884b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/PHdBAhCd","headers":{"host":"us479b4f958.vjfvyzfhhf.xyz"}}}
   - {"name":"🇺🇸美国高速接入点-07","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"3537e8de-912f-42fd-bb69-cb3fb678884b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/YHhMUcPg","headers":{"host":"us7e6cb367b.pkmkwvxqnn.xyz"}}}
   - {"name":"🇺🇸美国高速接入点-05","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"3537e8de-912f-42fd-bb69-cb3fb678884b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/nYAwpBbW","headers":{"host":"us5a3a71b5c.pkmkwvxqnn.xyz"}}}
@@ -100,40 +100,40 @@ proxy-groups:
       - 请每次使用前，先更新一下！！！！
       - 仅供学术研究，请勿违法用途
       - 更新于:10-17   17:49
-      - "us02\r"
-      - "us01\r"
-      - "🇭🇰\r"
-      - "免费节点\r"
-      - "免费节点 2\r"
-      - "免费节点 3\r"
-      - "免费节点 4\r"
-      - "免费节点 5\r"
-      - "免费节点 6\r"
-      - "免费节点 7\r"
-      - "免费节点 8\r"
-      - "免费节点 9\r"
-      - "免费节点 10\r"
-      - "免费节点 11\r"
-      - "免费节点 12\r"
-      - "免费节点 13\r"
-      - "免费节点 14\r"
-      - "免费节点 15\r"
-      - "免费节点 16\r"
-      - "免费节点 17\r"
-      - "免费节点 18\r"
-      - "免费节点 19\r"
-      - "免费节点 20\r"
-      - "免费节点 21\r"
-      - "免费节点 22\r"
-      - "免费节点 23\r"
-      - "免费节点 24\r"
-      - "免费节点 25\r"
-      - "免费节点 26\r"
-      - "免费节点 27\r"
-      - "免费节点 28\r"
-      - "免费节点 29\r"
-      - "免费节点 30\r"
-      - "免费节点 31\r"
+      - "us02"
+      - "us01"
+      - "🇭🇰"
+      - "免费节点"
+      - "免费节点 2"
+      - "免费节点 3"
+      - "免费节点 4"
+      - "免费节点 5"
+      - "免费节点 6"
+      - "免费节点 7"
+      - "免费节点 8"
+      - "免费节点 9"
+      - "免费节点 10"
+      - "免费节点 11"
+      - "免费节点 12"
+      - "免费节点 13"
+      - "免费节点 14"
+      - "免费节点 15"
+      - "免费节点 16"
+      - "免费节点 17"
+      - "免费节点 18"
+      - "免费节点 19"
+      - "免费节点 20"
+      - "免费节点 21"
+      - "免费节点 22"
+      - "免费节点 23"
+      - "免费节点 24"
+      - "免费节点 25"
+      - "免费节点 26"
+      - "免费节点 27"
+      - "免费节点 28"
+      - "免费节点 29"
+      - "免费节点 30"
+      - "免费节点 31"
       - 免费节点 32
       - 免费节点 33
       - 免费节点 34
@@ -148,9 +148,9 @@ proxy-groups:
       - 免费节点 43
       - 免费节点 44
       - 免费节点 45
-      - "免费节点 46\r"
-      - "免费节点 47\r"
-      - "免费节点 58\r"
+      - "免费节点 46"
+      - "免费节点 47"
+      - "免费节点 58"
       - 🇺🇸美国高速接入点-04
       - 🇺🇸美国高速接入点-07
       - 🇺🇸美国高速接入点-05
@@ -179,40 +179,40 @@ proxy-groups:
       - 请每次使用前，先更新一下！！！！
       - 仅供学术研究，请勿违法用途
       - 更新于:10-17   17:49
-      - "us02\r"
-      - "us01\r"
-      - "🇭🇰\r"
-      - "免费节点\r"
-      - "免费节点 2\r"
-      - "免费节点 3\r"
-      - "免费节点 4\r"
-      - "免费节点 5\r"
-      - "免费节点 6\r"
-      - "免费节点 7\r"
-      - "免费节点 8\r"
-      - "免费节点 9\r"
-      - "免费节点 10\r"
-      - "免费节点 11\r"
-      - "免费节点 12\r"
-      - "免费节点 13\r"
-      - "免费节点 14\r"
-      - "免费节点 15\r"
-      - "免费节点 16\r"
-      - "免费节点 17\r"
-      - "免费节点 18\r"
-      - "免费节点 19\r"
-      - "免费节点 20\r"
-      - "免费节点 21\r"
-      - "免费节点 22\r"
-      - "免费节点 23\r"
-      - "免费节点 24\r"
-      - "免费节点 25\r"
-      - "免费节点 26\r"
-      - "免费节点 27\r"
-      - "免费节点 28\r"
-      - "免费节点 29\r"
-      - "免费节点 30\r"
-      - "免费节点 31\r"
+      - "us02"
+      - "us01"
+      - "🇭🇰"
+      - "免费节点"
+      - "免费节点 2"
+      - "免费节点 3"
+      - "免费节点 4"
+      - "免费节点 5"
+      - "免费节点 6"
+      - "免费节点 7"
+      - "免费节点 8"
+      - "免费节点 9"
+      - "免费节点 10"
+      - "免费节点 11"
+      - "免费节点 12"
+      - "免费节点 13"
+      - "免费节点 14"
+      - "免费节点 15"
+      - "免费节点 16"
+      - "免费节点 17"
+      - "免费节点 18"
+      - "免费节点 19"
+      - "免费节点 20"
+      - "免费节点 21"
+      - "免费节点 22"
+      - "免费节点 23"
+      - "免费节点 24"
+      - "免费节点 25"
+      - "免费节点 26"
+      - "免费节点 27"
+      - "免费节点 28"
+      - "免费节点 29"
+      - "免费节点 30"
+      - "免费节点 31"
       - 免费节点 32
       - 免费节点 33
       - 免费节点 34
@@ -227,9 +227,9 @@ proxy-groups:
       - 免费节点 43
       - 免费节点 44
       - 免费节点 45
-      - "免费节点 46\r"
-      - "免费节点 47\r"
-      - "免费节点 58\r"
+      - "免费节点 46"
+      - "免费节点 47"
+      - "免费节点 58"
       - 🇺🇸美国高速接入点-04
       - 🇺🇸美国高速接入点-07
       - 🇺🇸美国高速接入点-05
