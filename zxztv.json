@@ -1,72 +1,53 @@
 {
-  "spider": "./lib/fan.jar",
-  "wallpaper": "https://tuapi.eees.cc/api.php?category=meinv&type=302",
-  "lives": [
-    {
-      "name": "TV",
-      "type": 0,
-      "url": "./lib/zhibo.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "live",
-      "type": 0,
-      "url": "./lib/TV.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "MTV",
-      "type": 0,
-      "url": "./lib/MTV.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ],
   "sites": [
     {
       "key": "搜索|豆瓣js",
-      "name": "公众号:自学志┃豆瓣",
+      "name": "公众号:💞花生疾风┃豆瓣",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/douban.js"
     },
     {
       "key": "drpy_js_酷云七七",
-      "name": "自学志|七七",
+      "name": "疾风|七七",
       "type": 3,
       "api": "./lib/apiv103drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/酷云77.js"
     },
     {
       "key": "csp_XBPQ_饭团",
-      "name": "自学志┃饭团HD",
+      "name": "疾风┃饭团HD",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/饭团HD.json"
     },
     {
       "key": "drpy_js_饭团影视",
-      "name": "自学志┃饭团js",
+      "name": "疾风┃饭团js",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/饭团影视.js"
     },
     {
       "key": "drpy_公版",
-      "name": "自学志┃公版影像",
+      "name": "疾风┃公版影像",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/公版影像.js"
     },
     {
@@ -75,8 +56,8 @@
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "categories": [
         "动作片",
         "喜剧片",
@@ -109,83 +90,82 @@
     },
     {
       "key": "小艺",
-      "name": "自学志┃小艺4K",
+      "name": "疾风┃小艺4K",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://lg.tvcms.top/api.php/app/"
     },
     {
       "key": "csp_xpath_yinfans",
-      "name": "自学志┃范范4k",
+      "name": "疾风┃范范4k",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/音范丝.json"
     },
     {
       "key": "csp_XYQHikerdyx",
-      "name": "自学志┃磁力4k",
+      "name": "疾风┃磁力4k",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/电影港.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/电影港.json"
     },
     {
       "key": "csp_XYQHikerAL_4KHDR",
-      "name": "自学志┃盘磁力4K",
+      "name": "疾风┃盘磁力4K",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "playerType": 1,
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/4KHDR.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/4KHDR.json"
     },
     {
       "key": "csp_XYQHiker_‍dyx",
-      "name": "自学志┃宇宙磁力4k",
+      "name": "疾风┃宇宙磁力4k",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/dyg.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/dyg.json"
     },
     {
       "key": "星辰",
-      "name": "自学志┃星辰",
+      "name": "疾风┃星辰",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "http://ttsp.live/api.php/app/"
     },
     {
       "key": "drpy_js_酷影",
-      "name": "自学志┃酷影js",
+      "name": "疾风┃酷影js",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
-      "searchable": 2,
-      "quickSearch": 0,
-      "filterable": 1,
+      "searchable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/酷影[V2].js"
     },
     {
       "key": "臭蛋",
-      "name": "自学志┃蛋TV",
+      "name": "疾风┃蛋TV",
       "type": 3,
       "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/蛋蛋.json"
     },
     {
@@ -193,166 +173,184 @@
       "name": "时光┃莱米",
       "type": 3,
       "api": "csp_XBPQ",
-      "playerType": "1",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 1,
       "ext": "./lib/莱米.json"
     },
     {
       "key": "夜幕",
-      "name": "️自学志┃夜光",
+      "name": "️疾风┃夜光",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/夜光影视.json"
     },
     {
       "key": "滋滋",
-      "name": "自学志┃子TV",
+      "name": "疾风┃子TV",
       "type": 3,
       "api": "csp_XBPQ",
-      "playerType": "1",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 1,
       "ext": "./lib/子子.json"
     },
     {
       "key": "黄黄",
-      "name": "自学志┃黄TV",
-      "api": "csp_AppYsV2",
+      "name": "疾风┃黄TV",
       "type": 3,
-      "filterable": 1,
-      "quickSearch": 1,
+      "api": "csp_AppYsV2",
       "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://yayayaaapp.ynf.icu/api.php/app/"
     },
     {
       "key": "团团",
-      "name": "自学志┃饭团TV",
+      "name": "疾风┃饭团TV",
       "type": 3,
       "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/饭团.json"
     },
     {
       "key": "兔兔",
-      "name": "自学志┃兔TV",
+      "name": "疾风┃兔TV",
       "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/兔兔.json"
     },
     {
       "key": "虎虎",
-      "name": "自学志┃虎TV",
+      "name": "疾风┃虎TV",
       "type": 3,
       "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/虎虎.json"
     },
     {
       "key": "csp_AppMr",
-      "name": "自学志┃明TV",
+      "name": "疾风┃明TV",
       "type": 3,
       "api": "csp_AppMr",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "奇优",
-      "name": "自学志┃奇TV",
+      "name": "疾风┃奇TV",
       "type": 3,
       "api": "csp_XBPQ",
-      "playerType": "1",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 1,
       "ext": "./lib/奇优.json"
     },
     {
       "key": "csp_Dy1010",
-      "name": "自学志┃十TV",
+      "name": "疾风┃十TV",
       "type": 3,
       "api": "csp_Dy1010",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "王子",
-      "name": "自学志┃王TV",
+      "name": "疾风┃王TV",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/王子.json"
     },
     {
       "key": "厂长",
-      "name": "自学志┃厂长",
+      "name": "疾风┃厂长",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/厂长.json"
     },
     {
       "key": "瑞丰",
-      "name": "自学志┃辣TV",
+      "name": "疾风┃辣TV",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "http://www.miniku.cc/xgapp.php/v2/"
     },
     {
       "key": "csp_aidi",
-      "name": "自学志┃迪TV",
+      "name": "疾风┃迪TV",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://api123.adys.app/xgapp.php/v3/"
     },
     {
       "key": "MGT",
-      "name": "自学志┃芒TV",
+      "name": "疾风┃芒TV",
       "type": 3,
       "api": "csp_Mtv",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "Qtv",
-      "name": "自学志┃鹅TV",
+      "name": "疾风┃鹅TV",
       "type": 3,
       "api": "csp_Qtv",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "lf_js_ikanbot",
-      "name": "自学志┃ikanbot",
+      "name": "疾风┃ikanbot",
       "type": 3,
-      "api": "./lib/apiv813lf_ikanbot_min.js"
+      "api": "./lib/apiv813lf_ikanbot_min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "csp_WoGG",
-      "name": "自学志┃玩偶哥哥",
+      "name": "疾风┃玩偶哥哥",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/token1131.txt$$$http://tvfan.xxooo.cf/"
     },
     {
       "key": "小姨",
-      "name": "自学志┃玩偶姨子",
+      "name": "疾风┃玩偶姨子",
       "type": 1,
       "api": "http://1.ahailove.cn:23456/cj/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "categories": [
         "电影",
         "电视剧",
@@ -362,542 +360,528 @@
     },
     {
       "key": "土豪",
-      "name": "自学志┃土豪",
+      "name": "疾风┃土豪",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./lib/土豪.json",
-      "jar": "./lib/xm.jar"
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/土豪.json"
     },
     {
       "key": "saohuo",
-      "name": "自学志┃骚火",
+      "name": "疾风┃骚火",
       "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": "1",
       "api": "csp_XBPQ",
-      "ext": "./lib/骚火.json",
-      "jar": "./lib/xm.jar"
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/骚火.json"
     },
     {
       "key": "MV_vod",
-      "name": "自学志┃十六万MV",
+      "name": "疾风┃十六万MV",
       "type": 1,
       "api": "https://tvbox-mv.leevi0321.repl.co/mv/vod",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "MV",
-      "name": "自学志┃十六万MTV",
+      "name": "疾风┃十六万MTV",
       "type": 3,
       "api": "./lib/apiv949bzoe.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/gxhY.txt"
     },
     {
       "key": "YiSo",
-      "name": "😹自学志┃易搜",
+      "name": "😹疾风┃易搜",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
+      "playerType": 2,
       "ext": "./lib/token.txt"
     },
     {
       "key": "Zhaozy",
-      "name": "😹自学志┃找资源",
+      "name": "😹疾风┃找资源",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
+      "playerType": 2,
       "ext": "./lib/token1157.txt$$$tvfan$$$tvfan"
     },
     {
       "key": "PanSou",
-      "name": "😹自学志┃盘搜",
+      "name": "😹疾风┃盘搜",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
+      "playerType": 2,
       "ext": "./lib/token.txt"
     },
     {
       "key": "UpYun",
-      "name": "😻自学志┃Up搜",
+      "name": "😻疾风┃Up搜",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
+      "playerType": 2,
       "ext": "./lib/token.txt"
     },
     {
       "key": "PanSearch",
-      "name": "🙀自学志┃盘Se",
+      "name": "🙀疾风┃盘Se",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/token.txt"
     },
     {
       "key": "七夜",
-      "name": "😾自学志┃七夜",
+      "name": "😾疾风┃七夜",
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
+      "playerType": 2,
       "ext": "./lib/token.txt"
     },
     {
       "key": "push_agent_1",
-      "name": "🙀自学志趣乐屋",
+      "name": "🙀疾风趣乐屋",
       "type": 3,
       "api": "csp_Push",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/token1131.txt"
     },
     {
       "key": "Gitcafe",
-      "name": "📀自学志┃小纸条香佬",
+      "name": "📀疾风┃小纸条香佬",
       "type": 3,
       "api": "csp_Gitcafe",
-      "playerType": 1,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/token1157.txt",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/token1157.txt"
     },
     {
       "key": "csp_Zhaozy",
-      "name": "📀自学志┃找资源",
+      "name": "📀疾风┃找资源",
       "type": 3,
       "api": "csp_Zhaozy",
-      "playerType": 1,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./lib/token1157.txt",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/token1157.txt"
     },
     {
       "key": "csp_AliPS",
-      "name": "📀自学志┃喵狸搜",
+      "name": "📀疾风┃喵狸搜",
       "type": 3,
       "api": "csp_AliPS",
-      "playerType": 1,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./lib/token1157.txt",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/token1157.txt"
     },
     {
       "key": "csp_Yisou",
-      "name": "📀自学志┃易搜索",
+      "name": "📀疾风┃易搜索",
       "type": 3,
       "api": "csp_Yisou",
-      "playerType": 1,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./lib/token1157.txt",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/token1157.txt"
     },
     {
       "key": "csp_Upyunso",
-      "name": "📀自学志┃UP云搜",
+      "name": "📀疾风┃UP云搜",
       "type": 3,
       "api": "csp_Upyunso",
-      "playerType": 1,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./lib/token1157.txt",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/token1157.txt"
     },
     {
       "key": "csp_XYQHikerAL_玩偶哥哥",
-      "name": "📀自学志┃玩偶哥哥",
+      "name": "📀疾风┃玩偶哥哥",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "playerType": 1,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/玩偶哥哥.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/玩偶哥哥.json"
     },
     {
       "key": "push_agent_2",
-      "name": "📀自学志┃推送",
+      "name": "📀疾风┃推送",
       "type": 3,
       "api": "csp_PushAgent",
-      "playerType": 1,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./lib/token1157.txt",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 1,
+      "ext": "./lib/token1157.txt"
     },
     {
       "key": "csp_YQKAPP",
       "name": "时光┃一起",
       "type": 3,
       "api": "csp_YQKAPP",
-      "playerType": 2,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://api-aws.11ty.top"
     },
     {
       "key": "csp_Bttoo",
-      "name": "自学志┃比特",
-      "api": "csp_Bttwoo",
+      "name": "疾风┃比特",
       "type": 3,
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "速搜",
-      "name": "自学志┃速搜",
+      "name": "疾风┃速搜",
       "type": 3,
       "api": "csp_XBPQ",
-      "playerType": "1",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 1,
       "ext": "./lib/速搜.json"
     },
     {
       "key": "热播库",
-      "name": "自学志┃热播",
+      "name": "疾风┃热播",
       "type": 3,
       "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/热播.json"
     },
     {
       "key": "蚂蚁",
-      "name": "自学志┃蚂蚁",
+      "name": "疾风┃蚂蚁",
       "type": 3,
       "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/蚂蚁.json"
     },
     {
       "key": "Czsapp",
-      "name": "自学志┃厂长",
-      "type": "3",
+      "name": "疾风┃厂长",
+      "type": 0,
       "api": "csp_Czsapp",
-      "searchable": "1",
-      "quickSearch": "1",
-      "filterable": "1"
+      "searchable": 0,
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "csp_Ysgc",
-      "name": "自学志┃工厂",
+      "name": "疾风┃工厂",
       "type": 3,
       "api": "csp_Ysgc",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "m3u8ads": "hd.youyhn.com",
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://www.ysgc.fun"
     },
     {
       "key": "在线之家",
-      "name": "自学志┃在线",
+      "name": "疾风┃在线",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://www.zxzjhd.com/"
     },
     {
       "key": "达达龟",
-      "name": "自学志┃达达龟",
+      "name": "疾风┃达达龟",
       "type": 3,
       "api": "csp_XPathFilter",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/dadagui.json"
     },
     {
       "key": "石榴影视",
-      "name": "自学志┃石榴",
+      "name": "疾风┃石榴",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/shiliu.json"
     },
     {
       "key": "drpy_js_宅腐影视",
-      "name": "自学志┃宅腐",
+      "name": "疾风┃宅腐",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
-      "ext": "./lib/宅腐影视.js",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/宅腐影视.js"
     },
     {
       "key": "drpy_js_优酷",
-      "name": "自学志┃油库",
+      "name": "疾风┃油库",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/youkudachang.js"
     },
     {
       "key": "Xinsj",
-      "name": "自学志┃视觉",
-      "type": "3",
+      "name": "疾风┃视觉",
+      "type": 0,
       "api": "csp_Xinsj",
-      "searchable": "1",
-      "quickSearch": "1",
-      "filterable": "1",
+      "searchable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://www.6080dy3.com"
     },
     {
       "key": "HDmoli",
-      "name": "自学志┃魔力高清",
+      "name": "疾风┃魔力高清",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/HDmoli.json"
     },
     {
       "key": "csp_Lgyy",
-      "name": "自学志┃蓝光直连",
+      "name": "疾风┃蓝光直连",
       "type": 3,
       "api": "csp_Lgyy",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://www.lgyy.vip"
     },
     {
       "key": "csp_AppYsV2_如意4K",
-      "name": "自学志┃如意4k",
+      "name": "疾风┃如意4k",
       "type": 3,
       "api": "csp_AppYsV2",
+      "playUrl": "json:https://jx.4kdv.com/?url=",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cms.maoyingshi.cc/api.php/app/",
-      "playUrl": "json:https://jx.4kdv.com/?url="
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "http://cms.maoyingshi.cc/api.php/app/"
     },
     {
       "key": "VIP影视",
-      "name": "自学志┃VIP",
+      "name": "疾风┃VIP",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/VIP影视.json"
     },
     {
       "key": "焦炭影视",
-      "name": "自学志┃焦炭",
+      "name": "疾风┃焦炭",
       "type": 3,
       "api": "csp_XPathFilter",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/焦炭影视.json"
     },
     {
       "key": "利奥影院",
-      "name": "自学志┃利奥",
+      "name": "疾风┃利奥",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/利奥影院.json"
     },
     {
       "key": "js_B站精简",
-      "name": "自学志┃哔哩",
+      "name": "疾风┃哔哩",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/B站精简.js"
     },
     {
       "key": "csp_555",
-      "name": "自学志┃555",
+      "name": "疾风┃555",
       "type": 3,
       "api": "csp_Ys555",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "https://www.555dyy1.com"
     },
     {
       "key": "drpy_js_优酷",
-      "name": "自学志┃优酷",
+      "name": "疾风┃优酷",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/优酷.js"
     },
     {
       "key": "teng",
-      "name": "自学志┃企鹅官源",
+      "name": "疾风┃企鹅官源",
       "type": 3,
       "api": "csp_Qtv",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "Kuaikan",
-      "name": "自学志┃快看",
+      "name": "疾风┃快看",
       "type": 3,
       "api": "csp_Kuaikan",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "csp_XYQHiker_F7好看剧",
-      "name": "自学志┃好看",
+      "name": "疾风┃好看",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/F7好看剧.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/F7好看剧.json"
     },
     {
       "key": "csp_XYQHiker_爱看影视",
-      "name": "自学志┃爱看",
+      "name": "疾风┃爱看",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/爱看影视6.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/爱看影视6.json"
     },
     {
       "key": "csp_XYQHiker_巨人影院",
-      "name": "自学志┃巨人",
+      "name": "疾风┃巨人",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/巨人影院.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/巨人影院.json"
     },
     {
       "key": "csp_XYQHiker_人人影视PRO",
-      "name": "自学志┃人人",
+      "name": "疾风┃人人",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/人人影视PRO.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/人人影视PRO.json"
     },
     {
       "key": "csp_XYQHiker_星辰影院",
-      "name": "自学志┃星辰",
+      "name": "疾风┃星辰",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/星辰影院.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/星辰影院.json"
     },
     {
       "key": "csp_XYQHiker_乐鱼影视",
-      "name": "自学志┃乐鱼",
+      "name": "疾风┃乐鱼",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/乐鱼影视.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/乐鱼影视.json"
     },
     {
       "key": "csp_XYQHiker_疯狗影视",
-      "name": "自学志┃疯狗",
+      "name": "疾风┃疯狗",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/疯狗影视.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/疯狗影视.json"
     },
     {
       "key": "csp_XYQHiker_锐行加速影院",
-      "name": "自学志┃锐行",
+      "name": "疾风┃锐行",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/锐行加速影院.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/锐行加速影院.json"
     },
     {
       "key": "csp_XBPQ秋霞影视",
-      "name": "自学志┃秋霞",
+      "name": "疾风┃秋霞",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/秋霞.json"
     },
     {
       "key": "csp_XBPQ_JOJO",
-      "name": "自学志┃JOJO",
+      "name": "疾风┃JOJO",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/JOJO.json"
     },
     {
       "key": "量子",
-      "name": "自学志┃量子",
+      "name": "疾风┃量子",
       "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1,
+      "playerType": 2,
       "categories": [
         "国产动漫",
         "日韩动漫",
@@ -933,16 +917,16 @@
         "篮球",
         "网球",
         "斯诺克"
-      ],
-      "jar": "./lib/fm0603.jar"
+      ]
     },
     {
       "key": "非凡",
-      "name": "自学志┃非凡",
+      "name": "疾风┃非凡",
       "type": 0,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1,
+      "playerType": 2,
       "categories": [
         "国产动漫",
         "日韩动漫",
@@ -973,225 +957,221 @@
         "欧美动漫",
         "港台动漫",
         "海外动漫"
-      ],
-      "jar": "./lib/fm0603.jar"
+      ]
     },
     {
       "key": "csp_XYQHiker_奇趣影视",
-      "name": "自学志┃奇趣",
+      "name": "疾风┃奇趣",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/奇趣影视.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/奇趣影视.json"
     },
     {
       "key": "csp_XYQHiker_极客影院",
-      "name": "自学志┃极客",
+      "name": "疾风┃极客",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/极客影院.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/极客影院.json"
     },
     {
       "key": "Lezhu",
-      "name": "自学志┃乐猪",
-      "api": "csp_XYQHiker",
+      "name": "疾风┃乐猪",
       "type": 3,
-      "filterable": 1,
-      "quickSearch": 1,
+      "api": "csp_XYQHiker",
       "searchable": 1,
-      "ext": "./lib/乐猪.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/乐猪.json"
     },
     {
       "key": "csp_Ddys",
-      "name": "自学志┃低端",
+      "name": "疾风┃低端",
       "type": 3,
       "api": "csp_Ddys",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "csp_XYQHiker_农民影视",
-      "name": "自学志┃农民",
+      "name": "疾风┃农民",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/农民影视.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/农民影视.json"
     },
     {
       "key": "csp_XYQHiker_兄弟影视",
-      "name": "自学志┃兄弟",
+      "name": "疾风┃兄弟",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/大师兄影视.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/大师兄影视.json"
     },
     {
       "key": "csp_XYQHiker_电影牛影院",
-      "name": "自学志┃电影牛",
+      "name": "疾风┃电影牛",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/电影牛影院.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/电影牛影院.json"
     },
     {
       "key": "csp_XYQHiker_电影盒子",
-      "name": "自学志┃电影盒子",
+      "name": "疾风┃电影盒子",
       "type": 3,
       "api": "csp_XYQHiker",
-      "playerType": 2,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/电影盒子.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/电影盒子.json"
     },
     {
       "key": "csp_XYQHiker素白白",
-      "name": "自学志┃素白白",
+      "name": "疾风┃素白白",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/素白白.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/素白白.json"
     },
     {
       "key": "H_中国蓝光网",
-      "name": "自学志┃中国蓝光",
+      "name": "疾风┃中国蓝光",
       "type": 3,
       "api": "csp_XYQHikerAL",
       "searchable": 1,
-      "filterable": 1,
-      "ext": "./lib/中国蓝光网.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/中国蓝光网.json"
     },
     {
       "key": "csp_XYQHiker_一龙高清影视",
-      "name": "自学志┃一龙高清",
+      "name": "疾风┃一龙高清",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/一龙高清影视.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/一龙高清影视.json"
     },
     {
       "key": "蓝光影院",
-      "name": "自学志┃蓝光影院",
+      "name": "疾风┃蓝光影院",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/languang.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/languang.json"
     },
     {
       "key": "csp_XPath_age",
-      "name": "自学志┃AGE动漫",
+      "name": "疾风┃AGE动漫",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/AGE动漫.json"
     },
     {
       "key": "drpy_js_动漫岛",
-      "name": "自学志┃动漫岛",
+      "name": "疾风┃动漫岛",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/动漫岛.js"
     },
     {
       "key": "drpy_js_路漫漫",
-      "name": "自学志┃路漫漫",
+      "name": "疾风┃路漫漫",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/路漫漫.js"
     },
     {
       "key": "csp_Dm84",
-      "name": "自学志┃动漫巴士1",
+      "name": "疾风┃动漫巴士1",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "csp_xpath___动漫巴士",
-      "name": "自学志┃动漫巴士2",
+      "name": "疾风┃动漫巴士2",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/动漫巴士.json"
     },
     {
       "key": "csp_Dm84_3",
-      "name": "自学志┃动漫巴士3",
+      "name": "疾风┃动漫巴士3",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/Dm84.json"
     },
     {
       "key": "csp_Ysj",
-      "name": "自学志┃异界动漫",
+      "name": "疾风┃异界动漫",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "csp_Anime1",
-      "name": "自学志┃日漫",
+      "name": "疾风┃日漫",
       "type": 3,
       "api": "csp_Anime1",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "csp_Ying",
-      "name": "自学志┃樱花动漫",
+      "name": "疾风┃樱花动漫",
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1,
+      "playerType": 2
     },
     {
       "key": "nt动漫",
-      "name": "自学志┃拿铁动漫",
+      "name": "疾风┃拿铁动漫",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/ntdm.js"
     },
     {
@@ -1199,273 +1179,299 @@
       "name": "时光┃妮可动漫",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/妮可动漫.js"
     },
     {
       "key": "anfuns",
-      "name": "自学志┃ANF动漫",
+      "name": "疾风┃ANF动漫",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/anfuns.js"
     },
     {
       "key": "怡萱动漫",
-      "name": "自学志┃怡萱动漫",
+      "name": "疾风┃怡萱动漫",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/怡萱.js"
     },
     {
       "key": "去看吧",
-      "name": "自学志┃去看动漫",
+      "name": "疾风┃去看动漫",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/去看吧.json"
     },
     {
       "key": "维奇",
-      "name": "自学志┃维奇动漫",
+      "name": "疾风┃维奇动漫",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/维奇.json"
     },
     {
       "key": "吾爱英语",
-      "name": "自学志┃吾爱外语",
+      "name": "疾风┃吾爱外语",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱外语.json"
     },
     {
       "key": "软件",
-      "name": "自学志┃软件教程",
+      "name": "疾风┃软件教程",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/软件教程.json"
     },
     {
       "key": "Excel教程",
-      "name": "自学志┃吾爱Excel",
+      "name": "疾风┃吾爱Excel",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/Excel教程.json"
     },
     {
       "key": "吾爱PS",
-      "name": "自学志┃吾爱PS",
+      "name": "疾风┃吾爱PS",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱PS.json"
     },
     {
       "key": "吾爱乐器",
-      "name": "自学志┃我爱乐器",
+      "name": "疾风┃我爱乐器",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱乐器.json"
     },
     {
       "key": "美食",
-      "name": "自学志┃美食合集",
+      "name": "疾风┃美食合集",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/美食合集.json"
     },
     {
       "key": "哔哩",
-      "name": "自学志┃吾爱哔哩",
+      "name": "疾风┃吾爱哔哩",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
-      "filterable": 1,
       "changeable": 0,
+      "playerType": 2,
       "ext": "./lib/bili.json"
     },
     {
       "key": "吾爱舞蹈",
-      "name": "自学志┃吾爱舞蹈",
+      "name": "疾风┃吾爱舞蹈",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱舞蹈.json"
     },
     {
       "key": "吾爱户外",
-      "name": "自学志┃吾爱户外",
+      "name": "疾风┃吾爱户外",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱户外.json"
     },
     {
       "key": "吾爱戏曲",
-      "name": "自学志┃吾爱戏曲",
+      "name": "疾风┃吾爱戏曲",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱戏曲.json"
     },
     {
       "key": "吾爱搭配",
-      "name": "自学志┃吾爱搭配",
+      "name": "疾风┃吾爱搭配",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱搭配.json"
     },
     {
       "key": "吾爱解说",
-      "name": "自学志┃吾爱解说",
+      "name": "疾风┃吾爱解说",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱解说.json"
     },
     {
       "key": "吾爱演唱会",
-      "name": "自学志┃吾爱演唱会",
+      "name": "疾风┃吾爱演唱会",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱演唱会.json"
     },
     {
       "key": "吾爱经典",
-      "name": "自学志┃吾爱音乐",
+      "name": "疾风┃吾爱音乐",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱经典.json"
     },
     {
       "key": "吾爱球星",
-      "name": "自学志┃吾爱球星",
+      "name": "疾风┃吾爱球星",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱球星.json"
     },
     {
       "key": "drpy_js_JustLive",
-      "name": "自学志┃JustLive",
+      "name": "疾风┃JustLive",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/JustLive.js"
     },
     {
       "key": "drpy_js_虎牙直播",
-      "name": "自学志┃虎牙直播",
+      "name": "疾风┃虎牙直播",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/虎牙直播.js"
     },
     {
       "key": "drpy_js_斗鱼直播",
-      "name": "自学志┃斗鱼直播",
+      "name": "疾风┃斗鱼直播",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/斗鱼直播.js"
     },
     {
       "key": "drpy_js_博看听书",
-      "name": "自学志┃博看听书",
+      "name": "疾风┃博看听书",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/博看听书.js"
     },
     {
       "key": "drpy_js_喜马拉雅",
-      "name": "自学志┃喜马拉雅",
+      "name": "疾风┃喜马拉雅",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/喜马拉雅.js"
     },
     {
       "key": "csp_XYQHiker_DJ呦呦音乐网",
-      "name": "自学志┃DJ呦呦音乐",
+      "name": "疾风┃DJ呦呦音乐",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/DJ呦呦音乐网.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/DJ呦呦音乐网.json"
     },
     {
       "key": "py_qie",
-      "name": "自学志┃企鹅体育",
+      "name": "疾风┃企鹅体育",
       "type": 3,
       "api": "py_qie",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/qie.py"
     },
     {
       "key": "csp_XPath_鹅直播",
-      "name": "自学志┃企鹅直播",
+      "name": "疾风┃企鹅直播",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/qie.json"
     },
     {
       "key": "88js",
-      "name": "自学志┃88看球",
+      "name": "疾风┃88看球",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
-      "ext": "./lib/88看球.js",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/88看球.js"
     },
     {
       "key": "少儿频道专区",
       "name": "🌏以下是“少儿频道”专区🌏",
       "type": 3,
       "api": "./lib/apiv3557协议.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "clan://proxy?sourcekey=ext_live_protocol"
     },
     {
@@ -1473,6 +1479,9 @@
       "name": "🌏少儿频道1",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/腾讯.js"
     },
     {
@@ -1480,6 +1489,9 @@
       "name": "🌏少儿频道2",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/忙果.js"
     },
     {
@@ -1487,6 +1499,9 @@
       "name": "🌏少儿频道3",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/异兽.js"
     },
     {
@@ -1494,6 +1509,9 @@
       "name": "🌏少儿频道4",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/优酷.js"
     },
     {
@@ -1502,10 +1520,9 @@
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/兔小贝.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/兔小贝.json"
     },
     {
       "key": "csp_XYQHiker_兔小贝2",
@@ -1513,10 +1530,9 @@
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/兔小贝2.json",
-      "jar": "./lib/xyq.jar"
+      "changeable": 1,
+      "playerType": 2,
+      "ext": "./lib/兔小贝2.json"
     },
     {
       "key": "py_cctv_1",
@@ -1524,8 +1540,8 @@
       "type": 3,
       "api": "py_cctv",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/py_cctv.py"
     },
     {
@@ -1534,8 +1550,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/央视经典.json"
     },
     {
@@ -1543,6 +1559,9 @@
       "name": "🌏  童趣",
       "type": 3,
       "api": "./lib/apiv85drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/童趣.js"
     },
     {
@@ -1551,8 +1570,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/幼儿启蒙.json"
     },
     {
@@ -1561,8 +1580,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/益智动画.json"
     },
     {
@@ -1571,8 +1590,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/少儿教育.json"
     },
     {
@@ -1581,8 +1600,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/幼儿乐园.json"
     },
     {
@@ -1591,8 +1610,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/幼儿乐园.json"
     },
     {
@@ -1601,8 +1620,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/学习园地.json"
     },
     {
@@ -1611,8 +1630,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/幼小衔接.json"
     },
     {
@@ -1621,8 +1640,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/小灯塔百科.json"
     },
     {
@@ -1631,8 +1650,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/小灯塔科学.json"
     },
     {
@@ -1641,8 +1660,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/小灯塔地理.json"
     },
     {
@@ -1651,8 +1670,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/小灯塔国学.json"
     },
     {
@@ -1661,8 +1680,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/小灯塔人文.json"
     },
     {
@@ -1671,8 +1690,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/儿童拼音.json"
     },
     {
@@ -1681,8 +1700,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/儿童识字.json"
     },
     {
@@ -1691,8 +1710,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/儿童英语.json"
     },
     {
@@ -1701,8 +1720,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/儿童硬笔.json"
     },
     {
@@ -1711,8 +1730,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/儿童思维.json"
     },
     {
@@ -1721,8 +1740,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/儿童口才.json"
     },
     {
@@ -1731,8 +1750,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/儿童编程.json"
     },
     {
@@ -1741,8 +1760,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/儿童武术.json"
     },
     {
@@ -1751,8 +1770,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/兴趣培养.json"
     },
     {
@@ -1761,8 +1780,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/哔哩哔哩小学.json"
     },
     {
@@ -1771,8 +1790,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/哔哩哔哩初中.json"
     },
     {
@@ -1781,8 +1800,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/哔哩哔哩高中.json"
     },
     {
@@ -1791,8 +1810,8 @@
       "type": 3,
       "api": "py_youer",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/幼儿.py"
     },
     {
@@ -1801,8 +1820,8 @@
       "type": 3,
       "api": "py_xiaoxue",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/小学.py"
     },
     {
@@ -1811,8 +1830,8 @@
       "type": 3,
       "api": "py_czxx",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/初中.py"
     },
     {
@@ -1821,8 +1840,8 @@
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/吾爱动物世界.json"
     },
     {
@@ -1831,8 +1850,8 @@
       "type": 3,
       "api": "py_中国文化",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
       "ext": "./lib/py_中国文化.py"
     }
   ],
@@ -1859,8 +1878,8 @@
     },
     {
       "name": "钢铁侠",
-      "url": "https://json.freejx.in/?url=",
       "type": 1,
+      "url": "https://json.freejx.in/?url=",
       "ext": {
         "flag": [
           "qiyi",
@@ -1893,8 +1912,8 @@
     },
     {
       "name": "绿叶",
-      "url": "https://hc.izny.cn/json.php?url=",
       "type": 1,
+      "url": "https://hc.izny.cn/json.php?url=",
       "ext": {
         "flag": [
           "qiyi",
@@ -1933,28 +1952,12 @@
     {
       "name": "FY线路",
       "type": 1,
-      "url": "http://htp.behds.cn/json/20233234567/fy4k2.php?url=",
-      "header": {
-        "User-Agent": "okhttp/3.12.11"
-      },
-      "flag": [
-        "imgo",
-        "mgtv",
-        "芒果"
-      ]
+      "url": "http://htp.behds.cn/json/20233234567/fy4k2.php?url="
     },
     {
       "name": "艺艺",
       "type": 1,
-      "url": "https://xjx.tvcms.top/api/?key=86e9e99ae4e23391b0531a2489f57273&url=",
-      "flag": [
-        "mmal",
-        "TD",
-        "TDB"
-      ],
-      "header": {
-        "User-Agent": "okhttp/3.12.11"
-      }
+      "url": "https://xjx.tvcms.top/api/?key=86e9e99ae4e23391b0531a2489f57273&url="
     },
     {
       "name": "逼逼饭",
@@ -2034,7 +2037,6 @@
       "name": "黄黄",
       "type": 1,
       "url": "https://vip.xiaomaomi.tv//api.php?key=iknrzBCDIMPQRTY279&url=",
-      "User-Agent": "Dart/2.18 (dart:io)",
       "ext": {
         "flag": [
           "qq",
@@ -2061,29 +2063,7 @@
     {
       "name": "稻香🌾",
       "type": 1,
-      "url": "https://vip.mosangkeji.com/api/?key=rRNvXAnOghBBLnC35c&url=",
-      "flag": [
-        "mgtv",
-        "qiyi",
-        "imgo",
-        "爱奇艺",
-        "奇艺",
-        "qq",
-        "腾讯",
-        "youku",
-        "优酷",
-        "pptv",
-        "PPTV",
-        "letv",
-        "乐视",
-        "leshi",
-        "bilibili",
-        "哔哩哔哩",
-        "哔哩",
-        "mgtv",
-        "芒果",
-        "芒果"
-      ]
+      "url": "https://vip.mosangkeji.com/api/?key=rRNvXAnOghBBLnC35c&url="
     },
     {
       "name": "快车",
@@ -3084,8 +3064,7 @@
     {
       "name": "🐱夜幕/",
       "type": 0,
-      "url": "https://www.yemu.xyz/?url=",
-      "showType": 3
+      "url": "https://www.yemu.xyz/?url="
     },
     {
       "name": "极速标清",
@@ -3563,6 +3542,41 @@
       }
     }
   ],
+  "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩"
+  ],
   "ijk": [
     {
       "group": "软解码",
@@ -3735,240 +3749,12 @@
       ]
     }
   ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141"
-      ]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40"
-      ]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112"
-      ]
-    }
-  ],
-  "rules": [
-    {
-      "name": "量子",
-      "hosts": [
-        "vip.lz",
-        "hd.lz"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "非凡",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "host": "piaku.cc",
-      "rule": [
-        ".mp4",
-        ".m3u8",
-        "?auth_token",
-        "m3u8"
-      ]
-    },
-    {
-      "host": "app.syrme.top",
-      "rule": [
-        "aliyundrive.net",
-        "cn-beijing-data",
-        "?auth_token",
-        "m3u8"
-      ]
-    },
-    {
-      "host": "v.3412.net.cn",
-      "rule": [
-        ".mp4",
-        "security-token=",
-        "aliyuncs.com",
-        "m3u8"
-      ]
-    },
-    {
-      "host": "jx.jsonplayer.com",
-      "rule": [
-        ".mp4",
-        ".m3u8",
-        "?vkey=",
-        "110.42.2.115",
-        "m3u8"
-      ]
-    },
-    {
-      "host": "movie.bulei.cc",
-      "rule": [
-        ".mp4",
-        ".m3u8",
-        "?vkey=",
-        "1ftn_handler",
-        "http://1.71.18.153",
-        "mu.dcd1.cn",
-        "aliyundrive.net",
-        "m3u8"
-      ]
-    },
-    {
-      "host": "rebozj.pro",
-      "rule": [
-        ".mp4",
-        ".m3u8",
-        "https://p3-sign.douyinpic.com",
-        "m3u8"
-      ]
-    },
-    {
-      "host": "brovod.com",
-      "rule": [
-        ".m3u8"
-      ]
-    },
-    {
-      "host": "https://www1.gntv.live",
-      "rule": [
-        ".m3u8",
-        "m3u8?",
-        "4k.clyjx.cn:97"
-      ]
-    },
-    {
-      "host": "renren.pro",
-      "rule": [
-        ".m3u8"
-      ]
-    },
-    {
-      "host": "https://v.3412.net.cn",
-      "rule": [
-        ".m3u8",
-        ".m3u8?",
-        ".mp4"
-      ]
-    },
-    {
-      "host": "v.t-ui.cn",
-      "rule": [
-        ".m3u8",
-        "m3u8?",
-        "vip.ffzy-play4.com"
-      ]
-    },
-    {
-      "host": "cj.ffzyapi.com",
-      "rule": [
-        ".m3u8",
-        "m3u8?"
-      ]
-    },
-    {
-      "host": "siguyy.com",
-      "rule": [
-        "mp4",
-        ".m3u8",
-        "https://ccp-bj29-video-preview.oss-enet.aliyuncs.com",
-        "aliyuncs.com"
-      ]
-    },
-    {
-      "name": "火山嗅探",
-      "hosts": [
-        "huoshan.com"
-      ],
-      "regex": [
-        "item_id="
-      ]
-    },
-    {
-      "name": "抖音嗅探",
-      "hosts": [
-        "douyin.com"
-      ],
-      "regex": [
-        "is_play_url="
-      ]
-    }
-  ],
-  "flags": [
-    "youku",
-    "优酷",
-    "优 酷",
-    "优酷视频",
-    "qq",
-    "腾讯",
-    "腾 讯",
-    "腾讯视频",
-    "iqiyi",
-    "qiyi",
-    "奇艺",
-    "爱奇艺",
-    "爱 奇 艺",
-    "m1905",
-    "xigua",
-    "letv",
-    "leshi",
-    "乐视",
-    "乐 视",
-    "sohu",
-    "搜狐",
-    "搜 狐",
-    "搜狐视频",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "芒果",
-    "imgo",
-    "芒果TV",
-    "芒 果 T V",
-    "bilibili",
-    "哔 哩",
-    "哔 哩 哔 哩"
-  ],
   "ads": [
     "wan.51img1.com",
     "iqiyi.hbuioo.com",
     "vip.ffzyad.com",
     "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
-  ]
+  ],
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=meinv&type=302",
+  "spider": "./lib/fan.jar"
 }
